@@ -1,0 +1,27 @@
+id: pointnet2
+name: PointNet++
+year: 2017
+resource_type: method
+category: 3D representation learning
+representation: hierarchical point neighborhoods
+original_authors: Charles R. Qi et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.48550/arXiv.1706.02413
+  implementation: https://github.com/charlesq34/pointnet2
+implementation:
+  relationship: official_or_author_maintained
+  license: MIT
+  weights_terms: verify separately
+  repository: https://github.com/charlesq34/pointnet2
+commonly_evaluated_on:
+- ModelNet40
+- ShapeNet
+- S3DIS
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.48550/arXiv.1706.02413
+notes: ''
+verification:
+  status: verified
+  last_checked: '2026-08-03'

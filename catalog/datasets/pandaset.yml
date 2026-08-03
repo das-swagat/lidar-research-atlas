@@ -1,0 +1,59 @@
+id: pandaset
+name: PandaSet
+year: 2020
+resource_type: dataset
+scope:
+  dimensions:
+  - 3D
+  environments:
+  - outdoor
+  - urban
+  - road
+  sensors:
+  - mechanical LiDAR
+  - forward-facing LiDAR
+  - cameras
+  - GPS/IMU
+  adjacent_non_lidar: false
+tasks:
+- 3D detection
+- semantic segmentation
+- tracking
+original_contributors: Hesai and Scale AI
+authoritative_sources:
+  official_page: https://pandaset.org/
+  primary_publication: https://arxiv.org/abs/2112.12610
+  terms_or_license: https://pandaset.org/
+access:
+  class: FREE_REGISTERED
+  cost: free_or_provider_defined
+  account_required: true
+  agreement_required: true
+  approval_required: false
+  commercial_use: verify_provider_terms
+  redistribution: restricted
+  automated_download: use_only_provider_supported_methods
+license:
+  name: PandaSet Terms of Use
+  scope: dataset/annotations; code and weights may differ
+  authoritative_url: https://pandaset.org/
+citation:
+  instruction: Cite the original dataset publication and any additional provider-required references. Cite the atlas
+    separately only when its curation or guidance was used.
+  recommended_source: https://arxiv.org/abs/2112.12610
+download_guide:
+  steps:
+  - Open the official page linked above.
+  - Read the current provider terms and confirm eligibility.
+  - Create an account or submit the provider agreement when required.
+  - Download only through provider-supported links or tools.
+  - Obtain labels, calibration, maps, and development kits from their separately identified official sources.
+  - Verify file integrity when provider checksums are available.
+  - Preserve the original folder structure and citation notice.
+  atlas_hosts_files: false
+  atlas_mirrors_files: false
+notes: Use the official portal and official devkit. Confirm current terms before commercial or derivative redistribution.
+verification:
+  status: verified
+  last_checked: '2026-08-03'
+  source_standard: authoritative provider page and primary publication

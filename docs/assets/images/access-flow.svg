@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img"><style>
+text{font-family:Inter,Arial,sans-serif;fill:#172033}.title{font-size:38px;font-weight:760;letter-spacing:-1px}.sub{font-size:17px;fill:#516079}.label{font-size:15px;font-weight:680}.small{font-size:12px;fill:#64748b}.box{fill:#fff;stroke:#cad5e5;stroke-width:1.5}.accent{fill:#eef2ff;stroke:#818cf8;stroke-width:1.7}.cyan{fill:#ecfeff;stroke:#22d3ee;stroke-width:1.7}.dark{fill:#172033}.line{stroke:#65758b;stroke-width:2;fill:none;marker-end:url(#a)}
+</style><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#65758b"/></marker><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6366f1"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs><rect width="1200" height="630" fill="#f8fafc"/>
+<text x="65" y="70" class="title">Lawful dataset access is a documented workflow</text><text x="65" y="102" class="sub">The atlas points to provider routes; it never bypasses access controls</text>
+<g><rect x="60" y="210" width="185" height="120" rx="18" class="box"/><rect x="285" y="210" width="185" height="120" rx="18" class="accent"/><rect x="510" y="210" width="185" height="120" rx="18" class="box"/><rect x="735" y="210" width="185" height="120" rx="18" class="cyan"/><rect x="960" y="210" width="185" height="120" rx="18" class="box"/></g>
+<text x="90" y="252" class="label">1 · ELIGIBILITY</text><text x="90" y="280" class="small">Purpose · affiliation</text><text x="90" y="300" class="small">commercial status</text>
+<text x="315" y="252" class="label">2 · TERMS</text><text x="315" y="280" class="small">Read provider license</text><text x="315" y="300" class="small">and current agreement</text>
+<text x="540" y="252" class="label">3 · ACCESS</text><text x="540" y="280" class="small">Register · apply</text><text x="540" y="300" class="small">or direct download</text>
+<text x="765" y="252" class="label">4 · PROVENANCE</text><text x="765" y="280" class="small">Version · date · hash</text><text x="765" y="300" class="small">source · citation</text>
+<text x="990" y="252" class="label">5 · USE</text><text x="990" y="280" class="small">Secure storage</text><text x="990" y="300" class="small">reproducible reporting</text>
+<path d="M245 270H285M470 270H510M695 270H735M920 270H960" class="line"/>
+<rect x="330" y="410" width="540" height="82" rx="18" fill="#fff1f2" stroke="#fb7185"/><text x="380" y="445" class="label">NO MIRRORS · NO SHARED CREDENTIALS · NO SIGNED URLS</text><text x="412" y="472" class="small">When terms are unclear, stop and verify with the provider.</text>
+</svg>

@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "year",
+    "resource_type",
+    "scope",
+    "tasks",
+    "original_contributors",
+    "authoritative_sources",
+    "access",
+    "license",
+    "citation",
+    "download_guide",
+    "verification"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1900,
+      "maximum": 2100
+    },
+    "resource_type": {
+      "const": "dataset"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "tasks": {
+      "type": "array",
+      "minItems": 1
+    },
+    "original_contributors": {
+      "type": "string"
+    },
+    "authoritative_sources": {
+      "type": "object",
+      "required": [
+        "official_page",
+        "primary_publication",
+        "terms_or_license"
+      ]
+    },
+    "access": {
+      "type": "object",
+      "required": [
+        "class",
+        "account_required",
+        "agreement_required",
+        "commercial_use",
+        "redistribution"
+      ]
+    },
+    "license": {
+      "type": "object",
+      "required": [
+        "name",
+        "authoritative_url"
+      ]
+    },
+    "citation": {
+      "type": "object"
+    },
+    "download_guide": {
+      "type": "object",
+      "required": [
+        "steps",
+        "atlas_hosts_files",
+        "atlas_mirrors_files"
+      ]
+    },
+    "verification": {
+      "type": "object",
+      "required": [
+        "status",
+        "last_checked"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

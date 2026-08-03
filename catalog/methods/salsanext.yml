@@ -1,0 +1,25 @@
+id: salsanext
+name: SalsaNext
+year: 2020
+resource_type: method
+category: LiDAR semantic segmentation
+representation: uncertainty-aware range image CNN
+original_authors: Tiago Cortinhal, George Tzelepis, and Eren Erdal Aksoy
+authoritative_sources:
+  primary_publication: https://doi.org/10.1007/978-3-030-58529-7_12
+  implementation: https://github.com/TiagoCortinhal/SalsaNext
+implementation:
+  relationship: official_or_author_maintained
+  license: MIT
+  weights_terms: verify separately
+  repository: https://github.com/TiagoCortinhal/SalsaNext
+commonly_evaluated_on:
+- SemanticKITTI
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1007/978-3-030-58529-7_12
+notes: ''
+verification:
+  status: verified
+  last_checked: '2026-08-03'

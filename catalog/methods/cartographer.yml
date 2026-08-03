@@ -1,0 +1,24 @@
+id: cartographer
+name: Google Cartographer
+year: 2016
+resource_type: method
+category: 2D/3D SLAM
+representation: submaps, scan matching, pose graph
+original_authors: Wolfgang Hess et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.1109/ICRA.2016.7487258
+  implementation: https://github.com/cartographer-project/cartographer
+implementation:
+  relationship: official_or_author_maintained
+  license: Apache-2.0
+  weights_terms: verify separately
+  repository: https://github.com/cartographer-project/cartographer
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1109/ICRA.2016.7487258
+notes: Official project is maintained as open-source software; ROS integration is a separate repository.
+verification:
+  status: verified
+  last_checked: '2026-08-03'

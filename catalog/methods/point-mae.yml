@@ -1,0 +1,27 @@
+id: point-mae
+name: Point-MAE
+year: 2022
+resource_type: method
+category: Self-supervised 3D learning
+representation: masked autoencoding for point clouds
+original_authors: Yatian Pang et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.1007/978-3-031-19821-2_28
+  implementation: https://github.com/Pang-Yatian/Point-MAE
+implementation:
+  relationship: official_or_author_maintained
+  license: MIT
+  weights_terms: verify separately
+  repository: https://github.com/Pang-Yatian/Point-MAE
+commonly_evaluated_on:
+- ModelNet40
+- ScanObjectNN
+- ShapeNetPart
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1007/978-3-031-19821-2_28
+notes: ''
+verification:
+  status: verified
+  last_checked: '2026-08-03'

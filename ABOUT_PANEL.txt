@@ -1,0 +1,8 @@
+Description:
+A provenance-tracked atlas of indoor and outdoor 2D/3D LiDAR datasets, methods, benchmarks, and lawful access guides.
+
+Website:
+https://das-swagat.github.io/lidar-research-atlas/
+
+Topics:
+lidar, point-cloud, robotics, computer-vision, slam, semantic-segmentation, 3d-object-detection, self-supervised-learning, autonomous-driving, geospatial, datasets, research

@@ -1,0 +1,28 @@
+id: randlanet
+name: RandLA-Net
+year: 2020
+resource_type: method
+category: 3D semantic segmentation
+representation: random sampling and local feature aggregation
+original_authors: Qingyong Hu et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.1109/CVPR42600.2020.01117
+  implementation: https://github.com/QingyongHu/RandLA-Net
+implementation:
+  relationship: official_or_author_maintained
+  license: MIT
+  weights_terms: verify separately
+  repository: https://github.com/QingyongHu/RandLA-Net
+commonly_evaluated_on:
+- Semantic3D
+- SemanticKITTI
+- S3DIS
+- Toronto-3D
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1109/CVPR42600.2020.01117
+notes: ''
+verification:
+  status: verified
+  last_checked: '2026-08-03'

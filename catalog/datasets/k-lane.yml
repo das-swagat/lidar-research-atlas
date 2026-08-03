@@ -1,0 +1,53 @@
+id: k-lane
+name: K-Lane
+year: 2022
+resource_type: dataset
+scope:
+  dimensions:
+  - 3D
+  environments:
+  - outdoor
+  - road
+  sensors:
+  - LiDAR
+  adjacent_non_lidar: false
+tasks:
+- LiDAR lane detection
+original_contributors: Dong-Hee Paek, Seung-Hyun Kong, and Kevin Tirta Wijaya; KAIST
+authoritative_sources:
+  official_page: https://github.com/kaist-avelab/K-Lane
+  primary_publication: https://openaccess.thecvf.com/content/CVPR2022W/WAD/html/Paek_K-Lane_Lidar_Lane_Dataset_and_Benchmark_for_Urban_Roads_and_CVPRW_2022_paper.html
+  terms_or_license: https://github.com/kaist-avelab/K-Lane
+access:
+  class: OPEN_DIRECT
+  cost: free_or_provider_defined
+  account_required: false
+  agreement_required: false
+  approval_required: false
+  commercial_use: research_use_verify
+  redistribution: license_controlled
+  automated_download: use_only_provider_supported_methods
+license:
+  name: Repository/provider terms
+  scope: dataset/annotations; code and weights may differ
+  authoritative_url: https://github.com/kaist-avelab/K-Lane
+citation:
+  instruction: Cite the original dataset publication and any additional provider-required references. Cite the atlas
+    separately only when its curation or guidance was used.
+  recommended_source: https://openaccess.thecvf.com/content/CVPR2022W/WAD/html/Paek_K-Lane_Lidar_Lane_Dataset_and_Benchmark_for_Urban_Roads_and_CVPRW_2022_paper.html
+download_guide:
+  steps:
+  - Open the official page linked above.
+  - Read the current provider terms and confirm eligibility.
+  - Create an account or submit the provider agreement when required.
+  - Download only through provider-supported links or tools.
+  - Obtain labels, calibration, maps, and development kits from their separately identified official sources.
+  - Verify file integrity when provider checksums are available.
+  - Preserve the original folder structure and citation notice.
+  atlas_hosts_files: false
+  atlas_mirrors_files: false
+notes: Specialized benchmark for lane detection from LiDAR. Dataset and code conditions should be checked separately.
+verification:
+  status: verified
+  last_checked: '2026-08-03'
+  source_standard: authoritative provider page and primary publication

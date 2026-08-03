@@ -1,0 +1,26 @@
+id: spvnas
+name: SPVNAS / SPVCNN
+year: 2020
+resource_type: method
+category: Efficient 3D perception
+representation: sparse point-voxel convolution
+original_authors: Haotian Tang et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.1007/978-3-030-58586-0_39
+  implementation: https://github.com/mit-han-lab/spvnas
+implementation:
+  relationship: official_or_author_maintained
+  license: MIT
+  weights_terms: verify separately
+  repository: https://github.com/mit-han-lab/spvnas
+commonly_evaluated_on:
+- SemanticKITTI
+- KITTI
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1007/978-3-030-58586-0_39
+notes: ''
+verification:
+  status: verified
+  last_checked: '2026-08-03'

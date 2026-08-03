@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "LiDAR Research Atlas"
+message: "Cite the original datasets and methods you use. Cite this atlas additionally when its taxonomy, metadata, access guidance, software, or analysis supports your work."
+type: software
+authors:
+  - family-names: Das
+    given-names: Swagat
+version: 0.1.0
+date-released: 2026-08-03
+license: Apache-2.0
+repository-code: "https://github.com/das-swagat/lidar-research-atlas"
+url: "https://das-swagat.github.io/lidar-research-atlas/"
+keywords:
+  - lidar
+  - point clouds
+  - datasets
+  - computer vision
+  - robotics
+  - machine learning
+  - research atlas

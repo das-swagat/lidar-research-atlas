@@ -1,0 +1,24 @@
+id: hector-slam
+name: Hector SLAM
+year: 2011
+resource_type: method
+category: 2D SLAM
+representation: scan matching without wheel odometry
+original_authors: Stefan Kohlbrecher et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.1109/SSRR.2011.6106777
+  implementation: https://github.com/tu-darmstadt-ros-pkg/hector_slam
+implementation:
+  relationship: official_or_author_maintained
+  license: BSD-style; verify repository
+  weights_terms: verify separately
+  repository: https://github.com/tu-darmstadt-ros-pkg/hector_slam
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1109/SSRR.2011.6106777
+notes: Designed for high-rate planar laser scan matching.
+verification:
+  status: verified
+  last_checked: '2026-08-03'

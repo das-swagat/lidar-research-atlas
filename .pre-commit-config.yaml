@@ -1,0 +1,18 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.12.7
+    hooks:
+      - id: ruff-check
+      - id: ruff-format
+  - repo: local
+    hooks:
+      - id: validate-atlas
+        name: Validate atlas catalog
+        entry: python scripts/validate_catalog.py
+        language: system
+        pass_filenames: false
+      - id: restricted-file-scan
+        name: Scan for restricted files
+        entry: python scripts/check_no_restricted_files.py
+        language: system
+        pass_filenames: false

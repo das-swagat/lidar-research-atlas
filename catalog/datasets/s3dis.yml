@@ -1,0 +1,54 @@
+id: s3dis
+name: Stanford Large-Scale 3D Indoor Spaces (S3DIS)
+year: 2016
+resource_type: dataset
+scope:
+  dimensions:
+  - 3D
+  environments:
+  - indoor
+  - office
+  sensors:
+  - terrestrial/RGB-D reconstructed point clouds
+  adjacent_non_lidar: false
+tasks:
+- semantic segmentation
+- instance segmentation
+original_contributors: Iro Armeni et al.; Stanford University
+authoritative_sources:
+  official_page: http://buildingparser.stanford.edu/dataset.html
+  primary_publication: https://doi.org/10.1109/CVPR.2016.75
+  terms_or_license: http://buildingparser.stanford.edu/dataset.html
+access:
+  class: AGREEMENT_REQUIRED
+  cost: free_or_provider_defined
+  account_required: false
+  agreement_required: true
+  approval_required: true
+  commercial_use: noncommercial_research_or_verify
+  redistribution: restricted
+  automated_download: use_only_provider_supported_methods
+license:
+  name: Stanford provider agreement
+  scope: dataset/annotations; code and weights may differ
+  authoritative_url: http://buildingparser.stanford.edu/dataset.html
+citation:
+  instruction: Cite the original dataset publication and any additional provider-required references. Cite the atlas
+    separately only when its curation or guidance was used.
+  recommended_source: https://doi.org/10.1109/CVPR.2016.75
+download_guide:
+  steps:
+  - Open the official page linked above.
+  - Read the current provider terms and confirm eligibility.
+  - Create an account or submit the provider agreement when required.
+  - Download only through provider-supported links or tools.
+  - Obtain labels, calibration, maps, and development kits from their separately identified official sources.
+  - Verify file integrity when provider checksums are available.
+  - Preserve the original folder structure and citation notice.
+  atlas_hosts_files: false
+  atlas_mirrors_files: false
+notes: Obtain access through the original provider procedure. Do not redistribute copies from third-party mirrors.
+verification:
+  status: partial
+  last_checked: '2026-08-03'
+  source_standard: authoritative provider page and primary publication

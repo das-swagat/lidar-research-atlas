@@ -1,0 +1,140 @@
+resource_type,id,name,source_role,url,last_checked,verification_status
+dataset,a2d2,Audi Autonomous Driving Dataset (A2D2),official_page,https://www.a2d2.audi/,2026-08-03,verified
+dataset,a2d2,Audi Autonomous Driving Dataset (A2D2),primary_publication,https://www.a2d2.audi/a2d2/en.html,2026-08-03,verified
+dataset,a2d2,Audi Autonomous Driving Dataset (A2D2),terms_or_license,https://www.a2d2.audi/a2d2/en.html,2026-08-03,verified
+dataset,argoverse2,Argoverse 2,official_page,https://www.argoverse.org/av2.html,2026-08-03,verified
+dataset,argoverse2,Argoverse 2,primary_publication,https://arxiv.org/abs/2301.00493,2026-08-03,verified
+dataset,argoverse2,Argoverse 2,terms_or_license,https://www.argoverse.org/av2.html,2026-08-03,verified
+dataset,dales,DALES,official_page,https://udayton.edu/centers/vision-lab/index.php,2026-08-03,partial
+dataset,dales,DALES,primary_publication,https://doi.org/10.1109/CVPRW50498.2020.00138,2026-08-03,partial
+dataset,dales,DALES,terms_or_license,https://udayton.edu/centers/vision-lab/index.php,2026-08-03,partial
+dataset,k-lane,K-Lane,official_page,https://github.com/kaist-avelab/K-Lane,2026-08-03,verified
+dataset,k-lane,K-Lane,primary_publication,https://openaccess.thecvf.com/content/CVPR2022W/WAD/html/Paek_K-Lane_Lidar_Lane_Dataset_and_Benchmark_for_Urban_Roads_and_CVPRW_2022_paper.html,2026-08-03,verified
+dataset,k-lane,K-Lane,terms_or_license,https://github.com/kaist-avelab/K-Lane,2026-08-03,verified
+dataset,kitti,KITTI Vision Benchmark Suite,official_page,https://www.cvlibs.net/datasets/kitti/,2026-08-03,verified
+dataset,kitti,KITTI Vision Benchmark Suite,primary_publication,https://doi.org/10.1109/CVPR.2012.6248074,2026-08-03,verified
+dataset,kitti,KITTI Vision Benchmark Suite,terms_or_license,https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d,2026-08-03,verified
+dataset,kitti360,KITTI-360,official_page,https://www.cvlibs.net/datasets/kitti-360/,2026-08-03,verified
+dataset,kitti360,KITTI-360,primary_publication,https://doi.org/10.1109/TPAMI.2022.3179506,2026-08-03,verified
+dataset,kitti360,KITTI-360,terms_or_license,https://www.cvlibs.net/datasets/kitti-360/download.php,2026-08-03,verified
+dataset,matterport3d,Matterport3D,official_page,https://niessner.github.io/Matterport/,2026-08-03,verified
+dataset,matterport3d,Matterport3D,primary_publication,https://doi.org/10.1109/3DV.2017.00081,2026-08-03,verified
+dataset,matterport3d,Matterport3D,terms_or_license,https://niessner.github.io/Matterport/,2026-08-03,verified
+dataset,mit-stata,MIT Stata Center Data Set,official_page,https://projects.csail.mit.edu/stata/,2026-08-03,partial
+dataset,mit-stata,MIT Stata Center Data Set,primary_publication,https://projects.csail.mit.edu/stata/,2026-08-03,partial
+dataset,mit-stata,MIT Stata Center Data Set,terms_or_license,https://projects.csail.mit.edu/stata/,2026-08-03,partial
+dataset,mulran,MulRan,official_page,https://sites.google.com/view/mulran-pr/home,2026-08-03,partial
+dataset,mulran,MulRan,primary_publication,https://doi.org/10.1109/ICRA40945.2020.9197298,2026-08-03,partial
+dataset,mulran,MulRan,terms_or_license,https://sites.google.com/view/mulran-pr/home,2026-08-03,partial
+dataset,nclt,NCLT Dataset,official_page,https://robots.engin.umich.edu/nclt/,2026-08-03,partial
+dataset,nclt,NCLT Dataset,primary_publication,https://doi.org/10.1177/0278364915614638,2026-08-03,partial
+dataset,nclt,NCLT Dataset,terms_or_license,https://robots.engin.umich.edu/nclt/,2026-08-03,partial
+dataset,nuscenes,nuScenes,official_page,https://www.nuscenes.org/nuscenes,2026-08-03,verified
+dataset,nuscenes,nuScenes,primary_publication,https://doi.org/10.1109/CVPR42600.2020.01164,2026-08-03,verified
+dataset,nuscenes,nuScenes,terms_or_license,https://www.nuscenes.org/terms-of-use,2026-08-03,verified
+dataset,oxford-robotcar,Oxford RobotCar Dataset,official_page,https://robotcar-dataset.robots.ox.ac.uk/,2026-08-03,verified
+dataset,oxford-robotcar,Oxford RobotCar Dataset,primary_publication,https://doi.org/10.1177/0278364916679498,2026-08-03,verified
+dataset,oxford-robotcar,Oxford RobotCar Dataset,terms_or_license,https://robotcar-dataset.robots.ox.ac.uk/terms.html,2026-08-03,verified
+dataset,pandaset,PandaSet,official_page,https://pandaset.org/,2026-08-03,verified
+dataset,pandaset,PandaSet,primary_publication,https://arxiv.org/abs/2112.12610,2026-08-03,verified
+dataset,pandaset,PandaSet,terms_or_license,https://pandaset.org/,2026-08-03,verified
+dataset,paris-lille-3d,Paris-Lille-3D,official_page,https://npm3d.fr/paris-lille-3d,2026-08-03,verified
+dataset,paris-lille-3d,Paris-Lille-3D,primary_publication,https://doi.org/10.1177/0278364918767506,2026-08-03,verified
+dataset,paris-lille-3d,Paris-Lille-3D,terms_or_license,https://npm3d.fr/paris-lille-3d,2026-08-03,verified
+dataset,radish,RADISH Robotics Data Set Repository,official_page,https://radish.sourceforge.net/,2026-08-03,partial
+dataset,radish,RADISH Robotics Data Set Repository,primary_publication,https://radish.sourceforge.net/,2026-08-03,partial
+dataset,radish,RADISH Robotics Data Set Repository,terms_or_license,https://radish.sourceforge.net/,2026-08-03,partial
+dataset,rellis3d,RELLIS-3D,official_page,https://github.com/unmannedlab/RELLIS-3D,2026-08-03,verified
+dataset,rellis3d,RELLIS-3D,primary_publication,https://doi.org/10.1109/LRA.2020.3034974,2026-08-03,verified
+dataset,rellis3d,RELLIS-3D,terms_or_license,https://github.com/unmannedlab/RELLIS-3D,2026-08-03,verified
+dataset,robotathome,Robot@Home,official_page,https://mapir.isa.uma.es/work/robot-at-home-dataset/,2026-08-03,partial
+dataset,robotathome,Robot@Home,primary_publication,https://doi.org/10.1177/0278364917695640,2026-08-03,partial
+dataset,robotathome,Robot@Home,terms_or_license,https://mapir.isa.uma.es/work/robot-at-home-dataset/,2026-08-03,partial
+dataset,s3dis,Stanford Large-Scale 3D Indoor Spaces (S3DIS),official_page,http://buildingparser.stanford.edu/dataset.html,2026-08-03,partial
+dataset,s3dis,Stanford Large-Scale 3D Indoor Spaces (S3DIS),primary_publication,https://doi.org/10.1109/CVPR.2016.75,2026-08-03,partial
+dataset,s3dis,Stanford Large-Scale 3D Indoor Spaces (S3DIS),terms_or_license,http://buildingparser.stanford.edu/dataset.html,2026-08-03,partial
+dataset,scannet,ScanNet,official_page,https://www.scan-net.org/,2026-08-03,verified
+dataset,scannet,ScanNet,primary_publication,https://doi.org/10.1109/CVPR.2017.261,2026-08-03,verified
+dataset,scannet,ScanNet,terms_or_license,https://www.scan-net.org/ScanNet_TOS.pdf,2026-08-03,verified
+dataset,scannetpp,ScanNet++,official_page,https://scannetpp.mlsg.cit.tum.de/scannetpp/,2026-08-03,verified
+dataset,scannetpp,ScanNet++,primary_publication,https://arxiv.org/abs/2308.11417,2026-08-03,verified
+dataset,scannetpp,ScanNet++,terms_or_license,https://kaldir.vc.in.tum.de/scannetpp/static/scannetpp-terms-of-use.pdf,2026-08-03,verified
+dataset,semantic3d,Semantic3D,official_page,https://www.semantic3d.net/,2026-08-03,partial
+dataset,semantic3d,Semantic3D,primary_publication,https://doi.org/10.5194/isprs-annals-IV-1-W1-91-2017,2026-08-03,partial
+dataset,semantic3d,Semantic3D,terms_or_license,https://www.semantic3d.net/,2026-08-03,partial
+dataset,semantickitti,SemanticKITTI,official_page,https://semantic-kitti.org/,2026-08-03,verified
+dataset,semantickitti,SemanticKITTI,primary_publication,https://doi.org/10.1109/ICCV.2019.00939,2026-08-03,verified
+dataset,semantickitti,SemanticKITTI,terms_or_license,https://semantic-kitti.org/dataset.html,2026-08-03,verified
+dataset,semanticposs,SemanticPOSS,official_page,http://www.poss.pku.edu.cn/,2026-08-03,partial
+dataset,semanticposs,SemanticPOSS,primary_publication,https://doi.org/10.1109/IV47402.2020.9304594,2026-08-03,partial
+dataset,semanticposs,SemanticPOSS,terms_or_license,http://www.poss.pku.edu.cn/,2026-08-03,partial
+dataset,sensaturban,SensatUrban,official_page,https://github.com/QingyongHu/SensatUrban,2026-08-03,verified
+dataset,sensaturban,SensatUrban,primary_publication,https://doi.org/10.1109/CVPR46437.2021.01148,2026-08-03,verified
+dataset,sensaturban,SensatUrban,terms_or_license,https://github.com/QingyongHu/SensatUrban,2026-08-03,verified
+dataset,toronto3d,Toronto-3D,official_page,https://github.com/WeikaiTan/Toronto-3D,2026-08-03,verified
+dataset,toronto3d,Toronto-3D,primary_publication,https://doi.org/10.1109/CVPRW50498.2020.00139,2026-08-03,verified
+dataset,toronto3d,Toronto-3D,terms_or_license,https://github.com/WeikaiTan/Toronto-3D,2026-08-03,verified
+dataset,usgs-3dep,USGS 3D Elevation Program (3DEP),official_page,https://www.usgs.gov/3d-elevation-program,2026-08-03,verified
+dataset,usgs-3dep,USGS 3D Elevation Program (3DEP),primary_publication,https://www.usgs.gov/3d-elevation-program,2026-08-03,verified
+dataset,usgs-3dep,USGS 3D Elevation Program (3DEP),terms_or_license,https://www.usgs.gov/3d-elevation-program,2026-08-03,verified
+dataset,waymo-open,Waymo Open Dataset,official_page,https://waymo.com/open/,2026-08-03,verified
+dataset,waymo-open,Waymo Open Dataset,primary_publication,https://doi.org/10.1109/CVPR42600.2020.00252,2026-08-03,verified
+dataset,waymo-open,Waymo Open Dataset,terms_or_license,https://waymo.com/open/terms/,2026-08-03,verified
+method,cartographer,Google Cartographer,primary_publication,https://doi.org/10.1109/ICRA.2016.7487258,2026-08-03,verified
+method,cartographer,Google Cartographer,implementation,https://github.com/cartographer-project/cartographer,2026-08-03,verified
+method,cylinder3d,Cylinder3D,primary_publication,https://doi.org/10.1109/CVPR46437.2021.00919,2026-08-03,verified
+method,cylinder3d,Cylinder3D,implementation,https://github.com/xinge008/Cylinder3D,2026-08-03,verified
+method,depthcontrast,DepthContrast,primary_publication,https://doi.org/10.1109/ICCV48922.2021.00348,2026-08-03,partial
+method,depthcontrast,DepthContrast,implementation,https://github.com/facebookresearch/DepthContrast,2026-08-03,partial
+method,fast-lio2,FAST-LIO2,primary_publication,https://doi.org/10.1109/TRO.2022.3141876,2026-08-03,verified
+method,fast-lio2,FAST-LIO2,implementation,https://github.com/hku-mars/FAST_LIO,2026-08-03,verified
+method,gmapping,GMapping / OpenSLAM GMapping,primary_publication,https://doi.org/10.1109/TRO.2007.896411,2026-08-03,verified
+method,gmapping,GMapping / OpenSLAM GMapping,implementation,https://openslam-org.github.io/gmapping.html,2026-08-03,verified
+method,hector-slam,Hector SLAM,primary_publication,https://doi.org/10.1109/SSRR.2011.6106777,2026-08-03,verified
+method,hector-slam,Hector SLAM,implementation,https://github.com/tu-darmstadt-ros-pkg/hector_slam,2026-08-03,verified
+method,kpconv,KPConv,primary_publication,https://doi.org/10.1109/ICCV.2019.00651,2026-08-03,verified
+method,kpconv,KPConv,implementation,https://github.com/HuguesTHOMAS/KPConv-PyTorch,2026-08-03,verified
+method,lasermix,LaserMix,primary_publication,https://doi.org/10.1109/CVPR52729.2023.02077,2026-08-03,verified
+method,lasermix,LaserMix,implementation,https://github.com/ldkong1205/LaserMix,2026-08-03,verified
+method,lego-loam,LeGO-LOAM,primary_publication,https://doi.org/10.1109/IROS.2018.8594299,2026-08-03,verified
+method,lego-loam,LeGO-LOAM,implementation,https://github.com/RobustFieldAutonomyLab/LeGO-LOAM,2026-08-03,verified
+method,lio-sam,LIO-SAM,primary_publication,https://doi.org/10.1109/IROS45743.2020.9341176,2026-08-03,verified
+method,lio-sam,LIO-SAM,implementation,https://github.com/TixiaoShan/LIO-SAM,2026-08-03,verified
+method,loam,LOAM,primary_publication,https://doi.org/10.15607/RSS.2014.X.007,2026-08-03,verified
+method,loam,LOAM,implementation,https://github.com/laboshinl/loam_velodyne,2026-08-03,verified
+method,maskpoint,MaskPoint,primary_publication,https://doi.org/10.1007/978-3-031-20086-1_13,2026-08-03,partial
+method,maskpoint,MaskPoint,implementation,https://github.com/WisconsinAIVision/MaskPoint,2026-08-03,partial
+method,minkowski-engine,MinkowskiEngine,primary_publication,https://doi.org/10.1109/CVPR.2019.00325,2026-08-03,verified
+method,minkowski-engine,MinkowskiEngine,implementation,https://github.com/NVIDIA/MinkowskiEngine,2026-08-03,verified
+method,point-bert,Point-BERT,primary_publication,https://doi.org/10.1109/CVPR52688.2022.01942,2026-08-03,verified
+method,point-bert,Point-BERT,implementation,https://github.com/lulutang0608/Point-BERT,2026-08-03,verified
+method,point-mae,Point-MAE,primary_publication,https://doi.org/10.1007/978-3-031-19821-2_28,2026-08-03,verified
+method,point-mae,Point-MAE,implementation,https://github.com/Pang-Yatian/Point-MAE,2026-08-03,verified
+method,point-transformer,Point Transformer,primary_publication,https://doi.org/10.1109/ICCV48922.2021.01557,2026-08-03,verified
+method,point-transformer,Point Transformer,implementation,https://github.com/POSTECH-CVLab/point-transformer,2026-08-03,verified
+method,pointnet,PointNet,primary_publication,https://doi.org/10.1109/CVPR.2017.16,2026-08-03,verified
+method,pointnet,PointNet,implementation,https://github.com/charlesq34/pointnet,2026-08-03,verified
+method,pointnet2,PointNet++,primary_publication,https://doi.org/10.48550/arXiv.1706.02413,2026-08-03,verified
+method,pointnet2,PointNet++,implementation,https://github.com/charlesq34/pointnet2,2026-08-03,verified
+method,pointnext,PointNeXt,primary_publication,https://doi.org/10.48550/arXiv.2206.04670,2026-08-03,verified
+method,pointnext,PointNeXt,implementation,https://github.com/guochengqian/PointNeXt,2026-08-03,verified
+method,pointpillars,PointPillars,primary_publication,https://doi.org/10.1109/CVPR.2019.01298,2026-08-03,verified
+method,pointpillars,PointPillars,implementation,https://github.com/open-mmlab/OpenPCDet,2026-08-03,verified
+method,polarnet,PolarNet,primary_publication,https://doi.org/10.1109/CVPR42600.2020.00962,2026-08-03,verified
+method,polarnet,PolarNet,implementation,https://github.com/edwardzhou130/PolarSeg,2026-08-03,verified
+method,pv-rcnn,PV-RCNN,primary_publication,https://doi.org/10.1109/CVPR42600.2020.01056,2026-08-03,verified
+method,pv-rcnn,PV-RCNN,implementation,https://github.com/open-mmlab/OpenPCDet,2026-08-03,verified
+method,randlanet,RandLA-Net,primary_publication,https://doi.org/10.1109/CVPR42600.2020.01117,2026-08-03,verified
+method,randlanet,RandLA-Net,implementation,https://github.com/QingyongHu/RandLA-Net,2026-08-03,verified
+method,rangenetpp,RangeNet++,primary_publication,https://doi.org/10.1109/IROS40897.2019.8967762,2026-08-03,verified
+method,rangenetpp,RangeNet++,implementation,https://github.com/PRBonn/lidar-bonnetal,2026-08-03,verified
+method,salsanext,SalsaNext,primary_publication,https://doi.org/10.1007/978-3-030-58529-7_12,2026-08-03,verified
+method,salsanext,SalsaNext,implementation,https://github.com/TiagoCortinhal/SalsaNext,2026-08-03,verified
+method,sphereformer,SphereFormer,primary_publication,https://doi.org/10.1109/CVPR52729.2023.00342,2026-08-03,verified
+method,sphereformer,SphereFormer,implementation,https://github.com/dvlab-research/SphereFormer,2026-08-03,verified
+method,spvnas,SPVNAS / SPVCNN,primary_publication,https://doi.org/10.1007/978-3-030-58586-0_39,2026-08-03,verified
+method,spvnas,SPVNAS / SPVCNN,implementation,https://github.com/mit-han-lab/spvnas,2026-08-03,verified
+portal,aws-open-data,Registry of Open Data on AWS,official_page,https://registry.opendata.aws/,2026-08-03,verified
+portal,papers-with-code-3d,Papers with Code — 3D tasks,official_page,https://paperswithcode.com/area/computer-vision/3d,2026-08-03,verified
+portal,rosbags,ROS bag ecosystem documentation,official_page,https://docs.ros.org/,2026-08-03,verified
+portal,usgs-national-map,USGS National Map Downloader,official_page,https://apps.nationalmap.gov/downloader/,2026-08-03,verified

@@ -1,0 +1,58 @@
+id: scannetpp
+name: ScanNet++
+year: 2023
+resource_type: dataset
+scope:
+  dimensions:
+  - 3D
+  environments:
+  - indoor
+  - residential
+  - office
+  sensors:
+  - FARO laser scans
+  - DSLR
+  - iPhone RGB-D
+  adjacent_non_lidar: false
+tasks:
+- semantic segmentation
+- novel view synthesis
+- 3D reconstruction
+original_contributors: Chandan Yeshwanth, Yueh-Cheng Liu, Matthias Nießner, and Angela Dai
+authoritative_sources:
+  official_page: https://scannetpp.mlsg.cit.tum.de/scannetpp/
+  primary_publication: https://arxiv.org/abs/2308.11417
+  terms_or_license: https://kaldir.vc.in.tum.de/scannetpp/static/scannetpp-terms-of-use.pdf
+access:
+  class: FREE_REGISTERED
+  cost: free_or_provider_defined
+  account_required: true
+  agreement_required: true
+  approval_required: false
+  commercial_use: noncommercial_research
+  redistribution: restricted
+  automated_download: use_only_provider_supported_methods
+license:
+  name: ScanNet++ Terms of Use
+  scope: dataset/annotations; code and weights may differ
+  authoritative_url: https://kaldir.vc.in.tum.de/scannetpp/static/scannetpp-terms-of-use.pdf
+citation:
+  instruction: Cite the original dataset publication and any additional provider-required references. Cite the atlas
+    separately only when its curation or guidance was used.
+  recommended_source: https://arxiv.org/abs/2308.11417
+download_guide:
+  steps:
+  - Open the official page linked above.
+  - Read the current provider terms and confirm eligibility.
+  - Create an account or submit the provider agreement when required.
+  - Download only through provider-supported links or tools.
+  - Obtain labels, calibration, maps, and development kits from their separately identified official sources.
+  - Verify file integrity when provider checksums are available.
+  - Preserve the original folder structure and citation notice.
+  atlas_hosts_files: false
+  atlas_mirrors_files: false
+notes: Includes high-fidelity laser scans. Register and accept current official terms before downloading.
+verification:
+  status: verified
+  last_checked: '2026-08-03'
+  source_standard: authoritative provider page and primary publication

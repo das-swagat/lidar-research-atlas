@@ -1,0 +1,59 @@
+id: a2d2
+name: Audi Autonomous Driving Dataset (A2D2)
+year: 2020
+resource_type: dataset
+scope:
+  dimensions:
+  - 3D
+  environments:
+  - outdoor
+  - urban
+  - road
+  sensors:
+  - LiDAR
+  - cameras
+  - bus signals
+  adjacent_non_lidar: false
+tasks:
+- semantic segmentation
+- 3D detection
+- sensor fusion
+original_contributors: Audi Electronics Venture GmbH
+authoritative_sources:
+  official_page: https://www.a2d2.audi/
+  primary_publication: https://www.a2d2.audi/a2d2/en.html
+  terms_or_license: https://www.a2d2.audi/a2d2/en.html
+access:
+  class: OPEN_DIRECT
+  cost: free_or_provider_defined
+  account_required: false
+  agreement_required: false
+  approval_required: false
+  commercial_use: license_limited
+  redistribution: license_controlled
+  automated_download: use_only_provider_supported_methods
+license:
+  name: CC BY-ND 4.0 (provider-declared)
+  scope: dataset/annotations; code and weights may differ
+  authoritative_url: https://www.a2d2.audi/a2d2/en.html
+citation:
+  instruction: Cite the original dataset publication and any additional provider-required references. Cite the atlas
+    separately only when its curation or guidance was used.
+  recommended_source: https://www.a2d2.audi/a2d2/en.html
+download_guide:
+  steps:
+  - Open the official page linked above.
+  - Read the current provider terms and confirm eligibility.
+  - Create an account or submit the provider agreement when required.
+  - Download only through provider-supported links or tools.
+  - Obtain labels, calibration, maps, and development kits from their separately identified official sources.
+  - Verify file integrity when provider checksums are available.
+  - Preserve the original folder structure and citation notice.
+  atlas_hosts_files: false
+  atlas_mirrors_files: false
+notes: Download from the provider or its designated public cloud location. NoDerivatives restrictions require careful
+  treatment of redistributed adaptations.
+verification:
+  status: verified
+  last_checked: '2026-08-03'
+  source_standard: authoritative provider page and primary publication

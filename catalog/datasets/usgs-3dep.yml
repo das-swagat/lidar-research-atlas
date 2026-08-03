@@ -1,0 +1,58 @@
+id: usgs-3dep
+name: USGS 3D Elevation Program (3DEP)
+year: 2015
+resource_type: dataset
+scope:
+  dimensions:
+  - 3D
+  environments:
+  - outdoor
+  - aerial
+  - national-scale
+  sensors:
+  - airborne LiDAR
+  adjacent_non_lidar: false
+tasks:
+- terrain modeling
+- forestry
+- infrastructure
+- flood mapping
+original_contributors: United States Geological Survey
+authoritative_sources:
+  official_page: https://www.usgs.gov/3d-elevation-program
+  primary_publication: https://www.usgs.gov/3d-elevation-program
+  terms_or_license: https://www.usgs.gov/3d-elevation-program
+access:
+  class: OPEN_DIRECT
+  cost: free_or_provider_defined
+  account_required: false
+  agreement_required: false
+  approval_required: false
+  commercial_use: generally_permitted_subject_to_source_status
+  redistribution: generally_permitted_with_attribution_and_notices
+  automated_download: use_only_provider_supported_methods
+license:
+  name: U.S. government data; check item-level metadata
+  scope: dataset/annotations; code and weights may differ
+  authoritative_url: https://www.usgs.gov/3d-elevation-program
+citation:
+  instruction: Cite the original dataset publication and any additional provider-required references. Cite the atlas
+    separately only when its curation or guidance was used.
+  recommended_source: https://www.usgs.gov/3d-elevation-program
+download_guide:
+  steps:
+  - Open the official page linked above.
+  - Read the current provider terms and confirm eligibility.
+  - Create an account or submit the provider agreement when required.
+  - Download only through provider-supported links or tools.
+  - Obtain labels, calibration, maps, and development kits from their separately identified official sources.
+  - Verify file integrity when provider checksums are available.
+  - Preserve the original folder structure and citation notice.
+  atlas_hosts_files: false
+  atlas_mirrors_files: false
+notes: Download through The National Map or official cloud access. Check item-level metadata because partner-supplied
+  components can carry additional notices.
+verification:
+  status: verified
+  last_checked: '2026-08-03'
+  source_standard: authoritative provider page and primary publication

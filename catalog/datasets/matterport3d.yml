@@ -1,0 +1,57 @@
+id: matterport3d
+name: Matterport3D
+year: 2017
+resource_type: dataset
+scope:
+  dimensions:
+  - 3D
+  environments:
+  - indoor
+  - residential
+  sensors:
+  - RGB-D panoramas
+  - reconstructed mesh
+  adjacent_non_lidar: true
+tasks:
+- semantic segmentation
+- navigation
+- 3D reconstruction
+original_contributors: Angel Chang et al.; Matterport and academic collaborators
+authoritative_sources:
+  official_page: https://niessner.github.io/Matterport/
+  primary_publication: https://doi.org/10.1109/3DV.2017.00081
+  terms_or_license: https://niessner.github.io/Matterport/
+access:
+  class: AGREEMENT_REQUIRED
+  cost: free_or_provider_defined
+  account_required: false
+  agreement_required: true
+  approval_required: true
+  commercial_use: noncommercial_research
+  redistribution: restricted
+  automated_download: use_only_provider_supported_methods
+license:
+  name: Matterport3D Terms of Use
+  scope: dataset/annotations; code and weights may differ
+  authoritative_url: https://niessner.github.io/Matterport/
+citation:
+  instruction: Cite the original dataset publication and any additional provider-required references. Cite the atlas
+    separately only when its curation or guidance was used.
+  recommended_source: https://doi.org/10.1109/3DV.2017.00081
+download_guide:
+  steps:
+  - Open the official page linked above.
+  - Read the current provider terms and confirm eligibility.
+  - Create an account or submit the provider agreement when required.
+  - Download only through provider-supported links or tools.
+  - Obtain labels, calibration, maps, and development kits from their separately identified official sources.
+  - Verify file integrity when provider checksums are available.
+  - Preserve the original folder structure and citation notice.
+  atlas_hosts_files: false
+  atlas_mirrors_files: false
+notes: Adjacent RGB-D/reconstruction resource. Access requires the official research-use agreement; do not use unofficial
+  mirrors.
+verification:
+  status: verified
+  last_checked: '2026-08-03'
+  source_standard: authoritative provider page and primary publication

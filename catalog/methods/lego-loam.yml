@@ -1,0 +1,24 @@
+id: lego-loam
+name: LeGO-LOAM
+year: 2018
+resource_type: method
+category: LiDAR odometry and mapping
+representation: ground-optimized feature-based LiDAR
+original_authors: Tixiao Shan and Brendan Englot
+authoritative_sources:
+  primary_publication: https://doi.org/10.1109/IROS.2018.8594299
+  implementation: https://github.com/RobustFieldAutonomyLab/LeGO-LOAM
+implementation:
+  relationship: official_or_author_maintained
+  license: BSD-3-Clause
+  weights_terms: verify separately
+  repository: https://github.com/RobustFieldAutonomyLab/LeGO-LOAM
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1109/IROS.2018.8594299
+notes: Author-lab implementation for lightweight ground vehicle LiDAR odometry.
+verification:
+  status: verified
+  last_checked: '2026-08-03'

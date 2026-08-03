@@ -1,0 +1,27 @@
+id: sphereformer
+name: SphereFormer
+year: 2023
+resource_type: method
+category: LiDAR semantic segmentation
+representation: spherical transformer windows
+original_authors: Xin Lai et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.1109/CVPR52729.2023.00342
+  implementation: https://github.com/dvlab-research/SphereFormer
+implementation:
+  relationship: official_or_author_maintained
+  license: Apache-2.0
+  weights_terms: verify separately
+  repository: https://github.com/dvlab-research/SphereFormer
+commonly_evaluated_on:
+- SemanticKITTI
+- nuScenes
+- Waymo
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1109/CVPR52729.2023.00342
+notes: ''
+verification:
+  status: verified
+  last_checked: '2026-08-03'

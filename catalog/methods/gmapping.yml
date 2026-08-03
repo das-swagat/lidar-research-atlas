@@ -1,0 +1,24 @@
+id: gmapping
+name: GMapping / OpenSLAM GMapping
+year: 2007
+resource_type: method
+category: 2D SLAM
+representation: Rao-Blackwellized particle filter
+original_authors: Giorgio Grisetti, Cyrill Stachniss, and Wolfram Burgard
+authoritative_sources:
+  primary_publication: https://doi.org/10.1109/TRO.2007.896411
+  implementation: https://openslam-org.github.io/gmapping.html
+implementation:
+  relationship: canonical_project_page
+  license: See repository license
+  weights_terms: verify separately
+  repository: https://openslam-org.github.io/gmapping.html
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1109/TRO.2007.896411
+notes: Foundational 2D laser SLAM; ROS wrappers are separate integrations.
+verification:
+  status: verified
+  last_checked: '2026-08-03'

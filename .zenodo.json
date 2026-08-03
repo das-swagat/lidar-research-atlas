@@ -1,0 +1,22 @@
+{
+  "title": "LiDAR Research Atlas: Indoor and Outdoor 2D/3D Datasets, Methods, Benchmarks, and Access Guides",
+  "description": "A provenance-tracked scholarly atlas that links to authoritative LiDAR resources and documents access, licensing, citation, and reproducibility information without redistributing third-party data.",
+  "creators": [
+    {
+      "name": "Das, Swagat"
+    }
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "LiDAR",
+    "point cloud",
+    "robotics",
+    "computer vision",
+    "datasets",
+    "semantic segmentation",
+    "SLAM",
+    "machine learning"
+  ],
+  "upload_type": "software",
+  "access_right": "open"
+}

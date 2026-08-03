@@ -1,0 +1,19 @@
+name: Correction or rights-holder request
+about: Correct attribution, links, license status, or request review
+labels: [correction, priority-review]
+body:
+  - type: input
+    id: resource
+    attributes: {label: Affected record or page}
+    validations: {required: true}
+  - type: textarea
+    id: correction
+    attributes: {label: Requested correction}
+    validations: {required: true}
+  - type: input
+    id: source
+    attributes: {label: Supporting authoritative source}
+    validations: {required: true}
+  - type: textarea
+    id: relationship
+    attributes: {label: Relationship to the resource, description: Do not post confidential agreements or personal data.}

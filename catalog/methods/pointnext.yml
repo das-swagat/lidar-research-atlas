@@ -1,0 +1,27 @@
+id: pointnext
+name: PointNeXt
+year: 2022
+resource_type: method
+category: 3D representation learning
+representation: modernized PointNet++ design
+original_authors: Guocheng Qian et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.48550/arXiv.2206.04670
+  implementation: https://github.com/guochengqian/PointNeXt
+implementation:
+  relationship: official_or_author_maintained
+  license: MIT
+  weights_terms: verify separately
+  repository: https://github.com/guochengqian/PointNeXt
+commonly_evaluated_on:
+- ScanObjectNN
+- ModelNet40
+- S3DIS
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.48550/arXiv.2206.04670
+notes: ''
+verification:
+  status: verified
+  last_checked: '2026-08-03'

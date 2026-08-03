@@ -1,0 +1,58 @@
+id: waymo-open
+name: Waymo Open Dataset
+year: 2019
+resource_type: dataset
+scope:
+  dimensions:
+  - 3D
+  environments:
+  - outdoor
+  - urban
+  - road
+  sensors:
+  - multiple LiDARs
+  - cameras
+  adjacent_non_lidar: false
+tasks:
+- 3D detection
+- tracking
+- motion forecasting
+- segmentation
+original_contributors: Pei Sun et al.; Waymo LLC
+authoritative_sources:
+  official_page: https://waymo.com/open/
+  primary_publication: https://doi.org/10.1109/CVPR42600.2020.00252
+  terms_or_license: https://waymo.com/open/terms/
+access:
+  class: FREE_REGISTERED
+  cost: free_or_provider_defined
+  account_required: true
+  agreement_required: true
+  approval_required: false
+  commercial_use: noncommercial_research_under_dataset_terms
+  redistribution: restricted
+  automated_download: use_only_provider_supported_methods
+license:
+  name: Waymo Open Dataset License Agreement
+  scope: dataset/annotations; code and weights may differ
+  authoritative_url: https://waymo.com/open/terms/
+citation:
+  instruction: Cite the original dataset publication and any additional provider-required references. Cite the atlas
+    separately only when its curation or guidance was used.
+  recommended_source: https://doi.org/10.1109/CVPR42600.2020.00252
+download_guide:
+  steps:
+  - Open the official page linked above.
+  - Read the current provider terms and confirm eligibility.
+  - Create an account or submit the provider agreement when required.
+  - Download only through provider-supported links or tools.
+  - Obtain labels, calibration, maps, and development kits from their separately identified official sources.
+  - Verify file integrity when provider checksums are available.
+  - Preserve the original folder structure and citation notice.
+  atlas_hosts_files: false
+  atlas_mirrors_files: false
+notes: Dataset terms are separate from licenses for code in Waymo repositories. Do not describe the dataset as open-source.
+verification:
+  status: verified
+  last_checked: '2026-08-03'
+  source_standard: authoritative provider page and primary publication

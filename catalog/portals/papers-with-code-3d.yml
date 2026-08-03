@@ -1,0 +1,9 @@
+id: papers-with-code-3d
+name: Papers with Code — 3D tasks
+resource_type: portal
+url: https://paperswithcode.com/area/computer-vision/3d
+purpose: Discover benchmark tables and implementations; verify every item at the original source.
+legal_note: Index only; it does not replace provider licenses.
+verification:
+  status: verified
+  last_checked: '2026-08-03'

@@ -1,0 +1,59 @@
+id: argoverse2
+name: Argoverse 2
+year: 2023
+resource_type: dataset
+scope:
+  dimensions:
+  - 3D
+  environments:
+  - outdoor
+  - urban
+  - road
+  sensors:
+  - LiDAR
+  - cameras
+  - maps
+  adjacent_non_lidar: false
+tasks:
+- 3D detection
+- tracking
+- motion forecasting
+- scene flow
+original_contributors: Benjamin Wilson et al.; Argo AI / Argoverse
+authoritative_sources:
+  official_page: https://www.argoverse.org/av2.html
+  primary_publication: https://arxiv.org/abs/2301.00493
+  terms_or_license: https://www.argoverse.org/av2.html
+access:
+  class: OPEN_DIRECT
+  cost: free_or_provider_defined
+  account_required: false
+  agreement_required: false
+  approval_required: false
+  commercial_use: noncommercial
+  redistribution: license_controlled
+  automated_download: use_only_provider_supported_methods
+license:
+  name: CC BY-NC-SA 4.0 (verify each component)
+  scope: dataset/annotations; code and weights may differ
+  authoritative_url: https://www.argoverse.org/av2.html
+citation:
+  instruction: Cite the original dataset publication and any additional provider-required references. Cite the atlas
+    separately only when its curation or guidance was used.
+  recommended_source: https://arxiv.org/abs/2301.00493
+download_guide:
+  steps:
+  - Open the official page linked above.
+  - Read the current provider terms and confirm eligibility.
+  - Create an account or submit the provider agreement when required.
+  - Download only through provider-supported links or tools.
+  - Obtain labels, calibration, maps, and development kits from their separately identified official sources.
+  - Verify file integrity when provider checksums are available.
+  - Preserve the original folder structure and citation notice.
+  atlas_hosts_files: false
+  atlas_mirrors_files: false
+notes: Follow the official user guide and cloud-download instructions; review component-specific licenses.
+verification:
+  status: verified
+  last_checked: '2026-08-03'
+  source_standard: authoritative provider page and primary publication

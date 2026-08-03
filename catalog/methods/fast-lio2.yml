@@ -1,0 +1,24 @@
+id: fast-lio2
+name: FAST-LIO2
+year: 2022
+resource_type: method
+category: LiDAR-inertial odometry
+representation: direct point-to-map, iterated Kalman filter
+original_authors: Wei Xu et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.1109/TRO.2022.3141876
+  implementation: https://github.com/hku-mars/FAST_LIO
+implementation:
+  relationship: official_or_author_maintained
+  license: GPL-2.0
+  weights_terms: verify separately
+  repository: https://github.com/hku-mars/FAST_LIO
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1109/TRO.2022.3141876
+notes: Official research-group implementation. GPL obligations apply to derivative distribution.
+verification:
+  status: verified
+  last_checked: '2026-08-03'

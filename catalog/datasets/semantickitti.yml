@@ -1,0 +1,58 @@
+id: semantickitti
+name: SemanticKITTI
+year: 2019
+resource_type: dataset
+scope:
+  dimensions:
+  - 3D
+  environments:
+  - outdoor
+  - urban
+  - road
+  sensors:
+  - Velodyne HDL-64E
+  adjacent_non_lidar: false
+tasks:
+- semantic segmentation
+- panoptic segmentation
+- scene completion
+original_contributors: Jens Behley, Martin Garbade, Andres Milioto, Jan Quenzel, Sven Behnke, C. Stachniss, and
+  J. Gall
+authoritative_sources:
+  official_page: https://semantic-kitti.org/
+  primary_publication: https://doi.org/10.1109/ICCV.2019.00939
+  terms_or_license: https://semantic-kitti.org/dataset.html
+access:
+  class: OPEN_DIRECT
+  cost: free_or_provider_defined
+  account_required: false
+  agreement_required: false
+  approval_required: false
+  commercial_use: noncommercial_research
+  redistribution: restricted
+  automated_download: use_only_provider_supported_methods
+license:
+  name: CC BY-NC-SA 3.0 for annotations; KITTI terms also apply
+  scope: dataset/annotations; code and weights may differ
+  authoritative_url: https://semantic-kitti.org/dataset.html
+citation:
+  instruction: Cite the original dataset publication and any additional provider-required references. Cite the atlas
+    separately only when its curation or guidance was used.
+  recommended_source: https://doi.org/10.1109/ICCV.2019.00939
+download_guide:
+  steps:
+  - Open the official page linked above.
+  - Read the current provider terms and confirm eligibility.
+  - Create an account or submit the provider agreement when required.
+  - Download only through provider-supported links or tools.
+  - Obtain labels, calibration, maps, and development kits from their separately identified official sources.
+  - Verify file integrity when provider checksums are available.
+  - Preserve the original folder structure and citation notice.
+  atlas_hosts_files: false
+  atlas_mirrors_files: false
+notes: Users obtain KITTI odometry sensor data separately, then place SemanticKITTI labels into the matching sequence
+  structure.
+verification:
+  status: verified
+  last_checked: '2026-08-03'
+  source_standard: authoritative provider page and primary publication

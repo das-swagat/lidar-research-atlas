@@ -1,0 +1,26 @@
+id: cylinder3d
+name: Cylinder3D
+year: 2021
+resource_type: method
+category: LiDAR semantic segmentation
+representation: cylindrical voxel partition and sparse convolution
+original_authors: Xinge Zhu et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.1109/CVPR46437.2021.00919
+  implementation: https://github.com/xinge008/Cylinder3D
+implementation:
+  relationship: official_or_author_maintained
+  license: Apache-2.0
+  weights_terms: verify separately
+  repository: https://github.com/xinge008/Cylinder3D
+commonly_evaluated_on:
+- SemanticKITTI
+- nuScenes
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1109/CVPR46437.2021.00919
+notes: ''
+verification:
+  status: verified
+  last_checked: '2026-08-03'

@@ -1,0 +1,24 @@
+id: lio-sam
+name: LIO-SAM
+year: 2020
+resource_type: method
+category: LiDAR-inertial odometry
+representation: factor graph, LiDAR and IMU
+original_authors: Tixiao Shan et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.1109/IROS45743.2020.9341176
+  implementation: https://github.com/TixiaoShan/LIO-SAM
+implementation:
+  relationship: official_or_author_maintained
+  license: BSD-3-Clause
+  weights_terms: verify separately
+  repository: https://github.com/TixiaoShan/LIO-SAM
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1109/IROS45743.2020.9341176
+notes: Author-maintained implementation; review sensor assumptions and dependencies.
+verification:
+  status: verified
+  last_checked: '2026-08-03'

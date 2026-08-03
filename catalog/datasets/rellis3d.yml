@@ -1,0 +1,59 @@
+id: rellis3d
+name: RELLIS-3D
+year: 2021
+resource_type: dataset
+scope:
+  dimensions:
+  - 3D
+  environments:
+  - outdoor
+  - off-road
+  - natural
+  sensors:
+  - LiDAR
+  - cameras
+  - GPS/IMU
+  adjacent_non_lidar: false
+tasks:
+- semantic segmentation
+- navigation
+- sensor fusion
+original_contributors: Peng Jiang et al.; Texas A&M University
+authoritative_sources:
+  official_page: https://github.com/unmannedlab/RELLIS-3D
+  primary_publication: https://doi.org/10.1109/LRA.2020.3034974
+  terms_or_license: https://github.com/unmannedlab/RELLIS-3D
+access:
+  class: OPEN_DIRECT
+  cost: free_or_provider_defined
+  account_required: false
+  agreement_required: false
+  approval_required: false
+  commercial_use: research_use_verify
+  redistribution: license_controlled
+  automated_download: use_only_provider_supported_methods
+license:
+  name: Repository/provider terms
+  scope: dataset/annotations; code and weights may differ
+  authoritative_url: https://github.com/unmannedlab/RELLIS-3D
+citation:
+  instruction: Cite the original dataset publication and any additional provider-required references. Cite the atlas
+    separately only when its curation or guidance was used.
+  recommended_source: https://doi.org/10.1109/LRA.2020.3034974
+download_guide:
+  steps:
+  - Open the official page linked above.
+  - Read the current provider terms and confirm eligibility.
+  - Create an account or submit the provider agreement when required.
+  - Download only through provider-supported links or tools.
+  - Obtain labels, calibration, maps, and development kits from their separately identified official sources.
+  - Verify file integrity when provider checksums are available.
+  - Preserve the original folder structure and citation notice.
+  atlas_hosts_files: false
+  atlas_mirrors_files: false
+notes: Follow the official repository links for images, point clouds, labels, and calibration; inspect each hosted
+  component’s terms.
+verification:
+  status: verified
+  last_checked: '2026-08-03'
+  source_standard: authoritative provider page and primary publication

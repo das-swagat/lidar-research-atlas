@@ -1,0 +1,9 @@
+id: rosbags
+name: ROS bag ecosystem documentation
+resource_type: portal
+url: https://docs.ros.org/
+purpose: Understand common robotics message formats and tooling.
+legal_note: Documentation and individual datasets have separate licenses.
+verification:
+  status: verified
+  last_checked: '2026-08-03'

@@ -1,0 +1,24 @@
+id: depthcontrast
+name: DepthContrast
+year: 2021
+resource_type: method
+category: Self-supervised 3D learning
+representation: contrastive learning from depth/point clouds
+original_authors: Pri3D/DepthContrast authors led by Zaiwei Zhang et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.1109/ICCV48922.2021.00348
+  implementation: https://github.com/facebookresearch/DepthContrast
+implementation:
+  relationship: official_or_author_maintained
+  license: CC BY-NC 4.0 / repository-specific; verify
+  weights_terms: verify separately
+  repository: https://github.com/facebookresearch/DepthContrast
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1109/ICCV48922.2021.00348
+notes: Archived research repository; verify code and model terms separately.
+verification:
+  status: partial
+  last_checked: '2026-08-03'

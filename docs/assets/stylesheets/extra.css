@@ -1,0 +1,35 @@
+:root {
+  --atlas-ink: #111827;
+  --atlas-muted: #526076;
+  --atlas-line: rgba(90, 110, 140, .20);
+  --atlas-panel: rgba(255, 255, 255, .72);
+  --atlas-accent: #0ea5e9;
+  --atlas-accent-2: #6366f1;
+}
+[data-md-color-scheme="slate"] {
+  --atlas-ink: #eef4ff;
+  --atlas-muted: #aebbd0;
+  --atlas-line: rgba(170, 195, 230, .16);
+  --atlas-panel: rgba(22, 31, 48, .72);
+}
+.md-header { box-shadow: none; border-bottom: 1px solid var(--atlas-line); }
+.md-tabs { border-bottom: 1px solid var(--atlas-line); }
+.md-typeset h1, .md-typeset h2, .md-typeset h3 { letter-spacing: -.025em; font-weight: 720; }
+.md-typeset h1 { font-size: 2.45rem; }
+.md-typeset a { text-decoration-thickness: .06em; text-underline-offset: .15em; }
+.md-typeset table:not([class]) { border: 1px solid var(--atlas-line); border-radius: .55rem; overflow: hidden; }
+.md-typeset table:not([class]) th { background: rgba(99,102,241,.08); }
+.atlas-hero { display:grid; grid-template-columns:1.05fr .95fr; gap:2.5rem; align-items:center; padding:2.2rem 0 1rem; }
+.atlas-hero h1 { font-size:clamp(2.35rem,5vw,4.7rem); line-height:.98; margin:.45rem 0 1rem; max-width:12ch; }
+.atlas-hero p { color:var(--atlas-muted); font-size:1.05rem; max-width:56ch; }
+.atlas-hero img { width:100%; filter:drop-shadow(0 24px 40px rgba(30,50,90,.15)); }
+.atlas-kicker { font-size:.68rem; letter-spacing:.18em; font-weight:800; color:var(--atlas-accent-2); }
+.atlas-actions { display:flex; gap:.65rem; flex-wrap:wrap; margin-top:1.25rem; }
+.atlas-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:.75rem; margin:2rem 0 2.5rem; }
+.atlas-card { border:1px solid var(--atlas-line); border-radius:.75rem; padding:1rem; background:var(--atlas-panel); backdrop-filter:blur(10px); }
+.atlas-card strong { display:block; font-size:1.05rem; margin-bottom:.35rem; }
+.atlas-card span { display:block; color:var(--atlas-muted); font-size:.83rem; line-height:1.45; }
+.atlas-badge { display:inline-block; border:1px solid var(--atlas-line); background:rgba(14,165,233,.08); border-radius:999px; padding:.18rem .55rem; margin:.08rem .15rem .08rem 0; font-size:.72rem; font-weight:650; }
+.atlas-source-note { color:var(--atlas-muted); font-size:.78rem; }
+@media (max-width: 850px) { .atlas-hero { grid-template-columns:1fr; } .atlas-grid{grid-template-columns:repeat(2,1fr);} }
+@media (max-width: 520px) { .atlas-grid{grid-template-columns:1fr;} .md-typeset h1{font-size:2rem;} }

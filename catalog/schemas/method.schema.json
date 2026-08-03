@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "year",
+    "resource_type",
+    "category",
+    "representation",
+    "original_authors",
+    "authoritative_sources",
+    "implementation",
+    "citation",
+    "verification"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "resource_type": {
+      "const": "method"
+    },
+    "category": {
+      "type": "string"
+    },
+    "representation": {
+      "type": "string"
+    },
+    "original_authors": {
+      "type": "string"
+    },
+    "authoritative_sources": {
+      "type": "object"
+    },
+    "implementation": {
+      "type": "object"
+    },
+    "citation": {
+      "type": "object"
+    },
+    "verification": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

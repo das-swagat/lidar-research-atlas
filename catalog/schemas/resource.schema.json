@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "resource_type",
+    "authoritative_sources",
+    "verification"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 2
+    },
+    "resource_type": {
+      "type": "string"
+    },
+    "authoritative_sources": {
+      "type": "object"
+    },
+    "verification": {
+      "type": "object",
+      "required": [
+        "status",
+        "last_checked"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

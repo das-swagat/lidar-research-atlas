@@ -1,0 +1,9 @@
+asset,title,creator,source,license,third_party,modifications,retrieved
+logo.svg,LiDAR Research Atlas logo,Swagat Das,Original atlas asset,CC BY 4.0,false,Original vector,2026-08-03
+hero.svg,LiDAR Research Atlas overview,Swagat Das,Original atlas asset,CC BY 4.0,false,Original vector,2026-08-03
+domain-taxonomy.svg,LiDAR research domain taxonomy,Swagat Das,Original atlas asset,CC BY 4.0,false,Original vector,2026-08-03
+access-flow.svg,Lawful dataset access workflow,Swagat Das,Original atlas asset,CC BY 4.0,false,Original vector,2026-08-03
+2d-slam.svg,Conceptual 2D LiDAR SLAM pipeline,Swagat Das,Original atlas asset,CC BY 4.0,false,Original vector,2026-08-03
+perception-pipeline.svg,Conceptual 3D LiDAR perception pipeline,Swagat Das,Original atlas asset,CC BY 4.0,false,Original vector,2026-08-03
+self-supervised.svg,Conceptual self-supervised 3D learning pipeline,Swagat Das,Original atlas asset,CC BY 4.0,false,Original vector,2026-08-03
+social-card.svg,LiDAR Research Atlas social preview,Swagat Das,Original atlas asset,CC BY 4.0,false,Original vector,2026-08-03

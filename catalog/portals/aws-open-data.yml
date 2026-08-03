@@ -1,0 +1,9 @@
+id: aws-open-data
+name: Registry of Open Data on AWS
+resource_type: portal
+url: https://registry.opendata.aws/
+purpose: Provider-designated cloud access for selected public datasets.
+legal_note: Cloud accessibility does not by itself establish an open license.
+verification:
+  status: verified
+  last_checked: '2026-08-03'

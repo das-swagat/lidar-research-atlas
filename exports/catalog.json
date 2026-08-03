@@ -1,0 +1,2743 @@
+{
+  "version": "0.1.0",
+  "generated": "2026-08-03",
+  "datasets": [
+    {
+      "id": "a2d2",
+      "name": "Audi Autonomous Driving Dataset (A2D2)",
+      "year": 2020,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "urban",
+          "road"
+        ],
+        "sensors": [
+          "LiDAR",
+          "cameras",
+          "bus signals"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "semantic segmentation",
+        "3D detection",
+        "sensor fusion"
+      ],
+      "original_contributors": "Audi Electronics Venture GmbH",
+      "authoritative_sources": {
+        "official_page": "https://www.a2d2.audi/",
+        "primary_publication": "https://www.a2d2.audi/a2d2/en.html",
+        "terms_or_license": "https://www.a2d2.audi/a2d2/en.html"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "license_limited",
+        "redistribution": "license_controlled",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "CC BY-ND 4.0 (provider-declared)",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://www.a2d2.audi/a2d2/en.html"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://www.a2d2.audi/a2d2/en.html"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Download from the provider or its designated public cloud location. NoDerivatives restrictions require careful treatment of redistributed adaptations.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "argoverse2",
+      "name": "Argoverse 2",
+      "year": 2023,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "urban",
+          "road"
+        ],
+        "sensors": [
+          "LiDAR",
+          "cameras",
+          "maps"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "3D detection",
+        "tracking",
+        "motion forecasting",
+        "scene flow"
+      ],
+      "original_contributors": "Benjamin Wilson et al.; Argo AI / Argoverse",
+      "authoritative_sources": {
+        "official_page": "https://www.argoverse.org/av2.html",
+        "primary_publication": "https://arxiv.org/abs/2301.00493",
+        "terms_or_license": "https://www.argoverse.org/av2.html"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "noncommercial",
+        "redistribution": "license_controlled",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "CC BY-NC-SA 4.0 (verify each component)",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://www.argoverse.org/av2.html"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://arxiv.org/abs/2301.00493"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Follow the official user guide and cloud-download instructions; review component-specific licenses.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "dales",
+      "name": "DALES",
+      "year": 2020,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "aerial",
+          "urban"
+        ],
+        "sensors": [
+          "airborne LiDAR"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "semantic segmentation",
+        "point classification"
+      ],
+      "original_contributors": "Nina Varney, Vijayan K. Asari, and Quinn Graehling",
+      "authoritative_sources": {
+        "official_page": "https://udayton.edu/centers/vision-lab/index.php",
+        "primary_publication": "https://doi.org/10.1109/CVPRW50498.2020.00138",
+        "terms_or_license": "https://udayton.edu/centers/vision-lab/index.php"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "verify",
+        "redistribution": "license_controlled",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "Provider terms; verify",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://udayton.edu/centers/vision-lab/index.php"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1109/CVPRW50498.2020.00138"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Use the University of Dayton project source or the source named by the paper. Verify current access location and license before automated use.",
+      "verification": {
+        "status": "partial",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "k-lane",
+      "name": "K-Lane",
+      "year": 2022,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "road"
+        ],
+        "sensors": [
+          "LiDAR"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "LiDAR lane detection"
+      ],
+      "original_contributors": "Dong-Hee Paek, Seung-Hyun Kong, and Kevin Tirta Wijaya; KAIST",
+      "authoritative_sources": {
+        "official_page": "https://github.com/kaist-avelab/K-Lane",
+        "primary_publication": "https://openaccess.thecvf.com/content/CVPR2022W/WAD/html/Paek_K-Lane_Lidar_Lane_Dataset_and_Benchmark_for_Urban_Roads_and_CVPRW_2022_paper.html",
+        "terms_or_license": "https://github.com/kaist-avelab/K-Lane"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "research_use_verify",
+        "redistribution": "license_controlled",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "Repository/provider terms",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://github.com/kaist-avelab/K-Lane"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://openaccess.thecvf.com/content/CVPR2022W/WAD/html/Paek_K-Lane_Lidar_Lane_Dataset_and_Benchmark_for_Urban_Roads_and_CVPRW_2022_paper.html"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Specialized benchmark for lane detection from LiDAR. Dataset and code conditions should be checked separately.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "kitti",
+      "name": "KITTI Vision Benchmark Suite",
+      "year": 2012,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "urban",
+          "road"
+        ],
+        "sensors": [
+          "Velodyne HDL-64E",
+          "cameras",
+          "GPS/IMU"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "3D detection",
+        "tracking",
+        "odometry",
+        "road estimation"
+      ],
+      "original_contributors": "Andreas Geiger, Philip Lenz, Christoph Stiller, and Raquel Urtasun",
+      "authoritative_sources": {
+        "official_page": "https://www.cvlibs.net/datasets/kitti/",
+        "primary_publication": "https://doi.org/10.1109/CVPR.2012.6248074",
+        "terms_or_license": "https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "research_use_verify",
+        "redistribution": "restricted_or_unconfirmed",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "KITTI provider terms",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1109/CVPR.2012.6248074"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Download components separately from the official KITTI pages. Some downstream benchmarks add separate labels and terms.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "kitti360",
+      "name": "KITTI-360",
+      "year": 2022,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "urban",
+          "road"
+        ],
+        "sensors": [
+          "3D LiDAR",
+          "stereo cameras",
+          "fisheye cameras",
+          "GPS/IMU"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "semantic segmentation",
+        "3D reconstruction",
+        "localization",
+        "novel view synthesis"
+      ],
+      "original_contributors": "Yiyi Liao, Jun Xie, and Andreas Geiger",
+      "authoritative_sources": {
+        "official_page": "https://www.cvlibs.net/datasets/kitti-360/",
+        "primary_publication": "https://doi.org/10.1109/TPAMI.2022.3179506",
+        "terms_or_license": "https://www.cvlibs.net/datasets/kitti-360/download.php"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "noncommercial_research",
+        "redistribution": "restricted",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "KITTI-360 terms",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://www.cvlibs.net/datasets/kitti-360/download.php"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1109/TPAMI.2022.3179506"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Use the official download scripts/pages and review per-component terms.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "matterport3d",
+      "name": "Matterport3D",
+      "year": 2017,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "indoor",
+          "residential"
+        ],
+        "sensors": [
+          "RGB-D panoramas",
+          "reconstructed mesh"
+        ],
+        "adjacent_non_lidar": true
+      },
+      "tasks": [
+        "semantic segmentation",
+        "navigation",
+        "3D reconstruction"
+      ],
+      "original_contributors": "Angel Chang et al.; Matterport and academic collaborators",
+      "authoritative_sources": {
+        "official_page": "https://niessner.github.io/Matterport/",
+        "primary_publication": "https://doi.org/10.1109/3DV.2017.00081",
+        "terms_or_license": "https://niessner.github.io/Matterport/"
+      },
+      "access": {
+        "class": "AGREEMENT_REQUIRED",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": true,
+        "approval_required": true,
+        "commercial_use": "noncommercial_research",
+        "redistribution": "restricted",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "Matterport3D Terms of Use",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://niessner.github.io/Matterport/"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1109/3DV.2017.00081"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Adjacent RGB-D/reconstruction resource. Access requires the official research-use agreement; do not use unofficial mirrors.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "mit-stata",
+      "name": "MIT Stata Center Data Set",
+      "year": 2013,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "2D"
+        ],
+        "environments": [
+          "indoor",
+          "campus"
+        ],
+        "sensors": [
+          "Hokuyo planar laser",
+          "cameras",
+          "IMU"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "2D SLAM",
+        "visual-inertial navigation",
+        "localization"
+      ],
+      "original_contributors": "MIT Marine Robotics Group / Luca Carlone et al.",
+      "authoritative_sources": {
+        "official_page": "https://projects.csail.mit.edu/stata/",
+        "primary_publication": "https://projects.csail.mit.edu/stata/",
+        "terms_or_license": "https://projects.csail.mit.edu/stata/"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "research_use_verify",
+        "redistribution": "not_confirmed",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "Provider terms; verify",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://projects.csail.mit.edu/stata/"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://projects.csail.mit.edu/stata/"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Use the official MIT project page and preserve experiment-specific documentation.",
+      "verification": {
+        "status": "partial",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "mulran",
+      "name": "MulRan",
+      "year": 2020,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "urban",
+          "road",
+          "campus"
+        ],
+        "sensors": [
+          "Ouster LiDAR",
+          "radar",
+          "GPS/INS"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "SLAM",
+        "place recognition",
+        "localization"
+      ],
+      "original_contributors": "Giseop Kim et al.; KAIST",
+      "authoritative_sources": {
+        "official_page": "https://sites.google.com/view/mulran-pr/home",
+        "primary_publication": "https://doi.org/10.1109/ICRA40945.2020.9197298",
+        "terms_or_license": "https://sites.google.com/view/mulran-pr/home"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "noncommercial_or_verify",
+        "redistribution": "restricted_or_unconfirmed",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "Provider terms; verify",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://sites.google.com/view/mulran-pr/home"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1109/ICRA40945.2020.9197298"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Use only the official Google Sites/download links and cite the MulRan publication.",
+      "verification": {
+        "status": "partial",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "nclt",
+      "name": "NCLT Dataset",
+      "year": 2016,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "2D",
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "campus",
+          "seasonal"
+        ],
+        "sensors": [
+          "3D LiDAR",
+          "planar LiDAR",
+          "cameras",
+          "GPS/IMU"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "localization",
+        "mapping",
+        "long-term autonomy"
+      ],
+      "original_contributors": "Nicholas Carlevaris-Bianco, Arash K. Ushani, and Ryan M. Eustice",
+      "authoritative_sources": {
+        "official_page": "https://robots.engin.umich.edu/nclt/",
+        "primary_publication": "https://doi.org/10.1177/0278364915614638",
+        "terms_or_license": "https://robots.engin.umich.edu/nclt/"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "research_use_verify",
+        "redistribution": "not_confirmed",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "Provider terms; verify",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://robots.engin.umich.edu/nclt/"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1177/0278364915614638"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Use official per-session links and documentation. Treat absent or unclear license terms conservatively.",
+      "verification": {
+        "status": "partial",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "nuscenes",
+      "name": "nuScenes",
+      "year": 2020,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "urban",
+          "road"
+        ],
+        "sensors": [
+          "32-beam LiDAR",
+          "radar",
+          "cameras",
+          "GPS/IMU"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "3D detection",
+        "tracking",
+        "prediction",
+        "LiDAR segmentation"
+      ],
+      "original_contributors": "Holger Caesar et al.; Motional",
+      "authoritative_sources": {
+        "official_page": "https://www.nuscenes.org/nuscenes",
+        "primary_publication": "https://doi.org/10.1109/CVPR42600.2020.01164",
+        "terms_or_license": "https://www.nuscenes.org/terms-of-use"
+      },
+      "access": {
+        "class": "FREE_REGISTERED",
+        "cost": "free_or_provider_defined",
+        "account_required": true,
+        "agreement_required": true,
+        "approval_required": false,
+        "commercial_use": "noncommercial_unless_separately_authorized",
+        "redistribution": "prohibited_or_restricted",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "nuScenes Terms of Use",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://www.nuscenes.org/terms-of-use"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1109/CVPR42600.2020.01164"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Create an official account, accept current terms, and use the official download portal/devkit.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "oxford-robotcar",
+      "name": "Oxford RobotCar Dataset",
+      "year": 2017,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "2D",
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "urban",
+          "road",
+          "seasonal"
+        ],
+        "sensors": [
+          "2D/3D LiDAR",
+          "cameras",
+          "GPS/INS",
+          "radar"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "localization",
+        "mapping",
+        "place recognition",
+        "odometry"
+      ],
+      "original_contributors": "Will Maddern, Geoffrey Pascoe, Chris Linegar, and Paul Newman",
+      "authoritative_sources": {
+        "official_page": "https://robotcar-dataset.robots.ox.ac.uk/",
+        "primary_publication": "https://doi.org/10.1177/0278364916679498",
+        "terms_or_license": "https://robotcar-dataset.robots.ox.ac.uk/terms.html"
+      },
+      "access": {
+        "class": "FREE_REGISTERED",
+        "cost": "free_or_provider_defined",
+        "account_required": true,
+        "agreement_required": true,
+        "approval_required": false,
+        "commercial_use": "noncommercial",
+        "redistribution": "restricted",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "CC BY-NC-SA 4.0 / provider terms",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://robotcar-dataset.robots.ox.ac.uk/terms.html"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1177/0278364916679498"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Register through the official site; sequences are large and should be selected deliberately.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "pandaset",
+      "name": "PandaSet",
+      "year": 2020,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "urban",
+          "road"
+        ],
+        "sensors": [
+          "mechanical LiDAR",
+          "forward-facing LiDAR",
+          "cameras",
+          "GPS/IMU"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "3D detection",
+        "semantic segmentation",
+        "tracking"
+      ],
+      "original_contributors": "Hesai and Scale AI",
+      "authoritative_sources": {
+        "official_page": "https://pandaset.org/",
+        "primary_publication": "https://arxiv.org/abs/2112.12610",
+        "terms_or_license": "https://pandaset.org/"
+      },
+      "access": {
+        "class": "FREE_REGISTERED",
+        "cost": "free_or_provider_defined",
+        "account_required": true,
+        "agreement_required": true,
+        "approval_required": false,
+        "commercial_use": "verify_provider_terms",
+        "redistribution": "restricted",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "PandaSet Terms of Use",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://pandaset.org/"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://arxiv.org/abs/2112.12610"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Use the official portal and official devkit. Confirm current terms before commercial or derivative redistribution.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "paris-lille-3d",
+      "name": "Paris-Lille-3D",
+      "year": 2018,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "urban",
+          "mobile-mapping"
+        ],
+        "sensors": [
+          "mobile laser scanning"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "semantic segmentation",
+        "classification"
+      ],
+      "original_contributors": "Xavier Roynard, Jean-Emmanuel Deschaud, and Fran\u00e7ois Goulette",
+      "authoritative_sources": {
+        "official_page": "https://npm3d.fr/paris-lille-3d",
+        "primary_publication": "https://doi.org/10.1177/0278364918767506",
+        "terms_or_license": "https://npm3d.fr/paris-lille-3d"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "noncommercial_or_verify",
+        "redistribution": "license_controlled",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "Provider terms",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://npm3d.fr/paris-lille-3d"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1177/0278364918767506"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Use the official NPM3D page, review evaluation protocol, and cite the original paper.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "radish",
+      "name": "RADISH Robotics Data Set Repository",
+      "year": 2003,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "2D"
+        ],
+        "environments": [
+          "indoor",
+          "outdoor",
+          "robotics"
+        ],
+        "sensors": [
+          "planar laser",
+          "odometry",
+          "sonar"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "2D SLAM",
+        "localization",
+        "mapping"
+      ],
+      "original_contributors": "Andrew Howard and Nicholas Roy; robotics community contributors",
+      "authoritative_sources": {
+        "official_page": "https://radish.sourceforge.net/",
+        "primary_publication": "https://radish.sourceforge.net/",
+        "terms_or_license": "https://radish.sourceforge.net/"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "verify_per_log",
+        "redistribution": "verify_per_log",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "Per-log/provider terms",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://radish.sourceforge.net/"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://radish.sourceforge.net/"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Historical repository of robotics logs. Confirm attribution and any per-contribution conditions before reuse.",
+      "verification": {
+        "status": "partial",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "rellis3d",
+      "name": "RELLIS-3D",
+      "year": 2021,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "off-road",
+          "natural"
+        ],
+        "sensors": [
+          "LiDAR",
+          "cameras",
+          "GPS/IMU"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "semantic segmentation",
+        "navigation",
+        "sensor fusion"
+      ],
+      "original_contributors": "Peng Jiang et al.; Texas A&M University",
+      "authoritative_sources": {
+        "official_page": "https://github.com/unmannedlab/RELLIS-3D",
+        "primary_publication": "https://doi.org/10.1109/LRA.2020.3034974",
+        "terms_or_license": "https://github.com/unmannedlab/RELLIS-3D"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "research_use_verify",
+        "redistribution": "license_controlled",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "Repository/provider terms",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://github.com/unmannedlab/RELLIS-3D"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1109/LRA.2020.3034974"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Follow the official repository links for images, point clouds, labels, and calibration; inspect each hosted component\u2019s terms.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "robotathome",
+      "name": "Robot@Home",
+      "year": 2017,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "2D",
+          "3D"
+        ],
+        "environments": [
+          "indoor",
+          "residential"
+        ],
+        "sensors": [
+          "2D laser",
+          "RGB-D cameras",
+          "robot sensors"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "semantic mapping",
+        "object recognition",
+        "robot localization"
+      ],
+      "original_contributors": "Jos\u00e9-Ra\u00fal Ruiz-Sarmiento, Cipriano Galindo, and Javier Gonz\u00e1lez-Jim\u00e9nez; MAPIR, University of M\u00e1laga",
+      "authoritative_sources": {
+        "official_page": "https://mapir.isa.uma.es/work/robot-at-home-dataset/",
+        "primary_publication": "https://doi.org/10.1177/0278364917695640",
+        "terms_or_license": "https://mapir.isa.uma.es/work/robot-at-home-dataset/"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "research_use_verify",
+        "redistribution": "license_controlled",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "Provider terms",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://mapir.isa.uma.es/work/robot-at-home-dataset/"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1177/0278364917695640"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Mixed indoor robotics dataset. Follow official download and database tools; cite the dataset publication.",
+      "verification": {
+        "status": "partial",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "s3dis",
+      "name": "Stanford Large-Scale 3D Indoor Spaces (S3DIS)",
+      "year": 2016,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "indoor",
+          "office"
+        ],
+        "sensors": [
+          "terrestrial/RGB-D reconstructed point clouds"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "semantic segmentation",
+        "instance segmentation"
+      ],
+      "original_contributors": "Iro Armeni et al.; Stanford University",
+      "authoritative_sources": {
+        "official_page": "http://buildingparser.stanford.edu/dataset.html",
+        "primary_publication": "https://doi.org/10.1109/CVPR.2016.75",
+        "terms_or_license": "http://buildingparser.stanford.edu/dataset.html"
+      },
+      "access": {
+        "class": "AGREEMENT_REQUIRED",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": true,
+        "approval_required": true,
+        "commercial_use": "noncommercial_research_or_verify",
+        "redistribution": "restricted",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "Stanford provider agreement",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "http://buildingparser.stanford.edu/dataset.html"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1109/CVPR.2016.75"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Obtain access through the original provider procedure. Do not redistribute copies from third-party mirrors.",
+      "verification": {
+        "status": "partial",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "scannet",
+      "name": "ScanNet",
+      "year": 2017,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "indoor",
+          "residential",
+          "office"
+        ],
+        "sensors": [
+          "RGB-D reconstruction"
+        ],
+        "adjacent_non_lidar": true
+      },
+      "tasks": [
+        "semantic segmentation",
+        "instance segmentation",
+        "3D reconstruction"
+      ],
+      "original_contributors": "Angela Dai et al.; Stanford University",
+      "authoritative_sources": {
+        "official_page": "https://www.scan-net.org/",
+        "primary_publication": "https://doi.org/10.1109/CVPR.2017.261",
+        "terms_or_license": "https://www.scan-net.org/ScanNet_TOS.pdf"
+      },
+      "access": {
+        "class": "AGREEMENT_REQUIRED",
+        "cost": "free_or_provider_defined",
+        "account_required": true,
+        "agreement_required": true,
+        "approval_required": true,
+        "commercial_use": "noncommercial_research",
+        "redistribution": "prohibited_or_restricted",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "ScanNet Terms of Use",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://www.scan-net.org/ScanNet_TOS.pdf"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1109/CVPR.2017.261"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Adjacent RGB-D resource, not LiDAR. Access requires the provider agreement, typically submitted with an institutional email.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "scannetpp",
+      "name": "ScanNet++",
+      "year": 2023,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "indoor",
+          "residential",
+          "office"
+        ],
+        "sensors": [
+          "FARO laser scans",
+          "DSLR",
+          "iPhone RGB-D"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "semantic segmentation",
+        "novel view synthesis",
+        "3D reconstruction"
+      ],
+      "original_contributors": "Chandan Yeshwanth, Yueh-Cheng Liu, Matthias Nie\u00dfner, and Angela Dai",
+      "authoritative_sources": {
+        "official_page": "https://scannetpp.mlsg.cit.tum.de/scannetpp/",
+        "primary_publication": "https://arxiv.org/abs/2308.11417",
+        "terms_or_license": "https://kaldir.vc.in.tum.de/scannetpp/static/scannetpp-terms-of-use.pdf"
+      },
+      "access": {
+        "class": "FREE_REGISTERED",
+        "cost": "free_or_provider_defined",
+        "account_required": true,
+        "agreement_required": true,
+        "approval_required": false,
+        "commercial_use": "noncommercial_research",
+        "redistribution": "restricted",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "ScanNet++ Terms of Use",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://kaldir.vc.in.tum.de/scannetpp/static/scannetpp-terms-of-use.pdf"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://arxiv.org/abs/2308.11417"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Includes high-fidelity laser scans. Register and accept current official terms before downloading.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "semantic3d",
+      "name": "Semantic3D",
+      "year": 2017,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "urban",
+          "terrestrial"
+        ],
+        "sensors": [
+          "terrestrial laser scanner"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "semantic segmentation",
+        "point classification"
+      ],
+      "original_contributors": "Timo Hackel et al.; ETH Zurich",
+      "authoritative_sources": {
+        "official_page": "https://www.semantic3d.net/",
+        "primary_publication": "https://doi.org/10.5194/isprs-annals-IV-1-W1-91-2017",
+        "terms_or_license": "https://www.semantic3d.net/"
+      },
+      "access": {
+        "class": "FREE_REGISTERED",
+        "cost": "free_or_provider_defined",
+        "account_required": true,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "research_use_verify",
+        "redistribution": "restricted_or_unconfirmed",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "Semantic3D provider terms",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://www.semantic3d.net/"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.5194/isprs-annals-IV-1-W1-91-2017"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Use the official benchmark portal and follow its registration, submission, and data-use requirements.",
+      "verification": {
+        "status": "partial",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "semantickitti",
+      "name": "SemanticKITTI",
+      "year": 2019,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "urban",
+          "road"
+        ],
+        "sensors": [
+          "Velodyne HDL-64E"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "semantic segmentation",
+        "panoptic segmentation",
+        "scene completion"
+      ],
+      "original_contributors": "Jens Behley, Martin Garbade, Andres Milioto, Jan Quenzel, Sven Behnke, C. Stachniss, and J. Gall",
+      "authoritative_sources": {
+        "official_page": "https://semantic-kitti.org/",
+        "primary_publication": "https://doi.org/10.1109/ICCV.2019.00939",
+        "terms_or_license": "https://semantic-kitti.org/dataset.html"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "noncommercial_research",
+        "redistribution": "restricted",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "CC BY-NC-SA 3.0 for annotations; KITTI terms also apply",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://semantic-kitti.org/dataset.html"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1109/ICCV.2019.00939"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Users obtain KITTI odometry sensor data separately, then place SemanticKITTI labels into the matching sequence structure.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "semanticposs",
+      "name": "SemanticPOSS",
+      "year": 2020,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "campus",
+          "road"
+        ],
+        "sensors": [
+          "Pandora 40-line LiDAR"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "semantic segmentation"
+      ],
+      "original_contributors": "Yue Wang et al.; Peking University",
+      "authoritative_sources": {
+        "official_page": "http://www.poss.pku.edu.cn/",
+        "primary_publication": "https://doi.org/10.1109/IV47402.2020.9304594",
+        "terms_or_license": "http://www.poss.pku.edu.cn/"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "research_use_verify",
+        "redistribution": "not_confirmed",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "Provider terms; verify",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "http://www.poss.pku.edu.cn/"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1109/IV47402.2020.9304594"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "The official site can be intermittent. Do not substitute an unofficial mirror without provider authorization.",
+      "verification": {
+        "status": "partial",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "sensaturban",
+      "name": "SensatUrban",
+      "year": 2021,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "aerial",
+          "urban"
+        ],
+        "sensors": [
+          "photogrammetric point cloud"
+        ],
+        "adjacent_non_lidar": true
+      },
+      "tasks": [
+        "semantic segmentation",
+        "urban mapping"
+      ],
+      "original_contributors": "Qingyong Hu et al.; University of Oxford",
+      "authoritative_sources": {
+        "official_page": "https://github.com/QingyongHu/SensatUrban",
+        "primary_publication": "https://doi.org/10.1109/CVPR46437.2021.01148",
+        "terms_or_license": "https://github.com/QingyongHu/SensatUrban"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "research_use_verify",
+        "redistribution": "license_controlled",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "Provider/repository terms",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://github.com/QingyongHu/SensatUrban"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1109/CVPR46437.2021.01148"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Adjacent resource: point clouds are photogrammetric, not LiDAR. It is included for transferable 3D learning comparisons and labeled accordingly.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "toronto3d",
+      "name": "Toronto-3D",
+      "year": 2020,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "urban",
+          "mobile-mapping"
+        ],
+        "sensors": [
+          "mobile laser scanning"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "semantic segmentation",
+        "urban mapping"
+      ],
+      "original_contributors": "Weikai Tan et al.; University of Waterloo",
+      "authoritative_sources": {
+        "official_page": "https://github.com/WeikaiTan/Toronto-3D",
+        "primary_publication": "https://doi.org/10.1109/CVPRW50498.2020.00139",
+        "terms_or_license": "https://github.com/WeikaiTan/Toronto-3D"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "research_use_verify",
+        "redistribution": "license_controlled",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "Repository/provider terms",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://github.com/WeikaiTan/Toronto-3D"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1109/CVPRW50498.2020.00139"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Official repository provides project information and designated download links. Verify dataset and code licenses independently.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "usgs-3dep",
+      "name": "USGS 3D Elevation Program (3DEP)",
+      "year": 2015,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "aerial",
+          "national-scale"
+        ],
+        "sensors": [
+          "airborne LiDAR"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "terrain modeling",
+        "forestry",
+        "infrastructure",
+        "flood mapping"
+      ],
+      "original_contributors": "United States Geological Survey",
+      "authoritative_sources": {
+        "official_page": "https://www.usgs.gov/3d-elevation-program",
+        "primary_publication": "https://www.usgs.gov/3d-elevation-program",
+        "terms_or_license": "https://www.usgs.gov/3d-elevation-program"
+      },
+      "access": {
+        "class": "OPEN_DIRECT",
+        "cost": "free_or_provider_defined",
+        "account_required": false,
+        "agreement_required": false,
+        "approval_required": false,
+        "commercial_use": "generally_permitted_subject_to_source_status",
+        "redistribution": "generally_permitted_with_attribution_and_notices",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "U.S. government data; check item-level metadata",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://www.usgs.gov/3d-elevation-program"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://www.usgs.gov/3d-elevation-program"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Download through The National Map or official cloud access. Check item-level metadata because partner-supplied components can carry additional notices.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    },
+    {
+      "id": "waymo-open",
+      "name": "Waymo Open Dataset",
+      "year": 2019,
+      "resource_type": "dataset",
+      "scope": {
+        "dimensions": [
+          "3D"
+        ],
+        "environments": [
+          "outdoor",
+          "urban",
+          "road"
+        ],
+        "sensors": [
+          "multiple LiDARs",
+          "cameras"
+        ],
+        "adjacent_non_lidar": false
+      },
+      "tasks": [
+        "3D detection",
+        "tracking",
+        "motion forecasting",
+        "segmentation"
+      ],
+      "original_contributors": "Pei Sun et al.; Waymo LLC",
+      "authoritative_sources": {
+        "official_page": "https://waymo.com/open/",
+        "primary_publication": "https://doi.org/10.1109/CVPR42600.2020.00252",
+        "terms_or_license": "https://waymo.com/open/terms/"
+      },
+      "access": {
+        "class": "FREE_REGISTERED",
+        "cost": "free_or_provider_defined",
+        "account_required": true,
+        "agreement_required": true,
+        "approval_required": false,
+        "commercial_use": "noncommercial_research_under_dataset_terms",
+        "redistribution": "restricted",
+        "automated_download": "use_only_provider_supported_methods"
+      },
+      "license": {
+        "name": "Waymo Open Dataset License Agreement",
+        "scope": "dataset/annotations; code and weights may differ",
+        "authoritative_url": "https://waymo.com/open/terms/"
+      },
+      "citation": {
+        "instruction": "Cite the original dataset publication and any additional provider-required references. Cite the atlas separately only when its curation or guidance was used.",
+        "recommended_source": "https://doi.org/10.1109/CVPR42600.2020.00252"
+      },
+      "download_guide": {
+        "steps": [
+          "Open the official page linked above.",
+          "Read the current provider terms and confirm eligibility.",
+          "Create an account or submit the provider agreement when required.",
+          "Download only through provider-supported links or tools.",
+          "Obtain labels, calibration, maps, and development kits from their separately identified official sources.",
+          "Verify file integrity when provider checksums are available.",
+          "Preserve the original folder structure and citation notice."
+        ],
+        "atlas_hosts_files": false,
+        "atlas_mirrors_files": false
+      },
+      "notes": "Dataset terms are separate from licenses for code in Waymo repositories. Do not describe the dataset as open-source.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03",
+        "source_standard": "authoritative provider page and primary publication"
+      }
+    }
+  ],
+  "methods": [
+    {
+      "id": "cartographer",
+      "name": "Google Cartographer",
+      "year": 2016,
+      "resource_type": "method",
+      "category": "2D/3D SLAM",
+      "representation": "submaps, scan matching, pose graph",
+      "original_authors": "Wolfgang Hess et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/ICRA.2016.7487258",
+        "implementation": "https://github.com/cartographer-project/cartographer"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "Apache-2.0",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/cartographer-project/cartographer"
+      },
+      "commonly_evaluated_on": [],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/ICRA.2016.7487258"
+      },
+      "notes": "Official project is maintained as open-source software; ROS integration is a separate repository.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "cylinder3d",
+      "name": "Cylinder3D",
+      "year": 2021,
+      "resource_type": "method",
+      "category": "LiDAR semantic segmentation",
+      "representation": "cylindrical voxel partition and sparse convolution",
+      "original_authors": "Xinge Zhu et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/CVPR46437.2021.00919",
+        "implementation": "https://github.com/xinge008/Cylinder3D"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "Apache-2.0",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/xinge008/Cylinder3D"
+      },
+      "commonly_evaluated_on": [
+        "SemanticKITTI",
+        "nuScenes"
+      ],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/CVPR46437.2021.00919"
+      },
+      "notes": "",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "depthcontrast",
+      "name": "DepthContrast",
+      "year": 2021,
+      "resource_type": "method",
+      "category": "Self-supervised 3D learning",
+      "representation": "contrastive learning from depth/point clouds",
+      "original_authors": "Pri3D/DepthContrast authors led by Zaiwei Zhang et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/ICCV48922.2021.00348",
+        "implementation": "https://github.com/facebookresearch/DepthContrast"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "CC BY-NC 4.0 / repository-specific; verify",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/facebookresearch/DepthContrast"
+      },
+      "commonly_evaluated_on": [],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/ICCV48922.2021.00348"
+      },
+      "notes": "Archived research repository; verify code and model terms separately.",
+      "verification": {
+        "status": "partial",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "fast-lio2",
+      "name": "FAST-LIO2",
+      "year": 2022,
+      "resource_type": "method",
+      "category": "LiDAR-inertial odometry",
+      "representation": "direct point-to-map, iterated Kalman filter",
+      "original_authors": "Wei Xu et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/TRO.2022.3141876",
+        "implementation": "https://github.com/hku-mars/FAST_LIO"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "GPL-2.0",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/hku-mars/FAST_LIO"
+      },
+      "commonly_evaluated_on": [],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/TRO.2022.3141876"
+      },
+      "notes": "Official research-group implementation. GPL obligations apply to derivative distribution.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "gmapping",
+      "name": "GMapping / OpenSLAM GMapping",
+      "year": 2007,
+      "resource_type": "method",
+      "category": "2D SLAM",
+      "representation": "Rao-Blackwellized particle filter",
+      "original_authors": "Giorgio Grisetti, Cyrill Stachniss, and Wolfram Burgard",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/TRO.2007.896411",
+        "implementation": "https://openslam-org.github.io/gmapping.html"
+      },
+      "implementation": {
+        "relationship": "canonical_project_page",
+        "license": "See repository license",
+        "weights_terms": "verify separately",
+        "repository": "https://openslam-org.github.io/gmapping.html"
+      },
+      "commonly_evaluated_on": [],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/TRO.2007.896411"
+      },
+      "notes": "Foundational 2D laser SLAM; ROS wrappers are separate integrations.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "hector-slam",
+      "name": "Hector SLAM",
+      "year": 2011,
+      "resource_type": "method",
+      "category": "2D SLAM",
+      "representation": "scan matching without wheel odometry",
+      "original_authors": "Stefan Kohlbrecher et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/SSRR.2011.6106777",
+        "implementation": "https://github.com/tu-darmstadt-ros-pkg/hector_slam"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "BSD-style; verify repository",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/tu-darmstadt-ros-pkg/hector_slam"
+      },
+      "commonly_evaluated_on": [],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/SSRR.2011.6106777"
+      },
+      "notes": "Designed for high-rate planar laser scan matching.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "kpconv",
+      "name": "KPConv",
+      "year": 2019,
+      "resource_type": "method",
+      "category": "3D semantic segmentation",
+      "representation": "kernel point convolution",
+      "original_authors": "Hugues Thomas et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/ICCV.2019.00651",
+        "implementation": "https://github.com/HuguesTHOMAS/KPConv-PyTorch"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "MIT",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/HuguesTHOMAS/KPConv-PyTorch"
+      },
+      "commonly_evaluated_on": [
+        "Semantic3D",
+        "S3DIS",
+        "ModelNet40"
+      ],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/ICCV.2019.00651"
+      },
+      "notes": "",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "lasermix",
+      "name": "LaserMix",
+      "year": 2023,
+      "resource_type": "method",
+      "category": "Semi-supervised LiDAR segmentation",
+      "representation": "scene mixing with spatial priors",
+      "original_authors": "Lingdong Kong et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/CVPR52729.2023.02077",
+        "implementation": "https://github.com/ldkong1205/LaserMix"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "Apache-2.0",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/ldkong1205/LaserMix"
+      },
+      "commonly_evaluated_on": [
+        "SemanticKITTI",
+        "nuScenes"
+      ],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/CVPR52729.2023.02077"
+      },
+      "notes": "",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "lego-loam",
+      "name": "LeGO-LOAM",
+      "year": 2018,
+      "resource_type": "method",
+      "category": "LiDAR odometry and mapping",
+      "representation": "ground-optimized feature-based LiDAR",
+      "original_authors": "Tixiao Shan and Brendan Englot",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/IROS.2018.8594299",
+        "implementation": "https://github.com/RobustFieldAutonomyLab/LeGO-LOAM"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "BSD-3-Clause",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/RobustFieldAutonomyLab/LeGO-LOAM"
+      },
+      "commonly_evaluated_on": [],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/IROS.2018.8594299"
+      },
+      "notes": "Author-lab implementation for lightweight ground vehicle LiDAR odometry.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "lio-sam",
+      "name": "LIO-SAM",
+      "year": 2020,
+      "resource_type": "method",
+      "category": "LiDAR-inertial odometry",
+      "representation": "factor graph, LiDAR and IMU",
+      "original_authors": "Tixiao Shan et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/IROS45743.2020.9341176",
+        "implementation": "https://github.com/TixiaoShan/LIO-SAM"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "BSD-3-Clause",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/TixiaoShan/LIO-SAM"
+      },
+      "commonly_evaluated_on": [],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/IROS45743.2020.9341176"
+      },
+      "notes": "Author-maintained implementation; review sensor assumptions and dependencies.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "loam",
+      "name": "LOAM",
+      "year": 2014,
+      "resource_type": "method",
+      "category": "LiDAR odometry and mapping",
+      "representation": "feature-based 3D LiDAR",
+      "original_authors": "Ji Zhang and Sanjiv Singh",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.15607/RSS.2014.X.007",
+        "implementation": "https://github.com/laboshinl/loam_velodyne"
+      },
+      "implementation": {
+        "relationship": "community_reimplementation",
+        "license": "Verify repository",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/laboshinl/loam_velodyne"
+      },
+      "commonly_evaluated_on": [],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.15607/RSS.2014.X.007"
+      },
+      "notes": "The linked repository is a community implementation, not the original authors\u2019 official code.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "maskpoint",
+      "name": "MaskPoint",
+      "year": 2022,
+      "resource_type": "method",
+      "category": "Self-supervised 3D learning",
+      "representation": "masked point discrimination",
+      "original_authors": "Renrui Zhang et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1007/978-3-031-20086-1_13",
+        "implementation": "https://github.com/WisconsinAIVision/MaskPoint"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "Verify repository",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/WisconsinAIVision/MaskPoint"
+      },
+      "commonly_evaluated_on": [],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1007/978-3-031-20086-1_13"
+      },
+      "notes": "",
+      "verification": {
+        "status": "partial",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "minkowski-engine",
+      "name": "MinkowskiEngine",
+      "year": 2019,
+      "resource_type": "method",
+      "category": "Sparse 3D deep learning",
+      "representation": "generalized sparse convolution",
+      "original_authors": "Christopher Choy et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/CVPR.2019.00325",
+        "implementation": "https://github.com/NVIDIA/MinkowskiEngine"
+      },
+      "implementation": {
+        "relationship": "official_framework",
+        "license": "MIT",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/NVIDIA/MinkowskiEngine"
+      },
+      "commonly_evaluated_on": [],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/CVPR.2019.00325"
+      },
+      "notes": "Research framework rather than a single task method; downstream model licenses and weights differ.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "point-bert",
+      "name": "Point-BERT",
+      "year": 2022,
+      "resource_type": "method",
+      "category": "Self-supervised 3D learning",
+      "representation": "masked point-token modeling",
+      "original_authors": "Xumin Yu et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/CVPR52688.2022.01942",
+        "implementation": "https://github.com/lulutang0608/Point-BERT"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "MIT",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/lulutang0608/Point-BERT"
+      },
+      "commonly_evaluated_on": [
+        "ModelNet40",
+        "ScanObjectNN",
+        "ShapeNetPart"
+      ],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/CVPR52688.2022.01942"
+      },
+      "notes": "",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "point-mae",
+      "name": "Point-MAE",
+      "year": 2022,
+      "resource_type": "method",
+      "category": "Self-supervised 3D learning",
+      "representation": "masked autoencoding for point clouds",
+      "original_authors": "Yatian Pang et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1007/978-3-031-19821-2_28",
+        "implementation": "https://github.com/Pang-Yatian/Point-MAE"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "MIT",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/Pang-Yatian/Point-MAE"
+      },
+      "commonly_evaluated_on": [
+        "ModelNet40",
+        "ScanObjectNN",
+        "ShapeNetPart"
+      ],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1007/978-3-031-19821-2_28"
+      },
+      "notes": "",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "point-transformer",
+      "name": "Point Transformer",
+      "year": 2021,
+      "resource_type": "method",
+      "category": "3D representation learning",
+      "representation": "vector attention over point neighborhoods",
+      "original_authors": "Hengshuang Zhao et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/ICCV48922.2021.01557",
+        "implementation": "https://github.com/POSTECH-CVLab/point-transformer"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "MIT",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/POSTECH-CVLab/point-transformer"
+      },
+      "commonly_evaluated_on": [
+        "S3DIS",
+        "ModelNet40",
+        "ShapeNetPart"
+      ],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/ICCV48922.2021.01557"
+      },
+      "notes": "",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "pointnet",
+      "name": "PointNet",
+      "year": 2017,
+      "resource_type": "method",
+      "category": "3D representation learning",
+      "representation": "raw points, shared MLP, symmetric aggregation",
+      "original_authors": "Charles R. Qi et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/CVPR.2017.16",
+        "implementation": "https://github.com/charlesq34/pointnet"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "MIT",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/charlesq34/pointnet"
+      },
+      "commonly_evaluated_on": [
+        "ModelNet40",
+        "ShapeNet",
+        "S3DIS"
+      ],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/CVPR.2017.16"
+      },
+      "notes": "",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "pointnet2",
+      "name": "PointNet++",
+      "year": 2017,
+      "resource_type": "method",
+      "category": "3D representation learning",
+      "representation": "hierarchical point neighborhoods",
+      "original_authors": "Charles R. Qi et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.48550/arXiv.1706.02413",
+        "implementation": "https://github.com/charlesq34/pointnet2"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "MIT",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/charlesq34/pointnet2"
+      },
+      "commonly_evaluated_on": [
+        "ModelNet40",
+        "ShapeNet",
+        "S3DIS"
+      ],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.48550/arXiv.1706.02413"
+      },
+      "notes": "",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "pointnext",
+      "name": "PointNeXt",
+      "year": 2022,
+      "resource_type": "method",
+      "category": "3D representation learning",
+      "representation": "modernized PointNet++ design",
+      "original_authors": "Guocheng Qian et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.48550/arXiv.2206.04670",
+        "implementation": "https://github.com/guochengqian/PointNeXt"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "MIT",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/guochengqian/PointNeXt"
+      },
+      "commonly_evaluated_on": [
+        "ScanObjectNN",
+        "ModelNet40",
+        "S3DIS"
+      ],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.48550/arXiv.2206.04670"
+      },
+      "notes": "",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "pointpillars",
+      "name": "PointPillars",
+      "year": 2019,
+      "resource_type": "method",
+      "category": "3D object detection",
+      "representation": "pillarized point cloud pseudo-image",
+      "original_authors": "Alex H. Lang et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/CVPR.2019.01298",
+        "implementation": "https://github.com/open-mmlab/OpenPCDet"
+      },
+      "implementation": {
+        "relationship": "framework_integration",
+        "license": "Apache-2.0 for OpenPCDet",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/open-mmlab/OpenPCDet"
+      },
+      "commonly_evaluated_on": [
+        "KITTI"
+      ],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/CVPR.2019.01298"
+      },
+      "notes": "The linked codebase is a widely used framework implementation, not the original authors\u2019 repository.",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "polarnet",
+      "name": "PolarNet",
+      "year": 2020,
+      "resource_type": "method",
+      "category": "LiDAR semantic segmentation",
+      "representation": "polar bird\u2019s-eye-view grid",
+      "original_authors": "Yang Zhang et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/CVPR42600.2020.00962",
+        "implementation": "https://github.com/edwardzhou130/PolarSeg"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "MIT",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/edwardzhou130/PolarSeg"
+      },
+      "commonly_evaluated_on": [
+        "SemanticKITTI"
+      ],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/CVPR42600.2020.00962"
+      },
+      "notes": "",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "pv-rcnn",
+      "name": "PV-RCNN",
+      "year": 2020,
+      "resource_type": "method",
+      "category": "3D object detection",
+      "representation": "point-voxel feature aggregation",
+      "original_authors": "Shaoshuai Shi et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/CVPR42600.2020.01056",
+        "implementation": "https://github.com/open-mmlab/OpenPCDet"
+      },
+      "implementation": {
+        "relationship": "official_or_framework_integration",
+        "license": "Apache-2.0",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/open-mmlab/OpenPCDet"
+      },
+      "commonly_evaluated_on": [
+        "KITTI",
+        "Waymo"
+      ],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/CVPR42600.2020.01056"
+      },
+      "notes": "",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "randlanet",
+      "name": "RandLA-Net",
+      "year": 2020,
+      "resource_type": "method",
+      "category": "3D semantic segmentation",
+      "representation": "random sampling and local feature aggregation",
+      "original_authors": "Qingyong Hu et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/CVPR42600.2020.01117",
+        "implementation": "https://github.com/QingyongHu/RandLA-Net"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "MIT",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/QingyongHu/RandLA-Net"
+      },
+      "commonly_evaluated_on": [
+        "Semantic3D",
+        "SemanticKITTI",
+        "S3DIS",
+        "Toronto-3D"
+      ],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/CVPR42600.2020.01117"
+      },
+      "notes": "",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "rangenetpp",
+      "name": "RangeNet++",
+      "year": 2019,
+      "resource_type": "method",
+      "category": "LiDAR semantic segmentation",
+      "representation": "range image projection and post-processing",
+      "original_authors": "Andres Milioto et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/IROS40897.2019.8967762",
+        "implementation": "https://github.com/PRBonn/lidar-bonnetal"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "MIT",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/PRBonn/lidar-bonnetal"
+      },
+      "commonly_evaluated_on": [
+        "SemanticKITTI"
+      ],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/IROS40897.2019.8967762"
+      },
+      "notes": "",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "salsanext",
+      "name": "SalsaNext",
+      "year": 2020,
+      "resource_type": "method",
+      "category": "LiDAR semantic segmentation",
+      "representation": "uncertainty-aware range image CNN",
+      "original_authors": "Tiago Cortinhal, George Tzelepis, and Eren Erdal Aksoy",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1007/978-3-030-58529-7_12",
+        "implementation": "https://github.com/TiagoCortinhal/SalsaNext"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "MIT",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/TiagoCortinhal/SalsaNext"
+      },
+      "commonly_evaluated_on": [
+        "SemanticKITTI"
+      ],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1007/978-3-030-58529-7_12"
+      },
+      "notes": "",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "sphereformer",
+      "name": "SphereFormer",
+      "year": 2023,
+      "resource_type": "method",
+      "category": "LiDAR semantic segmentation",
+      "representation": "spherical transformer windows",
+      "original_authors": "Xin Lai et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1109/CVPR52729.2023.00342",
+        "implementation": "https://github.com/dvlab-research/SphereFormer"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "Apache-2.0",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/dvlab-research/SphereFormer"
+      },
+      "commonly_evaluated_on": [
+        "SemanticKITTI",
+        "nuScenes",
+        "Waymo"
+      ],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1109/CVPR52729.2023.00342"
+      },
+      "notes": "",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    },
+    {
+      "id": "spvnas",
+      "name": "SPVNAS / SPVCNN",
+      "year": 2020,
+      "resource_type": "method",
+      "category": "Efficient 3D perception",
+      "representation": "sparse point-voxel convolution",
+      "original_authors": "Haotian Tang et al.",
+      "authoritative_sources": {
+        "primary_publication": "https://doi.org/10.1007/978-3-030-58586-0_39",
+        "implementation": "https://github.com/mit-han-lab/spvnas"
+      },
+      "implementation": {
+        "relationship": "official_or_author_maintained",
+        "license": "MIT",
+        "weights_terms": "verify separately",
+        "repository": "https://github.com/mit-han-lab/spvnas"
+      },
+      "commonly_evaluated_on": [
+        "SemanticKITTI",
+        "KITTI"
+      ],
+      "citation": {
+        "instruction": "Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite this atlas only for its curation, taxonomy, or analysis.",
+        "recommended_source": "https://doi.org/10.1007/978-3-030-58586-0_39"
+      },
+      "notes": "",
+      "verification": {
+        "status": "verified",
+        "last_checked": "2026-08-03"
+      }
+    }
+  ]
+}

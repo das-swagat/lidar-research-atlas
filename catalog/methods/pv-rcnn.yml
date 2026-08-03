@@ -1,0 +1,26 @@
+id: pv-rcnn
+name: PV-RCNN
+year: 2020
+resource_type: method
+category: 3D object detection
+representation: point-voxel feature aggregation
+original_authors: Shaoshuai Shi et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.1109/CVPR42600.2020.01056
+  implementation: https://github.com/open-mmlab/OpenPCDet
+implementation:
+  relationship: official_or_framework_integration
+  license: Apache-2.0
+  weights_terms: verify separately
+  repository: https://github.com/open-mmlab/OpenPCDet
+commonly_evaluated_on:
+- KITTI
+- Waymo
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1109/CVPR42600.2020.01056
+notes: ''
+verification:
+  status: verified
+  last_checked: '2026-08-03'

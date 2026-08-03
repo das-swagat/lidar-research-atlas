@@ -1,0 +1,54 @@
+id: semanticposs
+name: SemanticPOSS
+year: 2020
+resource_type: dataset
+scope:
+  dimensions:
+  - 3D
+  environments:
+  - outdoor
+  - campus
+  - road
+  sensors:
+  - Pandora 40-line LiDAR
+  adjacent_non_lidar: false
+tasks:
+- semantic segmentation
+original_contributors: Yue Wang et al.; Peking University
+authoritative_sources:
+  official_page: http://www.poss.pku.edu.cn/
+  primary_publication: https://doi.org/10.1109/IV47402.2020.9304594
+  terms_or_license: http://www.poss.pku.edu.cn/
+access:
+  class: OPEN_DIRECT
+  cost: free_or_provider_defined
+  account_required: false
+  agreement_required: false
+  approval_required: false
+  commercial_use: research_use_verify
+  redistribution: not_confirmed
+  automated_download: use_only_provider_supported_methods
+license:
+  name: Provider terms; verify
+  scope: dataset/annotations; code and weights may differ
+  authoritative_url: http://www.poss.pku.edu.cn/
+citation:
+  instruction: Cite the original dataset publication and any additional provider-required references. Cite the atlas
+    separately only when its curation or guidance was used.
+  recommended_source: https://doi.org/10.1109/IV47402.2020.9304594
+download_guide:
+  steps:
+  - Open the official page linked above.
+  - Read the current provider terms and confirm eligibility.
+  - Create an account or submit the provider agreement when required.
+  - Download only through provider-supported links or tools.
+  - Obtain labels, calibration, maps, and development kits from their separately identified official sources.
+  - Verify file integrity when provider checksums are available.
+  - Preserve the original folder structure and citation notice.
+  atlas_hosts_files: false
+  atlas_mirrors_files: false
+notes: The official site can be intermittent. Do not substitute an unofficial mirror without provider authorization.
+verification:
+  status: partial
+  last_checked: '2026-08-03'
+  source_standard: authoritative provider page and primary publication

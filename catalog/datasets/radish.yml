@@ -1,0 +1,58 @@
+id: radish
+name: RADISH Robotics Data Set Repository
+year: 2003
+resource_type: dataset
+scope:
+  dimensions:
+  - 2D
+  environments:
+  - indoor
+  - outdoor
+  - robotics
+  sensors:
+  - planar laser
+  - odometry
+  - sonar
+  adjacent_non_lidar: false
+tasks:
+- 2D SLAM
+- localization
+- mapping
+original_contributors: Andrew Howard and Nicholas Roy; robotics community contributors
+authoritative_sources:
+  official_page: https://radish.sourceforge.net/
+  primary_publication: https://radish.sourceforge.net/
+  terms_or_license: https://radish.sourceforge.net/
+access:
+  class: OPEN_DIRECT
+  cost: free_or_provider_defined
+  account_required: false
+  agreement_required: false
+  approval_required: false
+  commercial_use: verify_per_log
+  redistribution: verify_per_log
+  automated_download: use_only_provider_supported_methods
+license:
+  name: Per-log/provider terms
+  scope: dataset/annotations; code and weights may differ
+  authoritative_url: https://radish.sourceforge.net/
+citation:
+  instruction: Cite the original dataset publication and any additional provider-required references. Cite the atlas
+    separately only when its curation or guidance was used.
+  recommended_source: https://radish.sourceforge.net/
+download_guide:
+  steps:
+  - Open the official page linked above.
+  - Read the current provider terms and confirm eligibility.
+  - Create an account or submit the provider agreement when required.
+  - Download only through provider-supported links or tools.
+  - Obtain labels, calibration, maps, and development kits from their separately identified official sources.
+  - Verify file integrity when provider checksums are available.
+  - Preserve the original folder structure and citation notice.
+  atlas_hosts_files: false
+  atlas_mirrors_files: false
+notes: Historical repository of robotics logs. Confirm attribution and any per-contribution conditions before reuse.
+verification:
+  status: partial
+  last_checked: '2026-08-03'
+  source_standard: authoritative provider page and primary publication

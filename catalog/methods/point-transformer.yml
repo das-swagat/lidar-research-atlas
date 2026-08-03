@@ -1,0 +1,27 @@
+id: point-transformer
+name: Point Transformer
+year: 2021
+resource_type: method
+category: 3D representation learning
+representation: vector attention over point neighborhoods
+original_authors: Hengshuang Zhao et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.1109/ICCV48922.2021.01557
+  implementation: https://github.com/POSTECH-CVLab/point-transformer
+implementation:
+  relationship: official_or_author_maintained
+  license: MIT
+  weights_terms: verify separately
+  repository: https://github.com/POSTECH-CVLab/point-transformer
+commonly_evaluated_on:
+- S3DIS
+- ModelNet40
+- ShapeNetPart
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1109/ICCV48922.2021.01557
+notes: ''
+verification:
+  status: verified
+  last_checked: '2026-08-03'

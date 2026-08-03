@@ -1,0 +1,25 @@
+id: polarnet
+name: PolarNet
+year: 2020
+resource_type: method
+category: LiDAR semantic segmentation
+representation: polar bird’s-eye-view grid
+original_authors: Yang Zhang et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.1109/CVPR42600.2020.00962
+  implementation: https://github.com/edwardzhou130/PolarSeg
+implementation:
+  relationship: official_or_author_maintained
+  license: MIT
+  weights_terms: verify separately
+  repository: https://github.com/edwardzhou130/PolarSeg
+commonly_evaluated_on:
+- SemanticKITTI
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1109/CVPR42600.2020.00962
+notes: ''
+verification:
+  status: verified
+  last_checked: '2026-08-03'

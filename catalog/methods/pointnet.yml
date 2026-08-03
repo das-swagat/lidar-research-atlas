@@ -1,0 +1,27 @@
+id: pointnet
+name: PointNet
+year: 2017
+resource_type: method
+category: 3D representation learning
+representation: raw points, shared MLP, symmetric aggregation
+original_authors: Charles R. Qi et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.1109/CVPR.2017.16
+  implementation: https://github.com/charlesq34/pointnet
+implementation:
+  relationship: official_or_author_maintained
+  license: MIT
+  weights_terms: verify separately
+  repository: https://github.com/charlesq34/pointnet
+commonly_evaluated_on:
+- ModelNet40
+- ShapeNet
+- S3DIS
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1109/CVPR.2017.16
+notes: ''
+verification:
+  status: verified
+  last_checked: '2026-08-03'

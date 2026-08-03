@@ -1,0 +1,9 @@
+id: usgs-national-map
+name: USGS National Map Downloader
+resource_type: portal
+url: https://apps.nationalmap.gov/downloader/
+purpose: Official discovery and download interface for U.S. geospatial products including 3DEP.
+legal_note: Review item-level metadata and notices.
+verification:
+  status: verified
+  last_checked: '2026-08-03'

@@ -1,0 +1,24 @@
+id: minkowski-engine
+name: MinkowskiEngine
+year: 2019
+resource_type: method
+category: Sparse 3D deep learning
+representation: generalized sparse convolution
+original_authors: Christopher Choy et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.1109/CVPR.2019.00325
+  implementation: https://github.com/NVIDIA/MinkowskiEngine
+implementation:
+  relationship: official_framework
+  license: MIT
+  weights_terms: verify separately
+  repository: https://github.com/NVIDIA/MinkowskiEngine
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1109/CVPR.2019.00325
+notes: Research framework rather than a single task method; downstream model licenses and weights differ.
+verification:
+  status: verified
+  last_checked: '2026-08-03'

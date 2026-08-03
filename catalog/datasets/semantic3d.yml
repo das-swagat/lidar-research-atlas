@@ -1,0 +1,55 @@
+id: semantic3d
+name: Semantic3D
+year: 2017
+resource_type: dataset
+scope:
+  dimensions:
+  - 3D
+  environments:
+  - outdoor
+  - urban
+  - terrestrial
+  sensors:
+  - terrestrial laser scanner
+  adjacent_non_lidar: false
+tasks:
+- semantic segmentation
+- point classification
+original_contributors: Timo Hackel et al.; ETH Zurich
+authoritative_sources:
+  official_page: https://www.semantic3d.net/
+  primary_publication: https://doi.org/10.5194/isprs-annals-IV-1-W1-91-2017
+  terms_or_license: https://www.semantic3d.net/
+access:
+  class: FREE_REGISTERED
+  cost: free_or_provider_defined
+  account_required: true
+  agreement_required: false
+  approval_required: false
+  commercial_use: research_use_verify
+  redistribution: restricted_or_unconfirmed
+  automated_download: use_only_provider_supported_methods
+license:
+  name: Semantic3D provider terms
+  scope: dataset/annotations; code and weights may differ
+  authoritative_url: https://www.semantic3d.net/
+citation:
+  instruction: Cite the original dataset publication and any additional provider-required references. Cite the atlas
+    separately only when its curation or guidance was used.
+  recommended_source: https://doi.org/10.5194/isprs-annals-IV-1-W1-91-2017
+download_guide:
+  steps:
+  - Open the official page linked above.
+  - Read the current provider terms and confirm eligibility.
+  - Create an account or submit the provider agreement when required.
+  - Download only through provider-supported links or tools.
+  - Obtain labels, calibration, maps, and development kits from their separately identified official sources.
+  - Verify file integrity when provider checksums are available.
+  - Preserve the original folder structure and citation notice.
+  atlas_hosts_files: false
+  atlas_mirrors_files: false
+notes: Use the official benchmark portal and follow its registration, submission, and data-use requirements.
+verification:
+  status: partial
+  last_checked: '2026-08-03'
+  source_standard: authoritative provider page and primary publication

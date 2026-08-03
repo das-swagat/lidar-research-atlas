@@ -1,0 +1,55 @@
+id: paris-lille-3d
+name: Paris-Lille-3D
+year: 2018
+resource_type: dataset
+scope:
+  dimensions:
+  - 3D
+  environments:
+  - outdoor
+  - urban
+  - mobile-mapping
+  sensors:
+  - mobile laser scanning
+  adjacent_non_lidar: false
+tasks:
+- semantic segmentation
+- classification
+original_contributors: Xavier Roynard, Jean-Emmanuel Deschaud, and François Goulette
+authoritative_sources:
+  official_page: https://npm3d.fr/paris-lille-3d
+  primary_publication: https://doi.org/10.1177/0278364918767506
+  terms_or_license: https://npm3d.fr/paris-lille-3d
+access:
+  class: OPEN_DIRECT
+  cost: free_or_provider_defined
+  account_required: false
+  agreement_required: false
+  approval_required: false
+  commercial_use: noncommercial_or_verify
+  redistribution: license_controlled
+  automated_download: use_only_provider_supported_methods
+license:
+  name: Provider terms
+  scope: dataset/annotations; code and weights may differ
+  authoritative_url: https://npm3d.fr/paris-lille-3d
+citation:
+  instruction: Cite the original dataset publication and any additional provider-required references. Cite the atlas
+    separately only when its curation or guidance was used.
+  recommended_source: https://doi.org/10.1177/0278364918767506
+download_guide:
+  steps:
+  - Open the official page linked above.
+  - Read the current provider terms and confirm eligibility.
+  - Create an account or submit the provider agreement when required.
+  - Download only through provider-supported links or tools.
+  - Obtain labels, calibration, maps, and development kits from their separately identified official sources.
+  - Verify file integrity when provider checksums are available.
+  - Preserve the original folder structure and citation notice.
+  atlas_hosts_files: false
+  atlas_mirrors_files: false
+notes: Use the official NPM3D page, review evaluation protocol, and cite the original paper.
+verification:
+  status: verified
+  last_checked: '2026-08-03'
+  source_standard: authoritative provider page and primary publication

@@ -1,0 +1,31 @@
+name: Add a dataset
+about: Propose a dataset using authoritative sources
+labels: [dataset, curation]
+body:
+  - type: input
+    id: name
+    attributes: {label: Dataset name}
+    validations: {required: true}
+  - type: input
+    id: official
+    attributes: {label: Official provider page}
+    validations: {required: true}
+  - type: input
+    id: paper
+    attributes: {label: Primary publication or DOI}
+    validations: {required: true}
+  - type: input
+    id: terms
+    attributes: {label: Current terms or license source}
+    validations: {required: true}
+  - type: textarea
+    id: access
+    attributes: {label: Access procedure and restrictions, description: Describe account, agreement, approval, commercial use, and redistribution separately.}
+    validations: {required: true}
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I will not upload dataset files, labels, credentials, signed links, model weights, or copied figures.
+          required: true

@@ -1,0 +1,24 @@
+id: maskpoint
+name: MaskPoint
+year: 2022
+resource_type: method
+category: Self-supervised 3D learning
+representation: masked point discrimination
+original_authors: Renrui Zhang et al.
+authoritative_sources:
+  primary_publication: https://doi.org/10.1007/978-3-031-20086-1_13
+  implementation: https://github.com/WisconsinAIVision/MaskPoint
+implementation:
+  relationship: official_or_author_maintained
+  license: Verify repository
+  weights_terms: verify separately
+  repository: https://github.com/WisconsinAIVision/MaskPoint
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper. Cite the implementation separately when requested by its maintainers. Cite
+    this atlas only for its curation, taxonomy, or analysis.
+  recommended_source: https://doi.org/10.1007/978-3-031-20086-1_13
+notes: ''
+verification:
+  status: partial
+  last_checked: '2026-08-03'

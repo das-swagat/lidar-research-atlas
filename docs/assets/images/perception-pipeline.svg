@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img"><style>
+text{font-family:Inter,Arial,sans-serif;fill:#172033}.title{font-size:38px;font-weight:760;letter-spacing:-1px}.sub{font-size:17px;fill:#516079}.label{font-size:15px;font-weight:680}.small{font-size:12px;fill:#64748b}.box{fill:#fff;stroke:#cad5e5;stroke-width:1.5}.accent{fill:#eef2ff;stroke:#818cf8;stroke-width:1.7}.cyan{fill:#ecfeff;stroke:#22d3ee;stroke-width:1.7}.dark{fill:#172033}.line{stroke:#65758b;stroke-width:2;fill:none;marker-end:url(#a)}
+</style><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#65758b"/></marker><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6366f1"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs><rect width="1200" height="630" fill="#f8fafc"/>
+<text x="65" y="70" class="title">Conceptual 3D LiDAR perception pipeline</text><text x="65" y="102" class="sub">Representations create different accuracy, memory, latency, and transfer trade-offs</text>
+<rect x="55" y="205" width="185" height="120" rx="18" class="box"/><text x="96" y="250" class="label">RAW FRAMES</text><text x="89" y="279" class="small">points · intensity</text><text x="91" y="300" class="small">time · calibration</text>
+<rect x="285" y="205" width="205" height="120" rx="18" class="accent"/><text x="320" y="250" class="label">PREPROCESS</text><text x="315" y="279" class="small">motion · transforms</text><text x="320" y="300" class="small">sampling · filtering</text>
+<rect x="535" y="145" width="220" height="80" rx="16" class="cyan"/><text x="585" y="194" class="label">POINT NEIGHBORHOODS</text>
+<rect x="535" y="245" width="220" height="80" rx="16" class="cyan"/><text x="594" y="294" class="label">VOXELS / PILLARS</text>
+<rect x="535" y="345" width="220" height="80" rx="16" class="cyan"/><text x="586" y="394" class="label">RANGE / HYBRID</text>
+<rect x="800" y="205" width="175" height="120" rx="18" class="accent"/><text x="844" y="250" class="label">LEARN</text><text x="829" y="279" class="small">features · context</text><text x="828" y="300" class="small">fusion · decoding</text>
+<rect x="1020" y="205" width="150" height="120" rx="18" class="box"/><text x="1054" y="250" class="label">OUTPUT</text><text x="1046" y="279" class="small">classes · boxes</text><text x="1048" y="300" class="small">tracks · maps</text>
+<path d="M240 265H285M490 265H535M755 185C790 185 790 235 800 245M755 285H800M755 385C790 385 790 315 800 295M975 265H1020" class="line"/>
+</svg>

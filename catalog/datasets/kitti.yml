@@ -1,0 +1,60 @@
+id: kitti
+name: KITTI Vision Benchmark Suite
+year: 2012
+resource_type: dataset
+scope:
+  dimensions:
+  - 3D
+  environments:
+  - outdoor
+  - urban
+  - road
+  sensors:
+  - Velodyne HDL-64E
+  - cameras
+  - GPS/IMU
+  adjacent_non_lidar: false
+tasks:
+- 3D detection
+- tracking
+- odometry
+- road estimation
+original_contributors: Andreas Geiger, Philip Lenz, Christoph Stiller, and Raquel Urtasun
+authoritative_sources:
+  official_page: https://www.cvlibs.net/datasets/kitti/
+  primary_publication: https://doi.org/10.1109/CVPR.2012.6248074
+  terms_or_license: https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
+access:
+  class: OPEN_DIRECT
+  cost: free_or_provider_defined
+  account_required: false
+  agreement_required: false
+  approval_required: false
+  commercial_use: research_use_verify
+  redistribution: restricted_or_unconfirmed
+  automated_download: use_only_provider_supported_methods
+license:
+  name: KITTI provider terms
+  scope: dataset/annotations; code and weights may differ
+  authoritative_url: https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
+citation:
+  instruction: Cite the original dataset publication and any additional provider-required references. Cite the atlas
+    separately only when its curation or guidance was used.
+  recommended_source: https://doi.org/10.1109/CVPR.2012.6248074
+download_guide:
+  steps:
+  - Open the official page linked above.
+  - Read the current provider terms and confirm eligibility.
+  - Create an account or submit the provider agreement when required.
+  - Download only through provider-supported links or tools.
+  - Obtain labels, calibration, maps, and development kits from their separately identified official sources.
+  - Verify file integrity when provider checksums are available.
+  - Preserve the original folder structure and citation notice.
+  atlas_hosts_files: false
+  atlas_mirrors_files: false
+notes: Download components separately from the official KITTI pages. Some downstream benchmarks add separate labels
+  and terms.
+verification:
+  status: verified
+  last_checked: '2026-08-03'
+  source_standard: authoritative provider page and primary publication

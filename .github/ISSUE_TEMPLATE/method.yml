@@ -1,0 +1,26 @@
+name: Add a method
+about: Propose a method and its implementation relationship
+labels: [method, curation]
+body:
+  - type: input
+    id: title
+    attributes: {label: Exact method/paper title}
+    validations: {required: true}
+  - type: input
+    id: paper
+    attributes: {label: Primary publication or DOI}
+    validations: {required: true}
+  - type: input
+    id: repository
+    attributes: {label: Implementation source}
+    validations: {required: true}
+  - type: dropdown
+    id: relation
+    attributes:
+      label: Implementation relationship
+      options: [Official or author-maintained, Canonical project, Community reimplementation, Framework integration, Unverified]
+    validations: {required: true}
+  - type: textarea
+    id: evidence
+    attributes: {label: Evidence and license notes}
+    validations: {required: true}
