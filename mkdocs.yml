@@ -76,7 +76,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/das-swagat
-    - icon: academicons/researchgate
+    - icon: fontawesome/brands/researchgate
       link: https://www.researchgate.net/profile/Swagat-Das/research
   generator: false
 
