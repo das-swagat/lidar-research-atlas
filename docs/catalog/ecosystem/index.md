@@ -6,7 +6,7 @@ This section expands beyond datasets and papers to the surrounding LiDAR ecosyst
 
 <div class="atlas-filter"><input type="search" data-atlas-filter="ecosystem-table" placeholder="Filter manufacturers, libraries, frameworks, simulators, tools, or lists…" aria-label="Filter manufacturers, libraries, frameworks, simulators, tools, or lists…"></div>
 
-<div id="ecosystem-table" markdown="1">
+<div id="ecosystem-table" class="atlas-table-wrap" markdown="1">
 
 | Resource | Category | Purpose | Verification |
 |---|---|---|---|

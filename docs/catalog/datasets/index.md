@@ -6,7 +6,7 @@ The expanded catalog spans indoor and outdoor 2D/3D LiDAR, autonomous driving, r
 
 <div class="atlas-filter"><input type="search" data-atlas-filter="dataset-table" placeholder="Filter datasets by name, task, sensor, environment, year, or status…" aria-label="Filter datasets by name, task, sensor, environment, year, or status…"></div>
 
-<div id="dataset-table" markdown="1">
+<div id="dataset-table" class="atlas-table-wrap" markdown="1">
 
 | Resource | Year | Geometry | Environment | Tasks | Access | Status |
 |---|---:|---|---|---|---|---|

@@ -1,4 +1,4 @@
-# Coverage report — v0.2.1
+# Coverage report — v0.2.2
 
 <div class="atlas-stat-grid">
   <div><strong>85</strong><span>datasets</span></div>

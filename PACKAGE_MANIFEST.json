@@ -1,12 +1,12 @@
 {
   "project": "LiDAR Research Atlas",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "package_label": "site-integrity hotfix",
   "package_revision": 1,
   "created": "2026-08-03",
   "manifest_scope": "All packaged files except PACKAGE_MANIFEST.json itself",
-  "file_count": 536,
-  "total_bytes": 2637625,
+  "file_count": 537,
+  "total_bytes": 2640355,
   "catalog_counts": {
     "datasets": 85,
     "methods": 53,
@@ -51,8 +51,8 @@
     },
     {
       "path": ".github/maintainer/AUDIT_REPORT.md",
-      "bytes": 2226,
-      "sha256": "f1ab0481e2776f24f33ac4058b0943e3ea76453108d84463210f74ff1a3fea7a"
+      "bytes": 2230,
+      "sha256": "e55807d36a3f2fbbab9194469354e12ebb70e8406d8d9d3adee30f983069b19f"
     },
     {
       "path": ".github/maintainer/RELEASE_CHECKLIST.md",
@@ -92,7 +92,7 @@
     {
       "path": ".zenodo.json",
       "bytes": 667,
-      "sha256": "8c80eda5a9bb58258eeda6246c4e0c9dcd5196700060f935303a8baea2f33584"
+      "sha256": "a563f3fd3561196e1ce7ed432ca4a336d23f90e106eee2373f1097a88c192478"
     },
     {
       "path": "AUTHORS.md",
@@ -101,18 +101,18 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 3170,
-      "sha256": "2015ae77bab7ca9a18278de51d398acffe2f510e586686105fc6a47a18ea89fe"
+      "bytes": 3713,
+      "sha256": "f60766c078ac1897c83e7b43bb82b82f34cc532c85f1163c4184c46a48352f1b"
     },
     {
       "path": "CITATION.bib",
       "bytes": 353,
-      "sha256": "1cbb95e426ed5c4ef21c8a4543dc509694ee3b229ecd1b5ab446b7b50151ad02"
+      "sha256": "373f4256a8a78b27465e7e9e6ce23ffba5c14adc3c633a285d1dc9233ff2e416"
     },
     {
       "path": "CITATION.cff",
       "bytes": 607,
-      "sha256": "754b0c780181f0b02862876f469ede762d78816b3aa3b52dc17e15ed20827b99"
+      "sha256": "5e59eeea223fafa0840260baaa9b6d5bfd5415fca499b30279f0bcaf968eea4e"
     },
     {
       "path": "CODE_OF_CONDUCT.md",
@@ -152,7 +152,7 @@
     {
       "path": "README.md",
       "bytes": 7289,
-      "sha256": "1b61ef16e2c1e3b9fbde32175c75acf0f6986f792ebc82120fe5b8d52ec7e3c8"
+      "sha256": "c697ab909c888d65798b8928bbb0f0205f67c0cfa0ddfdf158b5277a33f6afac"
     },
     {
       "path": "RELEASE_NOTES_v0.1.0.md",
@@ -168,6 +168,11 @@
       "path": "RELEASE_NOTES_v0.2.1.md",
       "bytes": 927,
       "sha256": "3778ea6b56892eb0a885f2b318f60d85a5121329e834b71a8ef85cfe27508c87"
+    },
+    {
+      "path": "RELEASE_NOTES_v0.2.2.md",
+      "bytes": 737,
+      "sha256": "2727787d1207e18c822cbcba23c5860c90b744d3a543eba93666a9ce9da282f4"
     },
     {
       "path": "ROADMAP.md",
@@ -187,7 +192,7 @@
     {
       "path": "catalog/README.md",
       "bytes": 730,
-      "sha256": "b8d8123075abbf960bd0e3ef4ed8ed111d66dea225eaf70eeb33d9d4eff00223"
+      "sha256": "a6411a2520a2a025100c39bb8151ab2a351bfebdee4ac4869b7de540ef858eec"
     },
     {
       "path": "catalog/datasets/3dref-dataset.yml",
@@ -1272,7 +1277,7 @@
     {
       "path": "codemeta.json",
       "bytes": 671,
-      "sha256": "35ae51e5e90c89d10ebbee69e516c44ce9dd4dcf92adb4448199f5a199054e27"
+      "sha256": "762359fd1718e57a611972e698a476a5643a7fb46f39d71fe8d8d113f0cdfb21"
     },
     {
       "path": "docs/about/changelog.md",
@@ -1287,7 +1292,7 @@
     {
       "path": "docs/about/coverage-report.md",
       "bytes": 1552,
-      "sha256": "6734e16dcb13e96291e5c1ccca3ce7d38e86442a7b5cc7fbd2a65fde5ae67827"
+      "sha256": "4c2cf05c8b499015cb5bf469eb7fe536b5708fe4fa4254e7b0d9f940b2ec0231"
     },
     {
       "path": "docs/about/methodology.md",
@@ -1337,7 +1342,7 @@
     {
       "path": "docs/assets/catalog.json",
       "bytes": 368126,
-      "sha256": "e2bc8a047225cdeb9b1946534322454763a75c25f02f3870c43d8739c449d01a"
+      "sha256": "b6a5ffe85160d943b2dfbd1af681c12dfcb7997e36bccba549ff1eecbb33399e"
     },
     {
       "path": "docs/assets/images/2d-slam.svg",
@@ -1406,8 +1411,8 @@
     },
     {
       "path": "docs/assets/stylesheets/extra.css",
-      "bytes": 4061,
-      "sha256": "086d6173cc8e92899222fcccd652d78eec472e2316dd6de12c1870a7cb932600"
+      "bytes": 4874,
+      "sha256": "f29dbf693e6554ef402473f9f19dc3375f287301a8195cec7963a7fbcdf99118"
     },
     {
       "path": "docs/catalog/datasets/3dref-dataset.md",
@@ -1566,8 +1571,8 @@
     },
     {
       "path": "docs/catalog/datasets/index.md",
-      "bytes": 15791,
-      "sha256": "0a27a6c7523aa543535c012f889e0933e2ebbdbcb732d41b446a20c358bea841"
+      "bytes": 15816,
+      "sha256": "f9d2441141e5f3a9a5f137391e4a32ab44a24a70b7a8f1268464d4ebec3103dd"
     },
     {
       "path": "docs/catalog/datasets/k-lane.md",
@@ -2016,8 +2021,8 @@
     },
     {
       "path": "docs/catalog/ecosystem/index.md",
-      "bytes": 10056,
-      "sha256": "6f3681db86be81705c97750d8861f435164097a52761120e7f0a9b43a18e9411"
+      "bytes": 10081,
+      "sha256": "4c531d85f64ed0158fa24e8e1469668a5677b8b64e66251f2698258d1ed74d7e"
     },
     {
       "path": "docs/catalog/ecosystem/innoviz.md",
@@ -2251,8 +2256,8 @@
     },
     {
       "path": "docs/catalog/methods/index.md",
-      "bytes": 9526,
-      "sha256": "ff5e9ffef51eb3d0ce24a8e0090738576fb18c25200367f926b3e9444f49a94c"
+      "bytes": 9551,
+      "sha256": "9485739f1486b02d2957f53d5e10557d15483f78b596fa62b63d84f11c119005"
     },
     {
       "path": "docs/catalog/methods/kiss-icp.md",
@@ -2461,8 +2466,8 @@
     },
     {
       "path": "docs/catalog/portals/index.md",
-      "bytes": 891,
-      "sha256": "fbb4b78d41c87e21cbc54370faff8bd46c77a1bdf467ef9b6db3fe68f0367f3a"
+      "bytes": 962,
+      "sha256": "cc42120feed1403cc71c16423d94e313e136dd7956fdabafdff52bb672671b5a"
     },
     {
       "path": "docs/contributing/add-dataset.md",
@@ -2542,7 +2547,7 @@
     {
       "path": "docs/index.md",
       "bytes": 2306,
-      "sha256": "1b08d28504c36e9c0dd6a00cf9267646fbeeefbb40a01c7329d2e06a36505062"
+      "sha256": "da1436c42061c0d0a338335cae254061265583ea6bdd1b32ccdc0e8a7e6b4007"
     },
     {
       "path": "docs/legal/access-and-licensing.md",
@@ -2577,7 +2582,7 @@
     {
       "path": "exports/catalog.json",
       "bytes": 366321,
-      "sha256": "ac5d6244e4eda79d4c32eee5921d92fd32afc05b5ca4b34fd7b1f5cc90e9793f"
+      "sha256": "7acb648d8f77ed113337d96fbe9d8dc37f492ccc043c30a05ddcd67fb9e2bdd6"
     },
     {
       "path": "exports/datasets.csv",
@@ -2632,7 +2637,7 @@
     {
       "path": "pyproject.toml",
       "bytes": 431,
-      "sha256": "ee24178be0f7e3e011e4c6be61a9970ff7927465d575e2cf024ad5a9a19b4bf8"
+      "sha256": "5eff843297850ccd15d26a23f1172c131beb75f8f5081d363fd4bae987404cc6"
     },
     {
       "path": "requirements-dev.txt",
@@ -2646,8 +2651,8 @@
     },
     {
       "path": "scripts/build_catalog.py",
-      "bytes": 12145,
-      "sha256": "3a35087f012658c17449fde81069f9b774d0bd41118143a50ce4a069779d939c"
+      "bytes": 12386,
+      "sha256": "31aef79b25d7c41fcf8748e94eee2b5bd3f32abf9fd814649973bf262b342375"
     },
     {
       "path": "scripts/build_manifest.py",
@@ -2671,8 +2676,8 @@
     },
     {
       "path": "scripts/check_rendered_site.py",
-      "bytes": 2208,
-      "sha256": "80f30ae4e02ab48625ae19b557dc4c12030ccddf55ffc32880858425ea7f32e6"
+      "bytes": 2454,
+      "sha256": "9ad1ac5f0bff042ab170f6485ad6dd6c0f36f388caf92915c8757b2eb7825ea4"
     },
     {
       "path": "scripts/check_urls.py",
@@ -2682,7 +2687,7 @@
     {
       "path": "scripts/export_catalog.py",
       "bytes": 3907,
-      "sha256": "d4e496955c2f91d1fb80032dfa5b7a91f75dc97e55c050505cfbf0658c443c67"
+      "sha256": "b1057ef2df5860796a27eff06527d667b53e4ebb46bbf6ebc93248789c6a373e"
     },
     {
       "path": "scripts/validate_catalog.py",
