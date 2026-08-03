@@ -15,7 +15,7 @@ hide:
       <a class="md-button" href="catalog/methods/">Explore methods</a>
     </div>
   </div>
-  <img src="assets/images/hero.svg" alt="Conceptual LiDAR research landscape">
+  <img src="assets/images/hero.png" alt="Futuristic LiDAR smart city scene with autonomous vehicles, drones, robots, pedestrians, and point-cloud sensing">
 </div>
 
 <div class="atlas-grid">
