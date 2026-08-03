@@ -1,5 +1,5 @@
 site_name: LiDAR Research Atlas
-site_description: Indoor and outdoor 2D/3D LiDAR datasets, methods, benchmarks, and lawful access guides.
+site_description: Curated indoor and outdoor 2D/3D LiDAR datasets, point-cloud methods, SLAM, autonomous driving, robotics, remote sensing, benchmarks, and lawful access guides.
 site_author: Swagat Das
 site_url: https://das-swagat.github.io/lidar-research-atlas/
 repo_url: https://github.com/das-swagat/lidar-research-atlas

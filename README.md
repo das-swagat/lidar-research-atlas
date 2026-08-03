@@ -1,7 +1,7 @@
 <div align="center">
   <img src="docs/assets/images/logo.svg" width="108" alt="LiDAR Research Atlas logo">
   <h1>LiDAR Research Atlas</h1>
-  <p><strong>Indoor and outdoor 2D/3D datasets, methods, benchmarks, and lawful access guides.</strong></p>
+  <p><strong>Indoor and outdoor 2D/3D LiDAR datasets, point-cloud methods, SLAM, perception benchmarks, and lawful access guides.</strong></p>
   <p>
     <a href="https://github.com/das-swagat/lidar-research-atlas/actions/workflows/validate.yml"><img alt="Validation" src="https://img.shields.io/github/actions/workflow/status/das-swagat/lidar-research-atlas/validate.yml?branch=main&label=catalog%20validation"></a>
     <a href="https://github.com/das-swagat/lidar-research-atlas/releases"><img alt="Release" src="https://img.shields.io/github/v/release/das-swagat/lidar-research-atlas?include_prereleases"></a>
@@ -12,6 +12,13 @@
 </div>
 
 ![LiDAR Research Atlas overview](docs/assets/images/hero.png)
+
+LiDAR Research Atlas is a curated, provenance-tracked research index for **indoor and outdoor 2D and 3D LiDAR**. It connects researchers and developers with LiDAR datasets, point-cloud methods, SLAM and odometry algorithms, autonomous-driving and robotics benchmarks, semantic segmentation, 3D object detection, self-supervised learning, remote sensing, mobile mapping, aerial LiDAR, and geospatial resources.
+
+Use the atlas to find authoritative project pages, official implementations, lawful download routes, access requirements, licensing conditions, recommended citations, and reproducibility notes. The atlas links to original providers; it does not mirror or redistribute third-party datasets, annotations, source code, model weights, or restricted files.
+
+[**Browse the live atlas**](https://das-swagat.github.io/lidar-research-atlas/) · [Datasets](https://das-swagat.github.io/lidar-research-atlas/catalog/datasets/) · [Methods](https://das-swagat.github.io/lidar-research-atlas/catalog/methods/) · [Contribute](CONTRIBUTING.md)
+
 
 ## Purpose
 
@@ -30,19 +37,28 @@ The project **links; it does not redistribute**. Each record identifies authorit
 
 Adjacent RGB-D or photogrammetric resources are included only where they are widely used in transferable 3D learning, and are explicitly labeled as non-LiDAR.
 
-## Start here
+## Explore the atlas
 
-- **Documentation site:** `docs/index.md` or GitHub Pages after deployment.
-- **Dataset catalog:** `catalog/datasets/`
-- **Method catalog:** `catalog/methods/`
-- **Lawful download workflow:** `docs/guides/lawful-download-workflow.md`
-- **Provenance policy:** `policies/PROVENANCE_POLICY.md`
-- **Corrections/takedowns:** `policies/CORRECTIONS_AND_TAKEDOWNS.md`
-- **How to contribute:** `CONTRIBUTING.md`
+- **Live documentation:** [LiDAR Research Atlas](https://das-swagat.github.io/lidar-research-atlas/)
+- **Dataset catalog:** [catalog/datasets/](catalog/datasets/)
+- **Method catalog:** [catalog/methods/](catalog/methods/)
+- **Lawful download workflow:** [download and access guide](docs/guides/lawful-download-workflow.md)
+- **Provenance policy:** [source and verification requirements](policies/PROVENANCE_POLICY.md)
+- **Corrections and takedowns:** [correction and rights-holder process](policies/CORRECTIONS_AND_TAKEDOWNS.md)
+- **How to contribute:** [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Citation principle
 
 Researchers must cite the **original dataset and method publications** used in their work. Cite this atlas additionally only when its taxonomy, metadata, access guide, software, or analysis materially supported the work. See `CITATION.cff` and `docs/guides/citation.md`.
+
+## Use, fork, and contribute
+
+- **Browse:** Use the [live atlas](https://das-swagat.github.io/lidar-research-atlas/) to explore datasets, methods, access requirements, and citation guidance.
+- **Clone or fork:** Reuse the original atlas software and metadata under their stated licenses; third-party resources remain governed by provider terms.
+- **Contribute:** Open an issue or pull request for a verified dataset, method, correction, broken link, or documentation improvement.
+- **Cite responsibly:** Cite the original dataset and method authors, and cite this atlas only when its curation, taxonomy, metadata, software, or analysis materially supported the work.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md), [CITATION.cff](CITATION.cff), and the [provenance policy](policies/PROVENANCE_POLICY.md).
 
 ## Local preview
 
