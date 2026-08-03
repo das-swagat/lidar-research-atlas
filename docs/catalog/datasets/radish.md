@@ -14,7 +14,7 @@
 ## Authoritative sources
 
 - [Official dataset/project page](https://radish.sourceforge.net/)
-- [Primary publication](https://radish.sourceforge.net/)
+- [Primary publication or project source](https://radish.sourceforge.net/)
 - [Current terms or license source](https://radish.sourceforge.net/)
 
 ## Access and legal status
@@ -30,7 +30,7 @@
 | Dataset/license label | Per-log/provider terms |
 
 !!! danger "Do not redistribute from this atlas"
-    This project hosts no scans, labels, calibration archives, credentials, or signed links. The provider's current terms control.
+    This project hosts no scans, labels, calibration archives, credentials, signed links, or model weights. The provider's current terms control.
 
 ## Lawful access workflow
 1. Open the official page linked above.

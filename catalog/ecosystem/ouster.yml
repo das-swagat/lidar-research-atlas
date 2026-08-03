@@ -1,0 +1,15 @@
+id: ouster
+name: Ouster
+resource_type: ecosystem_resource
+category: manufacturer
+subcategory: manufacturer
+official_url: https://ouster.com/
+repository_url: https://github.com/ouster-lidar
+summary: Digital spinning LiDAR manufacturer and developer ecosystem.
+source_collections:
+- szenergy/awesome-lidar
+legal_note: Review the official site and repository license before use; listing does
+  not imply endorsement.
+verification:
+  status: source_listed
+  last_checked: '2026-08-03'

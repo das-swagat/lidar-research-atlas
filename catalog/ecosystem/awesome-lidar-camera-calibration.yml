@@ -1,0 +1,15 @@
+id: awesome-lidar-camera-calibration
+name: Awesome LiDAR-Camera Calibration
+resource_type: ecosystem_resource
+category: related-list
+subcategory: related-list
+official_url: https://github.com/Deephome/Awesome-LiDAR-Camera-Calibration
+repository_url: https://github.com/Deephome/Awesome-LiDAR-Camera-Calibration
+summary: LiDAR-camera calibration methods and resources.
+source_collections:
+- szenergy/awesome-lidar
+legal_note: Follow the source repository license. The atlas does not claim ownership
+  of the linked collection.
+verification:
+  status: source_listed
+  last_checked: '2026-08-03'

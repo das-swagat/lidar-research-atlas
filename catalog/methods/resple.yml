@@ -1,0 +1,28 @@
+id: resple
+name: RESPLE
+year: 2025
+resource_type: method
+category: LiDAR odometry
+representation: recursive spline estimation
+original_authors: See primary publication
+authoritative_sources:
+  primary_publication: https://arxiv.org/abs/2504.11580
+  implementation: https://github.com/ASIG-X/RESPLE
+implementation:
+  relationship: official_or_author_maintained_unverified
+  license: verify from repository
+  weights_terms: verify separately
+  repository: https://github.com/ASIG-X/RESPLE
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper and follow the repository citation and license
+    instructions. This atlas record is independently written.
+  recommended_source: https://arxiv.org/abs/2504.11580
+notes: Discovery-expanded record. Publication and source-code links were cross-checked
+  against the authors’ project materials; code, datasets, and dependency licenses
+  must still be reviewed before reuse.
+discovery_sources:
+- szenergy/awesome-lidar
+verification:
+  status: discovery_only
+  last_checked: '2026-08-03'

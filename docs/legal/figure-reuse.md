@@ -12,4 +12,4 @@ Before adding third-party media, record:
 - retrieval date;
 - whether logos/trademarks are involved.
 
-Dataset sample images may carry separate participant, privacy, geographic, or publication restrictions even when data access is granted. Version 0.1.0 therefore uses original vector diagrams only.
+Dataset sample images may carry separate participant, privacy, geographic, or publication restrictions even when data access is granted. Version 0.2.0 uses original vector diagrams and an original AI-assisted hero illustration recorded in the media register. It does not use copied dataset screenshots, provider logos, or paper figures.

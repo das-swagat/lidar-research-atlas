@@ -1,0 +1,15 @@
+id: awesome-lidar-visual-slam
+name: Awesome LiDAR Visual SLAM
+resource_type: ecosystem_resource
+category: related-list
+subcategory: related-list
+official_url: https://github.com/sjtuyinjie/awesome-LiDAR-Visual-SLAM
+repository_url: https://github.com/sjtuyinjie/awesome-LiDAR-Visual-SLAM
+summary: Visual-LiDAR SLAM research collection.
+source_collections:
+- szenergy/awesome-lidar
+legal_note: Follow the source repository license. The atlas does not claim ownership
+  of the linked collection.
+verification:
+  status: source_listed
+  last_checked: '2026-08-03'

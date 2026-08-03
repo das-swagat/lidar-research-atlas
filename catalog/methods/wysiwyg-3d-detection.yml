@@ -1,0 +1,27 @@
+id: wysiwyg-3d-detection
+name: WYSIWYG 3D Detection
+year: 2020
+resource_type: method
+category: 3D object detection
+representation: visibility-aware point-cloud detection
+original_authors: See primary publication
+authoritative_sources:
+  primary_publication: https://arxiv.org/abs/1912.04986
+  implementation: https://github.com/peiyunh/WYSIWYG
+implementation:
+  relationship: official_or_author_maintained_unverified
+  license: verify from repository
+  weights_terms: verify separately
+  repository: https://github.com/peiyunh/WYSIWYG
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper and follow the repository citation and license
+    instructions. This atlas record is independently written.
+  recommended_source: https://arxiv.org/abs/1912.04986
+notes: Discovery-expanded record; implementation relationship and license should be
+  rechecked before reuse.
+discovery_sources:
+- szenergy/awesome-lidar
+verification:
+  status: discovery_only
+  last_checked: '2026-08-03'

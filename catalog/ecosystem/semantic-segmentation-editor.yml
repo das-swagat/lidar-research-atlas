@@ -1,0 +1,15 @@
+id: semantic-segmentation-editor
+name: Semantic Segmentation Editor
+resource_type: ecosystem_resource
+category: tool
+subcategory: tool
+official_url: https://github.com/Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor
+repository_url: https://github.com/Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor
+summary: Point-cloud and image semantic annotation tool.
+source_collections:
+- szenergy/awesome-lidar
+legal_note: Review the official site and repository license before use; listing does
+  not imply endorsement.
+verification:
+  status: source_listed
+  last_checked: '2026-08-03'

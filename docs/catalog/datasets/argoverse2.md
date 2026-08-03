@@ -15,7 +15,7 @@
 ## Authoritative sources
 
 - [Official dataset/project page](https://www.argoverse.org/av2.html)
-- [Primary publication](https://arxiv.org/abs/2301.00493)
+- [Primary publication or project source](https://arxiv.org/abs/2301.00493)
 - [Current terms or license source](https://www.argoverse.org/av2.html)
 
 ## Access and legal status
@@ -31,7 +31,7 @@
 | Dataset/license label | CC BY-NC-SA 4.0 (verify each component) |
 
 !!! danger "Do not redistribute from this atlas"
-    This project hosts no scans, labels, calibration archives, credentials, or signed links. The provider's current terms control.
+    This project hosts no scans, labels, calibration archives, credentials, signed links, or model weights. The provider's current terms control.
 
 ## Lawful access workflow
 1. Open the official page linked above.

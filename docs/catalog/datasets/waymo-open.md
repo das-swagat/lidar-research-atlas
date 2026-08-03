@@ -15,7 +15,7 @@
 ## Authoritative sources
 
 - [Official dataset/project page](https://waymo.com/open/)
-- [Primary publication](https://doi.org/10.1109/CVPR42600.2020.00252)
+- [Primary publication or project source](https://doi.org/10.1109/CVPR42600.2020.00252)
 - [Current terms or license source](https://waymo.com/open/terms/)
 
 ## Access and legal status
@@ -31,7 +31,7 @@
 | Dataset/license label | Waymo Open Dataset License Agreement |
 
 !!! danger "Do not redistribute from this atlas"
-    This project hosts no scans, labels, calibration archives, credentials, or signed links. The provider's current terms control.
+    This project hosts no scans, labels, calibration archives, credentials, signed links, or model weights. The provider's current terms control.
 
 ## Lawful access workflow
 1. Open the official page linked above.

@@ -1,0 +1,63 @@
+id: helimos-dataset
+name: HeLiMOS Dataset
+year: 2024
+resource_type: dataset
+scope:
+  dimensions:
+  - 3D
+  environments:
+  - outdoor
+  - urban
+  sensors:
+  - Ouster OS2-128
+  - Velodyne VLP-16C
+  - Livox Avia
+  - Aeva Aeries II
+  platforms:
+  - vehicle
+  adjacent_non_lidar: false
+tasks:
+- moving-object segmentation
+- semantic segmentation
+original_contributors: See the official project page and primary publication; contributor
+  names are pending independent atlas verification.
+authoritative_sources:
+  official_page: https://sites.google.com/view/helimos
+  primary_publication: https://sites.google.com/view/helimos
+  terms_or_license: https://sites.google.com/view/helimos
+access:
+  class: UNVERIFIED_PROVIDER_CONTROLLED
+  cost: verify_with_provider
+  account_required: unknown
+  agreement_required: unknown
+  approval_required: unknown
+  commercial_use: verify_provider_terms
+  redistribution: not_permitted_without_explicit_provider_terms
+  automated_download: use_only_provider_supported_methods
+license:
+  name: Provider terms not yet independently classified
+  scope: dataset, annotations, code, and weights may have separate terms
+  authoritative_url: https://sites.google.com/view/helimos
+citation:
+  instruction: Cite the original dataset publication and any provider-required references.
+    This discovery-only record is not a substitute for the original citation instructions.
+  recommended_source: https://sites.google.com/view/helimos
+download_guide:
+  steps:
+  - Open the official project page linked above.
+  - Locate and read the provider’s current access, license, and citation terms.
+  - Confirm eligibility, account, agreement, and commercial-use requirements.
+  - Download only through provider-supported links or tools.
+  - Do not redistribute files unless the provider explicitly permits it.
+  - Record the dataset version, retrieval date, and required citations.
+  atlas_hosts_files: false
+  atlas_mirrors_files: false
+notes: Discovery-only record. The atlas independently rewrote this summary and has
+  not yet completed legal/access verification.
+discovery_sources:
+- minwoo0611/Awesome-3D-LiDAR-Datasets
+verification:
+  status: discovery_only
+  last_checked: '2026-08-03'
+  source_standard: upstream scholarly list plus official project URL; independent
+    provider verification pending

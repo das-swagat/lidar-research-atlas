@@ -1,0 +1,27 @@
+id: linefit-ground-segmentation
+name: LineFit Ground Segmentation
+year: 2017
+resource_type: method
+category: ground segmentation
+representation: radial line fitting
+original_authors: See primary publication
+authoritative_sources:
+  primary_publication: https://ieeexplore.ieee.org/document/7989591
+  implementation: https://github.com/lorenwel/linefit_ground_segmentation
+implementation:
+  relationship: official_or_author_maintained_unverified
+  license: verify from repository
+  weights_terms: verify separately
+  repository: https://github.com/lorenwel/linefit_ground_segmentation
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper and follow the repository citation and license
+    instructions. This atlas record is independently written.
+  recommended_source: https://ieeexplore.ieee.org/document/7989591
+notes: Discovery-expanded record; implementation relationship and license should be
+  rechecked before reuse.
+discovery_sources:
+- szenergy/awesome-lidar
+verification:
+  status: discovery_only
+  last_checked: '2026-08-03'

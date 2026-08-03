@@ -7,7 +7,7 @@ blocked_names={'.env','credentials.json','token.json','id_rsa'}
 max_bytes=5*1024*1024
 errors=[]
 for p in ROOT.rglob('*'):
-    if not p.is_file() or '.git' in p.parts or p.resolve() == Path(__file__).resolve(): continue
+    if (not p.is_file() or any(part in {'.git','.venv','venv','site','__pycache__','.pytest_cache','.mypy_cache','.cache'} for part in p.parts) or p.resolve() == Path(__file__).resolve()): continue
     if p.suffix.lower() in blocked_ext or p.name in blocked_names:
         errors.append(f'blocked file: {p.relative_to(ROOT)}')
     if p.stat().st_size > max_bytes and p.suffix.lower() not in {'.png'}:

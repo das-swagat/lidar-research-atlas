@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.2.0] - 2026-08-03
+
+### Added
+- Expanded the dataset catalog from 27 to 85 records.
+- Expanded the method catalog from 27 to 53 records.
+- Added 69 ecosystem records covering manufacturers, libraries, frameworks, simulators, tools, and related lists.
+- Added searchable catalog tables, source-list comparison, coverage report, ecosystem CSV export, and monthly source-link audit workflow.
+- Added explicit discovery-only verification and conservative provider-controlled access labels.
+
+### Changed
+- Updated the homepage and README with a futuristic original LiDAR illustration and broader search-oriented scope.
+- Regenerated source register, JSON/CSV exports, documentation pages, and validation tests.
+
+### Legal and provenance
+- Added upstream source-list acknowledgements without reproducing abstracts, figures, screenshots, or README prose.
+- Added discovery-layer rules to provenance and contribution policies.
+
 All notable changes are documented here. This project follows Semantic Versioning where practical.
 
 ## [0.1.0] — 2026-08-03

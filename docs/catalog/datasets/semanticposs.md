@@ -12,7 +12,7 @@
 ## Authoritative sources
 
 - [Official dataset/project page](http://www.poss.pku.edu.cn/)
-- [Primary publication](https://doi.org/10.1109/IV47402.2020.9304594)
+- [Primary publication or project source](https://doi.org/10.1109/IV47402.2020.9304594)
 - [Current terms or license source](http://www.poss.pku.edu.cn/)
 
 ## Access and legal status
@@ -28,7 +28,7 @@
 | Dataset/license label | Provider terms; verify |
 
 !!! danger "Do not redistribute from this atlas"
-    This project hosts no scans, labels, calibration archives, credentials, or signed links. The provider's current terms control.
+    This project hosts no scans, labels, calibration archives, credentials, signed links, or model weights. The provider's current terms control.
 
 ## Lawful access workflow
 1. Open the official page linked above.

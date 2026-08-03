@@ -1,0 +1,15 @@
+id: awesome-lidar-mos
+name: Awesome LiDAR MOS
+resource_type: ecosystem_resource
+category: related-list
+subcategory: related-list
+official_url: https://github.com/neng-wang/Awesome-LiDAR-MOS
+repository_url: https://github.com/neng-wang/Awesome-LiDAR-MOS
+summary: Moving-object segmentation in LiDAR data.
+source_collections:
+- szenergy/awesome-lidar
+legal_note: Follow the source repository license. The atlas does not claim ownership
+  of the linked collection.
+verification:
+  status: source_listed
+  last_checked: '2026-08-03'

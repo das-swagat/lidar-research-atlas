@@ -1,0 +1,27 @@
+id: overlapnet
+name: OverlapNet
+year: 2020
+resource_type: method
+category: place recognition and loop closure
+representation: range-image overlap prediction
+original_authors: See primary publication
+authoritative_sources:
+  primary_publication: https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/chen2020rss.pdf
+  implementation: https://github.com/PRBonn/OverlapNet
+implementation:
+  relationship: official_or_author_maintained_unverified
+  license: verify from repository
+  weights_terms: verify separately
+  repository: https://github.com/PRBonn/OverlapNet
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper and follow the repository citation and license
+    instructions. This atlas record is independently written.
+  recommended_source: https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/chen2020rss.pdf
+notes: Discovery-expanded record; implementation relationship and license should be
+  rechecked before reuse.
+discovery_sources:
+- szenergy/awesome-lidar
+verification:
+  status: discovery_only
+  last_checked: '2026-08-03'

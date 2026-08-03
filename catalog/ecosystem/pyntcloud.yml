@@ -1,0 +1,15 @@
+id: pyntcloud
+name: pyntcloud
+resource_type: ecosystem_resource
+category: library
+subcategory: library
+official_url: https://pyntcloud.readthedocs.io/
+repository_url: https://github.com/daavoo/pyntcloud
+summary: Python point-cloud processing on the scientific Python stack.
+source_collections:
+- szenergy/awesome-lidar
+legal_note: Review the official site and repository license before use; listing does
+  not imply endorsement.
+verification:
+  status: source_listed
+  last_checked: '2026-08-03'

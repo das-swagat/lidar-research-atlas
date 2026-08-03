@@ -1,0 +1,26 @@
+name: Monthly source-link audit
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 7 1 * *"
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Audit registered source URLs
+        run: python scripts/check_urls.py --report link-audit.json
+      - name: Upload audit report
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-link-audit
+          path: link-audit.json
+          retention-days: 30

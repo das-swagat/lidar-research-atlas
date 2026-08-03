@@ -1,0 +1,15 @@
+id: awsim
+name: AWSIM
+resource_type: ecosystem_resource
+category: simulator
+subcategory: simulator
+official_url: https://tier4.github.io/AWSIM/
+repository_url: https://github.com/tier4/AWSIM
+summary: Unity-based autonomous-driving simulator designed for Autoware and ROS 2.
+source_collections:
+- szenergy/awesome-lidar
+legal_note: Review the official site and repository license before use; listing does
+  not imply endorsement.
+verification:
+  status: source_listed
+  last_checked: '2026-08-03'

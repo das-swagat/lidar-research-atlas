@@ -9,19 +9,20 @@ hide:
   <div>
     <span class="atlas-kicker">SCHOLARLY DISCOVERY · PROVENANCE · LAWFUL ACCESS</span>
     <h1>LiDAR research, mapped with evidence.</h1>
-    <p>A curated atlas of indoor and outdoor 2D/3D datasets, methods, benchmarks, and official access routes—without redistributing third-party data.</p>
+    <p>A searchable atlas of indoor and outdoor 2D/3D LiDAR datasets, methods, libraries, simulators, tools, benchmarks, and official access routes—without redistributing third-party data.</p>
     <div class="atlas-actions">
       <a class="md-button md-button--primary" href="catalog/datasets/">Explore datasets</a>
       <a class="md-button" href="catalog/methods/">Explore methods</a>
+      <a class="md-button" href="catalog/ecosystem/">Explore ecosystem</a>
     </div>
   </div>
   <img src="assets/images/hero.png" alt="Futuristic LiDAR smart city scene with autonomous vehicles, drones, robots, pedestrians, and point-cloud sensing">
 </div>
 
 <div class="atlas-grid">
-  <div class="atlas-card"><strong>2D + 3D</strong><span>Planar scans, mobile mapping, terrestrial, automotive, and airborne point clouds.</span></div>
-  <div class="atlas-card"><strong>Indoor + outdoor</strong><span>Robotics, autonomy, geospatial, infrastructure, and transferable 3D research.</span></div>
-  <div class="atlas-card"><strong>Source-first</strong><span>Every record points to original contributors, papers, repositories, terms, and citation guidance.</span></div>
+  <div class="atlas-card"><strong>207 records</strong><span>85 datasets, 53 methods, and 69 ecosystem resources in v0.2.0.</span></div>
+  <div class="atlas-card"><strong>2D + 3D</strong><span>Indoor, outdoor, aerial, mobile, terrestrial, automotive, robotic, and synthetic sensing.</span></div>
+  <div class="atlas-card"><strong>Verification layers</strong><span>Verified, partial, discovery-only, and source-listed records are clearly distinguished.</span></div>
   <div class="atlas-card"><strong>No data mirroring</strong><span>Official access routes only. Provider agreements and current terms control.</span></div>
 </div>
 

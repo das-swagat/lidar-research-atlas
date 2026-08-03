@@ -1,0 +1,15 @@
+id: luminar
+name: Luminar
+resource_type: ecosystem_resource
+category: manufacturer
+subcategory: manufacturer
+official_url: https://www.luminartech.com/
+repository_url: https://github.com/luminartech
+summary: Long-range automotive LiDAR and perception systems.
+source_collections:
+- szenergy/awesome-lidar
+legal_note: Review the official site and repository license before use; listing does
+  not imply endorsement.
+verification:
+  status: source_listed
+  last_checked: '2026-08-03'

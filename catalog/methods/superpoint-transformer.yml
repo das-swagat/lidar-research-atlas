@@ -1,0 +1,27 @@
+id: superpoint-transformer
+name: Superpoint Transformer
+year: 2023
+resource_type: method
+category: semantic segmentation
+representation: hierarchical superpoints and transformers
+original_authors: See primary publication
+authoritative_sources:
+  primary_publication: https://arxiv.org/abs/2306.08045
+  implementation: https://github.com/drprojects/superpoint_transformer
+implementation:
+  relationship: official_or_author_maintained_unverified
+  license: verify from repository
+  weights_terms: verify separately
+  repository: https://github.com/drprojects/superpoint_transformer
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper and follow the repository citation and license
+    instructions. This atlas record is independently written.
+  recommended_source: https://arxiv.org/abs/2306.08045
+notes: Discovery-expanded record; implementation relationship and license should be
+  rechecked before reuse.
+discovery_sources:
+- szenergy/awesome-lidar
+verification:
+  status: discovery_only
+  last_checked: '2026-08-03'
