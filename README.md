@@ -11,7 +11,7 @@
   </p>
 </div>
 
-![LiDAR Research Atlas overview](docs/assets/images/hero.svg)
+![LiDAR Research Atlas overview](docs/assets/images/hero.png)
 
 ## Purpose
 

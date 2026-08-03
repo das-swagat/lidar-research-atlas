@@ -22,7 +22,7 @@
 .atlas-hero { display:grid; grid-template-columns:1.05fr .95fr; gap:2.5rem; align-items:center; padding:2.2rem 0 1rem; }
 .atlas-hero h1 { font-size:clamp(2.35rem,5vw,4.7rem); line-height:.98; margin:.45rem 0 1rem; max-width:12ch; }
 .atlas-hero p { color:var(--atlas-muted); font-size:1.05rem; max-width:56ch; }
-.atlas-hero img { width:100%; filter:drop-shadow(0 24px 40px rgba(30,50,90,.15)); }
+.atlas-hero img { width:100%; border-radius:1rem; border:1px solid var(--atlas-line); box-shadow:0 28px 70px rgba(0,0,0,.28); }
 .atlas-kicker { font-size:.68rem; letter-spacing:.18em; font-weight:800; color:var(--atlas-accent-2); }
 .atlas-actions { display:flex; gap:.65rem; flex-wrap:wrap; margin-top:1.25rem; }
 .atlas-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:.75rem; margin:2rem 0 2.5rem; }
