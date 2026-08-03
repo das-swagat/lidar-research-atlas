@@ -7,6 +7,7 @@
     <a href="https://github.com/das-swagat/lidar-research-atlas/releases"><img alt="Release" src="https://img.shields.io/github/v/release/das-swagat/lidar-research-atlas?include_prereleases"></a>
     <a href="LICENSE"><img alt="Code license" src="https://img.shields.io/badge/code-Apache--2.0-blue"></a>
     <a href="LICENSE-CONTENT.md"><img alt="Content license" src="https://img.shields.io/badge/docs%20%26%20metadata-CC%20BY%204.0-green"></a>
+    <a href="https://doi.org/10.5281/zenodo.21781338"><img alt="DOI" src="https://zenodo.org/badge/DOI/10.5281/zenodo.21781338.svg"></a>
     <a href="CITATION.cff"><img alt="Citation" src="https://img.shields.io/badge/citation-CFF-orange"></a>
   </p>
 </div>

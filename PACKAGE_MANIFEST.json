@@ -6,7 +6,7 @@
   "created": "2026-08-03",
   "manifest_scope": "All packaged files except PACKAGE_MANIFEST.json itself",
   "file_count": 537,
-  "total_bytes": 2640355,
+  "total_bytes": 2640492,
   "catalog_counts": {
     "datasets": 85,
     "methods": 53,
@@ -151,8 +151,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7289,
-      "sha256": "c697ab909c888d65798b8928bbb0f0205f67c0cfa0ddfdf158b5277a33f6afac"
+      "bytes": 7426,
+      "sha256": "dbc8cbfaa08e8abed182e1d86e2291f38d4bcd800e8c3d90417c9e3bc3cf651f"
     },
     {
       "path": "RELEASE_NOTES_v0.1.0.md",
