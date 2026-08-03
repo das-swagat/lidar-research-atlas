@@ -1,6 +1,6 @@
 # Catalog
 
-The v0.2.0 catalog contains structured YAML records for:
+The v0.2.1 catalog contains structured YAML records for:
 
 - `datasets/` — 85 indoor, outdoor, 2D, 3D, aerial, mobile, terrestrial, automotive, robotic, and synthetic datasets;
 - `methods/` — 53 perception, registration, segmentation, detection, odometry, SLAM, place-recognition, self-supervised, and calibration methods;

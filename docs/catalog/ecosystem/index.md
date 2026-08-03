@@ -1,12 +1,12 @@
 # LiDAR ecosystem catalog
 
-<div class="atlas-stat-grid"><div><strong>3</strong><span>framework</span></div><div><strong>9</strong><span>library</span></div><div><strong>22</strong><span>manufacturer</span></div><div><strong>16</strong><span>related list</span></div><div><strong>7</strong><span>simulator</span></div><div><strong>12</strong><span>tool</span></div></div>
+<div class="atlas-stat-grid atlas-stat-grid--ecosystem"><div><strong>3</strong><span>framework</span></div><div><strong>9</strong><span>library</span></div><div><strong>22</strong><span>manufacturer</span></div><div><strong>16</strong><span>related list</span></div><div><strong>7</strong><span>simulator</span></div><div><strong>12</strong><span>tool</span></div></div>
 
 This section expands beyond datasets and papers to the surrounding LiDAR ecosystem: sensor manufacturers, point-cloud libraries, autonomous-system frameworks, simulators, visualization and annotation tools, and related curated lists. These records are discovery aids. Product status, software licenses, export controls, and commercial terms must be verified at the linked source.
 
 <div class="atlas-filter"><input type="search" data-atlas-filter="ecosystem-table" placeholder="Filter manufacturers, libraries, frameworks, simulators, tools, or lists…" aria-label="Filter manufacturers, libraries, frameworks, simulators, tools, or lists…"></div>
 
-<div id="ecosystem-table">
+<div id="ecosystem-table" markdown="1">
 
 | Resource | Category | Purpose | Verification |
 |---|---|---|---|

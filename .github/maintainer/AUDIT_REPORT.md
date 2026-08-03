@@ -1,6 +1,6 @@
 # LiDAR Research Atlas audit report
 
-**Package:** v0.2.0 expanded candidate
+**Package:** v0.2.1 site-integrity hotfix
 **Audit date:** 2026-08-03
 **Structured records:** 207 (85 datasets, 53 methods, 69 ecosystem resources)
 
@@ -17,9 +17,9 @@
 - Generated CSV and JSON exports match the structured catalog counts.
 - GSeg3D and RESPLE publication/implementation links were corrected after direct source review.
 
-## Build limitation
+## Build verification
 
-A strict local MkDocs build could not be executed in the packaging container because the container package index did not expose the declared MkDocs distributions. The repository workflows install the declared dependencies and run `mkdocs build --strict` on GitHub Actions. This limitation is environmental and is not represented as a successful local documentation build.
+A strict local MkDocs build completed successfully with the declared dependencies. The validation and deployment workflows repeat catalog generation, export consistency, tests, restricted-file scanning, internal-link checks, rendered-site integrity checks, and `mkdocs build --strict`.
 
 ## External-link limitation
 
@@ -31,4 +31,4 @@ The package does not host third-party datasets, labels, point clouds, archives, 
 
 ## Release decision
 
-Suitable as an expanded v0.2.0 candidate after reviewing the generated diff and running the strict MkDocs build in GitHub Actions. Do not describe the catalog as legally guaranteed, exhaustive, or fully verified.
+Prepared and validated as the v0.2.1 site-integrity hotfix. Publication requires successful pull-request checks, merge, GitHub Pages deployment, and live-site verification. Do not describe the catalog as legally guaranteed, exhaustive, or fully verified.

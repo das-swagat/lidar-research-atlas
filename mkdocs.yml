@@ -80,6 +80,14 @@ extra:
       link: https://www.researchgate.net/profile/Swagat-Das/research
   generator: false
 
+not_in_nav: |
+  /catalog/datasets/*.md
+  !/catalog/datasets/index.md
+  /catalog/methods/*.md
+  !/catalog/methods/index.md
+  /catalog/ecosystem/*.md
+  !/catalog/ecosystem/index.md
+
 nav:
   - Home: index.md
   - Get started:

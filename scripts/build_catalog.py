@@ -3,7 +3,7 @@ from pathlib import Path
 import argparse, csv, html, json, yaml
 ROOT=Path(__file__).resolve().parents[1]
 DOCS=ROOT/'docs'
-VERSION='0.2.0'
+VERSION='0.2.1'
 GENERATED='2026-08-03'
 
 def load(kind):
@@ -155,7 +155,7 @@ def source_register(ds,ms,eco):
         rows.append(['ecosystem_resource',e['id'],e['name'],'official_url',e['official_url'],e['verification']['last_checked'],e['verification']['status']])
         if e.get('repository_url'): rows.append(['ecosystem_resource',e['id'],e['name'],'repository_url',e['repository_url'],e['verification']['last_checked'],e['verification']['status']])
     with (ROOT/'catalog/source-register.csv').open('w',newline='',encoding='utf-8') as f:
-        w=csv.writer(f); w.writerow(['resource_type','id','name','source_role','url','last_checked','verification_status']); w.writerows(rows)
+        w=csv.writer(f, lineterminator="\n"); w.writerow(['resource_type','id','name','source_role','url','last_checked','verification_status']); w.writerows(rows)
 
 def main(check=False):
     ds=load('datasets'); ms=load('methods'); eco=load('ecosystem'); ps=load('portals')
@@ -167,30 +167,30 @@ def main(check=False):
     for d in ds: write(DOCS/'catalog/datasets'/f"{d['id']}.md",dataset_page(d))
     for m in ms: write(DOCS/'catalog/methods'/f"{m['id']}.md",method_page(m))
     for e in eco: write(DOCS/'catalog/ecosystem'/f"{e['id']}.md",ecosystem_page(e))
-    dsv=sum(d['verification']['status']=='verified' for d in ds); dsd=sum(d['verification']['status']=='discovery_only' for d in ds)
-    msv=sum(m['verification']['status']=='verified' for m in ms); msd=sum(m['verification']['status']=='discovery_only' for m in ms)
+    dsv=sum(d['verification']['status']=='verified' for d in ds); dsp=sum(d['verification']['status']=='partial' for d in ds); dsd=sum(d['verification']['status']=='discovery_only' for d in ds)
+    msv=sum(m['verification']['status']=='verified' for m in ms); msp=sum(m['verification']['status']=='partial' for m in ms); msd=sum(m['verification']['status']=='discovery_only' for m in ms)
     write(DOCS/'catalog/datasets/index.md',f'''# Dataset catalog
 
-<div class="atlas-stat-grid"><div><strong>{len(ds)}</strong><span>dataset records</span></div><div><strong>{dsv}</strong><span>verified</span></div><div><strong>{dsd}</strong><span>discovery-only</span></div></div>
+<div class="atlas-stat-grid"><div><strong>{len(ds)}</strong><span>dataset records</span></div><div><strong>{dsv}</strong><span>verified</span></div><div><strong>{dsp}</strong><span>partial</span></div><div><strong>{dsd}</strong><span>discovery-only</span></div></div>
 
 The expanded catalog spans indoor and outdoor 2D/3D LiDAR, autonomous driving, robotics, mapping, aerial sensing, natural environments, construction, synthetic data, and heterogeneous sensor research. A discovery-only record is an indexed lead, not a completed license determination.
 
 {filter_box('dataset-table','Filter datasets by name, task, sensor, environment, year, or status…')}
 
-<div id="dataset-table">
+<div id="dataset-table" markdown="1">
 
 {dataset_table(ds)}
 
 </div>''')
     write(DOCS/'catalog/methods/index.md',f'''# Method catalog
 
-<div class="atlas-stat-grid"><div><strong>{len(ms)}</strong><span>method records</span></div><div><strong>{msv}</strong><span>verified</span></div><div><strong>{msd}</strong><span>discovery-only</span></div></div>
+<div class="atlas-stat-grid"><div><strong>{len(ms)}</strong><span>method records</span></div><div><strong>{msv}</strong><span>verified</span></div><div><strong>{msp}</strong><span>partial</span></div><div><strong>{msd}</strong><span>discovery-only</span></div></div>
 
 Methods cover point representations, semantic and moving-object segmentation, 3D detection, ground segmentation, registration, SLAM, odometry, place recognition, self-supervised learning, and sensor calibration.
 
 {filter_box('method-table','Filter methods by name, category, representation, year, or status…')}
 
-<div id="method-table">
+<div id="method-table" markdown="1">
 
 {method_table(ms)}
 
@@ -199,13 +199,13 @@ Methods cover point representations, semantic and moving-object segmentation, 3D
     cards=''.join(f'<div><strong>{n}</strong><span>{c.replace("-"," ")}</span></div>' for c,n in counts.items())
     write(DOCS/'catalog/ecosystem/index.md',f'''# LiDAR ecosystem catalog
 
-<div class="atlas-stat-grid">{cards}</div>
+<div class="atlas-stat-grid atlas-stat-grid--ecosystem">{cards}</div>
 
 This section expands beyond datasets and papers to the surrounding LiDAR ecosystem: sensor manufacturers, point-cloud libraries, autonomous-system frameworks, simulators, visualization and annotation tools, and related curated lists. These records are discovery aids. Product status, software licenses, export controls, and commercial terms must be verified at the linked source.
 
 {filter_box('ecosystem-table','Filter manufacturers, libraries, frameworks, simulators, tools, or lists…')}
 
-<div id="ecosystem-table">
+<div id="ecosystem-table" markdown="1">
 
 {eco_table(eco)}
 

@@ -1,5 +1,23 @@
 # Changelog
 
+All notable changes are documented here. This project follows Semantic Versioning where practical.
+
+## [0.2.1] - 2026-08-03
+
+### Fixed
+- Restored rendered HTML tables and functional client-side filters across dataset, method, and ecosystem catalogs.
+- Restored complete verification-status cards, including partial-record counts.
+- Improved the ecosystem statistics layout and responsive behavior.
+- Normalized generated CSV files to LF line endings.
+- Removed accidental duplicate-copy files and added automated duplicate-name detection.
+
+### Changed
+- Added rendered-site integrity checks and generated-output drift detection to validation and deployment workflows.
+- Added functional Ruff checks and aligned pre-commit and Makefile validation commands.
+- Reorganized maintainer-only documents and removed obsolete packaging and standalone-preview artifacts.
+- Replaced the 2.6 MB homepage hero PNG with a visually equivalent 429 KB WebP asset.
+- Updated active release, citation, CodeMeta, Zenodo, catalog, and package metadata to v0.2.1.
+
 ## [0.2.0] - 2026-08-03
 
 ### Added
@@ -16,8 +34,6 @@
 ### Legal and provenance
 - Added upstream source-list acknowledgements without reproducing abstracts, figures, screenshots, or README prose.
 - Added discovery-layer rules to provenance and contribution policies.
-
-All notable changes are documented here. This project follows Semantic Versioning where practical.
 
 ## [0.1.0] — 2026-08-03
 
