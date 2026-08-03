@@ -3,7 +3,7 @@ from pathlib import Path
 import argparse, csv, html, json, yaml
 ROOT=Path(__file__).resolve().parents[1]
 DOCS=ROOT/'docs'
-VERSION='0.2.1'
+VERSION='0.2.2'
 GENERATED='2026-08-03'
 
 def load(kind):
@@ -177,7 +177,7 @@ The expanded catalog spans indoor and outdoor 2D/3D LiDAR, autonomous driving, r
 
 {filter_box('dataset-table','Filter datasets by name, task, sensor, environment, year, or status…')}
 
-<div id="dataset-table" markdown="1">
+<div id="dataset-table" class="atlas-table-wrap" markdown="1">
 
 {dataset_table(ds)}
 
@@ -190,7 +190,7 @@ Methods cover point representations, semantic and moving-object segmentation, 3D
 
 {filter_box('method-table','Filter methods by name, category, representation, year, or status…')}
 
-<div id="method-table" markdown="1">
+<div id="method-table" class="atlas-table-wrap" markdown="1">
 
 {method_table(ms)}
 
@@ -205,13 +205,22 @@ This section expands beyond datasets and papers to the surrounding LiDAR ecosyst
 
 {filter_box('ecosystem-table','Filter manufacturers, libraries, frameworks, simulators, tools, or lists…')}
 
-<div id="ecosystem-table" markdown="1">
+<div id="ecosystem-table" class="atlas-table-wrap" markdown="1">
 
 {eco_table(eco)}
 
 </div>''')
-    rows=['# Research portals','', '| Portal | Purpose | Legal note |','|---|---|---|']
-    for p in ps: rows.append(f"| [{p['name']}]({p['url']}) | {p['purpose']} | {p['legal_note']} |")
+    rows=[
+        '# Research portals',
+        '',
+        '<div id="portal-table" class="atlas-table-wrap" markdown="1">',
+        '',
+        '| Portal | Purpose | Legal note |',
+        '|---|---|---|',
+    ]
+    for p in ps:
+        rows.append(f"| [{p['name']}]({p['url']}) | {p['purpose']} | {p['legal_note']} |")
+    rows.extend(['', '</div>'])
     write(DOCS/'catalog/portals/index.md','\n'.join(rows))
     dump={'version':VERSION,'generated':GENERATED,'datasets':ds,'methods':ms,'ecosystem':eco,'portals':ps}
     (ROOT/'docs/assets/catalog.json').write_text(json.dumps(dump,indent=2)+'\n',encoding='utf-8')

@@ -1,6 +1,6 @@
 # LiDAR Research Atlas audit report
 
-**Package:** v0.2.1 site-integrity hotfix
+**Package:** v0.2.2 full-width table hotfix
 **Audit date:** 2026-08-03
 **Structured records:** 207 (85 datasets, 53 methods, 69 ecosystem resources)
 
@@ -31,4 +31,4 @@ The package does not host third-party datasets, labels, point clouds, archives, 
 
 ## Release decision
 
-Prepared and validated as the v0.2.1 site-integrity hotfix. Publication requires successful pull-request checks, merge, GitHub Pages deployment, and live-site verification. Do not describe the catalog as legally guaranteed, exhaustive, or fully verified.
+Prepared and validated as the v0.2.2 full-width table hotfix. Publication requires successful pull-request checks, merge, GitHub Pages deployment, and live-site verification. Do not describe the catalog as legally guaranteed, exhaustive, or fully verified.

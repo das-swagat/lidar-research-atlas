@@ -2,7 +2,7 @@
 from pathlib import Path
 import csv, json, yaml
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'exports'; OUT.mkdir(exist_ok=True)
-VERSION='0.2.1'; GENERATED='2026-08-03'
+VERSION='0.2.2'; GENERATED='2026-08-03'
 def load(kind): return [yaml.safe_load(p.read_text()) for p in sorted((ROOT/'catalog'/kind).glob('*.yml'))]
 ds=load('datasets'); ms=load('methods'); eco=load('ecosystem')
 with (OUT/'datasets.csv').open('w',newline='',encoding='utf-8') as f:

@@ -6,7 +6,7 @@ Methods cover point representations, semantic and moving-object segmentation, 3D
 
 <div class="atlas-filter"><input type="search" data-atlas-filter="method-table" placeholder="Filter methods by name, category, representation, year, or status…" aria-label="Filter methods by name, category, representation, year, or status…"></div>
 
-<div id="method-table" markdown="1">
+<div id="method-table" class="atlas-table-wrap" markdown="1">
 
 | Method | Year | Category | Representation | Source relationship | Status |
 |---|---:|---|---|---|---|

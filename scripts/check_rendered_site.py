@@ -9,8 +9,11 @@ errors = []
 targets = {
     "datasets": "dataset-table",
     "methods": "method-table",
+    "portals": "portal-table",
     "ecosystem": "ecosystem-table",
 }
+
+filter_kinds = {"datasets", "methods", "ecosystem"}
 
 for kind, target in targets.items():
     page = ROOT / "site" / "catalog" / kind / "index.html"
@@ -32,13 +35,17 @@ for kind, target in targets.items():
     if not any(token in html for token in wrapper_tokens):
         errors.append(f"{kind}: table wrapper #{target} missing")
 
-    filter_tokens = (
-        f'data-atlas-filter="{target}"',
-        f"data-atlas-filter='{target}'",
-        f"data-atlas-filter={target}",
-    )
-    if not any(token in html for token in filter_tokens):
-        errors.append(f"{kind}: filter target missing")
+    if "atlas-table-wrap" not in html:
+        errors.append(f"{kind}: full-width table class missing")
+
+    if kind in filter_kinds:
+        filter_tokens = (
+            f'data-atlas-filter="{target}"',
+            f"data-atlas-filter='{target}'",
+            f"data-atlas-filter={target}",
+        )
+        if not any(token in html for token in filter_tokens):
+            errors.append(f"{kind}: filter target missing")
 
 for kind, noun in (("datasets", "dataset"), ("methods", "method")):
     html = (ROOT / "site" / "catalog" / kind / "index.html").read_text()

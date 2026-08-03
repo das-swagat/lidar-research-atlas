@@ -2,6 +2,16 @@
 
 All notable changes are documented here. This project follows Semantic Versioning where practical.
 
+## [0.2.2] - 2026-08-03
+
+### Fixed
+- Removed the internal horizontal scrollbar from desktop catalog tables.
+- Expanded the documentation content width so dataset, method, portal, and ecosystem tables use the available viewport.
+- Added controlled cell wrapping without splitting ordinary words.
+- Preserved horizontal scrolling on narrower screens where multi-column tables cannot fit safely.
+- Added the shared table wrapper to the generated Research Portals page.
+- Extended rendered-site regression checks to all four catalog table pages.
+
 ## [0.2.1] - 2026-08-03
 
 ### Fixed

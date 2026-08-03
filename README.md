@@ -86,7 +86,7 @@ mkdocs serve
 
 ## Project status
 
-Version **0.2.1** is the site-integrity hotfix for the expanded atlas, retaining **207 structured records**: 85 datasets, 53 methods, and 69 ecosystem resources. Records marked `discovery_only`, `source_listed`, or `partial` are retained transparently and must not be interpreted as fully verified license or access determinations.
+Version **0.2.2** improves full-width catalog-table presentation while retaining **207 structured records**: 85 datasets, 53 methods, and 69 ecosystem resources. Records marked `discovery_only`, `source_listed`, or `partial` are retained transparently and must not be interpreted as fully verified license or access determinations.
 
 ## Licensing
 

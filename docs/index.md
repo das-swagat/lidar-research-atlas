@@ -20,7 +20,7 @@ hide:
 </div>
 
 <div class="atlas-grid">
-  <div class="atlas-card"><strong>207 records</strong><span>85 datasets, 53 methods, and 69 ecosystem resources in v0.2.1.</span></div>
+  <div class="atlas-card"><strong>207 records</strong><span>85 datasets, 53 methods, and 69 ecosystem resources in v0.2.2.</span></div>
   <div class="atlas-card"><strong>2D + 3D</strong><span>Indoor, outdoor, aerial, mobile, terrestrial, automotive, robotic, and synthetic sensing.</span></div>
   <div class="atlas-card"><strong>Verification layers</strong><span>Verified, partial, discovery-only, and source-listed records are clearly distinguished.</span></div>
   <div class="atlas-card"><strong>No data mirroring</strong><span>Official access routes only. Provider agreements and current terms control.</span></div>

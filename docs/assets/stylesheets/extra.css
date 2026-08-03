@@ -70,3 +70,46 @@ tr[hidden] { display:none !important; }
     grid-template-columns: 1fr;
   }
 }
+
+/* Full-width catalog tables */
+@media (min-width: 76.25em) {
+  .md-grid {
+    max-width: 88rem;
+  }
+}
+
+@media (min-width: 60em) {
+  .atlas-table-wrap .md-typeset__scrollwrap,
+  .atlas-table-wrap .md-typeset__table {
+    display: block;
+    width: 100%;
+    margin: 0;
+    overflow: visible;
+  }
+
+  .atlas-table-wrap table:not([class]) {
+    display: table;
+    width: 100%;
+    min-width: 0;
+    table-layout: fixed;
+    font-size: .7rem;
+  }
+
+  .atlas-table-wrap th,
+  .atlas-table-wrap td {
+    min-width: 0;
+    padding: .5rem .55rem;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: normal;
+    hyphens: none;
+    vertical-align: top;
+  }
+}
+
+@media (max-width: 59.99em) {
+  .atlas-table-wrap .md-typeset__scrollwrap,
+  .atlas-table-wrap .md-typeset__table {
+    overflow-x: auto;
+  }
+}
