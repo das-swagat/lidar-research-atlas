@@ -8,5 +8,5 @@
 - [ ] Run the external URL audit and manually review failures, redirects, bot blocks, and provider-term changes.
 - [ ] Rebuild `PACKAGE_MANIFEST.json` after all file changes.
 - [ ] Create the archive from the exact intended commit and publish its SHA-256 checksum.
-- [ ] Create an annotated tag and GitHub release such as `v0.2.0`.
+- [ ] Create an annotated version tag and matching GitHub release.
 - [ ] After Zenodo assigns a DOI, update `CITATION.cff`, `.zenodo.json`, citation docs, and README.

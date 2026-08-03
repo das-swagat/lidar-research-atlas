@@ -1,12 +1,12 @@
 # Method catalog
 
-<div class="atlas-stat-grid"><div><strong>53</strong><span>method records</span></div><div><strong>25</strong><span>verified</span></div><div><strong>26</strong><span>discovery-only</span></div></div>
+<div class="atlas-stat-grid"><div><strong>53</strong><span>method records</span></div><div><strong>25</strong><span>verified</span></div><div><strong>2</strong><span>partial</span></div><div><strong>26</strong><span>discovery-only</span></div></div>
 
 Methods cover point representations, semantic and moving-object segmentation, 3D detection, ground segmentation, registration, SLAM, odometry, place recognition, self-supervised learning, and sensor calibration.
 
 <div class="atlas-filter"><input type="search" data-atlas-filter="method-table" placeholder="Filter methods by name, category, representation, year, or status…" aria-label="Filter methods by name, category, representation, year, or status…"></div>
 
-<div id="method-table">
+<div id="method-table" markdown="1">
 
 | Method | Year | Category | Representation | Source relationship | Status |
 |---|---:|---|---|---|---|

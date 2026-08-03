@@ -2,7 +2,7 @@
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "SoftwareSourceCode",
   "name": "LiDAR Research Atlas",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A provenance-tracked atlas of indoor and outdoor 2D/3D LiDAR datasets and methods.",
   "codeRepository": "https://github.com/das-swagat/lidar-research-atlas",
   "license": "https://spdx.org/licenses/Apache-2.0",
@@ -21,5 +21,6 @@
     "CSS",
     "JavaScript"
   ],
-  "dateCreated": "2026-08-03"
+  "dateCreated": "2026-08-03",
+  "dateModified": "2026-08-03"
 }

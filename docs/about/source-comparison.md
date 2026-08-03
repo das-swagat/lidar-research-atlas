@@ -18,7 +18,7 @@ Coverage parity is not the same as verification parity. Newly mapped entries rem
 
 ## Design comparison
 
-| Capability | Awesome 3D LiDAR Datasets | Awesome LIDAR | LiDAR Research Atlas v0.2.0 candidate |
+| Capability | Awesome 3D LiDAR Datasets | Awesome LIDAR | LiDAR Research Atlas v0.2.0 |
 |---|---|---|---|
 | Primary strength | Focused 3D-dataset summary | Broad LiDAR ecosystem directory | Structured discovery, provenance, lawful access, and search |
 | Presentation | README table plus descriptions | Categorized README with badges | Generated documentation site and searchable tables |

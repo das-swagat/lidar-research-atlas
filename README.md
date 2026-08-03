@@ -11,7 +11,7 @@
   </p>
 </div>
 
-![LiDAR Research Atlas overview](docs/assets/images/hero.png)
+![LiDAR Research Atlas overview](docs/assets/images/hero.webp)
 
 LiDAR Research Atlas is a curated, provenance-tracked research index for **indoor and outdoor 2D and 3D LiDAR**. It connects researchers and developers with LiDAR datasets, point-cloud methods, SLAM and odometry algorithms, autonomous-driving and robotics benchmarks, semantic segmentation, 3D object detection, self-supervised learning, remote sensing, mobile mapping, aerial LiDAR, simulators, libraries, and geospatial resources.
 
@@ -86,7 +86,7 @@ mkdocs serve
 
 ## Project status
 
-Version **0.2.0** is an expanded release candidate with **207 structured records**: 85 datasets, 53 methods, and 69 ecosystem resources. Records marked `discovery_only`, `source_listed`, or `partial` are retained transparently and must not be interpreted as fully verified license or access determinations.
+Version **0.2.1** is the site-integrity hotfix for the expanded atlas, retaining **207 structured records**: 85 datasets, 53 methods, and 69 ecosystem resources. Records marked `discovery_only`, `source_listed`, or `partial` are retained transparently and must not be interpreted as fully verified license or access determinations.
 
 ## Licensing
 

@@ -22,10 +22,19 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - run: python -m pip install -r requirements.txt
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python -m ruff check . --select F
+      - run: python scripts/check_duplicate_files.py
       - run: python scripts/validate_catalog.py
       - run: python scripts/build_catalog.py
+      - run: python scripts/export_catalog.py
+      - run: python scripts/build_manifest.py
+      - run: git diff --exit-code
+      - run: python scripts/check_no_restricted_files.py
+      - run: python scripts/check_internal_links.py
+      - run: python -m pytest -q
       - run: mkdocs build --strict
+      - run: python scripts/check_rendered_site.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

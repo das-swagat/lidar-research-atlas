@@ -3,9 +3,14 @@ repos:
     rev: v0.12.7
     hooks:
       - id: ruff-check
-      - id: ruff-format
+        args: ["--select", "F"]
   - repo: local
     hooks:
+      - id: duplicate-file-check
+        name: Reject accidental duplicate-copy files
+        entry: python scripts/check_duplicate_files.py
+        language: system
+        pass_filenames: false
       - id: validate-atlas
         name: Validate atlas catalog
         entry: python scripts/validate_catalog.py
@@ -14,5 +19,15 @@ repos:
       - id: restricted-file-scan
         name: Scan for restricted files
         entry: python scripts/check_no_restricted_files.py
+        language: system
+        pass_filenames: false
+      - id: internal-link-check
+        name: Check internal Markdown links
+        entry: python scripts/check_internal_links.py
+        language: system
+        pass_filenames: false
+      - id: package-manifest-check
+        name: Check package manifest
+        entry: python scripts/build_manifest.py --check
         language: system
         pass_filenames: false

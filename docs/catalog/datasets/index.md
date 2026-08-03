@@ -1,12 +1,12 @@
 # Dataset catalog
 
-<div class="atlas-stat-grid"><div><strong>85</strong><span>dataset records</span></div><div><strong>18</strong><span>verified</span></div><div><strong>58</strong><span>discovery-only</span></div></div>
+<div class="atlas-stat-grid"><div><strong>85</strong><span>dataset records</span></div><div><strong>18</strong><span>verified</span></div><div><strong>9</strong><span>partial</span></div><div><strong>58</strong><span>discovery-only</span></div></div>
 
 The expanded catalog spans indoor and outdoor 2D/3D LiDAR, autonomous driving, robotics, mapping, aerial sensing, natural environments, construction, synthetic data, and heterogeneous sensor research. A discovery-only record is an indexed lead, not a completed license determination.
 
 <div class="atlas-filter"><input type="search" data-atlas-filter="dataset-table" placeholder="Filter datasets by name, task, sensor, environment, year, or status…" aria-label="Filter datasets by name, task, sensor, environment, year, or status…"></div>
 
-<div id="dataset-table">
+<div id="dataset-table" markdown="1">
 
 | Resource | Year | Geometry | Environment | Tasks | Access | Status |
 |---|---:|---|---|---|---|---|
