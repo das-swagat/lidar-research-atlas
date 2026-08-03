@@ -32,3 +32,6 @@ site/
 *.tar.gz
 *.7z
 *.rar
+
+# Generated external-link audit report
+/link-audit.json
