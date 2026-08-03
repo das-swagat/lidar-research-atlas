@@ -14,7 +14,7 @@
 ## Authoritative sources
 
 - [Official dataset/project page](https://pandaset.org/)
-- [Primary publication](https://arxiv.org/abs/2112.12610)
+- [Primary publication or project source](https://arxiv.org/abs/2112.12610)
 - [Current terms or license source](https://pandaset.org/)
 
 ## Access and legal status
@@ -30,7 +30,7 @@
 | Dataset/license label | PandaSet Terms of Use |
 
 !!! danger "Do not redistribute from this atlas"
-    This project hosts no scans, labels, calibration archives, credentials, or signed links. The provider's current terms control.
+    This project hosts no scans, labels, calibration archives, credentials, signed links, or model weights. The provider's current terms control.
 
 ## Lawful access workflow
 1. Open the official page linked above.

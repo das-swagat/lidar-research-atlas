@@ -1,0 +1,27 @@
+id: mola
+name: MOLA
+year: 2024
+resource_type: method
+category: SLAM and localization framework
+representation: modular LiDAR odometry, SLAM, and georeferencing
+original_authors: See primary publication
+authoritative_sources:
+  primary_publication: https://github.com/MOLAorg/mola
+  implementation: https://github.com/MOLAorg/mola
+implementation:
+  relationship: official_or_author_maintained_unverified
+  license: verify from repository
+  weights_terms: verify separately
+  repository: https://github.com/MOLAorg/mola
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper and follow the repository citation and license
+    instructions. This atlas record is independently written.
+  recommended_source: https://github.com/MOLAorg/mola
+notes: Discovery-expanded record; implementation relationship and license should be
+  rechecked before reuse.
+discovery_sources:
+- szenergy/awesome-lidar
+verification:
+  status: discovery_only
+  last_checked: '2026-08-03'

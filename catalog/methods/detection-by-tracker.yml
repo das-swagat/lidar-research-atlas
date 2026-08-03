@@ -1,0 +1,27 @@
+id: detection-by-tracker
+name: detection_by_tracker
+year: 2020
+resource_type: method
+category: 3D multi-object tracking
+representation: tracking-driven detection
+original_authors: See primary publication
+authoritative_sources:
+  primary_publication: https://www.semanticscholar.org/paper/3D-LIDAR-Multi-Object-Tracking-for-Autonomous-and-Rachman/bafc8fcdee9b22708491ea1293524ece9e314851
+  implementation: https://autowarefoundation.github.io/autoware.universe/main/perception/detection_by_tracker/
+implementation:
+  relationship: official_or_author_maintained_unverified
+  license: verify from repository
+  weights_terms: verify separately
+  repository: https://autowarefoundation.github.io/autoware.universe/main/perception/detection_by_tracker/
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper and follow the repository citation and license
+    instructions. This atlas record is independently written.
+  recommended_source: https://www.semanticscholar.org/paper/3D-LIDAR-Multi-Object-Tracking-for-Autonomous-and-Rachman/bafc8fcdee9b22708491ea1293524ece9e314851
+notes: Discovery-expanded record; implementation relationship and license should be
+  rechecked before reuse.
+discovery_sources:
+- szenergy/awesome-lidar
+verification:
+  status: discovery_only
+  last_checked: '2026-08-03'

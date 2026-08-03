@@ -1,12 +1,12 @@
 # Release checklist
 
-- [ ] Run `make validate`, `make test`, and `mkdocs build --strict`.
-- [ ] Resolve or document URL-audit failures.
-- [ ] Confirm no dataset files, weights, credentials, signed URLs, or third-party figures are present.
-- [ ] Recheck every record changed since the previous release against authoritative sources.
-- [ ] Update `CHANGELOG.md`, `CITATION.cff`, `.zenodo.json`, and version fields.
-- [ ] Review `THIRD_PARTY_NOTICES.md` and media register.
-- [ ] Create an annotated Git tag such as `v0.1.0`.
-- [ ] Publish GitHub release notes and attach only atlas-generated metadata/documentation artifacts.
-- [ ] After public release, enable Zenodo archival and add the assigned DOI to citation files.
-- [ ] Publish a separate ResearchGate data item or technical report only after the archived release is stable.
+- [ ] Confirm `git status --short` is empty.
+- [ ] Run catalog generation, export, schema validation, internal-link checks, tests, and restricted-file scanning.
+- [ ] Run `mkdocs build --strict` in an environment with the declared dependencies.
+- [ ] Review all new `discovery_only`, `source_listed`, and `partial` records for accurate status labeling.
+- [ ] Review third-party notices, media provenance, disclaimer, correction/takedown process, and licenses.
+- [ ] Run the external URL audit and manually review failures, redirects, bot blocks, and provider-term changes.
+- [ ] Rebuild `PACKAGE_MANIFEST.json` after all file changes.
+- [ ] Create the archive from the exact intended commit and publish its SHA-256 checksum.
+- [ ] Create an annotated tag and GitHub release such as `v0.2.0`.
+- [ ] After Zenodo assigns a DOI, update `CITATION.cff`, `.zenodo.json`, citation docs, and README.

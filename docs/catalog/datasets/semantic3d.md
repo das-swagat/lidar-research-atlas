@@ -13,7 +13,7 @@
 ## Authoritative sources
 
 - [Official dataset/project page](https://www.semantic3d.net/)
-- [Primary publication](https://doi.org/10.5194/isprs-annals-IV-1-W1-91-2017)
+- [Primary publication or project source](https://doi.org/10.5194/isprs-annals-IV-1-W1-91-2017)
 - [Current terms or license source](https://www.semantic3d.net/)
 
 ## Access and legal status
@@ -29,7 +29,7 @@
 | Dataset/license label | Semantic3D provider terms |
 
 !!! danger "Do not redistribute from this atlas"
-    This project hosts no scans, labels, calibration archives, credentials, or signed links. The provider's current terms control.
+    This project hosts no scans, labels, calibration archives, credentials, signed links, or model weights. The provider's current terms control.
 
 ## Lawful access workflow
 1. Open the official page linked above.

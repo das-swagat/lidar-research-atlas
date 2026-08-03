@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["id", "name", "resource_type", "category", "official_url", "summary", "source_collections", "legal_note", "verification"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+    "name": {"type": "string", "minLength": 2},
+    "resource_type": {"const": "ecosystem_resource"},
+    "category": {"enum": ["manufacturer", "library", "framework", "simulator", "tool", "related-list"]},
+    "official_url": {"type": "string", "pattern": "^https?://"},
+    "repository_url": {"type": "string"},
+    "summary": {"type": "string", "minLength": 10},
+    "source_collections": {"type": "array", "minItems": 1},
+    "legal_note": {"type": "string", "minLength": 10},
+    "verification": {
+      "type": "object",
+      "required": ["status", "last_checked"]
+    }
+  },
+  "additionalProperties": true
+}

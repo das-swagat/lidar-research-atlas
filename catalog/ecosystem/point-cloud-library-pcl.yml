@@ -1,0 +1,16 @@
+id: point-cloud-library-pcl
+name: Point Cloud Library (PCL)
+resource_type: ecosystem_resource
+category: library
+subcategory: library
+official_url: https://pointclouds.org/
+repository_url: https://github.com/PointCloudLibrary/pcl
+summary: C++ library for point-cloud filtering, registration, segmentation, features,
+  and visualization.
+source_collections:
+- szenergy/awesome-lidar
+legal_note: Review the official site and repository license before use; listing does
+  not imply endorsement.
+verification:
+  status: source_listed
+  last_checked: '2026-08-03'

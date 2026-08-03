@@ -1,0 +1,27 @@
+id: lidar-mos
+name: LiDAR-MOS
+year: 2021
+resource_type: method
+category: moving-object segmentation
+representation: range-image residuals and semantic segmentation
+original_authors: See primary publication
+authoritative_sources:
+  primary_publication: https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/chen2021ral.pdf
+  implementation: https://github.com/PRBonn/LiDAR-MOS
+implementation:
+  relationship: official_or_author_maintained_unverified
+  license: verify from repository
+  weights_terms: verify separately
+  repository: https://github.com/PRBonn/LiDAR-MOS
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper and follow the repository citation and license
+    instructions. This atlas record is independently written.
+  recommended_source: https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/chen2021ral.pdf
+notes: Discovery-expanded record; implementation relationship and license should be
+  rechecked before reuse.
+discovery_sources:
+- szenergy/awesome-lidar
+verification:
+  status: discovery_only
+  last_checked: '2026-08-03'

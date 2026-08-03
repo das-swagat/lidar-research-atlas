@@ -1,0 +1,15 @@
+id: baidu-apollo
+name: Baidu Apollo
+resource_type: ecosystem_resource
+category: framework
+subcategory: framework
+official_url: https://apollo.auto/
+repository_url: https://github.com/ApolloAuto/apollo
+summary: Autonomous-driving development and deployment platform.
+source_collections:
+- szenergy/awesome-lidar
+legal_note: Review the official site and repository license before use; listing does
+  not imply endorsement.
+verification:
+  status: source_listed
+  last_checked: '2026-08-03'

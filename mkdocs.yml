@@ -1,5 +1,5 @@
 site_name: LiDAR Research Atlas
-site_description: Curated indoor and outdoor 2D/3D LiDAR datasets, point-cloud methods, SLAM, autonomous driving, robotics, remote sensing, benchmarks, and lawful access guides.
+site_description: Curated indoor and outdoor 2D/3D LiDAR datasets, point-cloud methods, SLAM, autonomous driving, robotics, remote sensing, benchmarks, ecosystem tools, and lawful access guides.
 site_author: Swagat Das
 site_url: https://das-swagat.github.io/lidar-research-atlas/
 repo_url: https://github.com/das-swagat/lidar-research-atlas
@@ -90,6 +90,7 @@ nav:
       - Datasets: catalog/datasets/index.md
       - Methods: catalog/methods/index.md
       - Research portals: catalog/portals/index.md
+      - LiDAR ecosystem: catalog/ecosystem/index.md
   - Guides:
       - Choose a dataset: guides/choosing-a-dataset.md
       - Lawful download workflow: guides/lawful-download-workflow.md
@@ -118,6 +119,8 @@ nav:
       - Add a method: contributing/add-method.md
   - About:
       - Methodology: about/methodology.md
+      - Source-list comparison: about/source-comparison.md
+      - Coverage report: about/coverage-report.md
       - Cite the atlas: about/citation.md
       - ResearchGate mapping: about/researchgate.md
       - Repository settings: about/repository-settings.md

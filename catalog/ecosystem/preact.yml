@@ -1,0 +1,15 @@
+id: preact
+name: PreAct
+resource_type: ecosystem_resource
+category: manufacturer
+subcategory: manufacturer
+official_url: https://www.preact-tech.com/
+repository_url: ''
+summary: Near-field sensing and automotive safety systems.
+source_collections:
+- szenergy/awesome-lidar
+legal_note: Review the official site and repository license before use; listing does
+  not imply endorsement.
+verification:
+  status: source_listed
+  last_checked: '2026-08-03'

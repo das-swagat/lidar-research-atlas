@@ -16,3 +16,7 @@ Do not upload datasets, labels, scans, model weights, credentials, signed URLs, 
 5. Submit a focused pull request and identify every primary source used.
 
 By contributing original prose, metadata, or diagrams, you agree that it may be distributed under `LICENSE-CONTENT.md`. Code contributions are under Apache-2.0.
+
+## Expansion-source rule
+
+Do not copy abstracts, README paragraphs, tables, screenshots, figures, or badges from another curated list. A source list may identify a candidate, but the pull request must provide an official project/provider URL and independently written metadata. Add the discovery collection to `discovery_sources` or `source_collections`, and use `discovery_only` until access, citation, and license fields are reviewed directly.

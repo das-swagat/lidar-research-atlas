@@ -1,0 +1,27 @@
+id: direct-visual-lidar-calibration
+name: Direct Visual-LiDAR Calibration
+year: 2023
+resource_type: method
+category: sensor calibration
+representation: targetless direct visual-LiDAR alignment
+original_authors: See primary publication
+authoritative_sources:
+  primary_publication: https://staff.aist.go.jp/k.koide/assets/pdf/icra2023.pdf
+  implementation: https://github.com/koide3/direct_visual_lidar_calibration
+implementation:
+  relationship: official_or_author_maintained_unverified
+  license: verify from repository
+  weights_terms: verify separately
+  repository: https://github.com/koide3/direct_visual_lidar_calibration
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper and follow the repository citation and license
+    instructions. This atlas record is independently written.
+  recommended_source: https://staff.aist.go.jp/k.koide/assets/pdf/icra2023.pdf
+notes: Discovery-expanded record; implementation relationship and license should be
+  rechecked before reuse.
+discovery_sources:
+- szenergy/awesome-lidar
+verification:
+  status: discovery_only
+  last_checked: '2026-08-03'

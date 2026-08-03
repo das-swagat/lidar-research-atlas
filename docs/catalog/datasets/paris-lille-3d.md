@@ -13,7 +13,7 @@
 ## Authoritative sources
 
 - [Official dataset/project page](https://npm3d.fr/paris-lille-3d)
-- [Primary publication](https://doi.org/10.1177/0278364918767506)
+- [Primary publication or project source](https://doi.org/10.1177/0278364918767506)
 - [Current terms or license source](https://npm3d.fr/paris-lille-3d)
 
 ## Access and legal status
@@ -29,7 +29,7 @@
 | Dataset/license label | Provider terms |
 
 !!! danger "Do not redistribute from this atlas"
-    This project hosts no scans, labels, calibration archives, credentials, or signed links. The provider's current terms control.
+    This project hosts no scans, labels, calibration archives, credentials, signed links, or model weights. The provider's current terms control.
 
 ## Lawful access workflow
 1. Open the official page linked above.

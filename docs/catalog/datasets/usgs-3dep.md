@@ -15,7 +15,7 @@
 ## Authoritative sources
 
 - [Official dataset/project page](https://www.usgs.gov/3d-elevation-program)
-- [Primary publication](https://www.usgs.gov/3d-elevation-program)
+- [Primary publication or project source](https://www.usgs.gov/3d-elevation-program)
 - [Current terms or license source](https://www.usgs.gov/3d-elevation-program)
 
 ## Access and legal status
@@ -31,7 +31,7 @@
 | Dataset/license label | U.S. government data; check item-level metadata |
 
 !!! danger "Do not redistribute from this atlas"
-    This project hosts no scans, labels, calibration archives, credentials, or signed links. The provider's current terms control.
+    This project hosts no scans, labels, calibration archives, credentials, signed links, or model weights. The provider's current terms control.
 
 ## Lawful access workflow
 1. Open the official page linked above.

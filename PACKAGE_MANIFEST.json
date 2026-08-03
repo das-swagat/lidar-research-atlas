@@ -1,10 +1,18 @@
 {
   "project": "LiDAR Research Atlas",
-  "version": "0.1.0",
-  "package_revision": 2,
+  "version": "0.2.0",
+  "package_label": "expanded candidate",
+  "package_revision": 1,
   "created": "2026-08-03",
-  "file_count": 222,
-  "total_bytes": 654311,
+  "manifest_scope": "All packaged files except PACKAGE_MANIFEST.json itself",
+  "file_count": 536,
+  "total_bytes": 4907560,
+  "catalog_counts": {
+    "datasets": 85,
+    "methods": 53,
+    "ecosystem": 69,
+    "total": 207
+  },
   "files": [
     {
       "path": ".editorconfig",
@@ -37,11 +45,6 @@
       "sha256": "ea6aad6ecd1d935ee7e91cef81313c96e529f434913cb90e5a645392a5d0af3f"
     },
     {
-      "path": ".github/dependabot.yml",
-      "bytes": 227,
-      "sha256": "73a286e692d609b192ea813638d7911b3124b546a672a6b846623110f791bc47"
-    },
-    {
       "path": ".github/pull_request_template.md",
       "bytes": 567,
       "sha256": "5064b4f6051494cc7a167d04c5b9a3c69b6b37cf3033b1aef632a1d9aa242149"
@@ -52,14 +55,19 @@
       "sha256": "777173db37a1df47b4a1c6cae6d5023d32b3759ea6de0ffdbb0d90b44029eafc"
     },
     {
+      "path": ".github/workflows/link-audit.yml",
+      "bytes": 593,
+      "sha256": "2b9b64ebb1b3a409f2dc3a155888725d0f8b6004e61371ad31e22b573dbd6670"
+    },
+    {
       "path": ".github/workflows/validate.yml",
       "bytes": 679,
       "sha256": "e4bf1044b78a3261df2b2a0f299e3bbccebd6747a0f18c6b4caa08f3fc4b402b"
     },
     {
       "path": ".gitignore",
-      "bytes": 341,
-      "sha256": "234aaa2ba8622dfea7878c7f420d2e215245fc9dc8a4f57e5b64a3cea050cfca"
+      "bytes": 398,
+      "sha256": "59010c34d5d8735eefab60d78a09f7f2e0686c7c3714ade4b720a95db760118f"
     },
     {
       "path": ".pre-commit-config.yaml",
@@ -73,8 +81,8 @@
     },
     {
       "path": "ABOUT_PANEL.txt",
-      "bytes": 375,
-      "sha256": "f0eec8059fae08baef91dde0517cd4dd173fb57aa26c04caaf71244eeee17f52"
+      "bytes": 515,
+      "sha256": "84a8e95104fe44d7a8fd4ce2d0617d52c478d4564591154fd82b5f94f3faa17f"
     },
     {
       "path": "ARTICLE_OUTLINE.md",
@@ -83,8 +91,8 @@
     },
     {
       "path": "AUDIT_REPORT.md",
-      "bytes": 1593,
-      "sha256": "84ab7da747cff946431e05786b3ecd378709f9c87a46c1d6c4d758509464cba6"
+      "bytes": 2269,
+      "sha256": "e6c7e391eb1c86df2eeae2c78cfef83fbb90d7a390ce54b20c745ffb35b2381e"
     },
     {
       "path": "AUTHORS.md",
@@ -93,18 +101,18 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1302,
-      "sha256": "f5ae64fa2034bd6ff9fd4abe59061de51ad872c0f5036006153413b3c81fa96d"
+      "bytes": 2227,
+      "sha256": "aec48d071025f7e5a7ba5964d6295125df781b511895650f8620950a2506edbb"
     },
     {
       "path": "CITATION.bib",
       "bytes": 353,
-      "sha256": "1338319e2616936c5360831fdbe7586fe5c3870e5f3f8f5aabefd85899b4d323"
+      "sha256": "4c90fa9725f5b9df8fd8526c7070b5425e74d4136f64b7440910e5870ab059ee"
     },
     {
       "path": "CITATION.cff",
       "bytes": 607,
-      "sha256": "e359f9ab2a717915388b8773a867549c92a238200635e4c9f25fad2487f60042"
+      "sha256": "d603144f5c168cdf18036ada6d8f2c5127f63252ef0e8c6848cba9f2e6f649df"
     },
     {
       "path": "CODE_OF_CONDUCT.md",
@@ -113,13 +121,13 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 990,
-      "sha256": "cbfa457599ca59538bf1fa1a9b4ee219988d17cd498d0f9e88050465623e82f0"
+      "bytes": 1437,
+      "sha256": "6bc3e7305b99e57fcdf2e3d3f010ca0e0786cbea708eb540041e61f0b7698f74"
     },
     {
       "path": "DISCLAIMER.md",
-      "bytes": 836,
-      "sha256": "20da4d9b6b680da2895e3b780db51324ddfb02ab9d08d8f26448b6e0a1bcf6a5"
+      "bytes": 1118,
+      "sha256": "c0c7b08d5818cd5418cb90275f69966c7beecefcea39049bbef8e08428486a55"
     },
     {
       "path": "GOVERNANCE.md",
@@ -143,18 +151,23 @@
     },
     {
       "path": "README.md",
-      "bytes": 3809,
-      "sha256": "06a248536ea934c4db61b200eb6a81da238a3497b0372c4b2ebaa12d37b1632f"
+      "bytes": 7263,
+      "sha256": "b82d6e56bb06e95efdd34a05cd216e9c11fcc790c0e408591439f7525c77fe09"
     },
     {
       "path": "RELEASE_CHECKLIST.md",
-      "bytes": 830,
-      "sha256": "1a08e5c1031d74490979136893c8362a989f5d35505249a6ced01c9df0a2b4cf"
+      "bytes": 913,
+      "sha256": "03a3d420d52545dd9e7925b2ea2456763e792a2f6be092576cd8aa8b69f93e3c"
     },
     {
       "path": "RELEASE_NOTES_v0.1.0.md",
       "bytes": 888,
       "sha256": "32699c48847112817c6dbc04883132eabec8bbf91ae7aa0c8f36d08a2116e52e"
+    },
+    {
+      "path": "RELEASE_NOTES_v0.2.0.md",
+      "bytes": 1000,
+      "sha256": "c15a77c5d9da84cecfc3d76060c9000f3b480a5995a8b6ae02723283ee42934c"
     },
     {
       "path": "ROADMAP.md",
@@ -163,23 +176,33 @@
     },
     {
       "path": "SECURITY.md",
-      "bytes": 424,
-      "sha256": "4a324766be0f47643b2b4ca2fc4900b7bf18d7859d3fe7baab738f8f3ada5677"
+      "bytes": 914,
+      "sha256": "703dd531f5855359680919bd6d4c6cee326ab0bdb4082b58209547962c182285"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 744,
-      "sha256": "8ab16882409e56a399427c11659fa971fd1ae78ce598f293efc630cd6a5b227b"
+      "bytes": 1556,
+      "sha256": "0c881cdd0947e157e199371a5fa182af7394fecddd62d4446cd998e9d362c805"
+    },
+    {
+      "path": "UPDATE_FROM_V0.1.0.md",
+      "bytes": 1139,
+      "sha256": "136fc14165a16fefe05f0d08454d6a95ec842321171e8fdad293b532b5510aee"
     },
     {
       "path": "UPLOAD_TO_GITHUB.md",
-      "bytes": 1825,
-      "sha256": "8bc716e27d2cc203ce1719990603fbcd5c45a95640eff78dc762fec7d0c0190e"
+      "bytes": 983,
+      "sha256": "ef61a9c92722ed0fb7c408c5619ff7a92979cc409e3d8eee148fbfb14bb5ae4f"
     },
     {
       "path": "catalog/README.md",
-      "bytes": 504,
-      "sha256": "bd286aa0cbbff2e06fe40f68e154c0a770adf74e8b288e48bbec84662cbbae9f"
+      "bytes": 730,
+      "sha256": "74beaf63e7028d2d138db233ccc7a117f49868c9f5d0af2d7250175ff4e51a22"
+    },
+    {
+      "path": "catalog/datasets/3dref-dataset.yml",
+      "bytes": 2263,
+      "sha256": "e54d91b84f697f6866d2c7b15fc5e8f4d3225c24828937bff276cc7b2d3481ed"
     },
     {
       "path": "catalog/datasets/a2d2.yml",
@@ -187,14 +210,149 @@
       "sha256": "a202cd5282525fe0565c6cdccb8f6e700cd78e151b0ba7c54f13fef3888c4200"
     },
     {
+      "path": "catalog/datasets/apollo-daoxianglake-dataset.yml",
+      "bytes": 2361,
+      "sha256": "9b1fb19320b18087176fb7084feef415e69875da13723e5c4e7cc5c6503ae7c6"
+    },
+    {
+      "path": "catalog/datasets/apollo-southbay-dataset.yml",
+      "bytes": 2307,
+      "sha256": "5355a576cf61a4ead78ddfbbe61973caaabe972668af9e203fea12d6d357f54a"
+    },
+    {
+      "path": "catalog/datasets/argoverse-1.yml",
+      "bytes": 2262,
+      "sha256": "e8bb6bcf336de2146113a6a8041a15d2519123e6d6207fe5ae2081b3f5a3a1ca"
+    },
+    {
       "path": "catalog/datasets/argoverse2.yml",
       "bytes": 2008,
       "sha256": "add5e9211b4dfd0e0ff5d352646476d6a2c8984e9e8ebbf6937eca7c9f4da548"
     },
     {
+      "path": "catalog/datasets/boreas-dataset.yml",
+      "bytes": 2363,
+      "sha256": "020df772c6cd5428756f7aaf5102c8ca5930055719209eec7d71046679c0d87a"
+    },
+    {
+      "path": "catalog/datasets/botanicgarden-dataset.yml",
+      "bytes": 2368,
+      "sha256": "2786a50832be8a9de642dac536cc4a8b99d166c43ca99f403ef05803e6ee70bd"
+    },
+    {
+      "path": "catalog/datasets/brno-urban-dataset.yml",
+      "bytes": 2325,
+      "sha256": "50574f7c97d5f5033ff5863e389e7310fc3897f525ec7b5dd2e682859996ffdc"
+    },
+    {
+      "path": "catalog/datasets/canadian-adverse-driving-conditions-dataset.yml",
+      "bytes": 2300,
+      "sha256": "b5f26bb6abb67156094368f65909a262ddfc2b1eb18befdbeecf51c0f3a9a0ef"
+    },
+    {
+      "path": "catalog/datasets/cirrus-dataset.yml",
+      "bytes": 2349,
+      "sha256": "c672fb3372e78ae38c60b222d22850f117310dc96ee3d973a0e50b637748b0e2"
+    },
+    {
+      "path": "catalog/datasets/cns-dataset.yml",
+      "bytes": 2281,
+      "sha256": "ecf51e06a587f5800c4fc5ce3c2363da5cfe06a3c8f5b474a9d9ff62ae8d04df"
+    },
+    {
+      "path": "catalog/datasets/complex-urban-dataset.yml",
+      "bytes": 2379,
+      "sha256": "f74e68632aab1a1970db98b01b0e8b8fbf678ee8efd1b7ae707229dbbc4c99e7"
+    },
+    {
+      "path": "catalog/datasets/conslam-dataset.yml",
+      "bytes": 2269,
+      "sha256": "8b7a4cbe6f09b345f47fc608117088ea4428a22fe94effdb0d91d0d2d1fdce85"
+    },
+    {
       "path": "catalog/datasets/dales.yml",
       "bytes": 2069,
       "sha256": "defa666303acd5ba0bb4aa10e7f3afe861f69838ec1f31d970aab1e45ec43b3b"
+    },
+    {
+      "path": "catalog/datasets/diter-plusplus-dataset.yml",
+      "bytes": 2375,
+      "sha256": "7525173e9cebfff5aafbb6ef9e6357f6cf27452f735cb48673c7dd5dc804a1e7"
+    },
+    {
+      "path": "catalog/datasets/durlar-dataset.yml",
+      "bytes": 2246,
+      "sha256": "50d0c813abaacea67126c9c087f89121e3ac7764afa09891855405fc86852068"
+    },
+    {
+      "path": "catalog/datasets/enwide-dataset.yml",
+      "bytes": 2366,
+      "sha256": "0dc06330bd2ad884bccadec480b06b68175f7b72c25a61ce172fa32b61e5461f"
+    },
+    {
+      "path": "catalog/datasets/eu-long-term-robocar-dataset.yml",
+      "bytes": 2391,
+      "sha256": "a9bf9e6b3ffc28ee5b3f50d4e5936922abfdf5b3e501647ea5f49ecc5bf909dc"
+    },
+    {
+      "path": "catalog/datasets/ford-av-dataset.yml",
+      "bytes": 2256,
+      "sha256": "d6e3106a1b296db95a1588c0a309c7171a1ed92054930bc13d7b8681c71d131a"
+    },
+    {
+      "path": "catalog/datasets/ford-campus-vision-and-lidar-dataset.yml",
+      "bytes": 2420,
+      "sha256": "0e7506282febb1511009cf20845e0cbc9dfe64b0734aeec2b6ebb82a7b6d83a0"
+    },
+    {
+      "path": "catalog/datasets/fusionportable-dataset.yml",
+      "bytes": 2388,
+      "sha256": "7492fc28fafb92897a68df62776bd7148769fcb9614bf01be637a8dde9088997"
+    },
+    {
+      "path": "catalog/datasets/fusionportablev2-dataset.yml",
+      "bytes": 2423,
+      "sha256": "12296266a9d349c8b597d01bd436570a365d262afa369aa1734926488da1d8bd"
+    },
+    {
+      "path": "catalog/datasets/geode-dataset.yml",
+      "bytes": 2346,
+      "sha256": "cf4ec19efb5006fc69edc934646e4f074e3efda2146571ab75bbca9b1d93781d"
+    },
+    {
+      "path": "catalog/datasets/ground-challenge-dataset.yml",
+      "bytes": 2351,
+      "sha256": "c35f92b2e9b72479883d4adb492ba628546bbbbb1c1d1e5d4fc10e4236b79e38"
+    },
+    {
+      "path": "catalog/datasets/helimos-dataset.yml",
+      "bytes": 2322,
+      "sha256": "073af597ac6f0b73c2107c9d448e2da6f621ea2ce6c966dac0e0b3511b781c03"
+    },
+    {
+      "path": "catalog/datasets/helipr-dataset.yml",
+      "bytes": 2358,
+      "sha256": "7933a558b487fb5b2c45201337067d95230e4d4abbb4dd0dca26d41abb289d86"
+    },
+    {
+      "path": "catalog/datasets/hilti-oxford-slam-challenge-2021-dataset.yml",
+      "bytes": 2400,
+      "sha256": "cab5d8cde96a8bc62c24efe4707a2373b97dbde947dd8d56e82a133feebe6646"
+    },
+    {
+      "path": "catalog/datasets/hilti-oxford-slam-challenge-2022-dataset.yml",
+      "bytes": 2387,
+      "sha256": "9277c7b3c36c01862fe499b791f348c93bdd2965dac4e9b94ec6761cc5d50d67"
+    },
+    {
+      "path": "catalog/datasets/hilti-oxford-slam-challenge-2023-dataset.yml",
+      "bytes": 2408,
+      "sha256": "f627d3f4e0a3f510bf9d2dbb0053bffcab4ff36224a7b4e771aaa236b76f4399"
+    },
+    {
+      "path": "catalog/datasets/hk-mems-lidar-dataset.yml",
+      "bytes": 2321,
+      "sha256": "f3b25c470574e243756297127733eadbd2d07f4cc41aa5b4f131165fcb2bbe38"
     },
     {
       "path": "catalog/datasets/k-lane.yml",
@@ -212,6 +370,56 @@
       "sha256": "9e2c0d4e88e72ea07d72bec6ea50353ed42720086f6243c76962d6857cbbaaec"
     },
     {
+      "path": "catalog/datasets/libre-lidar-benchmarking-and-reference-dataset.yml",
+      "bytes": 2539,
+      "sha256": "28b70ccc3c01fe4b60f5bda0bab3925731ae703283fd01e8e0a3b51cbffbe805"
+    },
+    {
+      "path": "catalog/datasets/lidar-degeneracy-datasets.yml",
+      "bytes": 2404,
+      "sha256": "a2cec8f7e25287a828a6a22338a1b84705759a917c9d44f882deb407e8dc1853"
+    },
+    {
+      "path": "catalog/datasets/lisu-dataset.yml",
+      "bytes": 2241,
+      "sha256": "0dbc692d8dba4678f49072b10db9b8ee4626bf14f98029bb609c0231caeb9f4e"
+    },
+    {
+      "path": "catalog/datasets/livox-simulation-dataset.yml",
+      "bytes": 2351,
+      "sha256": "0ca96c8a52c930d4f0a41a12d0d1f6d744d8ba824078fbda3e29bfeb10493c09"
+    },
+    {
+      "path": "catalog/datasets/lyft-level-5-prediction-and-perception-dataset.yml",
+      "bytes": 2383,
+      "sha256": "473cff1f4fb88e3e9079daabbc618a1a819256be2a329a1b2b7422d9adc6f27e"
+    },
+    {
+      "path": "catalog/datasets/m2dgr-dataset.yml",
+      "bytes": 2272,
+      "sha256": "bf4fdf751c12a178c4fc9ca4152c3d67e05841319484b5cf97bcbb27f4428555"
+    },
+    {
+      "path": "catalog/datasets/m2dgr-plus-dataset.yml",
+      "bytes": 2313,
+      "sha256": "e05956503e381af31de55b2446d2857edde15ccf5fe9fc040e8879754600760f"
+    },
+    {
+      "path": "catalog/datasets/ma-lio-city-dataset.yml",
+      "bytes": 2279,
+      "sha256": "47c0a9de958c7f80c802561c9237489db9eb7c68eb5ee66e1acfcbea6085a343"
+    },
+    {
+      "path": "catalog/datasets/man-truckscenes.yml",
+      "bytes": 2329,
+      "sha256": "e5cf4cd11f17fabd9dd0ec820e12267612415dad166a13528b3489d29085a236"
+    },
+    {
+      "path": "catalog/datasets/mars-lvig-dataset.yml",
+      "bytes": 2434,
+      "sha256": "2e2e1d87c8ca38690f0b2f60739e29853acc3318d5d63d6863bebeb7cc792e52"
+    },
+    {
       "path": "catalog/datasets/matterport3d.yml",
       "bytes": 2071,
       "sha256": "0e5de1b53814b46d8b8530fe2ee25b8f6f9a6feaaf3fccfcda107bdd9a225b60"
@@ -227,14 +435,39 @@
       "sha256": "f6467e26d5a1078ffdac05ba2bc80692bf1cb551cf46107bfe94552451898ea1"
     },
     {
+      "path": "catalog/datasets/multi-lidar-multi-uav-dataset.yml",
+      "bytes": 2389,
+      "sha256": "5422bc788f3188c661adf5c56d8addac05d5974cde7350b42ef22b5e4edfdff1"
+    },
+    {
       "path": "catalog/datasets/nclt.yml",
       "bytes": 2054,
       "sha256": "5ce0a71191b789ff168e1bd0c47951d55140b1a584be3c8c45f73181f168dfcf"
     },
     {
+      "path": "catalog/datasets/newer-college-dataset.yml",
+      "bytes": 2380,
+      "sha256": "45173ca9f7a4438e81304a6b39bb92fc1fa2796dbce749b5f405386c00528205"
+    },
+    {
+      "path": "catalog/datasets/ntu-viral-dataset.yml",
+      "bytes": 2317,
+      "sha256": "662b73eff78a9aa617241384bb0c0bbcff5dee08fd0b3e9b8617200e3e3a55c4"
+    },
+    {
       "path": "catalog/datasets/nuscenes.yml",
       "bytes": 2054,
       "sha256": "6a82e3061dc4679662f0dacabf9ef214270a1877eb1e01a3ccc96a05c56d56ef"
+    },
+    {
+      "path": "catalog/datasets/orfd-off-road-freespace-detection-dataset.yml",
+      "bytes": 2434,
+      "sha256": "f304fbf0e8754219f12212d6f75cf4e3ca62ca4dba17959c0f79cba8453d6def"
+    },
+    {
+      "path": "catalog/datasets/oxford-radar-robotcar.yml",
+      "bytes": 2516,
+      "sha256": "80a211a56580cbdbad9b0c37f301a24cacbb3c778810f78418095b4635923809"
     },
     {
       "path": "catalog/datasets/oxford-robotcar.yml",
@@ -252,9 +485,29 @@
       "sha256": "2bbf51ff5b1364623bab7f960cb24502ccce4007a8e21247e238ae8c4127a6e2"
     },
     {
+      "path": "catalog/datasets/parisluco3d.yml",
+      "bytes": 2218,
+      "sha256": "9b702e06c9e4ef00b34598d949f0337da5f5a983d07232860e60feac098c3b9e"
+    },
+    {
+      "path": "catalog/datasets/pohang-canal-dataset.yml",
+      "bytes": 2426,
+      "sha256": "21235cb5a9ee1e354379db2e304a84a85a7233b490bdab23f3e2c351a5fe37bf"
+    },
+    {
+      "path": "catalog/datasets/racecar-dataset.yml",
+      "bytes": 2318,
+      "sha256": "c89fd0f446d246666cdaae5a6bc7c245f7ccc4404cc20897149ecc8ff8227d1e"
+    },
+    {
       "path": "catalog/datasets/radish.yml",
       "bytes": 2015,
       "sha256": "c9021edd079a563fe28155163ddaabcfe53d65515bcdf0a46caa07af11e2d9c9"
+    },
+    {
+      "path": "catalog/datasets/rehearse-3d-dataset.yml",
+      "bytes": 2274,
+      "sha256": "cc645f12a7a90b09444f86bdfceb8343cd2cf9b72f369f074332d3e3a84fbccd"
     },
     {
       "path": "catalog/datasets/rellis3d.yml",
@@ -270,6 +523,11 @@
       "path": "catalog/datasets/s3dis.yml",
       "bytes": 2087,
       "sha256": "977a964c71b990264731611d34f285e6046a2778c9a7d96985858f67743e8323"
+    },
+    {
+      "path": "catalog/datasets/s3li-dataset.yml",
+      "bytes": 2288,
+      "sha256": "7a7c845cc22c5d869d733cd4a69f8d8b11b63a8fa4d6943f629f1039d618f65e"
     },
     {
       "path": "catalog/datasets/scannet.yml",
@@ -302,9 +560,44 @@
       "sha256": "84864c7eaee0a293a808969dd12dfea19179e4910df15604d283c84f08be9cee"
     },
     {
+      "path": "catalog/datasets/sthereo-dataset.yml",
+      "bytes": 2294,
+      "sha256": "af1d5e1678d4d300f401400844e69c985d8d043c03193236d3b5c01532471066"
+    },
+    {
+      "path": "catalog/datasets/stu-dataset.yml",
+      "bytes": 2253,
+      "sha256": "0f5d74eb1ce2754910b6c41018acb04062e5bac28c7e66bac9b156b8f269fe64"
+    },
+    {
+      "path": "catalog/datasets/synthmanticlidar.yml",
+      "bytes": 2305,
+      "sha256": "1b3d28c47a878c249b480f21f5c00dbf7af1e9536359ba8747f0c2049d6e6c2f"
+    },
+    {
+      "path": "catalog/datasets/tiers-multi-modal-lidar-dataset.yml",
+      "bytes": 2425,
+      "sha256": "5876fafc0f584eae5527c0c2c60e4c4ec9ad8224bd0c7781e2428b8f5e5224f5"
+    },
+    {
       "path": "catalog/datasets/toronto3d.yml",
       "bytes": 2052,
       "sha256": "9c9695745f20e566b9c6877819371440218855bf8049aeb378fd540b195b2a96"
+    },
+    {
+      "path": "catalog/datasets/university-of-sydney-campus-dataset.yml",
+      "bytes": 2434,
+      "sha256": "04646654da053f6e8da8c1e248c8a8c14a815af7605ad0965f4e9161e0b4e673"
+    },
+    {
+      "path": "catalog/datasets/uoftped50-dataset.yml",
+      "bytes": 2299,
+      "sha256": "c729d7915d111d3e2e2a7409458c6542bbd70c343709479b4bab7bbd51e07030"
+    },
+    {
+      "path": "catalog/datasets/urbannav-dataset.yml",
+      "bytes": 2359,
+      "sha256": "d34c4bee91a28923b32e7e22d6d32bf147a5b1997f9dbb251fb8df413987cde1"
     },
     {
       "path": "catalog/datasets/usgs-3dep.yml",
@@ -312,9 +605,374 @@
       "sha256": "7afcf874621016a024422f29efff3182d6e6c3a0a1ece277f87ec09a94fa0f1a"
     },
     {
+      "path": "catalog/datasets/ustc-flicar-dataset.yml",
+      "bytes": 2301,
+      "sha256": "05bce09e9727b81b972d11176260402880004a421ed46f2da43815e03663494c"
+    },
+    {
+      "path": "catalog/datasets/waymo-open-motion.yml",
+      "bytes": 2302,
+      "sha256": "4244c4e7e3c565ea606cebc4dc24aeadb0d9be39ec504e8463a6d3cd5d966b10"
+    },
+    {
       "path": "catalog/datasets/waymo-open.yml",
       "bytes": 2040,
       "sha256": "7a846fdf89516df9f5ed7e3c2e60301d27508089c6bb60b4c76dec16be714575"
+    },
+    {
+      "path": "catalog/datasets/wild-places-dataset.yml",
+      "bytes": 2312,
+      "sha256": "94ad8b45c01e5bbe4bab259b32ad44d82835333265024d7e2f350d89ab378b65"
+    },
+    {
+      "path": "catalog/ecosystem/3d-bat.yml",
+      "bytes": 485,
+      "sha256": "cd4370f01b12aefc80bcca11500b8287ae12d2a0a8e55efc629a28e2fc79cd5b"
+    },
+    {
+      "path": "catalog/ecosystem/aeva.yml",
+      "bytes": 454,
+      "sha256": "1b246526326c86f0ec4661b84feffdc1b813bf5d9183cd49049b844de4db1dbc"
+    },
+    {
+      "path": "catalog/ecosystem/airsim.yml",
+      "bytes": 506,
+      "sha256": "a48deb0894086107fcfeb31172df528fdde4b39ee2166c086b30521c5321ad6b"
+    },
+    {
+      "path": "catalog/ecosystem/alfa-framework.yml",
+      "bytes": 502,
+      "sha256": "3afebb19e5a8f68a413e3b563c62e498eeb121a2e975fe75e55c6c8269caa613"
+    },
+    {
+      "path": "catalog/ecosystem/autoware.yml",
+      "bytes": 501,
+      "sha256": "11c72ff7123d57429fc8e08a3cc7e66180031c8505f7d2796aab57f3a8e39e14"
+    },
+    {
+      "path": "catalog/ecosystem/awesome-3d-lidar-datasets.yml",
+      "bytes": 569,
+      "sha256": "651b9e9bc941faefe932327f4ed032aaad5c299d873f6633777f0bd9d1f8d1ac"
+    },
+    {
+      "path": "catalog/ecosystem/awesome-artificial-intelligence.yml",
+      "bytes": 588,
+      "sha256": "0edf24956ca7a938f6dfc468ac0c6bd832a872ff5ceb61ce56be07717a1d31e8"
+    },
+    {
+      "path": "catalog/ecosystem/awesome-computer-vision.yml",
+      "bytes": 565,
+      "sha256": "3a42c2cd58e6eece0bb1883e4d7a337a7adadb570ff4912e90215de17c55f610"
+    },
+    {
+      "path": "catalog/ecosystem/awesome-deep-learning.yml",
+      "bytes": 563,
+      "sha256": "a420dc48b9302c3b5f3df83d73ba084eca5b77baf5b96167c41dd6af89d5a474"
+    },
+    {
+      "path": "catalog/ecosystem/awesome-lidar-camera-calibration.yml",
+      "bytes": 593,
+      "sha256": "190180ee4d5ffe22b3baa89eaf9096ca633edd3941d84f6b2ec251f189da0b70"
+    },
+    {
+      "path": "catalog/ecosystem/awesome-lidar-mos.yml",
+      "bytes": 529,
+      "sha256": "69c63b6175c191f23e24982fa08e405bfb6df2291810929fcf435e1ac2d8e38b"
+    },
+    {
+      "path": "catalog/ecosystem/awesome-lidar-place-recognition.yml",
+      "bytes": 573,
+      "sha256": "2c1d78365ed5f32071a2f659bb45c530906fa6df640d0d38fded4adc24aa4c09"
+    },
+    {
+      "path": "catalog/ecosystem/awesome-lidar-visual-slam.yml",
+      "bytes": 560,
+      "sha256": "aff85947fced3b17ac5aaba7ec74df3d60b6e1bbde0d98e1f4005573a082de45"
+    },
+    {
+      "path": "catalog/ecosystem/awesome-lidar.yml",
+      "bytes": 546,
+      "sha256": "df446addaab1af2f85f1ef26f9732c7992ae9681d5394c2e895df63e11e9bda1"
+    },
+    {
+      "path": "catalog/ecosystem/awesome-machine-learning.yml",
+      "bytes": 564,
+      "sha256": "ba9e8c1b4b5ae07b07d41288bae7455e98bc39de2ab9e358b87b3681617ab62d"
+    },
+    {
+      "path": "catalog/ecosystem/awesome-point-cloud-analysis.yml",
+      "bytes": 573,
+      "sha256": "2f533e1363b01808f7d6132408351953e93b35354c3f113dbe5ea880e0fd2484"
+    },
+    {
+      "path": "catalog/ecosystem/awesome-reinforcement-learning.yml",
+      "bytes": 529,
+      "sha256": "bb98fac523a6b813a511577c6769b8e91b29e3e718208b5b1532258a6cca2e2f"
+    },
+    {
+      "path": "catalog/ecosystem/awesome-robotics-libraries.yml",
+      "bytes": 563,
+      "sha256": "0ef97fdab6e45954b1973184929b9103b7c793be2bda8a317815790eddc310d2"
+    },
+    {
+      "path": "catalog/ecosystem/awesome-robotics.yml",
+      "bytes": 520,
+      "sha256": "4e039f1e87e61af42b273ccd5a5e6f750096da33bfb5405403f86ea7c57d336e"
+    },
+    {
+      "path": "catalog/ecosystem/awesome-ros-2.yml",
+      "bytes": 512,
+      "sha256": "a5e7448a569700619a4536449227157eba9db093bb0db60b2c2b7640bf161a9c"
+    },
+    {
+      "path": "catalog/ecosystem/awesome-slam-datasets.yml",
+      "bytes": 532,
+      "sha256": "c330cfd42564d7994ee050bd645537b9bd05b40970e48a7eb9ef3a87eea9273a"
+    },
+    {
+      "path": "catalog/ecosystem/awsim.yml",
+      "bytes": 496,
+      "sha256": "fd2f4d518a19e05ca6eb78f89b00fad22a69658670bdddff88c538c1d8369a3a"
+    },
+    {
+      "path": "catalog/ecosystem/baidu-apollo.yml",
+      "bytes": 488,
+      "sha256": "52c56b854393d6940c11dc02dac21e938ba2b49074bf7b0c5b7ee61416ec2442"
+    },
+    {
+      "path": "catalog/ecosystem/blender-point-cloud-visualizer.yml",
+      "bytes": 516,
+      "sha256": "29473745fb139b681055807935806f5e7b2d8d240e931a78a9c37d91ace24b99"
+    },
+    {
+      "path": "catalog/ecosystem/blickfeld.yml",
+      "bytes": 481,
+      "sha256": "f686dfe2d081799861370b5ee642dc143e4985c25ebc75e5534064c497b75179"
+    },
+    {
+      "path": "catalog/ecosystem/carla.yml",
+      "bytes": 497,
+      "sha256": "29fd8f4d4f586cddb6bf9682e4f44ac0612b20d38c27bdedbd93fd3c956a0024"
+    },
+    {
+      "path": "catalog/ecosystem/cepton.yml",
+      "bytes": 446,
+      "sha256": "c3c83adcda2377e9a24e09caac6771bf4800680e0b6618667a71ea714ebca053"
+    },
+    {
+      "path": "catalog/ecosystem/cloudcompare.yml",
+      "bytes": 529,
+      "sha256": "da67b1350ebb3743067684f2e3cea382f88a15cba234f5106fdd2cb6762c3a25"
+    },
+    {
+      "path": "catalog/ecosystem/cloudpeek.yml",
+      "bytes": 504,
+      "sha256": "69b538ba9116ef5b01f5247f481f24640bad892e83d8ac4f921a3d9802e75106"
+    },
+    {
+      "path": "catalog/ecosystem/coppeliasim.yml",
+      "bytes": 485,
+      "sha256": "0c169c633581aad62b35ff153312107fb54d31e9f401c22da233f58865d1a7d1"
+    },
+    {
+      "path": "catalog/ecosystem/foxglove.yml",
+      "bytes": 466,
+      "sha256": "6a60a9c94a8e0b93c7f1ad12ee6b95e3e9a7c9c995fc608545338c6c303ff0a4"
+    },
+    {
+      "path": "catalog/ecosystem/gazebo.yml",
+      "bytes": 477,
+      "sha256": "89b6204dcaa82cb7562e4357eaac544154413417073cee80c29b9288219069d2"
+    },
+    {
+      "path": "catalog/ecosystem/hesai.yml",
+      "bytes": 472,
+      "sha256": "441a453e5d3b1aa41a49d6778071e7ca19a0b07580c581a7d200ebd503c8790c"
+    },
+    {
+      "path": "catalog/ecosystem/hokuyo.yml",
+      "bytes": 450,
+      "sha256": "ad189ce09a8bdb8aa902234510697a242635a90798d9c1638325ddbeaa88aff0"
+    },
+    {
+      "path": "catalog/ecosystem/ibeo.yml",
+      "bytes": 471,
+      "sha256": "b2a941e6551443dc22dbb963e86ee364bcce7410a9f671855c3e2a85498b83ca"
+    },
+    {
+      "path": "catalog/ecosystem/innoviz.yml",
+      "bytes": 433,
+      "sha256": "de48b09f39b81590080f726bd6391f6d22fc7b671ca43650974033bc6febe713"
+    },
+    {
+      "path": "catalog/ecosystem/kaolin.yml",
+      "bytes": 477,
+      "sha256": "a1df7b7cb0528dc450fc64dda9b20a46f55c1bb82ea98846f0b7087be036b7d4"
+    },
+    {
+      "path": "catalog/ecosystem/lastools.yml",
+      "bytes": 498,
+      "sha256": "dcf161e809b9b37810326094d80a35f0ffff2241a0a2741982915fab6294d5f1"
+    },
+    {
+      "path": "catalog/ecosystem/lichtblick.yml",
+      "bytes": 496,
+      "sha256": "3bca8f4fef6d05585816fd1b36de16e662c1194df746ff111f7a9fca42f8572b"
+    },
+    {
+      "path": "catalog/ecosystem/livox.yml",
+      "bytes": 482,
+      "sha256": "f3ce99ba03fabd7a9070a3ce63211dde6cbbe07a4b2063c34c6a623ad1362100"
+    },
+    {
+      "path": "catalog/ecosystem/lslidar.yml",
+      "bytes": 473,
+      "sha256": "5442d7df52156b95ebf9d242e5fd9077b5b1066bf9c39128fd244d5068039850"
+    },
+    {
+      "path": "catalog/ecosystem/luminar.yml",
+      "bytes": 482,
+      "sha256": "26a772e834b955e4c4e524e5325e83b35e18a4f55e137c85b84689f7a8c32b73"
+    },
+    {
+      "path": "catalog/ecosystem/meshlab.yml",
+      "bytes": 492,
+      "sha256": "af0079ecee5533b13f5bc1b8b293135905d9e88c524a914d7e6ab9fc039459c4"
+    },
+    {
+      "path": "catalog/ecosystem/microvision.yml",
+      "bytes": 493,
+      "sha256": "59cbbec837cf376b535e7f418658af0392f87a072afa34b0e0b96011b7f6569e"
+    },
+    {
+      "path": "catalog/ecosystem/neuvition.yml",
+      "bytes": 431,
+      "sha256": "7f01f9806166500254a8be691a7ce20f33368fa24e290ab7e82ecb39bcb6a1fd"
+    },
+    {
+      "path": "catalog/ecosystem/open3d.yml",
+      "bytes": 510,
+      "sha256": "bf5bf1c60aeb46f3bdedca0b602417bad9b8b5708c5c6a41c45455da6639b66e"
+    },
+    {
+      "path": "catalog/ecosystem/ossdc-sim.yml",
+      "bytes": 503,
+      "sha256": "6d415d1b682fd819f04aec6213cbbbecc8d8e41af99984ad9680be091577407d"
+    },
+    {
+      "path": "catalog/ecosystem/ouster.yml",
+      "bytes": 481,
+      "sha256": "8b245be41c2038b4b797ee61132036b1c5a2a9b62df3afed90249b707f3f0f20"
+    },
+    {
+      "path": "catalog/ecosystem/pcx.yml",
+      "bytes": 449,
+      "sha256": "9f600dc261735b619954194f9b6a88cece3093938d89fe09a72d262d142ec58f"
+    },
+    {
+      "path": "catalog/ecosystem/pepperl-plusfuchs.yml",
+      "bytes": 505,
+      "sha256": "a46ecb556fbeb9e4e8cf0a3b05d8948c6aa5361a22027fc8b838bc0ce186abb4"
+    },
+    {
+      "path": "catalog/ecosystem/photogrammetry-importer.yml",
+      "bytes": 578,
+      "sha256": "c15d227eec348caab4094df934f6c40337a27d955f13373e2a54324738259de6"
+    },
+    {
+      "path": "catalog/ecosystem/pioneer.yml",
+      "bytes": 467,
+      "sha256": "ecf74c61a103c277778425d880a51dfb0e4a2c50d833e30cfc0a8b712e8c9e21"
+    },
+    {
+      "path": "catalog/ecosystem/point-cloud-library-pcl.yml",
+      "bytes": 558,
+      "sha256": "e5fc74361c37de9f965de99194ccde9a29c3963af8eec5b8a7b2d24827ab5dee"
+    },
+    {
+      "path": "catalog/ecosystem/pointcloudprinter.yml",
+      "bytes": 524,
+      "sha256": "0083fe24f81f80ae24e8fd604877a9a44ad48c5c82f882eefc26ccf7dab1dbde"
+    },
+    {
+      "path": "catalog/ecosystem/pointcloudset.yml",
+      "bytes": 524,
+      "sha256": "3b8009d9d81ed337bde3696ca623c2fd958c39e8be4941e4d2dd65afa65d11fe"
+    },
+    {
+      "path": "catalog/ecosystem/preact.yml",
+      "bytes": 450,
+      "sha256": "4935891b76d41b756c3eb39a2e4ccacc2efae7f042ed13e3b7c3a9d03b37cac7"
+    },
+    {
+      "path": "catalog/ecosystem/pyntcloud.yml",
+      "bytes": 496,
+      "sha256": "3c0209178a8e38ca3a63fca6c236538b70358a601c013a526537a7bd7f5985fa"
+    },
+    {
+      "path": "catalog/ecosystem/pytorch-geometric.yml",
+      "bytes": 546,
+      "sha256": "f8c4af72ed4408a49f87e82417f6a6a38a8f4cc93d7c5990ddf89a7c55e98481"
+    },
+    {
+      "path": "catalog/ecosystem/pytorch3d.yml",
+      "bytes": 499,
+      "sha256": "dfdf59c914120b07f6288ef55583a8e5048ae1d18e2ad14053a17bb11d3565e1"
+    },
+    {
+      "path": "catalog/ecosystem/pyvista.yml",
+      "bytes": 487,
+      "sha256": "f1fe1a3d31e01b74809122eb12a702796a5766104dcc24731e73357b38f46088"
+    },
+    {
+      "path": "catalog/ecosystem/quanergy.yml",
+      "bytes": 482,
+      "sha256": "5811899ffddd9d8d5553c8eb9b63dd9061a04dba12d4ae56e95cfcd513c5a740"
+    },
+    {
+      "path": "catalog/ecosystem/rerun.yml",
+      "bytes": 456,
+      "sha256": "7fec024cf3bcb49c3313c0a9f8a2d6105af8465468b6043a9f5f463e4550e0b0"
+    },
+    {
+      "path": "catalog/ecosystem/riegl.yml",
+      "bytes": 484,
+      "sha256": "3b21ed6d413adf0a76ce559426a1ab62e7d8e38a0c2a062623c6f8a9061e03b3"
+    },
+    {
+      "path": "catalog/ecosystem/robosense.yml",
+      "bytes": 502,
+      "sha256": "9b6f344c88c5f8942ae4e6b1501d48f08834cef37acf7790417d2111530c9964"
+    },
+    {
+      "path": "catalog/ecosystem/semantic-segmentation-editor.yml",
+      "bytes": 612,
+      "sha256": "19f2de32f7f1f2637474b4d6fc468d7a4c04fcd8208fce0949754f657aaaeca0"
+    },
+    {
+      "path": "catalog/ecosystem/sick.yml",
+      "bytes": 485,
+      "sha256": "1a27e852150302585f1f82f12ecc4355b61928f397b1eee2ed8b4e89b24e4be9"
+    },
+    {
+      "path": "catalog/ecosystem/svl-simulator.yml",
+      "bytes": 525,
+      "sha256": "4b18bd97e79280f638a5f479b2f26fed41d75ca2082f25ecc4ec6a18256a9452"
+    },
+    {
+      "path": "catalog/ecosystem/velodyne.yml",
+      "bytes": 509,
+      "sha256": "631397ca1a9a11201668711b6b21492cc2d8a5c962a6f9a3d45dcee40c1a19cb"
+    },
+    {
+      "path": "catalog/ecosystem/xenomatix.yml",
+      "bytes": 442,
+      "sha256": "170b7076476ec0a179e20b127ad75778ba102a10a7706158ba8bb25a441f9520"
+    },
+    {
+      "path": "catalog/methods/automatic-urban-point-cloud-labelling-by-data-fusion.yml",
+      "bytes": 1089,
+      "sha256": "86895b8a3b4298a286b5a0f59b0b322a3ad33b0c3b3116371bf04c7c72ef44d1"
     },
     {
       "path": "catalog/methods/cartographer.yml",
@@ -332,9 +990,24 @@
       "sha256": "04c716dae838cba60364b2ceeebbb7bb63fe845b5c5dee43ed0aeb2a4522d12b"
     },
     {
+      "path": "catalog/methods/detection-by-tracker.yml",
+      "bytes": 1312,
+      "sha256": "88ec2f2e95602fb337be4f7c13c491a3753e53c3d842e5efb5a4ea8ea01b7527"
+    },
+    {
+      "path": "catalog/methods/direct-visual-lidar-calibration.yml",
+      "bytes": 1113,
+      "sha256": "0f59346dab5aee2f5107789dad74d1790b4e9b394373f48b95a4fb11cacbe25d"
+    },
+    {
       "path": "catalog/methods/fast-lio2.yml",
       "bytes": 932,
       "sha256": "6def1b6c18a4a446b9070718466cd519490588a449198f2cf457a36567853952"
+    },
+    {
+      "path": "catalog/methods/frustum-pointnets.yml",
+      "bytes": 1011,
+      "sha256": "47235cc44356d9b4ccca37b52522817a71b0c6cb45f240122b4069fcbc877d94"
     },
     {
       "path": "catalog/methods/gmapping.yml",
@@ -342,9 +1015,29 @@
       "sha256": "3c8d28594781de88d2e386d8a12585bd0962e8098821616f6e1dd584e6950e4e"
     },
     {
+      "path": "catalog/methods/gseg3d.yml",
+      "bytes": 1062,
+      "sha256": "f22c2ae6a539225175b06d7749e51eb4cbe62565225682f4c494614b9bd1d120"
+    },
+    {
       "path": "catalog/methods/hector-slam.yml",
       "bytes": 939,
       "sha256": "f672df0c5f4efca3cf665c56f34b50c27b3bc8b0064344660d75d53e7e92d8a4"
+    },
+    {
+      "path": "catalog/methods/heteroscedastic-aleatoric-lidar-3d-detection.yml",
+      "bytes": 1094,
+      "sha256": "bb35f7b5a7913ce72d8cda041692b35748e7cca9deac7497cfb93e70c93db1e5"
+    },
+    {
+      "path": "catalog/methods/kiss-icp.yml",
+      "bytes": 956,
+      "sha256": "8c15ff844d36fed88fc54b0aef511d998464c0ff733b8fe4a8cb52482abfae89"
+    },
+    {
+      "path": "catalog/methods/kiss-slam.yml",
+      "bytes": 1001,
+      "sha256": "c8ca13864eae68f129038cda51d3db3f75a39180a32e02af3a1968a296de67d2"
     },
     {
       "path": "catalog/methods/kpconv.yml",
@@ -357,9 +1050,29 @@
       "sha256": "bc2fb923aeeec86c75113f39e14dea70bdf17879d66299bf67e1a380df5899fa"
     },
     {
+      "path": "catalog/methods/learning-to-optimally-segment-point-clouds.yml",
+      "bytes": 1037,
+      "sha256": "829c28aa4de622be45169b3e08564c3eaa09883bba844692d7cc59943b18c783"
+    },
+    {
       "path": "catalog/methods/lego-loam.yml",
       "bytes": 965,
       "sha256": "7a1fc8777cd84945648658be8c4d7a65a753a6b3c28288a68ea8baa0d446d0e6"
+    },
+    {
+      "path": "catalog/methods/libpointmatcher.yml",
+      "bytes": 1009,
+      "sha256": "344d8234a8a043729b64ffcaae604970199c1993ce5e10a2ca696b970464aac6"
+    },
+    {
+      "path": "catalog/methods/lidar-mos.yml",
+      "bytes": 1074,
+      "sha256": "cda151e43bd9bc4e9bd8a8d9997ec2308197b960d2a2f748cd18841d4d134a1d"
+    },
+    {
+      "path": "catalog/methods/linefit-ground-segmentation.yml",
+      "bytes": 1057,
+      "sha256": "4427c5f15301ea87df7b40bfef30c947fb8c7451d3425c16c1df852c55afc5f8"
     },
     {
       "path": "catalog/methods/lio-sam.yml",
@@ -380,6 +1093,36 @@
       "path": "catalog/methods/minkowski-engine.yml",
       "bytes": 944,
       "sha256": "0bd67086a033c276b99751158d39db2c18782d3cb8e7ea750d6b4c1af42e9e67"
+    },
+    {
+      "path": "catalog/methods/mola.yml",
+      "bytes": 978,
+      "sha256": "f056620f3732f04f5a7a241d727ad0e7f6f6d00d7c3330533e15d50011cffc9b"
+    },
+    {
+      "path": "catalog/methods/opencalib.yml",
+      "bytes": 993,
+      "sha256": "9f617dcff18438d1246c59b46480ef190f73a08bde4eb592a50c8ab5d10a1306"
+    },
+    {
+      "path": "catalog/methods/overlapnet.yml",
+      "bytes": 1069,
+      "sha256": "86834d4f1e48153d3373b3be0600f4c34d83e01ba9ad1590b243f09d62e1ce85"
+    },
+    {
+      "path": "catalog/methods/patchwork-plusplus.yml",
+      "bytes": 1005,
+      "sha256": "382b98f32c9e0bc4056d714ac40813f030ed661bc43fdee8c9744ebdb249b86b"
+    },
+    {
+      "path": "catalog/methods/patchwork.yml",
+      "bytes": 973,
+      "sha256": "84b7607a9a518ee2ee81a4ee4376ed45fbeeb9a8807f44c54b27404b020991c7"
+    },
+    {
+      "path": "catalog/methods/plane-seg.yml",
+      "bytes": 975,
+      "sha256": "14b95eb9a990ef364c359b853bf3580ed40c3365c6a4709a1fb1b8ce18839980"
     },
     {
       "path": "catalog/methods/point-bert.yml",
@@ -437,9 +1180,24 @@
       "sha256": "0b97104c93d1436020693236f4936c27044db3c5281156b5f61457e2813ec0ad"
     },
     {
+      "path": "catalog/methods/removert.yml",
+      "bytes": 1026,
+      "sha256": "f68bd84a1c41127d49843c2793ce899fd0dcfce7154ad2498bce1f58b6da1a4c"
+    },
+    {
+      "path": "catalog/methods/resple.yml",
+      "bytes": 1048,
+      "sha256": "ab02187ea3fd485384234d122693f044cd9b6dc7567ceb6b6096e3a6d3100e3a"
+    },
+    {
       "path": "catalog/methods/salsanext.yml",
       "bytes": 911,
       "sha256": "227dc0454c3b70ff6ac95220aa86fbd2d14a1981c363a39cf77382ed4c8be9df"
+    },
+    {
+      "path": "catalog/methods/simpleicp.yml",
+      "bytes": 987,
+      "sha256": "7fd2f3a6f95389555069da80e4b3bc0398f2dd20678a8f5a67194472f98bba5a"
     },
     {
       "path": "catalog/methods/sphereformer.yml",
@@ -450,6 +1208,31 @@
       "path": "catalog/methods/spvnas.yml",
       "bytes": 868,
       "sha256": "94cbb64404c11db033760ad735bb55ff01127845bedc842365fe2eb9057762bc"
+    },
+    {
+      "path": "catalog/methods/suma-plusplus.yml",
+      "bytes": 1060,
+      "sha256": "ac7160e36459405439b0548c68c894f774c2cf8913073779e30015a94ee58705"
+    },
+    {
+      "path": "catalog/methods/superpoint-graph.yml",
+      "bytes": 1017,
+      "sha256": "fd70c7b1072002e7087a19fd7b158782903e61cb9965238365e0ff0bcc61830a"
+    },
+    {
+      "path": "catalog/methods/superpoint-transformer.yml",
+      "bytes": 1041,
+      "sha256": "0b38526d3501f25769af6f93295659217b711e09b9623fa64324f2114cafcb95"
+    },
+    {
+      "path": "catalog/methods/urban-road-filter.yml",
+      "bytes": 1022,
+      "sha256": "fe138cb6ace42723e351d362d96a2068fd53ea752284c8ce77d6562e4a620ad6"
+    },
+    {
+      "path": "catalog/methods/wysiwyg-3d-detection.yml",
+      "bytes": 996,
+      "sha256": "52f0a291d57f356d24ea75beb741a685bf1057dc508e152f7d7cb2d22a79c2bd"
     },
     {
       "path": "catalog/portals/aws-open-data.yml",
@@ -477,6 +1260,11 @@
       "sha256": "2da08523405991afd02da5529f9927eb585f1803877fc103b1a92755984f83ff"
     },
     {
+      "path": "catalog/schemas/ecosystem.schema.json",
+      "bytes": 920,
+      "sha256": "d19b7fe7731f18346731a7898c95e3649b1f3faeb79109210404eb5239e05a90"
+    },
+    {
       "path": "catalog/schemas/method.schema.json",
       "bytes": 961,
       "sha256": "2849491dce0654d92612c25e5199f9fb2256d4854f3bc751b05a4d7e819db767"
@@ -488,13 +1276,13 @@
     },
     {
       "path": "catalog/source-register.csv",
-      "bytes": 15733,
-      "sha256": "09216a9f8e7153b888e1b4119313a702a066d12b55a3a2ff3e719e9fa8ebe897"
+      "bytes": 62834,
+      "sha256": "f6dd70352fb0d224f1e626eb8ef3a078459d2f53e9eb545341b03d88e11b43c3"
     },
     {
       "path": "codemeta.json",
       "bytes": 639,
-      "sha256": "d92f14fe69518252a8cf515e556b8dbc87540f41ba3b52b77575572296952810"
+      "sha256": "7ff92d6f9c4f33117669d25cfa9626ca4876755e9585e65a7627f9b738ae7b3d"
     },
     {
       "path": "docs/about/changelog.md",
@@ -504,7 +1292,12 @@
     {
       "path": "docs/about/citation.md",
       "bytes": 387,
-      "sha256": "045c7db395bc15b711f28b01e5720b37103a88e1519048bbbd0aa11b89fb9952"
+      "sha256": "b8786d0d684c84bd41556de343f7ad3ab3ae3fd0df339213b035f3175451e2f6"
+    },
+    {
+      "path": "docs/about/coverage-report.md",
+      "bytes": 1562,
+      "sha256": "6c6211a873748e3d43b3f26b758c089a53ef49f2124e280d57d8cbc2dfba3b6c"
     },
     {
       "path": "docs/about/methodology.md",
@@ -525,6 +1318,11 @@
       "path": "docs/about/roadmap.md",
       "bytes": 297,
       "sha256": "4cef0829a8e19ec151bbb5b34b5b93b98b4861955c3bf30a8558250ca1fe97bc"
+    },
+    {
+      "path": "docs/about/source-comparison.md",
+      "bytes": 4639,
+      "sha256": "a8c273d95810cbc82c0de31076f39cb8d1cf2154f5167089d9301bd68d2489cc"
     },
     {
       "path": "docs/architectures/2d-slam.md",
@@ -548,8 +1346,8 @@
     },
     {
       "path": "docs/assets/catalog.json",
-      "bytes": 108568,
-      "sha256": "e681218fd65e34af5d4b3d04c948d35d8a79ad722d7216bb5c46373d2f1e7db5"
+      "bytes": 368126,
+      "sha256": "40558f07f3bc8c737dcf7681768d0d92e18606d1b8530c4384616f9b11c081cc"
     },
     {
       "path": "docs/assets/images/2d-slam.svg",
@@ -565,6 +1363,11 @@
       "path": "docs/assets/images/domain-taxonomy.svg",
       "bytes": 2479,
       "sha256": "22c76b3fe15695f454e6f47042900acf083a9d3745e27d41fa68bad4a4eabeae"
+    },
+    {
+      "path": "docs/assets/images/hero.png",
+      "bytes": 2709101,
+      "sha256": "ddf72fb7654044f11eec8c0d4f66c09b1b3398b1c20dc6354549aa94ab0a2bdf"
     },
     {
       "path": "docs/assets/images/hero.svg",
@@ -593,8 +1396,8 @@
     },
     {
       "path": "docs/assets/images/social-card.png",
-      "bytes": 74930,
-      "sha256": "aaf9ceb4e81ae924933ddbcdd69b70b08aaee593a1573a0d308d02c8d0b904c1"
+      "bytes": 481340,
+      "sha256": "3a2a4f409bb4b50bd8f759cec047b426203a5f93503308921032fc99cbd2fd78"
     },
     {
       "path": "docs/assets/images/social-card.svg",
@@ -603,158 +1406,803 @@
     },
     {
       "path": "docs/assets/javascripts/atlas.js",
-      "bytes": 174,
-      "sha256": "f561341ca163293c1744947496db59b664ebe2733d70979c9642409826a3de09"
+      "bytes": 1025,
+      "sha256": "fab8d9208a6e47b2f2137c56c1ca0e8d17f8271cf3eb3dbcd9969daf64c38bcb"
     },
     {
       "path": "docs/assets/media-register.csv",
-      "bytes": 1073,
-      "sha256": "68fc8ae4275d4afc706f539c1cf6945038c9c29ff12c397c4f8e0b313d618df2"
+      "bytes": 1631,
+      "sha256": "31d77f42f9ac23ae2fef99a618968afc76be87bdcd3447587c8afb87e017cb7f"
     },
     {
       "path": "docs/assets/stylesheets/extra.css",
-      "bytes": 2416,
-      "sha256": "e3b157790a9a5f0e0e90b60136fc322de96f3d60b5c0f1dfcc93640bd3db0ee9"
+      "bytes": 3488,
+      "sha256": "8f7d2dc93bef295cd24d559ab9809c845d1d4b074088bd006794f926dbad035c"
+    },
+    {
+      "path": "docs/catalog/datasets/3dref-dataset.md",
+      "bytes": 2485,
+      "sha256": "c556ff85887f8e5eea8feff15a66205f510a22e06c99c26302e6e1283c5dfe2d"
     },
     {
       "path": "docs/catalog/datasets/a2d2.md",
-      "bytes": 2115,
-      "sha256": "ce84547e813ae71f1c9279ee693afbab78ef318730fc5016a3075322a92cc4cd"
+      "bytes": 2148,
+      "sha256": "bae56eb2cd2a6b4520574bbb4ba9bd34143ad859688d4dade5b8efec36ccde79"
+    },
+    {
+      "path": "docs/catalog/datasets/apollo-daoxianglake-dataset.md",
+      "bytes": 2631,
+      "sha256": "35d0a50b2ab0decba8cf0fa84dae0e5b65ed038d3fa4d40189b6d2bcedcfd389"
+    },
+    {
+      "path": "docs/catalog/datasets/apollo-southbay-dataset.md",
+      "bytes": 2592,
+      "sha256": "3068f5c1ec34d3d903f5e5faad75aeeb2e6344d4c11024ad7b12e63d2cb4b622"
+    },
+    {
+      "path": "docs/catalog/datasets/argoverse-1.md",
+      "bytes": 2543,
+      "sha256": "8cbcea66245fa23a65efe18af59782370286a28137b778774051a77f2a6b51c8"
     },
     {
       "path": "docs/catalog/datasets/argoverse2.md",
-      "bytes": 2067,
-      "sha256": "aa7ce6ea8935ca47a7e26fd852e025e78dc51fd93f5b0b7cc29d715de52a6bab"
+      "bytes": 2100,
+      "sha256": "63dbb27f592be61f32a9608975ff93cd515e6c91cf4da735e456bb638b21dae2"
+    },
+    {
+      "path": "docs/catalog/datasets/boreas-dataset.md",
+      "bytes": 2648,
+      "sha256": "93f25ae1eea683bb4b3f8669bb4220133f868c612e6c990fb5b2d56c9b3aa218"
+    },
+    {
+      "path": "docs/catalog/datasets/botanicgarden-dataset.md",
+      "bytes": 2624,
+      "sha256": "4b6e00777ec620a4c4c5a3c1028d564b4725d84fb1ccef7195ddb3107a9a14ad"
+    },
+    {
+      "path": "docs/catalog/datasets/brno-urban-dataset.md",
+      "bytes": 2577,
+      "sha256": "f151a1d4c1c52fb268ffbd995d73d9c8aaa777264235e997f562ce3a97be69ad"
+    },
+    {
+      "path": "docs/catalog/datasets/canadian-adverse-driving-conditions-dataset.md",
+      "bytes": 2577,
+      "sha256": "3966ecb036bb04c51ae627be50d4d12b6da9ae490d33a568eeffd883884b3688"
+    },
+    {
+      "path": "docs/catalog/datasets/cirrus-dataset.md",
+      "bytes": 2607,
+      "sha256": "52f6c26c3cb58aca5b8f59f4d6364f3164dcbfa62e79fb39808fd5d17fcee78e"
+    },
+    {
+      "path": "docs/catalog/datasets/cns-dataset.md",
+      "bytes": 2579,
+      "sha256": "545f3de97221c2e68541e638abd23a2c1f29b47b139569e5363bb1d3a35e78a8"
+    },
+    {
+      "path": "docs/catalog/datasets/complex-urban-dataset.md",
+      "bytes": 2628,
+      "sha256": "890f3e68214d7947c72462fda3ad69e84224e4a7c36c65f0a412f45cf1aad594"
+    },
+    {
+      "path": "docs/catalog/datasets/conslam-dataset.md",
+      "bytes": 2545,
+      "sha256": "91436e688c9534034dcd6015f48c019e555f5865b2fe10a31310ffbf8f3b088e"
     },
     {
       "path": "docs/catalog/datasets/dales.md",
-      "bytes": 2142,
-      "sha256": "ed0de89af3a544bba8b231f81a49285e7bc7fa713eed3ec1ae1dc8b493dc2116"
+      "bytes": 2175,
+      "sha256": "fa5a967994114f11d2ed24406df039b87041da95161f7d95a8e1d454c511e5b4"
+    },
+    {
+      "path": "docs/catalog/datasets/diter-plusplus-dataset.md",
+      "bytes": 2569,
+      "sha256": "b0b17d044a2f34423cc35704cee004872a97a35038ca3d48d285295dcd9082c2"
+    },
+    {
+      "path": "docs/catalog/datasets/durlar-dataset.md",
+      "bytes": 2506,
+      "sha256": "3ac9b0dd13cf592438404ec78d5c4143ec1e73323d042b50fe2a2529f9cabe18"
+    },
+    {
+      "path": "docs/catalog/datasets/enwide-dataset.md",
+      "bytes": 2613,
+      "sha256": "09b49198ef389fba0f1775c98fea63f79c6de9e40f594de243c082f6b2ca01db"
+    },
+    {
+      "path": "docs/catalog/datasets/eu-long-term-robocar-dataset.md",
+      "bytes": 2650,
+      "sha256": "704a4e793b93aaf2625d726b5208bb2c698891d311db44b85868383ed47246c7"
+    },
+    {
+      "path": "docs/catalog/datasets/ford-av-dataset.md",
+      "bytes": 2529,
+      "sha256": "78f7add6ddfc9c28fee009a156bc64e95af8b18bf3407de9e6bba293827c1580"
+    },
+    {
+      "path": "docs/catalog/datasets/ford-campus-vision-and-lidar-dataset.md",
+      "bytes": 2657,
+      "sha256": "95a91e55f5d7411acd977f9f54ad8a58b9ae8504373db20de0ef40e6b4d9c38a"
+    },
+    {
+      "path": "docs/catalog/datasets/fusionportable-dataset.md",
+      "bytes": 2634,
+      "sha256": "ed646e93f9b731d2f08f4528bfd0b80efa038de25dc99aff38d649cf874e2568"
+    },
+    {
+      "path": "docs/catalog/datasets/fusionportablev2-dataset.md",
+      "bytes": 2696,
+      "sha256": "564be0f9c525b1314f2fbd1d7042e3d1f4b6a37393788b291d46f45ec35dd58d"
+    },
+    {
+      "path": "docs/catalog/datasets/geode-dataset.md",
+      "bytes": 2580,
+      "sha256": "f9c4dfccfb9c63b535b1918cfd9a917f2f6067865258e939df3240d62580602b"
+    },
+    {
+      "path": "docs/catalog/datasets/ground-challenge-dataset.md",
+      "bytes": 2545,
+      "sha256": "be6775a0e8c541ed772f4baf3b60b564be95ab1f01d023d016fdabae7e8c29f0"
+    },
+    {
+      "path": "docs/catalog/datasets/helimos-dataset.md",
+      "bytes": 2541,
+      "sha256": "630e8deb6484a2dcedddbb577e768e97eab5113a297f3908ea65aa4a458b98ae"
+    },
+    {
+      "path": "docs/catalog/datasets/helipr-dataset.md",
+      "bytes": 2579,
+      "sha256": "17696b0be245df971235dca23bf1a7e047e234cf052aaea820d5e0279a9e6fcc"
+    },
+    {
+      "path": "docs/catalog/datasets/hilti-oxford-slam-challenge-2021-dataset.md",
+      "bytes": 2641,
+      "sha256": "42533afeac2046761b8c652a96bdfe776e8745562970e68a7387ed39bb780199"
+    },
+    {
+      "path": "docs/catalog/datasets/hilti-oxford-slam-challenge-2022-dataset.md",
+      "bytes": 2641,
+      "sha256": "748b14f17844dae01512f5b60bcf25767de880e0569e2b5ed20a0c3c1c1b7b46"
+    },
+    {
+      "path": "docs/catalog/datasets/hilti-oxford-slam-challenge-2023-dataset.md",
+      "bytes": 2641,
+      "sha256": "db75750e63678660b42df335e649ed6264afb5b8c52e4f14526d858c75637bc8"
+    },
+    {
+      "path": "docs/catalog/datasets/hk-mems-lidar-dataset.md",
+      "bytes": 2554,
+      "sha256": "13da477aa550b90c2ee3eccfcdf2beb20929c90b49e2f196515c403673e6f218"
     },
     {
       "path": "docs/catalog/datasets/index.md",
-      "bytes": 3016,
-      "sha256": "2101cef48a52d02a2fa336953f47718303e76992d8e3b6d1637e1364dc828031"
+      "bytes": 15729,
+      "sha256": "c861abbaf3187a6996a19c5024fa8aa539a0d5494a4fd98487b3ec593fe148e1"
     },
     {
       "path": "docs/catalog/datasets/k-lane.md",
-      "bytes": 2348,
-      "sha256": "0a98fd791cffe5980ac44bab6627ddbc97db354c9d9c74aac67a3cb4200a31f8"
+      "bytes": 2381,
+      "sha256": "0c81b6853921488dac44a74f9b4fc93345dbd5d4ed0d1859ad17ca4c574086e0"
     },
     {
       "path": "docs/catalog/datasets/kitti.md",
-      "bytes": 2183,
-      "sha256": "d1415bbd9a89fe2efa292eec168f5826e12b420e95283587385441e713ba08e6"
+      "bytes": 2216,
+      "sha256": "156d8ae674bb38abf22813c3f13c80ffc90d52e6366c08290406583e2091db07"
     },
     {
       "path": "docs/catalog/datasets/kitti360.md",
-      "bytes": 2089,
-      "sha256": "cce23bb2b0953eddc8be8bac89344f45256a435f5f468826c887505c6101076a"
+      "bytes": 2122,
+      "sha256": "ef78db189572e9c3602f08575fa9f702756bbb7510fadac92b632c888ff541a7"
+    },
+    {
+      "path": "docs/catalog/datasets/libre-lidar-benchmarking-and-reference-dataset.md",
+      "bytes": 2795,
+      "sha256": "6194322e6858ccc1f585dca4591363558cc3c77432a94f7bead198ff8aa00893"
+    },
+    {
+      "path": "docs/catalog/datasets/lidar-degeneracy-datasets.md",
+      "bytes": 2684,
+      "sha256": "ddd10398213699290522558ab2cbdbe1785ae94ac90faaa0d6f7f972fdd3db56"
+    },
+    {
+      "path": "docs/catalog/datasets/lisu-dataset.md",
+      "bytes": 2538,
+      "sha256": "817c641c9b1a1d6aeab975f306a134f91fd8d3e1be8f44ee5a2a75ad6c362ce5"
+    },
+    {
+      "path": "docs/catalog/datasets/livox-simulation-dataset.md",
+      "bytes": 2597,
+      "sha256": "478525d760bf9e1119e1e3a6e770e3874311f0d851e0fcee3e362159557e0b1d"
+    },
+    {
+      "path": "docs/catalog/datasets/lyft-level-5-prediction-and-perception-dataset.md",
+      "bytes": 2639,
+      "sha256": "4202061061c0b9d8801d018d237668613e7a96f83d500e76b515fc95010c9031"
+    },
+    {
+      "path": "docs/catalog/datasets/m2dgr-dataset.md",
+      "bytes": 2516,
+      "sha256": "0b4b4b6cd1df744e9f8560114835d8bad4b2d71bddd8be76cbcb183380e22562"
+    },
+    {
+      "path": "docs/catalog/datasets/m2dgr-plus-dataset.md",
+      "bytes": 2547,
+      "sha256": "96d94510065a7d24cb35ff732add67bc23c7ab30b4e89f206ff1493c59b06156"
+    },
+    {
+      "path": "docs/catalog/datasets/ma-lio-city-dataset.md",
+      "bytes": 2519,
+      "sha256": "080ea98947a29f5c6776a8388f90459a2e2009f0a6db4f82a2ff18edfa248ff8"
+    },
+    {
+      "path": "docs/catalog/datasets/man-truckscenes.md",
+      "bytes": 2587,
+      "sha256": "9ae11c02d9e8c7f31a1a1b71106137dafc82c43e12aef0453258a3c349ec94bf"
+    },
+    {
+      "path": "docs/catalog/datasets/mars-lvig-dataset.md",
+      "bytes": 2662,
+      "sha256": "31eecdbe3c0bee781495d1662624a53b7e4d8310682f89dba60ce92a5794be33"
     },
     {
       "path": "docs/catalog/datasets/matterport3d.md",
-      "bytes": 2237,
-      "sha256": "f62fc8503940212b4bf633a681abe24697d07ed11cc2e2158c57a4dffb6cc205"
+      "bytes": 2270,
+      "sha256": "53c35df9cc21bef6d8e77eee710e1c612eb5604073cb33ffb88f09adb3e70092"
     },
     {
       "path": "docs/catalog/datasets/mit-stata.md",
-      "bytes": 2027,
-      "sha256": "8cd636d4598bd86e48b9819a2311a29909e52c004d05deaa85625f3c81948411"
+      "bytes": 2060,
+      "sha256": "a60db2ebea1e05193912076086e19d3157c4aa36f88d7b59873b005656988387"
     },
     {
       "path": "docs/catalog/datasets/mulran.md",
-      "bytes": 2109,
-      "sha256": "7512327e6a136d4452c7ecdfb94584ee7f51e686f2d9c2fae062ceed9244f961"
+      "bytes": 2142,
+      "sha256": "a81c5b9941853352ab0bec550a169e185c6b22e152b3195ffc77de2c60656a83"
+    },
+    {
+      "path": "docs/catalog/datasets/multi-lidar-multi-uav-dataset.md",
+      "bytes": 2626,
+      "sha256": "47368af22f94a6328d939dacf6503ae5258fb214865ae1c6022af72fcdb2b313"
     },
     {
       "path": "docs/catalog/datasets/nclt.md",
-      "bytes": 2131,
-      "sha256": "4aeca2d779ce9837875cd01dbc6e254c0e1fc1c512c6d801773e08f0b6e736ff"
+      "bytes": 2164,
+      "sha256": "460a710c1fa6c8df1f10283fb5171536d42a273b18405937f99f210297b51f2c"
+    },
+    {
+      "path": "docs/catalog/datasets/newer-college-dataset.md",
+      "bytes": 2681,
+      "sha256": "d9ae2979c1d9206e1a94c34d311bbef5163292ab3e7c20a835af18ba39f5b297"
+    },
+    {
+      "path": "docs/catalog/datasets/ntu-viral-dataset.md",
+      "bytes": 2571,
+      "sha256": "35110d1cf976f2889a198f189922a3595cd136927ec4480e3c20159be8641016"
     },
     {
       "path": "docs/catalog/datasets/nuscenes.md",
-      "bytes": 2103,
-      "sha256": "05902a65b904d2414c27c736fd650a6f2c3d14d7179707ff02fbde002f4b9b8f"
+      "bytes": 2136,
+      "sha256": "4b7739734c2bb72bebcb2f1f023b0fbc19e5e7d5993ceb2709f0ac9ad5d9c2ba"
+    },
+    {
+      "path": "docs/catalog/datasets/orfd-off-road-freespace-detection-dataset.md",
+      "bytes": 2668,
+      "sha256": "0cb3cb89e4590e0a706c31482b08418ba3fee0c5437bb8fd917e1fa63dd835bd"
+    },
+    {
+      "path": "docs/catalog/datasets/oxford-radar-robotcar.md",
+      "bytes": 2783,
+      "sha256": "8524e6117bf620ccb2c81f9aaa2fb9b69f3f2300499d31962ba7350bdc5f533d"
     },
     {
       "path": "docs/catalog/datasets/oxford-robotcar.md",
-      "bytes": 2199,
-      "sha256": "9978ae37c2353a347fd21000c5e50b15269dd00c10f879e7516a3b008fd4c5d9"
+      "bytes": 2232,
+      "sha256": "c5f60e29a9c4689c0ee19bde4a3a6d78f4bbc2be4f4236ecd4d9817936e68090"
     },
     {
       "path": "docs/catalog/datasets/pandaset.md",
-      "bytes": 2002,
-      "sha256": "f061629647f3ae6a6f27da27fadb80d993fe0b06ba6258224bddae605da7cefc"
+      "bytes": 2035,
+      "sha256": "58219536afc902a87d860d1c49888f519c8a088b00dac75501aca704783a2579"
     },
     {
       "path": "docs/catalog/datasets/paris-lille-3d.md",
-      "bytes": 2069,
-      "sha256": "5a831d575c176cc608e1bba135995dd3cb198f2c0131a7b6fb11bf3e028ba1c0"
+      "bytes": 2102,
+      "sha256": "758dae37fafd73b7925fea2d1798a068217d1ae7e1affee3e6ad3ff444309bb6"
+    },
+    {
+      "path": "docs/catalog/datasets/parisluco3d.md",
+      "bytes": 2494,
+      "sha256": "67229bb5c753860cd1d19f90b28271454801c92c43fa11b458b18b8447dbaac0"
+    },
+    {
+      "path": "docs/catalog/datasets/pohang-canal-dataset.md",
+      "bytes": 2666,
+      "sha256": "7a0ad270f1e0e94c6569931decfea2eaa59ff0120d55f48e150a0312377fb363"
+    },
+    {
+      "path": "docs/catalog/datasets/racecar-dataset.md",
+      "bytes": 2594,
+      "sha256": "3c0491177d6ad683bce5cc0e8478c7323c4fb7fc9f9f0f37ccb5712a649b68a0"
     },
     {
       "path": "docs/catalog/datasets/radish.md",
-      "bytes": 2071,
-      "sha256": "fb1a593921cc101203c82a8d0829f86d542a18136a38c3ddc42968d92eab3e72"
+      "bytes": 2104,
+      "sha256": "7a50b3ee78f6c86cc0b3e169b4b9e44c225f876cb76595d2db8abde99cc34608"
+    },
+    {
+      "path": "docs/catalog/datasets/rehearse-3d-dataset.md",
+      "bytes": 2493,
+      "sha256": "0f46aec986c88c85ff067a21f07bb14a9730967346642309f29535611835a2c7"
     },
     {
       "path": "docs/catalog/datasets/rellis3d.md",
-      "bytes": 2117,
-      "sha256": "787308784876531a856008b103a84c216a86660ac2ae2841b0d230c5d2348fae"
+      "bytes": 2150,
+      "sha256": "7fefd68d275dcd823ee90b6db6a40cffed33b515f526550792976d1822b68b0d"
     },
     {
       "path": "docs/catalog/datasets/robotathome.md",
-      "bytes": 2178,
-      "sha256": "937e01b299bf1caebbc127c8e6de13052fce9d26e68a964283944bc88de06e16"
+      "bytes": 2211,
+      "sha256": "a4248cb3cba8f0f10ff5c83c539ed2c03f783bab921833bb9f9c6245e6a5b71b"
     },
     {
       "path": "docs/catalog/datasets/s3dis.md",
-      "bytes": 2096,
-      "sha256": "4b645039ec4973a93118202c537b008cafee6a0a4c2abc38cd3e3a63f81ccbdd"
+      "bytes": 2129,
+      "sha256": "5f8bfe9be018b526ed57a421f421c73c18a6e508ebacdf7b566a1f1ce780465d"
+    },
+    {
+      "path": "docs/catalog/datasets/s3li-dataset.md",
+      "bytes": 2531,
+      "sha256": "c5b3e54b46301088b1f6c5e9b8857566c8dbd36100140423a5338f082c48aad4"
     },
     {
       "path": "docs/catalog/datasets/scannet.md",
-      "bytes": 2259,
-      "sha256": "46e3d1f3c36d7fb994d3859d32e2c23fe687912680c353a4006286c96ac6303f"
+      "bytes": 2292,
+      "sha256": "edf383d45012dcbcfb5e313f149652cbb74279800293155c6798c08e94766152"
     },
     {
       "path": "docs/catalog/datasets/scannetpp.md",
-      "bytes": 2136,
-      "sha256": "8ac6a7e2478f0eec72e62c45b61df78d8f6e2558d4aef135c1ed465c409759b5"
+      "bytes": 2169,
+      "sha256": "c8a1fc3983c61051b72ee03d10203229dd785db6b0197ffc027c4c7a154a818e"
     },
     {
       "path": "docs/catalog/datasets/semantic3d.md",
-      "bytes": 2096,
-      "sha256": "d4beb1a30edd8bb73dfabb7863367614c7af5b897aeb4b984e5f53a8769ffa72"
+      "bytes": 2129,
+      "sha256": "75afa66a1d712c90e3977a0eb47517b064ae2ad88990de8235b5e37a9e96b6f5"
     },
     {
       "path": "docs/catalog/datasets/semantickitti.md",
-      "bytes": 2187,
-      "sha256": "3d4e3698eb2a32e9275fa25ff5c509855f1646b9fdd4887d6ac25dc627b7f565"
+      "bytes": 2220,
+      "sha256": "224c37e96dd5162000cc9b62c63a992ab7748ee0d5413ea409dc0f0d07d22cbd"
     },
     {
       "path": "docs/catalog/datasets/semanticposs.md",
-      "bytes": 2039,
-      "sha256": "4fff2d3d78a8c023c6373e5e1c344527218dbc05e951151659f7037722d22e2d"
+      "bytes": 2072,
+      "sha256": "b94a814cd60f6300ba379e0e94c0601704499b77e534da50bb34075e51599f8f"
     },
     {
       "path": "docs/catalog/datasets/sensaturban.md",
-      "bytes": 2281,
-      "sha256": "dd34b0fd85b31f02647c827341b583e41c58869997dda35c67f9230a9c50d405"
+      "bytes": 2314,
+      "sha256": "5c92fd95d10ffacb4b7b93a89636df3a23d709ef68244e25b54391b6e8426d1b"
+    },
+    {
+      "path": "docs/catalog/datasets/sthereo-dataset.md",
+      "bytes": 2541,
+      "sha256": "c43cce5d4d310763bcaccf3344b2e6fafa67ed4c0890c9d22bca34c7f415b018"
+    },
+    {
+      "path": "docs/catalog/datasets/stu-dataset.md",
+      "bytes": 2528,
+      "sha256": "94f45f3f5463763278b4154312d05cfa03e4dfd48e4f352d2d3763a1cf51491d"
+    },
+    {
+      "path": "docs/catalog/datasets/synthmanticlidar.md",
+      "bytes": 2598,
+      "sha256": "7b5e4196dd9a005954f4aa54ff5e985e597fae1abc537d57a727debca471f75c"
+    },
+    {
+      "path": "docs/catalog/datasets/tiers-multi-modal-lidar-dataset.md",
+      "bytes": 2585,
+      "sha256": "3bf75b27d656dc8db34bf0bad644c582b84231aa879a2a30f16dff2df814c0c5"
     },
     {
       "path": "docs/catalog/datasets/toronto3d.md",
-      "bytes": 2123,
-      "sha256": "623d4d66401d5b01168f5aa98ce2e30c0d27746a7dcbcd6ea8ca01e95ca38bdb"
+      "bytes": 2156,
+      "sha256": "9917dd7c666e5283a6af637a4ecc71b4c542d8ca7854e7f9fe623cec82a72c49"
+    },
+    {
+      "path": "docs/catalog/datasets/university-of-sydney-campus-dataset.md",
+      "bytes": 2689,
+      "sha256": "240029b6737b306ec962f0e86806e28cc65708280cc9d1d703d70d78392f26eb"
+    },
+    {
+      "path": "docs/catalog/datasets/uoftped50-dataset.md",
+      "bytes": 2544,
+      "sha256": "f676abe114dd1c7aeef040662ef3b1e6aee077e086a54b54ce494b61129c9709"
+    },
+    {
+      "path": "docs/catalog/datasets/urbannav-dataset.md",
+      "bytes": 2580,
+      "sha256": "261468cc4e60a071a99b638d7db4385702c11d53b0aef21ac31c187a6c57c9df"
     },
     {
       "path": "docs/catalog/datasets/usgs-3dep.md",
-      "bytes": 2252,
-      "sha256": "5b3574f3442c295ce2f1a16b1bce7c9dfb57df4dbf6dbaa94f1d4b47438f8fe9"
+      "bytes": 2285,
+      "sha256": "4cd42932caf2b89b326f5acb654bf6968151bb11af1182636b6db0e4fd929ce9"
+    },
+    {
+      "path": "docs/catalog/datasets/ustc-flicar-dataset.md",
+      "bytes": 2497,
+      "sha256": "c4fb601c254ee98d577b23ce49d9aab11db764cd0ca42c06873775b9dc24fd05"
+    },
+    {
+      "path": "docs/catalog/datasets/waymo-open-motion.md",
+      "bytes": 2580,
+      "sha256": "8ae8e3d72b021a85930cf668876bea8d745107e096e4c6fc3cefe39515a59771"
     },
     {
       "path": "docs/catalog/datasets/waymo-open.md",
-      "bytes": 2115,
-      "sha256": "98dfc6caa37f217d0ccd52b59a41b1805b0a6bdf414078bda8ec2e4ffb17844f"
+      "bytes": 2148,
+      "sha256": "1810eb20e7b44c57187618aaea7e1a247f0fd61d702de9fe958b39396ce4d6b2"
+    },
+    {
+      "path": "docs/catalog/datasets/wild-places-dataset.md",
+      "bytes": 2609,
+      "sha256": "25e646096fa79d9c953c5ca479595fed3e7d64ea755ce73aae2f802609accfb8"
+    },
+    {
+      "path": "docs/catalog/ecosystem/3d-bat.md",
+      "bytes": 680,
+      "sha256": "32c177178476a4e48eccfd0dfd2098bfe8d214c2adbfc959197a427f2e4cdf99"
+    },
+    {
+      "path": "docs/catalog/ecosystem/aeva.md",
+      "bytes": 651,
+      "sha256": "388c643ffb09ece5f1cd5cfdc1e0ec1c6e267d1bc09ab72dd67a165328ca383d"
+    },
+    {
+      "path": "docs/catalog/ecosystem/airsim.md",
+      "bytes": 701,
+      "sha256": "99a6b4a83d047e40159aedbe4f6cabfa88cab1288b5f00a8775b31dd98fff336"
+    },
+    {
+      "path": "docs/catalog/ecosystem/alfa-framework.md",
+      "bytes": 654,
+      "sha256": "367b873c491aad7bb9f307f54ff5a009245f909c4846791f05575a6a71df9367"
+    },
+    {
+      "path": "docs/catalog/ecosystem/autoware.md",
+      "bytes": 694,
+      "sha256": "2f2acd63d590d2cd8687c425f47ebf425ff031af6b911b2438f5b4321f04013f"
+    },
+    {
+      "path": "docs/catalog/ecosystem/awesome-3d-lidar-datasets.md",
+      "bytes": 745,
+      "sha256": "161f81b0fb5189b27b0a3afbdbd4033037d8a4212680e1dafcee41671c0d4e91"
+    },
+    {
+      "path": "docs/catalog/ecosystem/awesome-artificial-intelligence.md",
+      "bytes": 758,
+      "sha256": "f830fdc4ee317b42fc54b0076c07622354d9c88a352a111a91dc13ace9504e5e"
+    },
+    {
+      "path": "docs/catalog/ecosystem/awesome-computer-vision.md",
+      "bytes": 743,
+      "sha256": "45fa85b62dd463203b23c9edf92cd34f35fad7fda6238b98aedae3d15ab9df76"
+    },
+    {
+      "path": "docs/catalog/ecosystem/awesome-deep-learning.md",
+      "bytes": 743,
+      "sha256": "c733484de0bb4a2014f12e071774c29065e563be6ec9659e2cefba17af729a6c"
+    },
+    {
+      "path": "docs/catalog/ecosystem/awesome-lidar-camera-calibration.md",
+      "bytes": 762,
+      "sha256": "7f8e22d93a93864e4692bdc6a56703f6fb6c95d2fe5fd5bcfba6fd9c32635eb0"
+    },
+    {
+      "path": "docs/catalog/ecosystem/awesome-lidar-mos.md",
+      "bytes": 713,
+      "sha256": "3d2d975cc66cfbaf08214b6bb164de94f1ecbbe60bf4d0a6734e6ea065a9603b"
+    },
+    {
+      "path": "docs/catalog/ecosystem/awesome-lidar-place-recognition.md",
+      "bytes": 743,
+      "sha256": "5ce6cf11e99a1b49caf15b1bf011d770b72e698394a5a806e80cecd18e829fb9"
+    },
+    {
+      "path": "docs/catalog/ecosystem/awesome-lidar-visual-slam.md",
+      "bytes": 736,
+      "sha256": "0dfbf003a57bcb918bc205a820ff418aaa69cc29f47146fb5e2c645e381a4457"
+    },
+    {
+      "path": "docs/catalog/ecosystem/awesome-lidar.md",
+      "bytes": 734,
+      "sha256": "e115d973adc8067d10a121ff0b6b39eef6985eb644a2912dfee3561f4a785567"
+    },
+    {
+      "path": "docs/catalog/ecosystem/awesome-machine-learning.md",
+      "bytes": 741,
+      "sha256": "3b309c7260dc59bb5e85f4e2120a7f8f09114d4ef8dcd70c5a06b51b76e8d55e"
+    },
+    {
+      "path": "docs/catalog/ecosystem/awesome-point-cloud-analysis.md",
+      "bytes": 746,
+      "sha256": "b52a598cd7c8a348cb5b20c589a80feecce51557be4c3adb41a43d73368961ec"
+    },
+    {
+      "path": "docs/catalog/ecosystem/awesome-reinforcement-learning.md",
+      "bytes": 700,
+      "sha256": "4237f7988ad06f854f621580fd6bfc6a63571c0da9176087651c159d3bbd9286"
+    },
+    {
+      "path": "docs/catalog/ecosystem/awesome-robotics-libraries.md",
+      "bytes": 738,
+      "sha256": "14819f8167e3a2431539d8f418fd066b4d2e10083e0d175f82e7a52c6272ab90"
+    },
+    {
+      "path": "docs/catalog/ecosystem/awesome-robotics.md",
+      "bytes": 705,
+      "sha256": "20ab9d2bcaf0f1df7e6c4203c1e103b2d7348a41adae12bf16e7d3bee1564541"
+    },
+    {
+      "path": "docs/catalog/ecosystem/awesome-ros-2.md",
+      "bytes": 700,
+      "sha256": "04e1243654e2c7069a4282c35bdcf479c370edbfcaddc9074efa1bb59533af5a"
+    },
+    {
+      "path": "docs/catalog/ecosystem/awesome-slam-datasets.md",
+      "bytes": 712,
+      "sha256": "d716b807726834c773eb18cd2801f7ea1184be078b5686bf5d7daec86cc0a5ac"
+    },
+    {
+      "path": "docs/catalog/ecosystem/awsim.md",
+      "bytes": 692,
+      "sha256": "13e19b2901f2f6d395a1be6f14a281a97653fe3e3e4ecf8cfff508d5f7ce68de"
+    },
+    {
+      "path": "docs/catalog/ecosystem/baidu-apollo.md",
+      "bytes": 677,
+      "sha256": "c159c9262499758f36107c312e7bd7541adf7e61daa5c9f6d37dfbd3c263ca34"
+    },
+    {
+      "path": "docs/catalog/ecosystem/blender-point-cloud-visualizer.md",
+      "bytes": 687,
+      "sha256": "427d3f7b14d7ff898c457cf43b7428211f12488876a7dc45066307944ad3e80a"
+    },
+    {
+      "path": "docs/catalog/ecosystem/blickfeld.md",
+      "bytes": 673,
+      "sha256": "639ad58b9cf17a451c507d1fc3f361abcd4f0f2b21fa8d2b1b639c79a28997a2"
+    },
+    {
+      "path": "docs/catalog/ecosystem/carla.md",
+      "bytes": 693,
+      "sha256": "a640772d13e81e2dd9de00e52c35ac3fed445a51be845b61e661af6c3f9a9728"
+    },
+    {
+      "path": "docs/catalog/ecosystem/cepton.md",
+      "bytes": 606,
+      "sha256": "1d1034e66bc21ac7ef280e43ab660ce5061ffb0435514c3c5f59b093ea0616ac"
+    },
+    {
+      "path": "docs/catalog/ecosystem/cloudcompare.md",
+      "bytes": 716,
+      "sha256": "360af4d350a04befa22992a89ddbf0ad6825324dae6caafcf40ea55b9e777059"
+    },
+    {
+      "path": "docs/catalog/ecosystem/cloudpeek.md",
+      "bytes": 696,
+      "sha256": "61c7c5860eb1453aa918b762e5066c6ad647c79592c98215c28ef1dcbdf17e5c"
+    },
+    {
+      "path": "docs/catalog/ecosystem/coppeliasim.md",
+      "bytes": 640,
+      "sha256": "e1c02fc2c5ad1ed8f58fa16803dbcb4c0a2149e31d05da1c58b4566dfda99526"
+    },
+    {
+      "path": "docs/catalog/ecosystem/foxglove.md",
+      "bytes": 659,
+      "sha256": "570f1130da70578ca0d1c92962f3f26dfd9c67709201ed49cf18d85b90038002"
+    },
+    {
+      "path": "docs/catalog/ecosystem/gazebo.md",
+      "bytes": 672,
+      "sha256": "284c566074ca824a27657f7ad94ca01d5558ee7f6357ad447a610c029938f032"
+    },
+    {
+      "path": "docs/catalog/ecosystem/hesai.md",
+      "bytes": 668,
+      "sha256": "18285f5fe250016cce6b3d5e15031735c0befdf8b2621f9eef7132beaa8a31ec"
+    },
+    {
+      "path": "docs/catalog/ecosystem/hokuyo.md",
+      "bytes": 610,
+      "sha256": "eae1ea93801ef3c11ba71ea8fe4948515f65d92caeb3098b44a0ea6fe8a99f13"
+    },
+    {
+      "path": "docs/catalog/ecosystem/ibeo.md",
+      "bytes": 633,
+      "sha256": "5e38c28910d3a3e450b3057262aa6b192ff54079b95d09119f1ecf5be5221e7c"
+    },
+    {
+      "path": "docs/catalog/ecosystem/index.md",
+      "bytes": 10016,
+      "sha256": "e92868e8d6950c2bafbe4cd46d0c97095a21df472ae14b411301c0c41f795765"
+    },
+    {
+      "path": "docs/catalog/ecosystem/innoviz.md",
+      "bytes": 592,
+      "sha256": "d004469e907b554990b960a9f3d977825c19d81470a22bd8dc0227892192bb50"
+    },
+    {
+      "path": "docs/catalog/ecosystem/kaolin.md",
+      "bytes": 672,
+      "sha256": "1161e2e856bde20f886352e9a7857cadbb9589ce309f88fe82b968d9c325366a"
+    },
+    {
+      "path": "docs/catalog/ecosystem/lastools.md",
+      "bytes": 691,
+      "sha256": "93b5026c9ef653705f5a09989d719bed2bba42d0f39c1303bf4832b0680ad394"
+    },
+    {
+      "path": "docs/catalog/ecosystem/lichtblick.md",
+      "bytes": 687,
+      "sha256": "f7d8a2d2cb7ff0b5724d727031cf9dca8423b37d56c2a4fdd82255fb221117ba"
+    },
+    {
+      "path": "docs/catalog/ecosystem/livox.md",
+      "bytes": 678,
+      "sha256": "397dc19b00b106f9f99eb8fce40649214e67127e78edaecb9c99592567eaee52"
+    },
+    {
+      "path": "docs/catalog/ecosystem/lslidar.md",
+      "bytes": 667,
+      "sha256": "e88396eef43f49afb1e54208a2795f171e3199acdfe39af1c71c2feefd7cf83d"
+    },
+    {
+      "path": "docs/catalog/ecosystem/luminar.md",
+      "bytes": 676,
+      "sha256": "94778cc6794ccbb059a4e71033e5802522239d78c386ca3e5eb84dcaa74396b4"
+    },
+    {
+      "path": "docs/catalog/ecosystem/meshlab.md",
+      "bytes": 686,
+      "sha256": "ed0f931cf5c6a6b9e700a3699d6df9cbe795a88cadce59a91d30ae0e8e285a3f"
+    },
+    {
+      "path": "docs/catalog/ecosystem/microvision.md",
+      "bytes": 683,
+      "sha256": "cba16f82274af5dc34f2081bf71b2b51b4b81ca492e38d1263bd03e22bd978c7"
+    },
+    {
+      "path": "docs/catalog/ecosystem/neuvition.md",
+      "bytes": 588,
+      "sha256": "66f9fe7f7467eff15ee9f50093a43a3c06ac85c72a08b359a6e78de605cd4243"
+    },
+    {
+      "path": "docs/catalog/ecosystem/open3d.md",
+      "bytes": 703,
+      "sha256": "ed86e727044b74a51c2e451e061ad37801516ab99c764966e6ca6ec87fd96043"
+    },
+    {
+      "path": "docs/catalog/ecosystem/ossdc-sim.md",
+      "bytes": 695,
+      "sha256": "3a57b69b43ad54341bb54d2dcc58c2061588bffb9873c364fc92c94bb0eaa941"
+    },
+    {
+      "path": "docs/catalog/ecosystem/ouster.md",
+      "bytes": 676,
+      "sha256": "e5ba33c498f06b7b23c1508ef01120ebd7efb1618a800c046ca3014b97a9ab18"
+    },
+    {
+      "path": "docs/catalog/ecosystem/pcx.md",
+      "bytes": 647,
+      "sha256": "54da6a633f3a53b9f31cad95a6d9d07a449b4c55d4538a1cdf59f2da7a6b2230"
+    },
+    {
+      "path": "docs/catalog/ecosystem/pepperl-plusfuchs.md",
+      "bytes": 689,
+      "sha256": "c990bcf34cea2ae5bf4068697b94826f67020f6d03fccf834ae78ccee28c6752"
+    },
+    {
+      "path": "docs/catalog/ecosystem/photogrammetry-importer.md",
+      "bytes": 756,
+      "sha256": "ecefba4f0e018779c2fff9447287b0ef5632d51cd261b927854e66adaf1b377d"
+    },
+    {
+      "path": "docs/catalog/ecosystem/pioneer.md",
+      "bytes": 626,
+      "sha256": "87343158c726b7acd6d71e4999e6dfc162f918101efbb68bb0d096cdd3532e25"
+    },
+    {
+      "path": "docs/catalog/ecosystem/point-cloud-library-pcl.md",
+      "bytes": 734,
+      "sha256": "066821f963ae7a1fe600bcb5317de47e35b2a2b35ff21daad41f0615035440cb"
+    },
+    {
+      "path": "docs/catalog/ecosystem/pointcloudprinter.md",
+      "bytes": 708,
+      "sha256": "8d0d7e0cbeecf3502145677e08d617a86cb1b94507ea78224a937afc72955d74"
+    },
+    {
+      "path": "docs/catalog/ecosystem/pointcloudset.md",
+      "bytes": 712,
+      "sha256": "4830ffd84a936f1ffc94e788929df4df7bab5466cc0d3bc714276ef4d6f5ef35"
+    },
+    {
+      "path": "docs/catalog/ecosystem/preact.md",
+      "bytes": 610,
+      "sha256": "5870aae4560e8cd837a5407615bc66c02539856e861d9cee8d5f3bf61c1c3594"
+    },
+    {
+      "path": "docs/catalog/ecosystem/pyntcloud.md",
+      "bytes": 688,
+      "sha256": "20078977e58415ee7e3385d0c02a6eae7b1e7c1d68cdebe058d195c6ef7b0a52"
+    },
+    {
+      "path": "docs/catalog/ecosystem/pytorch-geometric.md",
+      "bytes": 730,
+      "sha256": "56e043c275aeda2266070a3e9736e40dd1d3a7384e61de43d273e48138e36d97"
+    },
+    {
+      "path": "docs/catalog/ecosystem/pytorch3d.md",
+      "bytes": 691,
+      "sha256": "6dac6d9942a9c570f8587ff3d6c61b594f69a4f280c631f414ffbac908926de3"
+    },
+    {
+      "path": "docs/catalog/ecosystem/pyvista.md",
+      "bytes": 681,
+      "sha256": "798795364b69af7efeacca1fff881323269bbe5404280d2022c53b03f2cc3e4c"
+    },
+    {
+      "path": "docs/catalog/ecosystem/quanergy.md",
+      "bytes": 638,
+      "sha256": "b587ffb7ae093e74a71e2f66c0e246a113b1f40da0f83864488b6665dcafed3b"
+    },
+    {
+      "path": "docs/catalog/ecosystem/rerun.md",
+      "bytes": 652,
+      "sha256": "171ddece0926b038837ee93b80010105013892c8e58d9722790c214f5ea67f58"
+    },
+    {
+      "path": "docs/catalog/ecosystem/riegl.md",
+      "bytes": 680,
+      "sha256": "2af2322b394290b24431b278a05e184cd7337dbe4276e9a9b16dcd226cc07b9e"
+    },
+    {
+      "path": "docs/catalog/ecosystem/robosense.md",
+      "bytes": 694,
+      "sha256": "7dd45cfca8b56d19e87b9694ceb763cedb946a4b83d3549c08bb2aefa9d4b2c6"
+    },
+    {
+      "path": "docs/catalog/ecosystem/semantic-segmentation-editor.md",
+      "bytes": 785,
+      "sha256": "f415f8ede64e86644bb91ad3453c02dd30b20bcb97e8b9d6f14835df498abec2"
+    },
+    {
+      "path": "docs/catalog/ecosystem/sick.md",
+      "bytes": 682,
+      "sha256": "6483dea35d647075041de875cc1fc8c2de9e28704cd67785b3e45cf145d855f5"
+    },
+    {
+      "path": "docs/catalog/ecosystem/svl-simulator.md",
+      "bytes": 711,
+      "sha256": "6b0af5c524e741bee9f6b288fceeab020d47bba65b1c651f2a6834b89e608865"
+    },
+    {
+      "path": "docs/catalog/ecosystem/velodyne.md",
+      "bytes": 702,
+      "sha256": "7775f6cea54cf7d425c41714516db801f2e737691b0d190a1533eca7668a6d6b"
+    },
+    {
+      "path": "docs/catalog/ecosystem/xenomatix.md",
+      "bytes": 599,
+      "sha256": "e38c6bd79cb8cd7be6ccdfe21ba208240f538e7a86eb89a2e393163fd7116cd2"
+    },
+    {
+      "path": "docs/catalog/methods/automatic-urban-point-cloud-labelling-by-data-fusion.md",
+      "bytes": 1459,
+      "sha256": "03c230fe40784a2d96996a09cf028a8ba2c9ff436c8fe88fdc0e4268c67a4068"
     },
     {
       "path": "docs/catalog/methods/cartographer.md",
@@ -772,9 +2220,24 @@
       "sha256": "92a2f6d7271e7ff6df816bf89e7495672e6dd88fd6d0a0c5df2659b7cd640cb7"
     },
     {
+      "path": "docs/catalog/methods/detection-by-tracker.md",
+      "bytes": 1562,
+      "sha256": "4b36791b69209b63c4337a3947affdd2939e4f9f497892aeb56e369150b24d86"
+    },
+    {
+      "path": "docs/catalog/methods/direct-visual-lidar-calibration.md",
+      "bytes": 1467,
+      "sha256": "2e1aa44e495d78290720c901b0537fffd40ae19164d95b4bf2c8b37771323d46"
+    },
+    {
       "path": "docs/catalog/methods/fast-lio2.md",
       "bytes": 1130,
       "sha256": "d89a26f2c5d6ac2972a99f92b68e5400c4fc58b94f439c48187a0350e13b4a21"
+    },
+    {
+      "path": "docs/catalog/methods/frustum-pointnets.md",
+      "bytes": 1413,
+      "sha256": "773745ff002a7b0a53f0f4b05f49211056a2622bcb797ad19676decaf9613065"
     },
     {
       "path": "docs/catalog/methods/gmapping.md",
@@ -782,14 +2245,34 @@
       "sha256": "9652ed200eda12dc4c3626b5a8d8ea1acfa6177bba6de60767bcbdba43fa20e2"
     },
     {
+      "path": "docs/catalog/methods/gseg3d.md",
+      "bytes": 1486,
+      "sha256": "2f63ce8bbef9828db5e87b64d2d2573d017f3a2ce9312f499f3b3a9a72d36ce6"
+    },
+    {
       "path": "docs/catalog/methods/hector-slam.md",
       "bytes": 1119,
       "sha256": "50f2db52d1c143e8434694b3f2e1acedd80fb568adf9c2930d338c7cc428244d"
     },
     {
+      "path": "docs/catalog/methods/heteroscedastic-aleatoric-lidar-3d-detection.md",
+      "bytes": 1482,
+      "sha256": "6f58ae6e0bb6ef49ca84ff3b4449de8b1672d44389982ea731dc334556a5b21f"
+    },
+    {
       "path": "docs/catalog/methods/index.md",
-      "bytes": 4279,
-      "sha256": "d292adeb4305c72f7c94968380091faa3bee8171340c83f87b1cfc2f67918d14"
+      "bytes": 9464,
+      "sha256": "59103ff400c8cbd628e4afd411c84ddaa406857e061aa92de1d3a7310fa6dedf"
+    },
+    {
+      "path": "docs/catalog/methods/kiss-icp.md",
+      "bytes": 1380,
+      "sha256": "2a2f7751518cf325f0c08ad02ee4f429a8ce3af35378fd644112a7eef1b1d956"
+    },
+    {
+      "path": "docs/catalog/methods/kiss-slam.md",
+      "bytes": 1408,
+      "sha256": "1736b64e230d5f57ff2370981f3c77390ceb36b61808de8a5166848f4ebd3a6c"
     },
     {
       "path": "docs/catalog/methods/kpconv.md",
@@ -802,9 +2285,29 @@
       "sha256": "27d35fb5e138778215d1c01a455afcf753a7d542afcc4688f78426359d12bfe4"
     },
     {
+      "path": "docs/catalog/methods/learning-to-optimally-segment-point-clouds.md",
+      "bytes": 1428,
+      "sha256": "1a62f2bd646bb8f3e6185e2e7459ddbeaf47e5926d63e1f07996e85cdfcee52a"
+    },
+    {
       "path": "docs/catalog/methods/lego-loam.md",
       "bytes": 1147,
       "sha256": "e264fb35cc79b3a9a0341dcd26d8778873dfe58add3dcfed140fa5e607bb32bc"
+    },
+    {
+      "path": "docs/catalog/methods/libpointmatcher.md",
+      "bytes": 1408,
+      "sha256": "6c9a16228b16648a3a79829c151f6f83884c392db8a5dbba957a6738ee664687"
+    },
+    {
+      "path": "docs/catalog/methods/lidar-mos.md",
+      "bytes": 1455,
+      "sha256": "ca459f0a45e47783321be70abf4e8828895fec37ae95dc9834d43d861304aa98"
+    },
+    {
+      "path": "docs/catalog/methods/linefit-ground-segmentation.md",
+      "bytes": 1429,
+      "sha256": "a5106f3cba0668aad65e266fba8383372910f87940cb228c6a8f4df9b2b47380"
     },
     {
       "path": "docs/catalog/methods/lio-sam.md",
@@ -825,6 +2328,36 @@
       "path": "docs/catalog/methods/minkowski-engine.md",
       "bytes": 1131,
       "sha256": "3510973ad3bfeb81c8eb1e464f3772ee2734d436d42a1ea855771a856d06fc10"
+    },
+    {
+      "path": "docs/catalog/methods/mola.md",
+      "bytes": 1410,
+      "sha256": "2aeef410ac9c47f856155396f1ddd422c0dcfb88e4f171e0e117f3b8996fa537"
+    },
+    {
+      "path": "docs/catalog/methods/opencalib.md",
+      "bytes": 1403,
+      "sha256": "9857ab8f5ea647d8b1b78a2b0a13127ee4a6f8f0d3d508214dad79e0d839b9ff"
+    },
+    {
+      "path": "docs/catalog/methods/overlapnet.md",
+      "bytes": 1448,
+      "sha256": "3ad9bd3bbb8b6d5f385d813c5247c4838714bbc5dae36387fe8e49f27d7d5653"
+    },
+    {
+      "path": "docs/catalog/methods/patchwork-plusplus.md",
+      "bytes": 1406,
+      "sha256": "51106012e318d689dee554fd26fbde306431f7b40f3ee3441acdc2db60631d5f"
+    },
+    {
+      "path": "docs/catalog/methods/patchwork.md",
+      "bytes": 1390,
+      "sha256": "c0cc2921a93e5fc7bbb9c389d96da5e722780b0f190611f65f658bb8499c68df"
+    },
+    {
+      "path": "docs/catalog/methods/plane-seg.md",
+      "bytes": 1390,
+      "sha256": "bc960ebdb9696bbe3545094ea9b9ebbb49572c60be2424bcd6b66fdc2611d67c"
     },
     {
       "path": "docs/catalog/methods/point-bert.md",
@@ -882,9 +2415,24 @@
       "sha256": "65258781fc455f175ed3b8e7f807d6874e836858984321b2c156f7dbe261ecd0"
     },
     {
+      "path": "docs/catalog/methods/removert.md",
+      "bytes": 1426,
+      "sha256": "a5ebef28a0b0fb07a8990c45df2378d00f898b78898978471ea503927b4b1c5c"
+    },
+    {
+      "path": "docs/catalog/methods/resple.md",
+      "bytes": 1474,
+      "sha256": "d90ff755b1bea9a8fa363d62c8d76496bd836236542f1b1f538e706313625844"
+    },
+    {
       "path": "docs/catalog/methods/salsanext.md",
       "bytes": 1168,
       "sha256": "03a8bf650aa9197bb36d4f23fe10a7109424c70177eeec464ab0f91b9e23b918"
+    },
+    {
+      "path": "docs/catalog/methods/simpleicp.md",
+      "bytes": 1406,
+      "sha256": "eff4ca521ad99e1cc20b66d7cb8a2626b3f79a0d3905213fde0b9ab4fc22fb27"
     },
     {
       "path": "docs/catalog/methods/sphereformer.md",
@@ -895,6 +2443,31 @@
       "path": "docs/catalog/methods/spvnas.md",
       "bytes": 1133,
       "sha256": "c6567af92281df39d88177b58ba2e38a765c6da7716ab07587f1c16ae2b23d09"
+    },
+    {
+      "path": "docs/catalog/methods/suma-plusplus.md",
+      "bytes": 1432,
+      "sha256": "23a8416dd7b7c525cb7684bdbeef4fdf4a9b3b0b0af1cef8f76fb69f27756da6"
+    },
+    {
+      "path": "docs/catalog/methods/superpoint-graph.md",
+      "bytes": 1423,
+      "sha256": "e4709e1a5a512294a86203b35b67bffb26a66dd3271594173c3cca46f5c766fd"
+    },
+    {
+      "path": "docs/catalog/methods/superpoint-transformer.md",
+      "bytes": 1433,
+      "sha256": "2a408c28c3791d575f1e08e99931a41e33ac54f1e3d9990ff2dad6649d88078d"
+    },
+    {
+      "path": "docs/catalog/methods/urban-road-filter.md",
+      "bytes": 1421,
+      "sha256": "880012a19cb4a6150d2fb086374656f557cfaaa9376aa6f49647a1d630a232e2"
+    },
+    {
+      "path": "docs/catalog/methods/wysiwyg-3d-detection.md",
+      "bytes": 1408,
+      "sha256": "5dae312887ddd61ad908e990461f769cae274531dd2897adb0e4a5bf0936f395"
     },
     {
       "path": "docs/catalog/portals/index.md",
@@ -978,8 +2551,8 @@
     },
     {
       "path": "docs/index.md",
-      "bytes": 2129,
-      "sha256": "d0f33cca0b57c684b3cebd24ac27afb43a0d923d41aa6f4596c52e87fcb3183c"
+      "bytes": 2305,
+      "sha256": "52a2773c0990c0008b8d8ccd4bd2533298e07da17d451b91f696e8fcaa94fbaf"
     },
     {
       "path": "docs/legal/access-and-licensing.md",
@@ -998,8 +2571,8 @@
     },
     {
       "path": "docs/legal/figure-reuse.md",
-      "bytes": 672,
-      "sha256": "e795730b0b2d0651fa5eda10b3073902564906a7d202322a7e744e54b6994e26"
+      "bytes": 812,
+      "sha256": "fa10df3e31ac57f38adddc570a2224115ef83e12e529bd1e12d82451443811b6"
     },
     {
       "path": "docs/legal/index.md",
@@ -1013,23 +2586,28 @@
     },
     {
       "path": "exports/catalog.json",
-      "bytes": 106763,
-      "sha256": "3293a5d6cccfe4bc80d529296f12a5ea58309838df8fb8907a2e8c1593ff0b96"
+      "bytes": 366321,
+      "sha256": "1a9bb596aea11260883ab398febb2d48c2eaf8909abf56f3a2dcc48d0e8144cc"
     },
     {
       "path": "exports/datasets.csv",
-      "bytes": 15036,
-      "sha256": "9d4b5547c61b2c215c51f93c15317f175538bbe015115104f6a4439a05917e96"
+      "bytes": 60016,
+      "sha256": "428df810e88bafc17284d94f8e1d1c63baa7f840c07c8999899a4e6247cf8eab"
+    },
+    {
+      "path": "exports/ecosystem.csv",
+      "bytes": 22428,
+      "sha256": "2b2a486ddfb20d3db3bfdbffc77fa6bf572543121035f693630eacb97f3bee19"
     },
     {
       "path": "exports/methods.csv",
-      "bytes": 9016,
-      "sha256": "bc99a053b4891dbe9858e031f149663096aed91029b0c4663f95ef6fc7e8486e"
+      "bytes": 20866,
+      "sha256": "53d6005c2189c4b1a4db55e377ea803b36ac874664942176cdbf10b13555afb9"
     },
     {
       "path": "mkdocs.yml",
-      "bytes": 3860,
-      "sha256": "7c10cfe6ffc4a40b94b3c4c18d6de557f65123bd396444ee875c04bf470c0f72"
+      "bytes": 4117,
+      "sha256": "9b040357d92a196321e510cc76b66a8fb0a0ea85e49f1e69ec0708e6e255875f"
     },
     {
       "path": "policies/ATTRIBUTION_POLICY.md",
@@ -1058,18 +2636,18 @@
     },
     {
       "path": "policies/PROVENANCE_POLICY.md",
-      "bytes": 499,
-      "sha256": "2c98da2aee580dc80baa3b1693c3d6c6af2fb8b0f69497251804fc05a58b619e"
+      "bytes": 1239,
+      "sha256": "5b18ba4d5cddbf525f6bcd42df8dc39fd13a2cf21b8c585d37ebed4b12fe79d9"
     },
     {
       "path": "preview/index.html",
-      "bytes": 7189,
-      "sha256": "c51b97d501436668779ef64b945956408a7e94457ab3c3e6a5b23a5d1d392081"
+      "bytes": 7204,
+      "sha256": "cad99d0b1105189ab20f6a259bc0074321dfea28a34246cf96a0a058ddf14f17"
     },
     {
       "path": "pyproject.toml",
       "bytes": 431,
-      "sha256": "732a67caa0d5c21ea46870b77f8a93b90112572c485ffcb22fb4fc12f3ac3688"
+      "sha256": "a8d069990505023387e05fdb7840100c7a25e4554970f14c4b32e4d6f512f385"
     },
     {
       "path": "requirements-dev.txt",
@@ -1083,8 +2661,8 @@
     },
     {
       "path": "scripts/build_catalog.py",
-      "bytes": 6174,
-      "sha256": "47593270845440cdda399c1d6d0a6c21d7b25d0b2ebe1c374d8eb27a9f2bb16c"
+      "bytes": 11830,
+      "sha256": "fa62d20f05569fc9bda80cddb1a033c509c0e2ece695c30c0607112cf317122d"
     },
     {
       "path": "scripts/check_internal_links.py",
@@ -1098,23 +2676,23 @@
     },
     {
       "path": "scripts/check_urls.py",
-      "bytes": 1078,
-      "sha256": "19789f5d290c8616024e6d36762277f18dde2ed2800af6e815c9061c5b8cb550"
+      "bytes": 3534,
+      "sha256": "280a56d36e87a64872c4fe31f020fb751044c8a4e448b05f7c610af8540d6d9f"
     },
     {
       "path": "scripts/export_catalog.py",
-      "bytes": 2825,
-      "sha256": "f9e484d6603a96f0e3bc11a03c694fcc8a29aed98f4d88b00460919b03431316"
+      "bytes": 3847,
+      "sha256": "6e7e8e5b1af641139ae548a87eb71a13598b3f525d1fb1c9b610e6fb3e631895"
     },
     {
       "path": "scripts/validate_catalog.py",
-      "bytes": 1393,
-      "sha256": "73752c9bccfd91a94121d985b7952d8e71bfaf8379ea8b672edb03e94bdc2037"
+      "bytes": 1753,
+      "sha256": "9d181fb2f0fe795aa507e25225caf17caec08cffef1436c25b98af6fd49f114b"
     },
     {
       "path": "tests/test_catalog.py",
-      "bytes": 915,
-      "sha256": "c17d26e7550f74802583640d63c5c84642c00f5275e171c550236e2d5017a23f"
+      "bytes": 1448,
+      "sha256": "6f29eee27def2f2ab7ae2e98c53430c7f27c9557742c927aabe25ae0601d8e03"
     }
   ]
 }

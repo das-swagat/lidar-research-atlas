@@ -1,0 +1,27 @@
+id: patchwork-plusplus
+name: Patchwork++
+year: 2022
+resource_type: method
+category: ground segmentation
+representation: robust region-wise plane fitting
+original_authors: See primary publication
+authoritative_sources:
+  primary_publication: https://arxiv.org/abs/2207.11919
+  implementation: https://github.com/url-kaist/patchwork-plusplus
+implementation:
+  relationship: official_or_author_maintained_unverified
+  license: verify from repository
+  weights_terms: verify separately
+  repository: https://github.com/url-kaist/patchwork-plusplus
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper and follow the repository citation and license
+    instructions. This atlas record is independently written.
+  recommended_source: https://arxiv.org/abs/2207.11919
+notes: Discovery-expanded record; implementation relationship and license should be
+  rechecked before reuse.
+discovery_sources:
+- szenergy/awesome-lidar
+verification:
+  status: discovery_only
+  last_checked: '2026-08-03'

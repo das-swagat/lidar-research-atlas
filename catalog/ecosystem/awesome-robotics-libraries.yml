@@ -1,0 +1,15 @@
+id: awesome-robotics-libraries
+name: Awesome Robotics Libraries
+resource_type: ecosystem_resource
+category: related-list
+subcategory: related-list
+official_url: https://github.com/jslee02/awesome-robotics-libraries
+repository_url: https://github.com/jslee02/awesome-robotics-libraries
+summary: Robotics software libraries and frameworks.
+source_collections:
+- szenergy/awesome-lidar
+legal_note: Follow the source repository license. The atlas does not claim ownership
+  of the linked collection.
+verification:
+  status: source_listed
+  last_checked: '2026-08-03'

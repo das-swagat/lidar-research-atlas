@@ -1,13 +1,97 @@
 resource_type,id,name,source_role,url,last_checked,verification_status
+dataset,3dref-dataset,3DRef Dataset,official_page,https://3dref.github.io/,2026-08-03,discovery_only
+dataset,3dref-dataset,3DRef Dataset,primary_publication,https://3dref.github.io/,2026-08-03,discovery_only
+dataset,3dref-dataset,3DRef Dataset,terms_or_license,https://3dref.github.io/,2026-08-03,discovery_only
 dataset,a2d2,Audi Autonomous Driving Dataset (A2D2),official_page,https://www.a2d2.audi/,2026-08-03,verified
 dataset,a2d2,Audi Autonomous Driving Dataset (A2D2),primary_publication,https://www.a2d2.audi/a2d2/en.html,2026-08-03,verified
 dataset,a2d2,Audi Autonomous Driving Dataset (A2D2),terms_or_license,https://www.a2d2.audi/a2d2/en.html,2026-08-03,verified
+dataset,apollo-daoxianglake-dataset,Apollo DaoxiangLake Dataset,official_page,https://developer.apollo.auto/daoxianglake.html,2026-08-03,discovery_only
+dataset,apollo-daoxianglake-dataset,Apollo DaoxiangLake Dataset,primary_publication,https://developer.apollo.auto/daoxianglake.html,2026-08-03,discovery_only
+dataset,apollo-daoxianglake-dataset,Apollo DaoxiangLake Dataset,terms_or_license,https://developer.apollo.auto/daoxianglake.html,2026-08-03,discovery_only
+dataset,apollo-southbay-dataset,Apollo SouthBay Dataset,official_page,https://developer.apollo.auto/southbay.html,2026-08-03,discovery_only
+dataset,apollo-southbay-dataset,Apollo SouthBay Dataset,primary_publication,https://developer.apollo.auto/southbay.html,2026-08-03,discovery_only
+dataset,apollo-southbay-dataset,Apollo SouthBay Dataset,terms_or_license,https://developer.apollo.auto/southbay.html,2026-08-03,discovery_only
+dataset,argoverse-1,Argoverse 1,official_page,https://www.argoverse.org/av1.html,2026-08-03,discovery_only
+dataset,argoverse-1,Argoverse 1,primary_publication,https://www.argoverse.org/av1.html,2026-08-03,discovery_only
+dataset,argoverse-1,Argoverse 1,terms_or_license,https://www.argoverse.org/av1.html,2026-08-03,discovery_only
 dataset,argoverse2,Argoverse 2,official_page,https://www.argoverse.org/av2.html,2026-08-03,verified
 dataset,argoverse2,Argoverse 2,primary_publication,https://arxiv.org/abs/2301.00493,2026-08-03,verified
 dataset,argoverse2,Argoverse 2,terms_or_license,https://www.argoverse.org/av2.html,2026-08-03,verified
+dataset,boreas-dataset,Boreas Dataset,official_page,https://www.boreas.utias.utoronto.ca/,2026-08-03,discovery_only
+dataset,boreas-dataset,Boreas Dataset,primary_publication,https://www.boreas.utias.utoronto.ca/,2026-08-03,discovery_only
+dataset,boreas-dataset,Boreas Dataset,terms_or_license,https://www.boreas.utias.utoronto.ca/,2026-08-03,discovery_only
+dataset,botanicgarden-dataset,BotanicGarden Dataset,official_page,https://github.com/robot-pesg/BotanicGarden,2026-08-03,discovery_only
+dataset,botanicgarden-dataset,BotanicGarden Dataset,primary_publication,https://github.com/robot-pesg/BotanicGarden,2026-08-03,discovery_only
+dataset,botanicgarden-dataset,BotanicGarden Dataset,terms_or_license,https://github.com/robot-pesg/BotanicGarden,2026-08-03,discovery_only
+dataset,brno-urban-dataset,Brno Urban Dataset,official_page,https://github.com/Robotics-BUT/Brno-Urban-Dataset,2026-08-03,discovery_only
+dataset,brno-urban-dataset,Brno Urban Dataset,primary_publication,https://github.com/Robotics-BUT/Brno-Urban-Dataset,2026-08-03,discovery_only
+dataset,brno-urban-dataset,Brno Urban Dataset,terms_or_license,https://github.com/Robotics-BUT/Brno-Urban-Dataset,2026-08-03,discovery_only
+dataset,canadian-adverse-driving-conditions-dataset,Canadian Adverse Driving Conditions Dataset,official_page,http://cadcd.uwaterloo.ca/,2026-08-03,discovery_only
+dataset,canadian-adverse-driving-conditions-dataset,Canadian Adverse Driving Conditions Dataset,primary_publication,http://cadcd.uwaterloo.ca/,2026-08-03,discovery_only
+dataset,canadian-adverse-driving-conditions-dataset,Canadian Adverse Driving Conditions Dataset,terms_or_license,http://cadcd.uwaterloo.ca/,2026-08-03,discovery_only
+dataset,cirrus-dataset,Cirrus Dataset,official_page,https://developer.volvocars.com/open-datasets/cirrus/,2026-08-03,discovery_only
+dataset,cirrus-dataset,Cirrus Dataset,primary_publication,https://developer.volvocars.com/open-datasets/cirrus/,2026-08-03,discovery_only
+dataset,cirrus-dataset,Cirrus Dataset,terms_or_license,https://developer.volvocars.com/open-datasets/cirrus/,2026-08-03,discovery_only
+dataset,cns-dataset,CNS Dataset,official_page,https://github.com/Hyunho111/CNS_dataset,2026-08-03,discovery_only
+dataset,cns-dataset,CNS Dataset,primary_publication,https://github.com/Hyunho111/CNS_dataset,2026-08-03,discovery_only
+dataset,cns-dataset,CNS Dataset,terms_or_license,https://github.com/Hyunho111/CNS_dataset,2026-08-03,discovery_only
+dataset,complex-urban-dataset,Complex Urban Dataset,official_page,https://sites.google.com/view/complex-urban-dataset,2026-08-03,discovery_only
+dataset,complex-urban-dataset,Complex Urban Dataset,primary_publication,https://sites.google.com/view/complex-urban-dataset,2026-08-03,discovery_only
+dataset,complex-urban-dataset,Complex Urban Dataset,terms_or_license,https://sites.google.com/view/complex-urban-dataset,2026-08-03,discovery_only
+dataset,conslam-dataset,ConSLAM Dataset,official_page,https://github.com/mac137/ConSLAM,2026-08-03,discovery_only
+dataset,conslam-dataset,ConSLAM Dataset,primary_publication,https://github.com/mac137/ConSLAM,2026-08-03,discovery_only
+dataset,conslam-dataset,ConSLAM Dataset,terms_or_license,https://github.com/mac137/ConSLAM,2026-08-03,discovery_only
 dataset,dales,DALES,official_page,https://udayton.edu/centers/vision-lab/index.php,2026-08-03,partial
 dataset,dales,DALES,primary_publication,https://doi.org/10.1109/CVPRW50498.2020.00138,2026-08-03,partial
 dataset,dales,DALES,terms_or_license,https://udayton.edu/centers/vision-lab/index.php,2026-08-03,partial
+dataset,diter-plusplus-dataset,DiTer++ Dataset,official_page,https://sites.google.com/view/diter-plusplus/,2026-08-03,discovery_only
+dataset,diter-plusplus-dataset,DiTer++ Dataset,primary_publication,https://sites.google.com/view/diter-plusplus/,2026-08-03,discovery_only
+dataset,diter-plusplus-dataset,DiTer++ Dataset,terms_or_license,https://sites.google.com/view/diter-plusplus/,2026-08-03,discovery_only
+dataset,durlar-dataset,DurLAR Dataset,official_page,https://github.com/l1997i/DurLAR,2026-08-03,discovery_only
+dataset,durlar-dataset,DurLAR Dataset,primary_publication,https://github.com/l1997i/DurLAR,2026-08-03,discovery_only
+dataset,durlar-dataset,DurLAR Dataset,terms_or_license,https://github.com/l1997i/DurLAR,2026-08-03,discovery_only
+dataset,enwide-dataset,ENWIDE Dataset,official_page,https://projects.asl.ethz.ch/datasets/doku.php?id=enwide,2026-08-03,discovery_only
+dataset,enwide-dataset,ENWIDE Dataset,primary_publication,https://projects.asl.ethz.ch/datasets/doku.php?id=enwide,2026-08-03,discovery_only
+dataset,enwide-dataset,ENWIDE Dataset,terms_or_license,https://projects.asl.ethz.ch/datasets/doku.php?id=enwide,2026-08-03,discovery_only
+dataset,eu-long-term-robocar-dataset,EU Long-term Robocar Dataset,official_page,https://epan-utbm.github.io/utbm_robocar_dataset/,2026-08-03,discovery_only
+dataset,eu-long-term-robocar-dataset,EU Long-term Robocar Dataset,primary_publication,https://epan-utbm.github.io/utbm_robocar_dataset/,2026-08-03,discovery_only
+dataset,eu-long-term-robocar-dataset,EU Long-term Robocar Dataset,terms_or_license,https://epan-utbm.github.io/utbm_robocar_dataset/,2026-08-03,discovery_only
+dataset,ford-av-dataset,Ford Autonomous Vehicle Dataset,official_page,https://avdata.ford.com/,2026-08-03,discovery_only
+dataset,ford-av-dataset,Ford Autonomous Vehicle Dataset,primary_publication,https://avdata.ford.com/,2026-08-03,discovery_only
+dataset,ford-av-dataset,Ford Autonomous Vehicle Dataset,terms_or_license,https://avdata.ford.com/,2026-08-03,discovery_only
+dataset,ford-campus-vision-and-lidar-dataset,Ford Campus Vision and LiDAR Dataset,official_page,https://robots.engin.umich.edu/SoftwareData/InfoFord,2026-08-03,discovery_only
+dataset,ford-campus-vision-and-lidar-dataset,Ford Campus Vision and LiDAR Dataset,primary_publication,https://robots.engin.umich.edu/SoftwareData/InfoFord,2026-08-03,discovery_only
+dataset,ford-campus-vision-and-lidar-dataset,Ford Campus Vision and LiDAR Dataset,terms_or_license,https://robots.engin.umich.edu/SoftwareData/InfoFord,2026-08-03,discovery_only
+dataset,fusionportable-dataset,FusionPortable Dataset,official_page,https://fusionportable.github.io/dataset/fusionportable/,2026-08-03,discovery_only
+dataset,fusionportable-dataset,FusionPortable Dataset,primary_publication,https://fusionportable.github.io/dataset/fusionportable/,2026-08-03,discovery_only
+dataset,fusionportable-dataset,FusionPortable Dataset,terms_or_license,https://fusionportable.github.io/dataset/fusionportable/,2026-08-03,discovery_only
+dataset,fusionportablev2-dataset,FusionPortableV2 Dataset,official_page,https://fusionportable.github.io/dataset/fusionportable_v2/,2026-08-03,discovery_only
+dataset,fusionportablev2-dataset,FusionPortableV2 Dataset,primary_publication,https://fusionportable.github.io/dataset/fusionportable_v2/,2026-08-03,discovery_only
+dataset,fusionportablev2-dataset,FusionPortableV2 Dataset,terms_or_license,https://fusionportable.github.io/dataset/fusionportable_v2/,2026-08-03,discovery_only
+dataset,geode-dataset,GEODE Dataset,official_page,https://github.com/PengYu-Team/GEODE_dataset,2026-08-03,discovery_only
+dataset,geode-dataset,GEODE Dataset,primary_publication,https://github.com/PengYu-Team/GEODE_dataset,2026-08-03,discovery_only
+dataset,geode-dataset,GEODE Dataset,terms_or_license,https://github.com/PengYu-Team/GEODE_dataset,2026-08-03,discovery_only
+dataset,ground-challenge-dataset,Ground-Challenge Dataset,official_page,https://github.com/sjtuyinjie/Ground-Challenge,2026-08-03,discovery_only
+dataset,ground-challenge-dataset,Ground-Challenge Dataset,primary_publication,https://github.com/sjtuyinjie/Ground-Challenge,2026-08-03,discovery_only
+dataset,ground-challenge-dataset,Ground-Challenge Dataset,terms_or_license,https://github.com/sjtuyinjie/Ground-Challenge,2026-08-03,discovery_only
+dataset,helimos-dataset,HeLiMOS Dataset,official_page,https://sites.google.com/view/helimos,2026-08-03,discovery_only
+dataset,helimos-dataset,HeLiMOS Dataset,primary_publication,https://sites.google.com/view/helimos,2026-08-03,discovery_only
+dataset,helimos-dataset,HeLiMOS Dataset,terms_or_license,https://sites.google.com/view/helimos,2026-08-03,discovery_only
+dataset,helipr-dataset,HeLiPR Dataset,official_page,https://sites.google.com/view/heliprdataset,2026-08-03,discovery_only
+dataset,helipr-dataset,HeLiPR Dataset,primary_publication,https://sites.google.com/view/heliprdataset,2026-08-03,discovery_only
+dataset,helipr-dataset,HeLiPR Dataset,terms_or_license,https://sites.google.com/view/heliprdataset,2026-08-03,discovery_only
+dataset,hilti-oxford-slam-challenge-2021-dataset,Hilti-Oxford SLAM Challenge 2021 Dataset,official_page,https://hilti-challenge.com/dataset-2021.html,2026-08-03,discovery_only
+dataset,hilti-oxford-slam-challenge-2021-dataset,Hilti-Oxford SLAM Challenge 2021 Dataset,primary_publication,https://hilti-challenge.com/dataset-2021.html,2026-08-03,discovery_only
+dataset,hilti-oxford-slam-challenge-2021-dataset,Hilti-Oxford SLAM Challenge 2021 Dataset,terms_or_license,https://hilti-challenge.com/dataset-2021.html,2026-08-03,discovery_only
+dataset,hilti-oxford-slam-challenge-2022-dataset,Hilti-Oxford SLAM Challenge 2022 Dataset,official_page,https://hilti-challenge.com/dataset-2022.html,2026-08-03,discovery_only
+dataset,hilti-oxford-slam-challenge-2022-dataset,Hilti-Oxford SLAM Challenge 2022 Dataset,primary_publication,https://hilti-challenge.com/dataset-2022.html,2026-08-03,discovery_only
+dataset,hilti-oxford-slam-challenge-2022-dataset,Hilti-Oxford SLAM Challenge 2022 Dataset,terms_or_license,https://hilti-challenge.com/dataset-2022.html,2026-08-03,discovery_only
+dataset,hilti-oxford-slam-challenge-2023-dataset,Hilti-Oxford SLAM Challenge 2023 Dataset,official_page,https://hilti-challenge.com/dataset-2023.html,2026-08-03,discovery_only
+dataset,hilti-oxford-slam-challenge-2023-dataset,Hilti-Oxford SLAM Challenge 2023 Dataset,primary_publication,https://hilti-challenge.com/dataset-2023.html,2026-08-03,discovery_only
+dataset,hilti-oxford-slam-challenge-2023-dataset,Hilti-Oxford SLAM Challenge 2023 Dataset,terms_or_license,https://hilti-challenge.com/dataset-2023.html,2026-08-03,discovery_only
+dataset,hk-mems-lidar-dataset,HK MEMS LiDAR Dataset,official_page,https://github.com/RuanJY/HK_MEMS_Dataset,2026-08-03,discovery_only
+dataset,hk-mems-lidar-dataset,HK MEMS LiDAR Dataset,primary_publication,https://github.com/RuanJY/HK_MEMS_Dataset,2026-08-03,discovery_only
+dataset,hk-mems-lidar-dataset,HK MEMS LiDAR Dataset,terms_or_license,https://github.com/RuanJY/HK_MEMS_Dataset,2026-08-03,discovery_only
 dataset,k-lane,K-Lane,official_page,https://github.com/kaist-avelab/K-Lane,2026-08-03,verified
 dataset,k-lane,K-Lane,primary_publication,https://openaccess.thecvf.com/content/CVPR2022W/WAD/html/Paek_K-Lane_Lidar_Lane_Dataset_and_Benchmark_for_Urban_Roads_and_CVPRW_2022_paper.html,2026-08-03,verified
 dataset,k-lane,K-Lane,terms_or_license,https://github.com/kaist-avelab/K-Lane,2026-08-03,verified
@@ -17,6 +101,36 @@ dataset,kitti,KITTI Vision Benchmark Suite,terms_or_license,https://www.cvlibs.n
 dataset,kitti360,KITTI-360,official_page,https://www.cvlibs.net/datasets/kitti-360/,2026-08-03,verified
 dataset,kitti360,KITTI-360,primary_publication,https://doi.org/10.1109/TPAMI.2022.3179506,2026-08-03,verified
 dataset,kitti360,KITTI-360,terms_or_license,https://www.cvlibs.net/datasets/kitti-360/download.php,2026-08-03,verified
+dataset,libre-lidar-benchmarking-and-reference-dataset,LIBRE LiDAR Benchmarking and Reference Dataset,official_page,https://sites.google.com/g.sp.m.is.nagoya-u.ac.jp/libre-dataset,2026-08-03,discovery_only
+dataset,libre-lidar-benchmarking-and-reference-dataset,LIBRE LiDAR Benchmarking and Reference Dataset,primary_publication,https://sites.google.com/g.sp.m.is.nagoya-u.ac.jp/libre-dataset,2026-08-03,discovery_only
+dataset,libre-lidar-benchmarking-and-reference-dataset,LIBRE LiDAR Benchmarking and Reference Dataset,terms_or_license,https://sites.google.com/g.sp.m.is.nagoya-u.ac.jp/libre-dataset,2026-08-03,discovery_only
+dataset,lidar-degeneracy-datasets,LiDAR Degeneracy Datasets,official_page,https://github.com/ntnu-arl/lidar_degeneracy_datasets,2026-08-03,discovery_only
+dataset,lidar-degeneracy-datasets,LiDAR Degeneracy Datasets,primary_publication,https://github.com/ntnu-arl/lidar_degeneracy_datasets,2026-08-03,discovery_only
+dataset,lidar-degeneracy-datasets,LiDAR Degeneracy Datasets,terms_or_license,https://github.com/ntnu-arl/lidar_degeneracy_datasets,2026-08-03,discovery_only
+dataset,lisu-dataset,LiSu Dataset,official_page,https://github.com/malicd/LiSu,2026-08-03,discovery_only
+dataset,lisu-dataset,LiSu Dataset,primary_publication,https://github.com/malicd/LiSu,2026-08-03,discovery_only
+dataset,lisu-dataset,LiSu Dataset,terms_or_license,https://github.com/malicd/LiSu,2026-08-03,discovery_only
+dataset,livox-simulation-dataset,Livox Simulation Dataset,official_page,https://www.livoxtech.com/simu-dataset,2026-08-03,discovery_only
+dataset,livox-simulation-dataset,Livox Simulation Dataset,primary_publication,https://www.livoxtech.com/simu-dataset,2026-08-03,discovery_only
+dataset,livox-simulation-dataset,Livox Simulation Dataset,terms_or_license,https://www.livoxtech.com/simu-dataset,2026-08-03,discovery_only
+dataset,lyft-level-5-prediction-and-perception-dataset,Lyft Level 5 Prediction and Perception Dataset,official_page,https://level5.lyft.com/dataset/,2026-08-03,discovery_only
+dataset,lyft-level-5-prediction-and-perception-dataset,Lyft Level 5 Prediction and Perception Dataset,primary_publication,https://level5.lyft.com/dataset/,2026-08-03,discovery_only
+dataset,lyft-level-5-prediction-and-perception-dataset,Lyft Level 5 Prediction and Perception Dataset,terms_or_license,https://level5.lyft.com/dataset/,2026-08-03,discovery_only
+dataset,m2dgr-dataset,M2DGR Dataset,official_page,https://github.com/SJTU-ViSYS/M2DGR,2026-08-03,discovery_only
+dataset,m2dgr-dataset,M2DGR Dataset,primary_publication,https://github.com/SJTU-ViSYS/M2DGR,2026-08-03,discovery_only
+dataset,m2dgr-dataset,M2DGR Dataset,terms_or_license,https://github.com/SJTU-ViSYS/M2DGR,2026-08-03,discovery_only
+dataset,m2dgr-plus-dataset,M2DGR-Plus Dataset,official_page,https://github.com/SJTU-ViSYS/M2DGR-plus,2026-08-03,discovery_only
+dataset,m2dgr-plus-dataset,M2DGR-Plus Dataset,primary_publication,https://github.com/SJTU-ViSYS/M2DGR-plus,2026-08-03,discovery_only
+dataset,m2dgr-plus-dataset,M2DGR-Plus Dataset,terms_or_license,https://github.com/SJTU-ViSYS/M2DGR-plus,2026-08-03,discovery_only
+dataset,ma-lio-city-dataset,MA-LIO City Dataset,official_page,https://github.com/minwoo0611/MA-LIO,2026-08-03,discovery_only
+dataset,ma-lio-city-dataset,MA-LIO City Dataset,primary_publication,https://github.com/minwoo0611/MA-LIO,2026-08-03,discovery_only
+dataset,ma-lio-city-dataset,MA-LIO City Dataset,terms_or_license,https://github.com/minwoo0611/MA-LIO,2026-08-03,discovery_only
+dataset,man-truckscenes,MAN TruckScenes,official_page,https://brandportal.man/d/QSf8mPdU5Hgj,2026-08-03,discovery_only
+dataset,man-truckscenes,MAN TruckScenes,primary_publication,https://brandportal.man/d/QSf8mPdU5Hgj,2026-08-03,discovery_only
+dataset,man-truckscenes,MAN TruckScenes,terms_or_license,https://brandportal.man/d/QSf8mPdU5Hgj,2026-08-03,discovery_only
+dataset,mars-lvig-dataset,MARS-LVIG Dataset,official_page,https://journals.sagepub.com/doi/full/10.1177/02783649241227968,2026-08-03,discovery_only
+dataset,mars-lvig-dataset,MARS-LVIG Dataset,primary_publication,https://journals.sagepub.com/doi/full/10.1177/02783649241227968,2026-08-03,discovery_only
+dataset,mars-lvig-dataset,MARS-LVIG Dataset,terms_or_license,https://journals.sagepub.com/doi/full/10.1177/02783649241227968,2026-08-03,discovery_only
 dataset,matterport3d,Matterport3D,official_page,https://niessner.github.io/Matterport/,2026-08-03,verified
 dataset,matterport3d,Matterport3D,primary_publication,https://doi.org/10.1109/3DV.2017.00081,2026-08-03,verified
 dataset,matterport3d,Matterport3D,terms_or_license,https://niessner.github.io/Matterport/,2026-08-03,verified
@@ -26,12 +140,27 @@ dataset,mit-stata,MIT Stata Center Data Set,terms_or_license,https://projects.cs
 dataset,mulran,MulRan,official_page,https://sites.google.com/view/mulran-pr/home,2026-08-03,partial
 dataset,mulran,MulRan,primary_publication,https://doi.org/10.1109/ICRA40945.2020.9197298,2026-08-03,partial
 dataset,mulran,MulRan,terms_or_license,https://sites.google.com/view/mulran-pr/home,2026-08-03,partial
+dataset,multi-lidar-multi-uav-dataset,Multi-LiDAR Multi-UAV Dataset,official_page,https://tiers.github.io/multi_lidar_multi_uav_dataset/,2026-08-03,discovery_only
+dataset,multi-lidar-multi-uav-dataset,Multi-LiDAR Multi-UAV Dataset,primary_publication,https://tiers.github.io/multi_lidar_multi_uav_dataset/,2026-08-03,discovery_only
+dataset,multi-lidar-multi-uav-dataset,Multi-LiDAR Multi-UAV Dataset,terms_or_license,https://tiers.github.io/multi_lidar_multi_uav_dataset/,2026-08-03,discovery_only
 dataset,nclt,NCLT Dataset,official_page,https://robots.engin.umich.edu/nclt/,2026-08-03,partial
 dataset,nclt,NCLT Dataset,primary_publication,https://doi.org/10.1177/0278364915614638,2026-08-03,partial
 dataset,nclt,NCLT Dataset,terms_or_license,https://robots.engin.umich.edu/nclt/,2026-08-03,partial
+dataset,newer-college-dataset,Newer College Dataset,official_page,https://ori-drs.github.io/newer-college-dataset/,2026-08-03,discovery_only
+dataset,newer-college-dataset,Newer College Dataset,primary_publication,https://ori-drs.github.io/newer-college-dataset/,2026-08-03,discovery_only
+dataset,newer-college-dataset,Newer College Dataset,terms_or_license,https://ori-drs.github.io/newer-college-dataset/,2026-08-03,discovery_only
+dataset,ntu-viral-dataset,NTU VIRAL Dataset,official_page,https://ntu-aris.github.io/ntu_viral_dataset/,2026-08-03,discovery_only
+dataset,ntu-viral-dataset,NTU VIRAL Dataset,primary_publication,https://ntu-aris.github.io/ntu_viral_dataset/,2026-08-03,discovery_only
+dataset,ntu-viral-dataset,NTU VIRAL Dataset,terms_or_license,https://ntu-aris.github.io/ntu_viral_dataset/,2026-08-03,discovery_only
 dataset,nuscenes,nuScenes,official_page,https://www.nuscenes.org/nuscenes,2026-08-03,verified
 dataset,nuscenes,nuScenes,primary_publication,https://doi.org/10.1109/CVPR42600.2020.01164,2026-08-03,verified
 dataset,nuscenes,nuScenes,terms_or_license,https://www.nuscenes.org/terms-of-use,2026-08-03,verified
+dataset,orfd-off-road-freespace-detection-dataset,ORFD Off-Road Freespace Detection Dataset,official_page,https://github.com/chaytonmin/Off-Road-Freespace-Detection,2026-08-03,discovery_only
+dataset,orfd-off-road-freespace-detection-dataset,ORFD Off-Road Freespace Detection Dataset,primary_publication,https://github.com/chaytonmin/Off-Road-Freespace-Detection,2026-08-03,discovery_only
+dataset,orfd-off-road-freespace-detection-dataset,ORFD Off-Road Freespace Detection Dataset,terms_or_license,https://github.com/chaytonmin/Off-Road-Freespace-Detection,2026-08-03,discovery_only
+dataset,oxford-radar-robotcar,Oxford Radar RobotCar Dataset,official_page,https://oxford-robotics-institute.github.io/radar-robotcar-dataset/,2026-08-03,discovery_only
+dataset,oxford-radar-robotcar,Oxford Radar RobotCar Dataset,primary_publication,https://oxford-robotics-institute.github.io/radar-robotcar-dataset/,2026-08-03,discovery_only
+dataset,oxford-radar-robotcar,Oxford Radar RobotCar Dataset,terms_or_license,https://oxford-robotics-institute.github.io/radar-robotcar-dataset/,2026-08-03,discovery_only
 dataset,oxford-robotcar,Oxford RobotCar Dataset,official_page,https://robotcar-dataset.robots.ox.ac.uk/,2026-08-03,verified
 dataset,oxford-robotcar,Oxford RobotCar Dataset,primary_publication,https://doi.org/10.1177/0278364916679498,2026-08-03,verified
 dataset,oxford-robotcar,Oxford RobotCar Dataset,terms_or_license,https://robotcar-dataset.robots.ox.ac.uk/terms.html,2026-08-03,verified
@@ -41,9 +170,21 @@ dataset,pandaset,PandaSet,terms_or_license,https://pandaset.org/,2026-08-03,veri
 dataset,paris-lille-3d,Paris-Lille-3D,official_page,https://npm3d.fr/paris-lille-3d,2026-08-03,verified
 dataset,paris-lille-3d,Paris-Lille-3D,primary_publication,https://doi.org/10.1177/0278364918767506,2026-08-03,verified
 dataset,paris-lille-3d,Paris-Lille-3D,terms_or_license,https://npm3d.fr/paris-lille-3d,2026-08-03,verified
+dataset,parisluco3d,ParisLuco3D,official_page,https://npm3d.fr/parisluco3d,2026-08-03,discovery_only
+dataset,parisluco3d,ParisLuco3D,primary_publication,https://npm3d.fr/parisluco3d,2026-08-03,discovery_only
+dataset,parisluco3d,ParisLuco3D,terms_or_license,https://npm3d.fr/parisluco3d,2026-08-03,discovery_only
+dataset,pohang-canal-dataset,Pohang Canal Dataset,official_page,https://sites.google.com/view/pohang-canal-dataset/home,2026-08-03,discovery_only
+dataset,pohang-canal-dataset,Pohang Canal Dataset,primary_publication,https://sites.google.com/view/pohang-canal-dataset/home,2026-08-03,discovery_only
+dataset,pohang-canal-dataset,Pohang Canal Dataset,terms_or_license,https://sites.google.com/view/pohang-canal-dataset/home,2026-08-03,discovery_only
+dataset,racecar-dataset,RACECAR Dataset,official_page,https://github.com/linklab-uva/RACECAR_DATA,2026-08-03,discovery_only
+dataset,racecar-dataset,RACECAR Dataset,primary_publication,https://github.com/linklab-uva/RACECAR_DATA,2026-08-03,discovery_only
+dataset,racecar-dataset,RACECAR Dataset,terms_or_license,https://github.com/linklab-uva/RACECAR_DATA,2026-08-03,discovery_only
 dataset,radish,RADISH Robotics Data Set Repository,official_page,https://radish.sourceforge.net/,2026-08-03,partial
 dataset,radish,RADISH Robotics Data Set Repository,primary_publication,https://radish.sourceforge.net/,2026-08-03,partial
 dataset,radish,RADISH Robotics Data Set Repository,terms_or_license,https://radish.sourceforge.net/,2026-08-03,partial
+dataset,rehearse-3d-dataset,REHEARSE-3D Dataset,official_page,https://sporsho.github.io/REHEARSE3D,2026-08-03,discovery_only
+dataset,rehearse-3d-dataset,REHEARSE-3D Dataset,primary_publication,https://sporsho.github.io/REHEARSE3D,2026-08-03,discovery_only
+dataset,rehearse-3d-dataset,REHEARSE-3D Dataset,terms_or_license,https://sporsho.github.io/REHEARSE3D,2026-08-03,discovery_only
 dataset,rellis3d,RELLIS-3D,official_page,https://github.com/unmannedlab/RELLIS-3D,2026-08-03,verified
 dataset,rellis3d,RELLIS-3D,primary_publication,https://doi.org/10.1109/LRA.2020.3034974,2026-08-03,verified
 dataset,rellis3d,RELLIS-3D,terms_or_license,https://github.com/unmannedlab/RELLIS-3D,2026-08-03,verified
@@ -53,6 +194,9 @@ dataset,robotathome,Robot@Home,terms_or_license,https://mapir.isa.uma.es/work/ro
 dataset,s3dis,Stanford Large-Scale 3D Indoor Spaces (S3DIS),official_page,http://buildingparser.stanford.edu/dataset.html,2026-08-03,partial
 dataset,s3dis,Stanford Large-Scale 3D Indoor Spaces (S3DIS),primary_publication,https://doi.org/10.1109/CVPR.2016.75,2026-08-03,partial
 dataset,s3dis,Stanford Large-Scale 3D Indoor Spaces (S3DIS),terms_or_license,http://buildingparser.stanford.edu/dataset.html,2026-08-03,partial
+dataset,s3li-dataset,S3LI Dataset,official_page,https://www.dlr.de/rm/en/s3li_dataset/,2026-08-03,discovery_only
+dataset,s3li-dataset,S3LI Dataset,primary_publication,https://www.dlr.de/rm/en/s3li_dataset/,2026-08-03,discovery_only
+dataset,s3li-dataset,S3LI Dataset,terms_or_license,https://www.dlr.de/rm/en/s3li_dataset/,2026-08-03,discovery_only
 dataset,scannet,ScanNet,official_page,https://www.scan-net.org/,2026-08-03,verified
 dataset,scannet,ScanNet,primary_publication,https://doi.org/10.1109/CVPR.2017.261,2026-08-03,verified
 dataset,scannet,ScanNet,terms_or_license,https://www.scan-net.org/ScanNet_TOS.pdf,2026-08-03,verified
@@ -71,33 +215,87 @@ dataset,semanticposs,SemanticPOSS,terms_or_license,http://www.poss.pku.edu.cn/,2
 dataset,sensaturban,SensatUrban,official_page,https://github.com/QingyongHu/SensatUrban,2026-08-03,verified
 dataset,sensaturban,SensatUrban,primary_publication,https://doi.org/10.1109/CVPR46437.2021.01148,2026-08-03,verified
 dataset,sensaturban,SensatUrban,terms_or_license,https://github.com/QingyongHu/SensatUrban,2026-08-03,verified
+dataset,sthereo-dataset,STHEREO Dataset,official_page,https://sites.google.com/view/rpmsthereo/,2026-08-03,discovery_only
+dataset,sthereo-dataset,STHEREO Dataset,primary_publication,https://sites.google.com/view/rpmsthereo/,2026-08-03,discovery_only
+dataset,sthereo-dataset,STHEREO Dataset,terms_or_license,https://sites.google.com/view/rpmsthereo/,2026-08-03,discovery_only
+dataset,stu-dataset,STU Dataset,official_page,https://vision.rwth-aachen.de/stu-dataset,2026-08-03,discovery_only
+dataset,stu-dataset,STU Dataset,primary_publication,https://vision.rwth-aachen.de/stu-dataset,2026-08-03,discovery_only
+dataset,stu-dataset,STU Dataset,terms_or_license,https://vision.rwth-aachen.de/stu-dataset,2026-08-03,discovery_only
+dataset,synthmanticlidar,SynthmanticLiDAR,official_page,https://github.com/vpulab/SynthmanticLiDAR,2026-08-03,discovery_only
+dataset,synthmanticlidar,SynthmanticLiDAR,primary_publication,https://github.com/vpulab/SynthmanticLiDAR,2026-08-03,discovery_only
+dataset,synthmanticlidar,SynthmanticLiDAR,terms_or_license,https://github.com/vpulab/SynthmanticLiDAR,2026-08-03,discovery_only
+dataset,tiers-multi-modal-lidar-dataset,TIERS Multi-Modal LiDAR Dataset,official_page,https://github.com/TIERS/tiers-lidars-dataset,2026-08-03,discovery_only
+dataset,tiers-multi-modal-lidar-dataset,TIERS Multi-Modal LiDAR Dataset,primary_publication,https://github.com/TIERS/tiers-lidars-dataset,2026-08-03,discovery_only
+dataset,tiers-multi-modal-lidar-dataset,TIERS Multi-Modal LiDAR Dataset,terms_or_license,https://github.com/TIERS/tiers-lidars-dataset,2026-08-03,discovery_only
 dataset,toronto3d,Toronto-3D,official_page,https://github.com/WeikaiTan/Toronto-3D,2026-08-03,verified
 dataset,toronto3d,Toronto-3D,primary_publication,https://doi.org/10.1109/CVPRW50498.2020.00139,2026-08-03,verified
 dataset,toronto3d,Toronto-3D,terms_or_license,https://github.com/WeikaiTan/Toronto-3D,2026-08-03,verified
+dataset,university-of-sydney-campus-dataset,University of Sydney Campus Dataset,official_page,http://its.acfr.usyd.edu.au/datasets/usyd-campus-dataset/,2026-08-03,discovery_only
+dataset,university-of-sydney-campus-dataset,University of Sydney Campus Dataset,primary_publication,http://its.acfr.usyd.edu.au/datasets/usyd-campus-dataset/,2026-08-03,discovery_only
+dataset,university-of-sydney-campus-dataset,University of Sydney Campus Dataset,terms_or_license,http://its.acfr.usyd.edu.au/datasets/usyd-campus-dataset/,2026-08-03,discovery_only
+dataset,uoftped50-dataset,UofTPed50 Dataset,official_page,https://www.autodrive.utoronto.ca/uoftped50,2026-08-03,discovery_only
+dataset,uoftped50-dataset,UofTPed50 Dataset,primary_publication,https://www.autodrive.utoronto.ca/uoftped50,2026-08-03,discovery_only
+dataset,uoftped50-dataset,UofTPed50 Dataset,terms_or_license,https://www.autodrive.utoronto.ca/uoftped50,2026-08-03,discovery_only
+dataset,urbannav-dataset,UrbanNav Dataset,official_page,https://github.com/IPNL-POLYU/UrbanNavDataset,2026-08-03,discovery_only
+dataset,urbannav-dataset,UrbanNav Dataset,primary_publication,https://github.com/IPNL-POLYU/UrbanNavDataset,2026-08-03,discovery_only
+dataset,urbannav-dataset,UrbanNav Dataset,terms_or_license,https://github.com/IPNL-POLYU/UrbanNavDataset,2026-08-03,discovery_only
 dataset,usgs-3dep,USGS 3D Elevation Program (3DEP),official_page,https://www.usgs.gov/3d-elevation-program,2026-08-03,verified
 dataset,usgs-3dep,USGS 3D Elevation Program (3DEP),primary_publication,https://www.usgs.gov/3d-elevation-program,2026-08-03,verified
 dataset,usgs-3dep,USGS 3D Elevation Program (3DEP),terms_or_license,https://www.usgs.gov/3d-elevation-program,2026-08-03,verified
+dataset,ustc-flicar-dataset,USTC FLICAR Dataset,official_page,https://ustc-flicar.github.io/,2026-08-03,discovery_only
+dataset,ustc-flicar-dataset,USTC FLICAR Dataset,primary_publication,https://ustc-flicar.github.io/,2026-08-03,discovery_only
+dataset,ustc-flicar-dataset,USTC FLICAR Dataset,terms_or_license,https://ustc-flicar.github.io/,2026-08-03,discovery_only
+dataset,waymo-open-motion,Waymo Open Motion Dataset,official_page,https://waymo.com/open/data/motion/,2026-08-03,discovery_only
+dataset,waymo-open-motion,Waymo Open Motion Dataset,primary_publication,https://waymo.com/open/data/motion/,2026-08-03,discovery_only
+dataset,waymo-open-motion,Waymo Open Motion Dataset,terms_or_license,https://waymo.com/open/data/motion/,2026-08-03,discovery_only
 dataset,waymo-open,Waymo Open Dataset,official_page,https://waymo.com/open/,2026-08-03,verified
 dataset,waymo-open,Waymo Open Dataset,primary_publication,https://doi.org/10.1109/CVPR42600.2020.00252,2026-08-03,verified
 dataset,waymo-open,Waymo Open Dataset,terms_or_license,https://waymo.com/open/terms/,2026-08-03,verified
+dataset,wild-places-dataset,Wild-Places Dataset,official_page,https://csiro-robotics.github.io/Wild-Places/,2026-08-03,discovery_only
+dataset,wild-places-dataset,Wild-Places Dataset,primary_publication,https://csiro-robotics.github.io/Wild-Places/,2026-08-03,discovery_only
+dataset,wild-places-dataset,Wild-Places Dataset,terms_or_license,https://csiro-robotics.github.io/Wild-Places/,2026-08-03,discovery_only
+method,automatic-urban-point-cloud-labelling-by-data-fusion,Automatic Urban Point-Cloud Labelling by Data Fusion,primary_publication,https://arxiv.org/abs/2008.09984,2026-08-03,discovery_only
+method,automatic-urban-point-cloud-labelling-by-data-fusion,Automatic Urban Point-Cloud Labelling by Data Fusion,implementation,https://github.com/PRBonn/semantic-kitti-api,2026-08-03,discovery_only
 method,cartographer,Google Cartographer,primary_publication,https://doi.org/10.1109/ICRA.2016.7487258,2026-08-03,verified
 method,cartographer,Google Cartographer,implementation,https://github.com/cartographer-project/cartographer,2026-08-03,verified
 method,cylinder3d,Cylinder3D,primary_publication,https://doi.org/10.1109/CVPR46437.2021.00919,2026-08-03,verified
 method,cylinder3d,Cylinder3D,implementation,https://github.com/xinge008/Cylinder3D,2026-08-03,verified
 method,depthcontrast,DepthContrast,primary_publication,https://doi.org/10.1109/ICCV48922.2021.00348,2026-08-03,partial
 method,depthcontrast,DepthContrast,implementation,https://github.com/facebookresearch/DepthContrast,2026-08-03,partial
+method,detection-by-tracker,detection_by_tracker,primary_publication,https://www.semanticscholar.org/paper/3D-LIDAR-Multi-Object-Tracking-for-Autonomous-and-Rachman/bafc8fcdee9b22708491ea1293524ece9e314851,2026-08-03,discovery_only
+method,detection-by-tracker,detection_by_tracker,implementation,https://autowarefoundation.github.io/autoware.universe/main/perception/detection_by_tracker/,2026-08-03,discovery_only
+method,direct-visual-lidar-calibration,Direct Visual-LiDAR Calibration,primary_publication,https://staff.aist.go.jp/k.koide/assets/pdf/icra2023.pdf,2026-08-03,discovery_only
+method,direct-visual-lidar-calibration,Direct Visual-LiDAR Calibration,implementation,https://github.com/koide3/direct_visual_lidar_calibration,2026-08-03,discovery_only
 method,fast-lio2,FAST-LIO2,primary_publication,https://doi.org/10.1109/TRO.2022.3141876,2026-08-03,verified
 method,fast-lio2,FAST-LIO2,implementation,https://github.com/hku-mars/FAST_LIO,2026-08-03,verified
+method,frustum-pointnets,Frustum PointNets,primary_publication,https://arxiv.org/abs/1711.08488,2026-08-03,discovery_only
+method,frustum-pointnets,Frustum PointNets,implementation,https://github.com/charlesq34/frustum-pointnets,2026-08-03,discovery_only
 method,gmapping,GMapping / OpenSLAM GMapping,primary_publication,https://doi.org/10.1109/TRO.2007.896411,2026-08-03,verified
 method,gmapping,GMapping / OpenSLAM GMapping,implementation,https://openslam-org.github.io/gmapping.html,2026-08-03,verified
+method,gseg3d,GSeg3D,primary_publication,https://arxiv.org/abs/2603.04208,2026-08-03,discovery_only
+method,gseg3d,GSeg3D,implementation,https://github.com/szenergy/GSeg3D,2026-08-03,discovery_only
 method,hector-slam,Hector SLAM,primary_publication,https://doi.org/10.1109/SSRR.2011.6106777,2026-08-03,verified
 method,hector-slam,Hector SLAM,implementation,https://github.com/tu-darmstadt-ros-pkg/hector_slam,2026-08-03,verified
+method,heteroscedastic-aleatoric-lidar-3d-detection,Heteroscedastic Aleatoric LiDAR 3D Detection,primary_publication,https://arxiv.org/abs/1809.05590,2026-08-03,discovery_only
+method,heteroscedastic-aleatoric-lidar-3d-detection,Heteroscedastic Aleatoric LiDAR 3D Detection,implementation,https://arxiv.org/abs/1809.05590,2026-08-03,discovery_only
+method,kiss-icp,KISS-ICP,primary_publication,https://arxiv.org/abs/2209.15397,2026-08-03,discovery_only
+method,kiss-icp,KISS-ICP,implementation,https://github.com/PRBonn/kiss-icp,2026-08-03,discovery_only
+method,kiss-slam,KISS-SLAM,primary_publication,https://www.ipb.uni-bonn.de/research/kiss-slam/,2026-08-03,discovery_only
+method,kiss-slam,KISS-SLAM,implementation,https://github.com/PRBonn/kiss-slam,2026-08-03,discovery_only
 method,kpconv,KPConv,primary_publication,https://doi.org/10.1109/ICCV.2019.00651,2026-08-03,verified
 method,kpconv,KPConv,implementation,https://github.com/HuguesTHOMAS/KPConv-PyTorch,2026-08-03,verified
 method,lasermix,LaserMix,primary_publication,https://doi.org/10.1109/CVPR52729.2023.02077,2026-08-03,verified
 method,lasermix,LaserMix,implementation,https://github.com/ldkong1205/LaserMix,2026-08-03,verified
+method,learning-to-optimally-segment-point-clouds,Learning to Optimally Segment Point Clouds,primary_publication,https://arxiv.org/abs/1912.04976,2026-08-03,discovery_only
+method,learning-to-optimally-segment-point-clouds,Learning to Optimally Segment Point Clouds,implementation,https://github.com/peiyunh/opcseg,2026-08-03,discovery_only
 method,lego-loam,LeGO-LOAM,primary_publication,https://doi.org/10.1109/IROS.2018.8594299,2026-08-03,verified
 method,lego-loam,LeGO-LOAM,implementation,https://github.com/RobustFieldAutonomyLab/LeGO-LOAM,2026-08-03,verified
+method,libpointmatcher,libpointmatcher,primary_publication,https://doi.org/10.1007/s10514-013-9327-2,2026-08-03,discovery_only
+method,libpointmatcher,libpointmatcher,implementation,https://github.com/ethz-asl/libpointmatcher,2026-08-03,discovery_only
+method,lidar-mos,LiDAR-MOS,primary_publication,https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/chen2021ral.pdf,2026-08-03,discovery_only
+method,lidar-mos,LiDAR-MOS,implementation,https://github.com/PRBonn/LiDAR-MOS,2026-08-03,discovery_only
+method,linefit-ground-segmentation,LineFit Ground Segmentation,primary_publication,https://ieeexplore.ieee.org/document/7989591,2026-08-03,discovery_only
+method,linefit-ground-segmentation,LineFit Ground Segmentation,implementation,https://github.com/lorenwel/linefit_ground_segmentation,2026-08-03,discovery_only
 method,lio-sam,LIO-SAM,primary_publication,https://doi.org/10.1109/IROS45743.2020.9341176,2026-08-03,verified
 method,lio-sam,LIO-SAM,implementation,https://github.com/TixiaoShan/LIO-SAM,2026-08-03,verified
 method,loam,LOAM,primary_publication,https://doi.org/10.15607/RSS.2014.X.007,2026-08-03,verified
@@ -106,6 +304,18 @@ method,maskpoint,MaskPoint,primary_publication,https://doi.org/10.1007/978-3-031
 method,maskpoint,MaskPoint,implementation,https://github.com/WisconsinAIVision/MaskPoint,2026-08-03,partial
 method,minkowski-engine,MinkowskiEngine,primary_publication,https://doi.org/10.1109/CVPR.2019.00325,2026-08-03,verified
 method,minkowski-engine,MinkowskiEngine,implementation,https://github.com/NVIDIA/MinkowskiEngine,2026-08-03,verified
+method,mola,MOLA,primary_publication,https://github.com/MOLAorg/mola,2026-08-03,discovery_only
+method,mola,MOLA,implementation,https://github.com/MOLAorg/mola,2026-08-03,discovery_only
+method,opencalib,OpenCalib,primary_publication,https://arxiv.org/abs/2205.14087,2026-08-03,discovery_only
+method,opencalib,OpenCalib,implementation,https://github.com/PJLab-ADG/SensorsCalibration,2026-08-03,discovery_only
+method,overlapnet,OverlapNet,primary_publication,https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/chen2020rss.pdf,2026-08-03,discovery_only
+method,overlapnet,OverlapNet,implementation,https://github.com/PRBonn/OverlapNet,2026-08-03,discovery_only
+method,patchwork-plusplus,Patchwork++,primary_publication,https://arxiv.org/abs/2207.11919,2026-08-03,discovery_only
+method,patchwork-plusplus,Patchwork++,implementation,https://github.com/url-kaist/patchwork-plusplus,2026-08-03,discovery_only
+method,patchwork,Patchwork,primary_publication,https://arxiv.org/abs/2108.05560,2026-08-03,discovery_only
+method,patchwork,Patchwork,implementation,https://github.com/LimHyungTae/patchwork,2026-08-03,discovery_only
+method,plane-seg,Plane Seg,primary_publication,https://github.com/lorenwel/plane_seg,2026-08-03,discovery_only
+method,plane-seg,Plane Seg,implementation,https://github.com/lorenwel/plane_seg,2026-08-03,discovery_only
 method,point-bert,Point-BERT,primary_publication,https://doi.org/10.1109/CVPR52688.2022.01942,2026-08-03,verified
 method,point-bert,Point-BERT,implementation,https://github.com/lulutang0608/Point-BERT,2026-08-03,verified
 method,point-mae,Point-MAE,primary_publication,https://doi.org/10.1007/978-3-031-19821-2_28,2026-08-03,verified
@@ -128,13 +338,152 @@ method,randlanet,RandLA-Net,primary_publication,https://doi.org/10.1109/CVPR4260
 method,randlanet,RandLA-Net,implementation,https://github.com/QingyongHu/RandLA-Net,2026-08-03,verified
 method,rangenetpp,RangeNet++,primary_publication,https://doi.org/10.1109/IROS40897.2019.8967762,2026-08-03,verified
 method,rangenetpp,RangeNet++,implementation,https://github.com/PRBonn/lidar-bonnetal,2026-08-03,verified
+method,removert,Removert,primary_publication,https://ras.papercept.net/proceedings/IROS20/1700.pdf,2026-08-03,discovery_only
+method,removert,Removert,implementation,https://github.com/irapkaist/removert,2026-08-03,discovery_only
+method,resple,RESPLE,primary_publication,https://arxiv.org/abs/2504.11580,2026-08-03,discovery_only
+method,resple,RESPLE,implementation,https://github.com/ASIG-X/RESPLE,2026-08-03,discovery_only
 method,salsanext,SalsaNext,primary_publication,https://doi.org/10.1007/978-3-030-58529-7_12,2026-08-03,verified
 method,salsanext,SalsaNext,implementation,https://github.com/TiagoCortinhal/SalsaNext,2026-08-03,verified
+method,simpleicp,simpleICP,primary_publication,https://github.com/pglira/simpleICP,2026-08-03,discovery_only
+method,simpleicp,simpleICP,implementation,https://github.com/pglira/simpleICP,2026-08-03,discovery_only
 method,sphereformer,SphereFormer,primary_publication,https://doi.org/10.1109/CVPR52729.2023.00342,2026-08-03,verified
 method,sphereformer,SphereFormer,implementation,https://github.com/dvlab-research/SphereFormer,2026-08-03,verified
 method,spvnas,SPVNAS / SPVCNN,primary_publication,https://doi.org/10.1007/978-3-030-58586-0_39,2026-08-03,verified
 method,spvnas,SPVNAS / SPVCNN,implementation,https://github.com/mit-han-lab/spvnas,2026-08-03,verified
-portal,aws-open-data,Registry of Open Data on AWS,official_page,https://registry.opendata.aws/,2026-08-03,verified
-portal,papers-with-code-3d,Papers with Code — 3D tasks,official_page,https://paperswithcode.com/area/computer-vision/3d,2026-08-03,verified
-portal,rosbags,ROS bag ecosystem documentation,official_page,https://docs.ros.org/,2026-08-03,verified
-portal,usgs-national-map,USGS National Map Downloader,official_page,https://apps.nationalmap.gov/downloader/,2026-08-03,verified
+method,suma-plusplus,SuMa++,primary_publication,https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/chen2019iros.pdf,2026-08-03,discovery_only
+method,suma-plusplus,SuMa++,implementation,https://github.com/PRBonn/semantic_suma,2026-08-03,discovery_only
+method,superpoint-graph,Superpoint Graph,primary_publication,https://arxiv.org/abs/1711.09869,2026-08-03,discovery_only
+method,superpoint-graph,Superpoint Graph,implementation,https://github.com/loicland/superpoint_graph,2026-08-03,discovery_only
+method,superpoint-transformer,Superpoint Transformer,primary_publication,https://arxiv.org/abs/2306.08045,2026-08-03,discovery_only
+method,superpoint-transformer,Superpoint Transformer,implementation,https://github.com/drprojects/superpoint_transformer,2026-08-03,discovery_only
+method,urban-road-filter,urban_road_filter,primary_publication,https://doi.org/10.3390/s22010194,2026-08-03,discovery_only
+method,urban-road-filter,urban_road_filter,implementation,https://github.com/jkk-research/urban_road_filter,2026-08-03,discovery_only
+method,wysiwyg-3d-detection,WYSIWYG 3D Detection,primary_publication,https://arxiv.org/abs/1912.04986,2026-08-03,discovery_only
+method,wysiwyg-3d-detection,WYSIWYG 3D Detection,implementation,https://github.com/peiyunh/WYSIWYG,2026-08-03,discovery_only
+ecosystem_resource,3d-bat,3D BAT,official_url,https://github.com/walzimmer/3d-bat,2026-08-03,source_listed
+ecosystem_resource,3d-bat,3D BAT,repository_url,https://github.com/walzimmer/3d-bat,2026-08-03,source_listed
+ecosystem_resource,aeva,Aeva,official_url,https://www.aeva.com/,2026-08-03,source_listed
+ecosystem_resource,aeva,Aeva,repository_url,https://github.com/aevainc,2026-08-03,source_listed
+ecosystem_resource,airsim,AirSim,official_url,https://microsoft.github.io/AirSim/,2026-08-03,source_listed
+ecosystem_resource,airsim,AirSim,repository_url,https://github.com/microsoft/AirSim,2026-08-03,source_listed
+ecosystem_resource,alfa-framework,ALFA Framework,official_url,https://ieeexplore.ieee.org/document/11024231,2026-08-03,source_listed
+ecosystem_resource,autoware,Autoware,official_url,https://www.autoware.org/,2026-08-03,source_listed
+ecosystem_resource,autoware,Autoware,repository_url,https://github.com/autowarefoundation/autoware,2026-08-03,source_listed
+ecosystem_resource,awesome-3d-lidar-datasets,Awesome 3D LiDAR Datasets,official_url,https://github.com/minwoo0611/Awesome-3D-LiDAR-Datasets,2026-08-03,source_listed
+ecosystem_resource,awesome-3d-lidar-datasets,Awesome 3D LiDAR Datasets,repository_url,https://github.com/minwoo0611/Awesome-3D-LiDAR-Datasets,2026-08-03,source_listed
+ecosystem_resource,awesome-artificial-intelligence,Awesome Artificial Intelligence,official_url,https://github.com/owainlewis/awesome-artificial-intelligence,2026-08-03,source_listed
+ecosystem_resource,awesome-artificial-intelligence,Awesome Artificial Intelligence,repository_url,https://github.com/owainlewis/awesome-artificial-intelligence,2026-08-03,source_listed
+ecosystem_resource,awesome-computer-vision,Awesome Computer Vision,official_url,https://github.com/jbhuang0604/awesome-computer-vision,2026-08-03,source_listed
+ecosystem_resource,awesome-computer-vision,Awesome Computer Vision,repository_url,https://github.com/jbhuang0604/awesome-computer-vision,2026-08-03,source_listed
+ecosystem_resource,awesome-deep-learning,Awesome Deep Learning,official_url,https://github.com/ChristosChristofidis/awesome-deep-learning,2026-08-03,source_listed
+ecosystem_resource,awesome-deep-learning,Awesome Deep Learning,repository_url,https://github.com/ChristosChristofidis/awesome-deep-learning,2026-08-03,source_listed
+ecosystem_resource,awesome-lidar-camera-calibration,Awesome LiDAR-Camera Calibration,official_url,https://github.com/Deephome/Awesome-LiDAR-Camera-Calibration,2026-08-03,source_listed
+ecosystem_resource,awesome-lidar-camera-calibration,Awesome LiDAR-Camera Calibration,repository_url,https://github.com/Deephome/Awesome-LiDAR-Camera-Calibration,2026-08-03,source_listed
+ecosystem_resource,awesome-lidar-mos,Awesome LiDAR MOS,official_url,https://github.com/neng-wang/Awesome-LiDAR-MOS,2026-08-03,source_listed
+ecosystem_resource,awesome-lidar-mos,Awesome LiDAR MOS,repository_url,https://github.com/neng-wang/Awesome-LiDAR-MOS,2026-08-03,source_listed
+ecosystem_resource,awesome-lidar-place-recognition,Awesome LiDAR Place Recognition,official_url,https://github.com/hogyun2/awesome-lidar-place-recognition,2026-08-03,source_listed
+ecosystem_resource,awesome-lidar-place-recognition,Awesome LiDAR Place Recognition,repository_url,https://github.com/hogyun2/awesome-lidar-place-recognition,2026-08-03,source_listed
+ecosystem_resource,awesome-lidar-visual-slam,Awesome LiDAR Visual SLAM,official_url,https://github.com/sjtuyinjie/awesome-LiDAR-Visual-SLAM,2026-08-03,source_listed
+ecosystem_resource,awesome-lidar-visual-slam,Awesome LiDAR Visual SLAM,repository_url,https://github.com/sjtuyinjie/awesome-LiDAR-Visual-SLAM,2026-08-03,source_listed
+ecosystem_resource,awesome-lidar,Awesome LIDAR,official_url,https://github.com/szenergy/awesome-lidar,2026-08-03,source_listed
+ecosystem_resource,awesome-lidar,Awesome LIDAR,repository_url,https://github.com/szenergy/awesome-lidar,2026-08-03,source_listed
+ecosystem_resource,awesome-machine-learning,Awesome Machine Learning,official_url,https://github.com/josephmisiti/awesome-machine-learning,2026-08-03,source_listed
+ecosystem_resource,awesome-machine-learning,Awesome Machine Learning,repository_url,https://github.com/josephmisiti/awesome-machine-learning,2026-08-03,source_listed
+ecosystem_resource,awesome-point-cloud-analysis,Awesome Point Cloud Analysis,official_url,https://github.com/Yochengliu/awesome-point-cloud-analysis,2026-08-03,source_listed
+ecosystem_resource,awesome-point-cloud-analysis,Awesome Point Cloud Analysis,repository_url,https://github.com/Yochengliu/awesome-point-cloud-analysis,2026-08-03,source_listed
+ecosystem_resource,awesome-reinforcement-learning,Awesome Reinforcement Learning,official_url,https://github.com/aikorea/awesome-rl,2026-08-03,source_listed
+ecosystem_resource,awesome-reinforcement-learning,Awesome Reinforcement Learning,repository_url,https://github.com/aikorea/awesome-rl,2026-08-03,source_listed
+ecosystem_resource,awesome-robotics-libraries,Awesome Robotics Libraries,official_url,https://github.com/jslee02/awesome-robotics-libraries,2026-08-03,source_listed
+ecosystem_resource,awesome-robotics-libraries,Awesome Robotics Libraries,repository_url,https://github.com/jslee02/awesome-robotics-libraries,2026-08-03,source_listed
+ecosystem_resource,awesome-robotics,Awesome Robotics,official_url,https://github.com/Kiloreux/awesome-robotics,2026-08-03,source_listed
+ecosystem_resource,awesome-robotics,Awesome Robotics,repository_url,https://github.com/Kiloreux/awesome-robotics,2026-08-03,source_listed
+ecosystem_resource,awesome-ros-2,Awesome ROS 2,official_url,https://github.com/fkromer/awesome-ros2,2026-08-03,source_listed
+ecosystem_resource,awesome-ros-2,Awesome ROS 2,repository_url,https://github.com/fkromer/awesome-ros2,2026-08-03,source_listed
+ecosystem_resource,awesome-slam-datasets,Awesome SLAM Datasets,official_url,https://github.com/youngguncho/awesome-slam-datasets,2026-08-03,source_listed
+ecosystem_resource,awesome-slam-datasets,Awesome SLAM Datasets,repository_url,https://github.com/youngguncho/awesome-slam-datasets,2026-08-03,source_listed
+ecosystem_resource,awsim,AWSIM,official_url,https://tier4.github.io/AWSIM/,2026-08-03,source_listed
+ecosystem_resource,awsim,AWSIM,repository_url,https://github.com/tier4/AWSIM,2026-08-03,source_listed
+ecosystem_resource,baidu-apollo,Baidu Apollo,official_url,https://apollo.auto/,2026-08-03,source_listed
+ecosystem_resource,baidu-apollo,Baidu Apollo,repository_url,https://github.com/ApolloAuto/apollo,2026-08-03,source_listed
+ecosystem_resource,blender-point-cloud-visualizer,Blender Point Cloud Visualizer,official_url,https://github.com/uhlik/bpy,2026-08-03,source_listed
+ecosystem_resource,blender-point-cloud-visualizer,Blender Point Cloud Visualizer,repository_url,https://github.com/uhlik/bpy,2026-08-03,source_listed
+ecosystem_resource,blickfeld,Blickfeld,official_url,https://www.blickfeld.com/,2026-08-03,source_listed
+ecosystem_resource,blickfeld,Blickfeld,repository_url,https://github.com/Blickfeld,2026-08-03,source_listed
+ecosystem_resource,carla,CARLA,official_url,https://carla.org/,2026-08-03,source_listed
+ecosystem_resource,carla,CARLA,repository_url,https://github.com/carla-simulator/carla,2026-08-03,source_listed
+ecosystem_resource,cepton,Cepton,official_url,https://www.cepton.com/,2026-08-03,source_listed
+ecosystem_resource,cloudcompare,CloudCompare,official_url,https://www.cloudcompare.org/,2026-08-03,source_listed
+ecosystem_resource,cloudcompare,CloudCompare,repository_url,https://github.com/CloudCompare/CloudCompare,2026-08-03,source_listed
+ecosystem_resource,cloudpeek,CloudPeek,official_url,https://github.com/NeuralSegmentation/CloudPeek,2026-08-03,source_listed
+ecosystem_resource,cloudpeek,CloudPeek,repository_url,https://github.com/NeuralSegmentation/CloudPeek,2026-08-03,source_listed
+ecosystem_resource,coppeliasim,CoppeliaSim,official_url,https://www.coppeliarobotics.com/,2026-08-03,source_listed
+ecosystem_resource,foxglove,Foxglove,official_url,https://foxglove.dev/,2026-08-03,source_listed
+ecosystem_resource,foxglove,Foxglove,repository_url,https://github.com/foxglove/studio,2026-08-03,source_listed
+ecosystem_resource,gazebo,Gazebo,official_url,https://gazebosim.org/,2026-08-03,source_listed
+ecosystem_resource,gazebo,Gazebo,repository_url,https://github.com/gazebosim/gz-sim,2026-08-03,source_listed
+ecosystem_resource,hesai,Hesai,official_url,https://www.hesaitech.com/,2026-08-03,source_listed
+ecosystem_resource,hesai,Hesai,repository_url,https://github.com/HesaiTechnology,2026-08-03,source_listed
+ecosystem_resource,hokuyo,Hokuyo,official_url,https://www.hokuyo-aut.jp/,2026-08-03,source_listed
+ecosystem_resource,ibeo,Ibeo,official_url,https://www.ibeo-as.com/,2026-08-03,source_listed
+ecosystem_resource,innoviz,Innoviz,official_url,https://innoviz.tech/,2026-08-03,source_listed
+ecosystem_resource,kaolin,Kaolin,official_url,https://kaolin.readthedocs.io/,2026-08-03,source_listed
+ecosystem_resource,kaolin,Kaolin,repository_url,https://github.com/NVIDIAGameWorks/kaolin,2026-08-03,source_listed
+ecosystem_resource,lastools,LAStools,official_url,https://rapidlasso.de/lastools/,2026-08-03,source_listed
+ecosystem_resource,lastools,LAStools,repository_url,https://github.com/LAStools/LAStools,2026-08-03,source_listed
+ecosystem_resource,lichtblick,Lichtblick,official_url,https://github.com/Lichtblick-Suite/lichtblick,2026-08-03,source_listed
+ecosystem_resource,lichtblick,Lichtblick,repository_url,https://github.com/Lichtblick-Suite/lichtblick,2026-08-03,source_listed
+ecosystem_resource,livox,Livox,official_url,https://www.livoxtech.com/,2026-08-03,source_listed
+ecosystem_resource,livox,Livox,repository_url,https://github.com/Livox-SDK,2026-08-03,source_listed
+ecosystem_resource,lslidar,LSLiDAR,official_url,https://www.lslidar.com/,2026-08-03,source_listed
+ecosystem_resource,lslidar,LSLiDAR,repository_url,https://github.com/Lslidar,2026-08-03,source_listed
+ecosystem_resource,luminar,Luminar,official_url,https://www.luminartech.com/,2026-08-03,source_listed
+ecosystem_resource,luminar,Luminar,repository_url,https://github.com/luminartech,2026-08-03,source_listed
+ecosystem_resource,meshlab,MeshLab,official_url,https://www.meshlab.net/,2026-08-03,source_listed
+ecosystem_resource,meshlab,MeshLab,repository_url,https://github.com/cnr-isti-vclab/meshlab,2026-08-03,source_listed
+ecosystem_resource,microvision,MicroVision,official_url,https://microvision.com/,2026-08-03,source_listed
+ecosystem_resource,microvision,MicroVision,repository_url,https://github.com/MicroVision-Inc,2026-08-03,source_listed
+ecosystem_resource,neuvition,Neuvition,official_url,https://www.neuvition.com/,2026-08-03,source_listed
+ecosystem_resource,open3d,Open3D,official_url,https://www.open3d.org/,2026-08-03,source_listed
+ecosystem_resource,open3d,Open3D,repository_url,https://github.com/isl-org/Open3D,2026-08-03,source_listed
+ecosystem_resource,ossdc-sim,OSSDC SIM,official_url,https://github.com/OSSDC/OSSDC-SIM,2026-08-03,source_listed
+ecosystem_resource,ossdc-sim,OSSDC SIM,repository_url,https://github.com/OSSDC/OSSDC-SIM,2026-08-03,source_listed
+ecosystem_resource,ouster,Ouster,official_url,https://ouster.com/,2026-08-03,source_listed
+ecosystem_resource,ouster,Ouster,repository_url,https://github.com/ouster-lidar,2026-08-03,source_listed
+ecosystem_resource,pcx,Pcx,official_url,https://github.com/keijiro/Pcx,2026-08-03,source_listed
+ecosystem_resource,pcx,Pcx,repository_url,https://github.com/keijiro/Pcx,2026-08-03,source_listed
+ecosystem_resource,pepperl-plusfuchs,Pepperl+Fuchs,official_url,https://www.pepperl-fuchs.com/,2026-08-03,source_listed
+ecosystem_resource,pepperl-plusfuchs,Pepperl+Fuchs,repository_url,https://github.com/PepperlFuchs,2026-08-03,source_listed
+ecosystem_resource,photogrammetry-importer,Photogrammetry Importer,official_url,https://github.com/SBCV/Blender-Addon-Photogrammetry-Importer,2026-08-03,source_listed
+ecosystem_resource,photogrammetry-importer,Photogrammetry Importer,repository_url,https://github.com/SBCV/Blender-Addon-Photogrammetry-Importer,2026-08-03,source_listed
+ecosystem_resource,pioneer,Pioneer,official_url,http://autonomousdriving.pioneer/en/3d-lidar/,2026-08-03,source_listed
+ecosystem_resource,point-cloud-library-pcl,Point Cloud Library (PCL),official_url,https://pointclouds.org/,2026-08-03,source_listed
+ecosystem_resource,point-cloud-library-pcl,Point Cloud Library (PCL),repository_url,https://github.com/PointCloudLibrary/pcl,2026-08-03,source_listed
+ecosystem_resource,pointcloudprinter,Pointcloudprinter,official_url,https://github.com/mattshax/pointcloudprinter,2026-08-03,source_listed
+ecosystem_resource,pointcloudprinter,Pointcloudprinter,repository_url,https://github.com/mattshax/pointcloudprinter,2026-08-03,source_listed
+ecosystem_resource,pointcloudset,pointcloudset,official_url,https://virtual-vehicle.github.io/pointcloudset/,2026-08-03,source_listed
+ecosystem_resource,pointcloudset,pointcloudset,repository_url,https://github.com/virtual-vehicle/pointcloudset,2026-08-03,source_listed
+ecosystem_resource,preact,PreAct,official_url,https://www.preact-tech.com/,2026-08-03,source_listed
+ecosystem_resource,pyntcloud,pyntcloud,official_url,https://pyntcloud.readthedocs.io/,2026-08-03,source_listed
+ecosystem_resource,pyntcloud,pyntcloud,repository_url,https://github.com/daavoo/pyntcloud,2026-08-03,source_listed
+ecosystem_resource,pytorch-geometric,PyTorch Geometric,official_url,https://pytorch-geometric.readthedocs.io/,2026-08-03,source_listed
+ecosystem_resource,pytorch-geometric,PyTorch Geometric,repository_url,https://github.com/pyg-team/pytorch_geometric,2026-08-03,source_listed
+ecosystem_resource,pytorch3d,PyTorch3D,official_url,https://pytorch3d.org/,2026-08-03,source_listed
+ecosystem_resource,pytorch3d,PyTorch3D,repository_url,https://github.com/facebookresearch/pytorch3d,2026-08-03,source_listed
+ecosystem_resource,pyvista,PyVista,official_url,https://docs.pyvista.org/,2026-08-03,source_listed
+ecosystem_resource,pyvista,PyVista,repository_url,https://github.com/pyvista/pyvista,2026-08-03,source_listed
+ecosystem_resource,quanergy,Quanergy,official_url,https://quanergy.com/,2026-08-03,source_listed
+ecosystem_resource,rerun,Rerun,official_url,https://rerun.io/,2026-08-03,source_listed
+ecosystem_resource,rerun,Rerun,repository_url,https://github.com/rerun-io/rerun,2026-08-03,source_listed
+ecosystem_resource,riegl,RIEGL,official_url,https://www.riegl.com/,2026-08-03,source_listed
+ecosystem_resource,riegl,RIEGL,repository_url,https://github.com/Riegl,2026-08-03,source_listed
+ecosystem_resource,robosense,RoboSense,official_url,https://www.robosense.ai/,2026-08-03,source_listed
+ecosystem_resource,robosense,RoboSense,repository_url,https://github.com/RoboSense-LiDAR,2026-08-03,source_listed
+ecosystem_resource,semantic-segmentation-editor,Semantic Segmentation Editor,official_url,https://github.com/Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor,2026-08-03,source_listed
+ecosystem_resource,semantic-segmentation-editor,Semantic Segmentation Editor,repository_url,https://github.com/Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor,2026-08-03,source_listed
+ecosystem_resource,sick,SICK,official_url,https://www.sick.com/,2026-08-03,source_listed
+ecosystem_resource,sick,SICK,repository_url,https://github.com/SICKAG,2026-08-03,source_listed
+ecosystem_resource,svl-simulator,SVL Simulator,official_url,https://www.svlsimulator.com/,2026-08-03,source_listed
+ecosystem_resource,svl-simulator,SVL Simulator,repository_url,https://github.com/lgsvl/simulator,2026-08-03,source_listed
+ecosystem_resource,velodyne,Velodyne,official_url,https://velodynelidar.com/,2026-08-03,source_listed
+ecosystem_resource,velodyne,Velodyne,repository_url,https://github.com/ros-drivers/velodyne,2026-08-03,source_listed
+ecosystem_resource,xenomatix,XenomatiX,official_url,https://www.xenomatix.com/,2026-08-03,source_listed

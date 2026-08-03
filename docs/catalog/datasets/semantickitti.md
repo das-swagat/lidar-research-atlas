@@ -14,7 +14,7 @@
 ## Authoritative sources
 
 - [Official dataset/project page](https://semantic-kitti.org/)
-- [Primary publication](https://doi.org/10.1109/ICCV.2019.00939)
+- [Primary publication or project source](https://doi.org/10.1109/ICCV.2019.00939)
 - [Current terms or license source](https://semantic-kitti.org/dataset.html)
 
 ## Access and legal status
@@ -30,7 +30,7 @@
 | Dataset/license label | CC BY-NC-SA 3.0 for annotations; KITTI terms also apply |
 
 !!! danger "Do not redistribute from this atlas"
-    This project hosts no scans, labels, calibration archives, credentials, or signed links. The provider's current terms control.
+    This project hosts no scans, labels, calibration archives, credentials, signed links, or model weights. The provider's current terms control.
 
 ## Lawful access workflow
 1. Open the official page linked above.

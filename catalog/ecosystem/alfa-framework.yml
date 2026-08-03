@@ -1,0 +1,15 @@
+id: alfa-framework
+name: ALFA Framework
+resource_type: ecosystem_resource
+category: framework
+subcategory: framework
+official_url: https://ieeexplore.ieee.org/document/11024231
+repository_url: ''
+summary: Framework for embedded and hardware-accelerated LiDAR processing research.
+source_collections:
+- szenergy/awesome-lidar
+legal_note: Review the official site and repository license before use; listing does
+  not imply endorsement.
+verification:
+  status: source_listed
+  last_checked: '2026-08-03'

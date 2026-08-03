@@ -1,0 +1,28 @@
+id: gseg3d
+name: GSeg3D
+year: 2025
+resource_type: method
+category: ground segmentation
+representation: grid-based high-precision segmentation
+original_authors: See primary publication
+authoritative_sources:
+  primary_publication: https://arxiv.org/abs/2603.04208
+  implementation: https://github.com/szenergy/GSeg3D
+implementation:
+  relationship: official_or_author_maintained_unverified
+  license: verify from repository
+  weights_terms: verify separately
+  repository: https://github.com/szenergy/GSeg3D
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper and follow the repository citation and license
+    instructions. This atlas record is independently written.
+  recommended_source: https://arxiv.org/abs/2603.04208
+notes: Discovery-expanded record. The publication is the author accepted manuscript
+  associated with ICRCV 2025; implementation availability and license must be checked
+  at the repository before reuse.
+discovery_sources:
+- szenergy/awesome-lidar
+verification:
+  status: discovery_only
+  last_checked: '2026-08-03'

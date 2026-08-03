@@ -1,36 +1,34 @@
-# Package audit report
+# LiDAR Research Atlas audit report
 
-**Release candidate:** v0.1.0  
+**Package:** v0.2.0 expanded candidate
 **Audit date:** 2026-08-03
+**Structured records:** 207 (85 datasets, 53 methods, 69 ecosystem resources)
 
-## Passed locally
+## Completed checks
 
-- Catalog schema validation: 54 records.
-- Generated-page parity: 54 resource pages.
-- Restricted-file and credential scan.
-- Internal Markdown link validation.
-- Python syntax compilation.
-- Unit tests: 4 passed.
-- MkDocs configuration parsing and navigation target verification.
-- GitHub Actions workflow YAML parsing.
-- CSV/JSON export generation.
-- Original SVG-to-PNG social and logo asset rendering.
-- Git ignore path audit: all 27 dataset source records and 28 generated dataset pages are included; only root-level private data-storage directories are excluded.
-- Clean-package audit: test caches and Python bytecode are absent from the distributable archive.
-- Package manifest rebuilt from the complete clean file tree.
+- Catalog schema validation passed for all 207 records.
+- Generated-page consistency check passed for datasets, methods, and ecosystem resources.
+- Internal Markdown-link validation passed.
+- Six automated tests passed.
+- Python source compilation passed.
+- Restricted-file, archive, model-weight, credential, and signed-URL scanning passed.
+- IDs and names are unique across the structured catalog.
+- Catalog URLs are syntactically valid HTTP(S) URLs.
+- Generated CSV and JSON exports match the structured catalog counts.
+- GSeg3D and RESPLE publication/implementation links were corrected after direct source review.
 
-## Catalog status
+## Build limitation
 
-- Dataset records: 27.
-- Method records: 27.
-- Records labeled `verified`: 43.
-- Records labeled `partial`: 11.
-- Third-party data files hosted: 0.
+A strict local MkDocs build could not be executed in the packaging container because the container package index did not expose the declared MkDocs distributions. The repository workflows install the declared dependencies and run `mkdocs build --strict` on GitHub Actions. This limitation is environmental and is not represented as a successful local documentation build.
 
-## Build limitation in this environment
+## External-link limitation
 
-The local execution environment could not download MkDocs packages from its package index, so `mkdocs build --strict` was not executed locally. The configuration was parsed independently, all navigation paths were checked, and the included GitHub Actions workflows install the declared packages and run the strict build after upload.
+The package does not claim that every external provider URL was successfully fetched from the packaging container. Provider sites may block automated requests, require JavaScript or registration, move content, or change terms. A scheduled non-failing source-link audit is included, and all audit results require manual interpretation.
 
-## Release condition
+## Legal and scholarly boundary
 
-Do not describe v0.1.0 as exhaustive. Re-run the URL audit and manually revisit records marked `partial` before a stable 1.0 release or a quantitative publication based on catalog completeness.
+The package does not host third-party datasets, labels, point clouds, archives, model weights, provider logos, copied paper figures, or copied upstream prose. Newly expanded records are conservatively labeled `discovery_only` or `source_listed`; those statuses are discovery leads, not completed license, access, maintenance, or authorship determinations. Provider terms and original citation instructions control.
+
+## Release decision
+
+Suitable as an expanded v0.2.0 candidate after reviewing the generated diff and running the strict MkDocs build in GitHub Actions. Do not describe the catalog as legally guaranteed, exhaustive, or fully verified.

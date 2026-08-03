@@ -12,7 +12,7 @@
 ## Authoritative sources
 
 - [Official dataset/project page](https://github.com/kaist-avelab/K-Lane)
-- [Primary publication](https://openaccess.thecvf.com/content/CVPR2022W/WAD/html/Paek_K-Lane_Lidar_Lane_Dataset_and_Benchmark_for_Urban_Roads_and_CVPRW_2022_paper.html)
+- [Primary publication or project source](https://openaccess.thecvf.com/content/CVPR2022W/WAD/html/Paek_K-Lane_Lidar_Lane_Dataset_and_Benchmark_for_Urban_Roads_and_CVPRW_2022_paper.html)
 - [Current terms or license source](https://github.com/kaist-avelab/K-Lane)
 
 ## Access and legal status
@@ -28,7 +28,7 @@
 | Dataset/license label | Repository/provider terms |
 
 !!! danger "Do not redistribute from this atlas"
-    This project hosts no scans, labels, calibration archives, credentials, or signed links. The provider's current terms control.
+    This project hosts no scans, labels, calibration archives, credentials, signed links, or model weights. The provider's current terms control.
 
 ## Lawful access workflow
 1. Open the official page linked above.

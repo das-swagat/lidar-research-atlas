@@ -1,0 +1,27 @@
+id: urban-road-filter
+name: urban_road_filter
+year: 2022
+resource_type: method
+category: road and sidewalk detection
+representation: geometric urban road filtering
+original_authors: See primary publication
+authoritative_sources:
+  primary_publication: https://doi.org/10.3390/s22010194
+  implementation: https://github.com/jkk-research/urban_road_filter
+implementation:
+  relationship: official_or_author_maintained_unverified
+  license: verify from repository
+  weights_terms: verify separately
+  repository: https://github.com/jkk-research/urban_road_filter
+commonly_evaluated_on: []
+citation:
+  instruction: Cite the original paper and follow the repository citation and license
+    instructions. This atlas record is independently written.
+  recommended_source: https://doi.org/10.3390/s22010194
+notes: Discovery-expanded record; implementation relationship and license should be
+  rechecked before reuse.
+discovery_sources:
+- szenergy/awesome-lidar
+verification:
+  status: discovery_only
+  last_checked: '2026-08-03'
